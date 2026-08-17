@@ -73,7 +73,7 @@ def _lowest_bkn_ovc_ft(row: pd.Series) -> float | None:
     return min(heights) if heights else None
 
 
-def normalize_asos_csv(text: str, timezone: str = "America/Los_Angeles") -> pd.DataFrame:
+def normalize_asos_csv(text: str, timezone: str = "America/Phoenix") -> pd.DataFrame:
     """Normalize an Iowa Environmental Mesonet ASOS CSV export.
 
     Returned timestamps are timezone-aware local Las Vegas time. The raw source row
@@ -94,7 +94,7 @@ def normalize_asos_csv(text: str, timezone: str = "America/Los_Angeles") -> pd.D
         ts = ts.dt.tz_convert(timezone)
 
     out = pd.DataFrame({"timestamp": ts})
-    out["station"] = df.get("station", "LAS")
+    out["station"] = df.get("station", "PHX")
     out["temp_f"] = pd.to_numeric(df.get("tmpf"), errors="coerce")
     out["dewpoint_f"] = pd.to_numeric(df.get("dwpf"), errors="coerce")
     out["wind_dir_deg"] = pd.to_numeric(df.get("drct"), errors="coerce")
@@ -235,7 +235,7 @@ def _c_to_f(value: object) -> float | None:
     return float(num) * 9.0 / 5.0 + 32.0
 
 
-def normalize_awc_metar_json(payload: list[dict], timezone: str = "America/Los_Angeles") -> pd.DataFrame:
+def normalize_awc_metar_json(payload: list[dict], timezone: str = "America/Phoenix") -> pd.DataFrame:
     """Normalize AviationWeather.gov METAR JSON into the same live schema as IEM.
 
     This is intentionally a live-data fallback. Historical training/backfills continue to use
@@ -252,7 +252,7 @@ def normalize_awc_metar_json(payload: list[dict], timezone: str = "America/Los_A
             clouds = []
         row: dict[str, object] = {
             "timestamp": ts,
-            "station": item.get("icaoId") or "KLAS",
+            "station": item.get("icaoId") or "KPHX",
             "temp_f": _c_to_f(item.get("temp")),
             "dewpoint_f": _c_to_f(item.get("dewp")),
             "wind_dir_deg": item.get("wdir"),
@@ -272,7 +272,7 @@ def normalize_awc_metar_json(payload: list[dict], timezone: str = "America/Los_A
         return pd.DataFrame()
     raw_df = pd.DataFrame(rows)
     out = pd.DataFrame({"timestamp": raw_df["timestamp"]})
-    out["station"] = raw_df.get("station", "KLAS")
+    out["station"] = raw_df.get("station", "KPHX")
     for col in ("temp_f", "dewpoint_f", "wind_dir_deg", "wind_speed_kt", "wind_gust_kt", "precip_in"):
         out[col] = pd.to_numeric(raw_df.get(col), errors="coerce")
     out["metar"] = raw_df.get("metar")
@@ -298,8 +298,8 @@ def normalize_awc_metar_json(payload: list[dict], timezone: str = "America/Los_A
 
 def fetch_awc_live_metars(
     hours: int = 24,
-    station: str = "KLAS",
-    timezone: str = "America/Los_Angeles",
+    station: str = "KPHX",
+    timezone: str = "America/Phoenix",
     timeout: int = 30,
 ) -> pd.DataFrame:
     """Fetch recent official Aviation Weather Center METARs for live fallback use."""
