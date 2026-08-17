@@ -12,7 +12,7 @@ import pandas as pd
 import requests
 
 IEM_AFOS_RETRIEVE_URL = "https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py"
-LAS_VEGAS_TZ = ZoneInfo("America/Los_Angeles")
+PHOENIX_TZ = ZoneInfo("America/Phoenix")
 
 
 @dataclass(frozen=True)
@@ -26,7 +26,7 @@ class CliDailyHigh:
 
 
 _DATE_RE = re.compile(
-    r"THE LAS VEGAS NV CLIMATE SUMMARY FOR\s+([A-Z]+)\s+(\d{1,2})\s+(\d{4})",
+    r"THE PHOENIX AZ CLIMATE SUMMARY FOR\s+([A-Z]+)\s+(\d{1,2})\s+(\d{4})",
     re.IGNORECASE,
 )
 _MAX_RE = re.compile(
@@ -35,7 +35,7 @@ _MAX_RE = re.compile(
 )
 _PERIOD_RE = re.compile(r"^\s*(TODAY|YESTERDAY)\s*$", re.IGNORECASE | re.MULTILINE)
 _ISSUED_RE = re.compile(
-    r"^\s*(\d{1,4})\s+(AM|PM)\s+(?:PST|PDT)\s+"
+    r"^\s*(\d{1,4})\s+(AM|PM)\s+MST\s+"
     r"(?:MON|TUE|WED|THU|FRI|SAT|SUN)\s+([A-Z]+)\s+(\d{1,2})\s+(\d{4})\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
@@ -83,7 +83,7 @@ def _parse_issue_time(text: str) -> datetime | None:
         hour = 12 if hour == 12 else hour + 12
 
     return datetime(
-        int(year_s), month, int(day_s), hour, minute, tzinfo=LAS_VEGAS_TZ
+        int(year_s), month, int(day_s), hour, minute, tzinfo=PHOENIX_TZ
     )
 
 
@@ -113,7 +113,7 @@ def _clean_peak_time(raw: str | None) -> tuple[str | None, str | None]:
 def parse_cli_daily_high(text: str) -> CliDailyHigh:
     """Parse the official Las Vegas NWS CLI daily maximum from product text.
 
-    This parser intentionally targets CLILAS wording. It reads the climate-summary
+    This parser intentionally targets CLIPHX wording. It reads the climate-summary
     date from the title, then the first MAXIMUM line in the temperature section.
     """
     date_match = _DATE_RE.search(text)
@@ -150,7 +150,7 @@ def _decode_product(payload: bytes) -> str:
 
 
 def parse_cli_zip(content: bytes, start: str, end: str) -> pd.DataFrame:
-    """Parse an IEM AFOS CLILAS ZIP and keep the final report for each climate date.
+    """Parse an IEM AFOS CLIPHX ZIP and keep the final report for each climate date.
 
     Final next-morning products label the temperature period as YESTERDAY. Same-day
     afternoon products are preliminary (TODAY) and are never used as the settlement
@@ -222,7 +222,7 @@ def fetch_cli_history(
     end: str,
     timeout: int = 120,
 ) -> pd.DataFrame:
-    """Download archived CLILAS products and return one row per requested climate date.
+    """Download archived CLIPHX products and return one row per requested climate date.
 
     The IEM AFOS API uses UTC issuance timestamps and an exclusive `edate`. We request
     through two UTC midnights after the final climate date so the next-morning final
@@ -236,7 +236,7 @@ def fetch_cli_history(
     sdate = f"{start_ts.date().isoformat()}T00:00Z"
     edate = f"{(end_ts + pd.Timedelta(days=2)).date().isoformat()}T00:00Z"
     params = {
-        "pil": "CLILAS",
+        "pil": "CLIPHX",
         "fmt": "zip",
         "sdate": sdate,
         "edate": edate,
