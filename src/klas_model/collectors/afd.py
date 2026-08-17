@@ -7,7 +7,7 @@ import requests
 
 API_BASE = "https://api.weather.gov"
 HEADERS = {
-    "User-Agent": "klas-kalshi-model/0.13 (KLAS temperature research)",
+    "User-Agent": "KPHX-kalshi-model/0.13 (KPHX temperature research)",
     "Accept": "application/geo+json",
 }
 
@@ -50,7 +50,7 @@ def analyze_afd_text(text: str) -> dict[str, Any]:
             relevant.append(sentence.strip())
         if len(relevant) >= 2:
             break
-    snippet = " ".join(relevant)[:500] if relevant else "No notable convective wording found in the latest Las Vegas AFD."
+    snippet = " ".join(relevant)[:500] if relevant else "No notable convective wording found in the latest Phoenix AFD."
 
     return {
         "risk": risk,
@@ -61,19 +61,19 @@ def analyze_afd_text(text: str) -> dict[str, Any]:
     }
 
 
-def fetch_latest_vef_afd(timeout: int = 30) -> dict[str, Any]:
-    """Fetch the latest NWS Las Vegas Area Forecast Discussion via api.weather.gov."""
+def fetch_latest_psr_afd(timeout: int = 30) -> dict[str, Any]:
+    """Fetch the latest NWS Phoenix Area Forecast Discussion via api.weather.gov."""
     idx = requests.get(
-        f"{API_BASE}/products/types/AFD/locations/VEF", headers=HEADERS, timeout=timeout
+        f"{API_BASE}/products/types/AFD/locations/PSR", headers=HEADERS, timeout=timeout
     )
     idx.raise_for_status()
     graph = idx.json().get("@graph", [])
     if not graph:
-        raise RuntimeError("No VEF AFD products returned by NWS")
+        raise RuntimeError("No PSR AFD products returned by NWS")
     latest = graph[0]
     product_id = latest.get("id")
     if not product_id:
-        raise RuntimeError("Latest VEF AFD item has no product id")
+        raise RuntimeError("Latest PSR AFD item has no product id")
     detail = requests.get(f"{API_BASE}/products/{product_id}", headers=HEADERS, timeout=timeout)
     detail.raise_for_status()
     payload = detail.json()
@@ -85,5 +85,5 @@ def fetch_latest_vef_afd(timeout: int = 30) -> dict[str, Any]:
         "product_id": product_id,
         "text": text,
         **analysis,
-        "source": "NWS Las Vegas Area Forecast Discussion",
+        "source": "NWS Phoenix Area Forecast Discussion",
     }
