@@ -12,10 +12,8 @@ import requests
 FORECASTS_API_URL = "https://wethr.net/api/v2/forecasts.php"
 OBSERVATIONS_API_URL = "https://wethr.net/api/v2/observations.php"
 
-LAS_TZ = ZoneInfo("America/Los_Angeles")
+PHX_TZ = ZoneInfo("America/Phoenix")
 
-# NWS/Kalshi temperature days use Pacific Standard Time year-round.
-PST_FIXED = timezone(timedelta(hours=-8))
 
 DEFAULT_MODELS = (
     "HRRR",
@@ -44,7 +42,7 @@ def fetch_wethr_high(
     response = requests.get(
         OBSERVATIONS_API_URL,
         params={
-            "station_code": "KLAS",
+            "station_code": "KPHX",
             "mode": "wethr_high",
             "logic": "nws",
         },
@@ -80,22 +78,19 @@ def fetch_wethr_high(
 def _contract_window(
     now_local: datetime,
 ) -> tuple[datetime, datetime]:
-    """Return the current NWS/Kalshi temperature day."""
+    """Return the current Phoenix NWS/Kalshi temperature day."""
 
-    now_standard = now_local.astimezone(PST_FIXED)
+    now_phx = now_local.astimezone(PHX_TZ)
 
-    start_standard = datetime.combine(
-        now_standard.date(),
+    start_phx = datetime.combine(
+        now_phx.date(),
         time.min,
-        tzinfo=PST_FIXED,
+        tzinfo=PHX_TZ,
     )
 
-    end_standard = start_standard + timedelta(days=1)
+    end_phx = start_phx + timedelta(days=1)
 
-    return (
-        start_standard.astimezone(LAS_TZ),
-        end_standard.astimezone(LAS_TZ),
-    )
+    return start_phx, end_phx
 
 
 def fetch_latest_model_run(
@@ -108,7 +103,7 @@ def fetch_latest_model_run(
     response = requests.get(
         FORECASTS_API_URL,
         params={
-            "location_name": "KLAS",
+            "location_name": "KPHX",
             "model": model,
             "run": "latest",
         },
@@ -162,7 +157,7 @@ def summarize_latest_run(
     )
 
     df["valid_time_local"] = (
-        df["valid_time_utc"].dt.tz_convert(LAS_TZ)
+        df["valid_time_utc"].dt.tz_convert(PHX_TZ)
     )
 
     df["temperature_f"] = pd.to_numeric(
@@ -250,7 +245,7 @@ def fetch_wethr_snapshot(
 ) -> dict[str, Any]:
     """Collect live Wethr research data without altering the KLAS model."""
 
-    now_local = now_local or datetime.now(LAS_TZ)
+    now_local = now_local or datetime.now(PHX_TZ)
 
     results: dict[str, Any] = {}
 
