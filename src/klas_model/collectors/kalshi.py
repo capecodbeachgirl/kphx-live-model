@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 
 KALSHI_BASE_URL = "https://external-api.kalshi.com/trade-api/v2"
-LAS_VEGAS_TZ = ZoneInfo("America/Los_Angeles")
+PHOENIX_TZ = ZoneInfo("America/Phoenix")
 
 
 def _float_or_none(value: Any) -> float | None:
@@ -47,7 +47,7 @@ def normalize_market(market: dict[str, Any]) -> dict[str, Any]:
 
 
 def fetch_open_temperature_markets(
-    series_ticker: str = "KXHIGHTLV",
+    series_ticker: str = "KXHIGHTPHX",
     timeout: int = 30,
 ) -> list[dict[str, Any]]:
     response = requests.get(
@@ -74,7 +74,7 @@ def select_event_markets(markets: list[dict[str, Any]], target_date: date) -> li
             if raw:
                 ts = pd.to_datetime(raw, errors="coerce", utc=True)
                 if not pd.isna(ts):
-                    return ts.tz_convert(LAS_VEGAS_TZ).date()
+                    return ts.tz_convert(PHOENIX_TZ).date()
         return None
 
     ranked: list[tuple[int, int, str, list[dict[str, Any]]]] = []
