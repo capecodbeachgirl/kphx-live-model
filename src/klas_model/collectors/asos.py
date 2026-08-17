@@ -18,9 +18,9 @@ USER_AGENT = "KLAS-Kalshi-Research/0.13.1 (weather research dashboard)"
 
 @dataclass(frozen=True)
 class AsosRequest:
-    station: str = "LAS"
-    network: str = "NV_ASOS"
-    tz: str = "America/Los_Angeles"
+    station: str = "PHX"
+    network: str = "AZ_ASOS"
+    tz: str = "America/Phoenix"
 
 
 def _coverage_value(code: object) -> float | None:
