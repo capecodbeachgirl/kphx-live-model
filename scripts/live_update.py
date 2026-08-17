@@ -7,23 +7,23 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from klas_model.collectors.cli import fetch_cli_history
-from klas_model.collectors.afd import fetch_latest_vef_afd
-from klas_model.collectors.asos import fetch_live_asos
-from klas_model.collectors.kalshi import fetch_open_temperature_markets, select_event_markets
-from klas_model.collectors.nws_forecast import fetch_nws_live_forecast
-from klas_model.collectors.pfm import fetch_pfm_morning_history
-from klas_model.collectors.radar import fetch_radar_proximity, radar_export_url
-from klas_model.collectors.satellite import fetch_satellite_cloud_watch
-from klas_model.collectors.wethr import (
+from KPHX_MODEL.collectors.cli import fetch_cli_history
+from KPHX_MODEL.collectors.afd import fetch_latest_psr_afd
+from KPHX_MODEL.collectors.asos import fetch_live_asos
+from KPHX_MODEL.collectors.kalshi import fetch_open_temperature_markets, select_event_markets
+from KPHX_MODEL.collectors.nws_forecast import fetch_nws_live_forecast
+from KPHX_MODEL.collectors.pfm import fetch_pfm_morning_history
+from KPHX_MODEL.collectors.radar import fetch_radar_proximity, radar_export_url
+from KPHX_MODEL.collectors.satellite import fetch_satellite_cloud_watch
+from KPHX_MODEL.collectors.wethr import (
     apply_observed_floor,
     fetch_wethr_high,
     fetch_wethr_snapshot,
 )
-from klas_model.dashboard import save_dashboard
-from klas_model.live import build_live_state, save_json
+from KPHX_MODEL.dashboard import save_dashboard
+from KPHX_MODEL.live import build_live_state, save_json
 
-TZ = ZoneInfo("America/Los_Angeles")
+TZ = ZoneInfo("America/Phoenix")
 
 
 def _safe_fetch(label: str, func, fallback: dict) -> dict:
@@ -62,7 +62,7 @@ def append_history(state: dict, path: Path) -> pd.DataFrame:
     return new
 
 def append_model_history(state: dict, path: Path) -> pd.DataFrame:
-    """Archive every model prediction so it can be scored after the final KLAS high is known."""
+    """Archive every model prediction so it can be scored after the final KPHX high is known."""
 
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -77,12 +77,12 @@ def append_model_history(state: dict, path: Path) -> pd.DataFrame:
 
     rows = []
 
-    # Our validated KLAS model
+    # Our validated KPHX model
     our_prediction = state.get("model_predicted_high_f")
     if our_prediction is not None:
         rows.append({
             **base,
-            "model_name": "KLAS_MODEL",
+            "model_name": "KPHX_MODEL",
             "predicted_high_f": float(our_prediction),
             "raw_forecast_high_f": float(our_prediction),
             "model_run_time_utc": None,
@@ -184,7 +184,7 @@ def score_model_history(
     history: pd.DataFrame,
     cli: pd.DataFrame,
 ) -> pd.DataFrame:
-    """Score archived model forecasts against the official final KLAS CLI high."""
+    """Score archived model forecasts against the official final KPHX CLI high."""
 
     scored = history.copy()
 
@@ -509,9 +509,9 @@ def progression_rows(history: pd.DataFrame, today: str, limit: int = 8) -> list[
 
 def historical_analogs(
     state: dict,
-    path: Path = Path("data/processed/klas_daily_heating.csv"),
+    path: Path = Path("data/processed/kphx_daily_heating.csv"),
 ) -> dict:
-    """Find past KLAS days that looked similar at the current checkpoint hour."""
+    """Find past KPHX days that looked similar at the current checkpoint hour."""
     checkpoint = state.get("checkpoint_hour")
     current_temp = state.get("latest_precise_temp_f")
     if current_temp is None:
@@ -630,13 +630,13 @@ def next_scheduled_update(now: datetime) -> str:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Refresh the live KLAS/Kalshi dashboard")
-    ap.add_argument("--model-dir", default="data/model")
-    ap.add_argument("--json", default="data/live/klas_live.json")
-    ap.add_argument("--history", default="data/live/klas_live_history.csv")
+    ap = argparse.ArgumentParser(description="Refresh the live KPHX/Kalshi dashboard")
+    ap.add_argument("--model-dir", default="data/model_kphx")
+    ap.add_argument("--json", default="data/live/kphx_live.json")
+    ap.add_argument("--history", default="data/live/kphx_live_history.csv")
     ap.add_argument(
     "--model-history",
-    default="data/live/klas_model_history.csv",
+    default="data/live/KPHX_MODEL_history.csv",
 )
     ap.add_argument("--dashboard", default="docs/index.html")
     args = ap.parse_args()
@@ -645,7 +645,7 @@ def main() -> None:
     today = now.date()
     obs = fetch_live_asos(today.isoformat(), today.isoformat())
     obs_source = str(obs.get("data_source", pd.Series(["unknown"])).iloc[-1]) if not obs.empty else "unknown"
-    print(f"KLAS observation source: {obs_source}")
+    print(f"KPHX observation source: {obs_source}")
     pfm = fetch_pfm_morning_history(today.isoformat(), today.isoformat())
     if pfm.empty:
         raise RuntimeError("No pre-06:00 NWS PFM high found for today")
@@ -658,7 +658,7 @@ def main() -> None:
     )
     afd = _safe_fetch(
         "NWS AFD",
-        fetch_latest_vef_afd,
+        fetch_latest_psr_afd,
         {"available": False, "risk": "LOW", "snippet": "AFD unavailable"},
     )
     radar = _safe_fetch(
@@ -837,7 +837,7 @@ def main() -> None:
 
     print(f"updated {args.dashboard}")
     print(
-        f"KLAS {state.get('latest_precise_temp_f') or state.get('latest_temp_f')}F | "
+        f"KPHX {state.get('latest_precise_temp_f') or state.get('latest_temp_f')}F | "
         f"NWS {state.get('nws_am_forecast_high_f')}F | "
         f"model {state.get('model_predicted_high_f','—')}F | "
         f"risk {state.get('weather_risk')} | "
