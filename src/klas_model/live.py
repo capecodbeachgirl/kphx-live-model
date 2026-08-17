@@ -12,7 +12,7 @@ from .live_model import load_live_bundle, predict_from_bundle
 from .remaining_heating import predict_remaining_heating_bundle
 from .probabilities import central_range, empirical_integer_probabilities, probability_for_market
 
-LAS_TZ = ZoneInfo("America/Los_Angeles")
+PHX_TZ = ZoneInfo("America/Phoenix")
 
 
 def latest_checkpoint_hour(obs: pd.DataFrame) -> int | None:
@@ -44,7 +44,7 @@ def latest_six_hour_max(obs: pd.DataFrame) -> tuple[int | None, str | None]:
 
 def live_weather_risk(obs: pd.DataFrame) -> tuple[str, list[str]]:
     if obs.empty:
-        return "UNKNOWN", ["No KLAS observations available"]
+        return "UNKNOWN", ["No KPHX observations available"]
     work = obs.copy()
     work["timestamp"] = pd.to_datetime(work["timestamp"], errors="coerce")
     latest = work["timestamp"].max()
@@ -57,7 +57,7 @@ def live_weather_risk(obs: pd.DataFrame) -> tuple[str, list[str]]:
     if thunder:
         reasons.append("Thunder/convective weather observed recently")
     if rain:
-        reasons.append("Recent precipitation at KLAS")
+        reasons.append("Recent precipitation at KPHX")
     if cloud >= 0.75:
         reasons.append("Heavy recent cloud cover")
     if gust >= 25:
@@ -72,7 +72,7 @@ def live_weather_risk(obs: pd.DataFrame) -> tuple[str, list[str]]:
 def build_current_daily(obs: pd.DataFrame, nws_high_f: float, nws_issued_at: str | None = None) -> pd.DataFrame:
     daily = build_daily_heating_table(obs, CheckpointConfig(hours=tuple(range(8, 19))))
     if daily.empty:
-        raise ValueError("No current-day KLAS observations could be summarized")
+        raise ValueError("No current-day KPHX observations could be summarized")
     daily = daily.tail(1).copy()
     daily["nws_am_forecast_high_f"] = float(nws_high_f)
     daily["nws_am_issued_at"] = nws_issued_at
@@ -123,7 +123,7 @@ def combine_weather_intelligence(
         if max_sky is not None and max_sky >= 70:
             reasons.append(f"NWS sky cover forecast reaches {max_sky:.0f}%")
     if afd.get("available") and afd_risk in {"MEDIUM", "HIGH"}:
-        reasons.append("Las Vegas NWS discussion contains a convective/monsoon signal")
+        reasons.append("Phoenix NWS discussion contains a convective/monsoon signal")
     if radar.get("available") and radar_risk in {"MEDIUM", "HIGH"}:
         reasons.append(str(radar.get("summary") or "Nearby radar signal"))
 
@@ -171,7 +171,7 @@ def build_live_state(
 
     state = {
         "date": latest_ts.date().isoformat(),
-        "updated_at_local": datetime.now(LAS_TZ).isoformat(),
+        "updated_at_local": datetime.now(PHX_TZ).isoformat(),
         "latest_metar_time": latest_ts.isoformat(),
         "latest_temp_f": float(latest["temp_f"]),
         "latest_precise_temp_f": latest_precise,
