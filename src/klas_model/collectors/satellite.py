@@ -10,12 +10,12 @@ import requests
 
 STAR_BASE = "https://www.star.nesdis.noaa.gov/"
 STAR_WFO_BAND = "https://www.star.nesdis.noaa.gov/goes/wfo.php"
-USER_AGENT = "KLAS-Kalshi-Research/0.14 (weather research dashboard)"
+USER_AGENT = "KPHX-Kalshi-Research/0.14 (weather research dashboard)"
 
 
 def _latest_star_image(
     band: str,
-    wfo: str = "vef",
+    wfo: str = "psr",
     timeout: int = 30,
 ) -> tuple[str | None, str | None]:
     """Return the latest NOAA STAR 600x600 WFO image URL and UTC timestamp."""
@@ -75,10 +75,10 @@ def fetch_satellite_cloud_watch(
     obs: pd.DataFrame,
     timeout: int = 30,
 ) -> dict[str, Any]:
-    """Fetch live Las Vegas GOES imagery and summarize KLAS cloud shading.
+    """Fetch live Phoenix GOES imagery and summarize KPHX cloud shading.
 
     Version 1 keeps the satellite imagery as a visual cross-check.
-    The LOW/MEDIUM/HIGH shading label uses actual KLAS METAR sky-cover reports.
+    The LOW/MEDIUM/HIGH shading label uses actual KPHX METAR sky-cover reports.
     It does not alter the validated high-temperature prediction.
     """
     geocolor_url = None
@@ -105,7 +105,7 @@ def fetch_satellite_cloud_watch(
         return {
             "available": bool(geocolor_url or infrared_url),
             "risk": "UNKNOWN",
-            "summary": "No KLAS sky-cover observations available",
+            "summary": "No KPHX sky-cover observations available",
             "latest_cloud_fraction": None,
             "mean_cloud_fraction_2h": None,
             "cloud_fraction_trend_2h": None,
@@ -144,13 +144,13 @@ def fetch_satellite_cloud_watch(
 
     if latest_cloud is None:
         risk = "UNKNOWN"
-        summary = "GOES imagery available; KLAS sky-cover fraction unavailable"
+        summary = "GOES imagery available; KPHX sky-cover fraction unavailable"
     elif latest_cloud >= 0.875 or (
         mean_cloud is not None and mean_cloud >= 0.75
     ):
         risk = "HIGH"
         summary = (
-            "Heavy observed cloud cover may be suppressing solar heating at KLAS"
+            "Heavy observed cloud cover may be suppressing solar heating at KPHX"
         )
     elif (
         latest_cloud >= 0.50
@@ -158,10 +158,10 @@ def fetch_satellite_cloud_watch(
         or (trend is not None and trend >= 0.25)
     ):
         risk = "MEDIUM"
-        summary = "Meaningful cloud shading is present or increasing at KLAS"
+        summary = "Meaningful cloud shading is present or increasing at KPHX"
     else:
         risk = "LOW"
-        summary = "Observed KLAS sky cover suggests limited cloud shading"
+        summary = "Observed KPHX sky cover suggests limited cloud shading"
 
     return {
         "available": bool(geocolor_url or infrared_url),
@@ -178,8 +178,8 @@ def fetch_satellite_cloud_watch(
         "errors": errors,
         "image_note": (
             "GOES images are a visual cross-check in this version. "
-            "The shading label uses KLAS-observed sky cover and does not "
+            "The shading label uses KPHX-observed sky cover and does not "
             "alter the validated temperature prediction."
         ),
-        "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover",
+        "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover",
     }
