@@ -12,7 +12,7 @@ import pandas as pd
 import requests
 
 IEM_AFOS_RETRIEVE_URL = "https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py"
-LAS_VEGAS_TZ = ZoneInfo("America/Los_Angeles")
+PHOENIX_TZ = ZoneInfo("America/Phoenix")
 
 _MONTHS = {
     "JAN": 1, "JANUARY": 1,
@@ -30,10 +30,11 @@ _MONTHS = {
 }
 
 _ISSUED_RE = re.compile(
-    r"^\s*(\d{1,4})\s+(AM|PM)\s+(PST|PDT)\s+"
+    r"^\s*(\d{1,4})\s+(AM|PM)\s+(MST)\s+"
     r"(?:MON|TUE|WED|THU|FRI|SAT|SUN)\s+([A-Z]+)\s+(\d{1,2})\s+(\d{4})\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
+
 _DATE_TOKEN_RE = re.compile(r"\b(\d{2})/(\d{2})/(\d{2})\b")
 _HOUR_RE = re.compile(r"(?<!\d)(\d{2})(?!\d)")
 _VALUE_RE = re.compile(r"MM|-?\d+")
@@ -66,14 +67,14 @@ def _parse_issue_time(text: str) -> datetime:
     else:
         hour = 12 if hour == 12 else hour + 12
 
-    return datetime(int(year_s), month, int(day_s), hour, minute, tzinfo=LAS_VEGAS_TZ)
+    return datetime(int(year_s), month, int(day_s), hour, minute, tzinfo=PHOENIX_TZ)
 
 
 def _las_vegas_matrix_lines(text: str) -> tuple[str, str, str]:
     """Return Date, local 3-hourly, and Min/Max lines for Las Vegas-Clark."""
     lines = text.splitlines()
     try:
-        start = next(i for i, line in enumerate(lines) if "LAS VEGAS-CLARK NV" in line.upper())
+        start = next(i for i, line in enumerate(lines) if "PHOENIX-MARICOPA AZ" in line.upper())
     except StopIteration as exc:
         raise ValueError("Could not find Las Vegas-Clark PFM section") from exc
 
@@ -85,7 +86,7 @@ def _las_vegas_matrix_lines(text: str) -> tuple[str, str, str]:
             date_line = line
             continue
         if date_line is not None and time_line is None and re.match(
-            r"^\s*(?:PST|PDT)\s+3hrly\s+", line, re.IGNORECASE
+            r"^\s*MST\s+3hrly\s+", line, re.IGNORECASE
         ):
             time_line = line
             continue
@@ -127,7 +128,7 @@ def _slot_datetimes(date_line: str, time_line: str) -> list[tuple[float, datetim
         slots.append(
             (
                 center,
-                datetime.combine(current_date, time(hour=hour), tzinfo=LAS_VEGAS_TZ),
+                datetime.combine(current_date, time(hour=hour), tzinfo=PHOENIX_TZ),
             )
         )
         previous_hour = hour
@@ -204,7 +205,7 @@ def parse_pfm_zip(
                 cutoff = datetime.combine(
                     item.forecast_date,
                     time(hour=cutoff_hour_local),
-                    tzinfo=LAS_VEGAS_TZ,
+                    tzinfo=PHOENIX_TZ,
                 )
                 earliest = cutoff - timedelta(hours=lookback_hours)
                 if earliest <= item.issued_at <= cutoff:
@@ -259,7 +260,7 @@ def fetch_pfm_morning_history(
     sdate = f"{(start_ts - pd.Timedelta(days=1)).date().isoformat()}T00:00Z"
     edate = f"{(end_ts + pd.Timedelta(days=1)).date().isoformat()}T00:00Z"
     params = {
-        "pil": "PFMVEF",
+        "pil": "PFMPSR",
         "fmt": "zip",
         "sdate": sdate,
         "edate": edate,
