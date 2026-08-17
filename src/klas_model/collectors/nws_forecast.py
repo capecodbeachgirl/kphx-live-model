@@ -8,11 +8,11 @@ import pandas as pd
 import requests
 
 API_BASE = "https://api.weather.gov"
-LAS_TZ = ZoneInfo("America/Los_Angeles")
-DEFAULT_LAT = 36.0801
-DEFAULT_LON = -115.1522
+PHX_TZ = ZoneInfo("America/Phoenix")
+DEFAULT_LAT = 33.4278
+DEFAULT_LON = -112.0035
 DEFAULT_HEADERS = {
-    "User-Agent": "klas-kalshi-model/0.13 (KLAS temperature research)",
+    "User-Agent": "kphx-kalshi-model/0.13 (KPHX temperature research)",
     "Accept": "application/geo+json",
 }
 
@@ -33,7 +33,7 @@ def _period_local_start(period: dict[str, Any]) -> pd.Timestamp | None:
     ts = pd.to_datetime(raw, errors="coerce", utc=True)
     if pd.isna(ts):
         return None
-    return ts.tz_convert(LAS_TZ)
+    return ts.tz_convert(PHX_TZ)
 
 
 def summarize_hourly_forecast(
@@ -46,8 +46,8 @@ def summarize_hourly_forecast(
     This intentionally does not alter the validated temperature model. It supplies
     forward-looking weather-risk information used for confidence / wait flags.
     """
-    now_ts = pd.Timestamp(now_local).tz_convert(LAS_TZ) if pd.Timestamp(now_local).tzinfo else pd.Timestamp(now_local, tz=LAS_TZ)
-    cutoff = pd.Timestamp(datetime.combine(now_ts.date(), time(hour=through_hour), tzinfo=LAS_TZ))
+    now_ts = pd.Timestamp(now_local).tz_convert(PHX_TZ) if pd.Timestamp(now_local).tzinfo else pd.Timestamp(now_local, tz=PHX_TZ)
+    cutoff = pd.Timestamp(datetime.combine(now_ts.date(), time(hour=through_hour), tzinfo=PHX_TZ))
 
     rows: list[dict[str, Any]] = []
     for p in periods:
@@ -151,7 +151,7 @@ def fetch_nws_live_forecast(
     now_local: datetime | None = None,
     timeout: int = 30,
 ) -> dict[str, Any]:
-    now_local = now_local or datetime.now(LAS_TZ)
+    now_local = now_local or datetime.now(PHX_TZ)
     points = requests.get(
         f"{API_BASE}/points/{lat:.4f},{lon:.4f}", headers=DEFAULT_HEADERS, timeout=timeout
     )
