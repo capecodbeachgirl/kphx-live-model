@@ -12,8 +12,8 @@ IMAGE_SERVER = (
     "https://mapservices.weather.noaa.gov/eventdriven/rest/services/radar/"
     "radar_base_reflectivity_time/ImageServer"
 )
-KLAS_LAT = 36.0801
-KLAS_LON = -115.1522
+KPHX_LAT = 33.4278
+KPHX_LON = -112.0035
 
 
 def _destination(lat: float, lon: float, bearing_deg: float, miles: float) -> tuple[float, float]:
@@ -31,8 +31,8 @@ def _destination(lat: float, lon: float, bearing_deg: float, miles: float) -> tu
 
 
 def radar_sample_points(
-    lat: float = KLAS_LAT,
-    lon: float = KLAS_LON,
+    lat: float = KPHX_LAT,
+    lon: float = KPHX_LON,
     radii_miles: tuple[int, ...] = (10, 25, 50),
     bearings: int = 16,
 ) -> list[dict[str, float]]:
@@ -94,16 +94,16 @@ def compare_radar_scans(now: dict[str, Any], prior: dict[str, Any]) -> dict[str,
 
     if now_near is not None and now_near <= 10:
         risk = "HIGH"
-        summary = "Radar echoes detected within about 10 miles of KLAS"
+        summary = "Radar echoes detected within about 10 miles of KPHX"
     elif now_near is not None and now_near <= 25:
         risk = "MEDIUM"
-        summary = "Radar echoes detected within about 25 miles of KLAS"
+        summary = "Radar echoes detected within about 25 miles of KPHX"
     elif approaching:
         risk = "MEDIUM"
-        summary = "Radar echoes appear to be moving closer to KLAS"
+        summary = "Radar echoes appear to be moving closer to KPHX"
     else:
         risk = "LOW"
-        summary = "No nearby radar echo signal detected by the coarse KLAS ring scan"
+        summary = "No nearby radar echo signal detected by the coarse KPHX ring scan"
     return {"risk": risk, "approaching": approaching, "summary": summary}
 
 
@@ -127,8 +127,8 @@ def _sample_at(points: list[dict[str, float]], epoch_ms: int, timeout: int) -> l
     return response.json().get("samples", [])
 
 
-def radar_export_url(lat: float = KLAS_LAT, lon: float = KLAS_LON, span_deg: float = 1.4) -> str:
-    # Roughly a 75-mile wide view around KLAS. The image service contains radar only;
+def radar_export_url(lat: float = KPHX_LAT, lon: float = KPHX_LON, span_deg: float = 1.4) -> str:
+    # Roughly a 75-mile wide view around KPHX. The image service contains radar only;
     # the dashboard overlays a center marker for the airport.
     bbox = [lon - span_deg / 2, lat - span_deg / 2, lon + span_deg / 2, lat + span_deg / 2]
     query = urlencode({
