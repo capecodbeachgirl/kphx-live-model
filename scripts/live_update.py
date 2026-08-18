@@ -7,21 +7,21 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from KPHX_MODEL.collectors.cli import fetch_cli_history
-from KPHX_MODEL.collectors.afd import fetch_latest_psr_afd
-from KPHX_MODEL.collectors.asos import fetch_live_asos
-from KPHX_MODEL.collectors.kalshi import fetch_open_temperature_markets, select_event_markets
-from KPHX_MODEL.collectors.nws_forecast import fetch_nws_live_forecast
-from KPHX_MODEL.collectors.pfm import fetch_pfm_morning_history
-from KPHX_MODEL.collectors.radar import fetch_radar_proximity, radar_export_url
-from KPHX_MODEL.collectors.satellite import fetch_satellite_cloud_watch
-from KPHX_MODEL.collectors.wethr import (
+from klas_model.collectors.cli import fetch_cli_history
+from klas_model.collectors.afd import fetch_latest_psr_afd
+from klas_model.collectors.asos import fetch_live_asos
+from klas_model.collectors.kalshi import fetch_open_temperature_markets, select_event_markets
+from klas_model.collectors.nws_forecast import fetch_nws_live_forecast
+from klas_model.collectors.pfm import fetch_pfm_morning_history
+from klas_model.collectors.radar import fetch_radar_proximity, radar_export_url
+from klas_model.collectors.satellite import fetch_satellite_cloud_watch
+from klas_model.collectors.wethr import (
     apply_observed_floor,
     fetch_wethr_high,
     fetch_wethr_snapshot,
 )
-from KPHX_MODEL.dashboard import save_dashboard
-from KPHX_MODEL.live import build_live_state, save_json
+from klas_model.dashboard import save_dashboard
+from klas_model.live import build_live_state, save_json
 
 TZ = ZoneInfo("America/Phoenix")
 
