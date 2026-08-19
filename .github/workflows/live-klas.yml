@@ -1,11 +1,11 @@
-name: KLAS hourly live update + Pages
+name: KPHX hourly live update + Pages
 
 on:
   workflow_dispatch:
 
 # Do not allow two hourly refreshes to write the history file at the same time.
 concurrency:
-  group: klas-live-dashboard
+  group: kphx-live-dashboard
   cancel-in-progress: false
 
 permissions:
@@ -32,7 +32,7 @@ jobs:
       - name: Deployment preflight
         run: python scripts/check_deploy_ready.py
 
-      - name: Refresh KLAS dashboard
+      - name: Refresh KPHX dashboard
         env:
           WETHR_API_KEY: ${{ secrets.WETHR_API_KEY }}
         run: python scripts/live_update.py
@@ -46,7 +46,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No persisted live-state changes to commit."
           else
-            git commit -m "Hourly KLAS dashboard update [skip ci]"
+            git commit -m "Hourly KPHX dashboard update [skip ci]"
             git push
           fi
 
