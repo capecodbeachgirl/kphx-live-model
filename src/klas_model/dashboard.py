@@ -4,7 +4,7 @@ from datetime import datetime
 from html import escape
 from pathlib import Path
 
-from KPHX_model.collectors import wethr
+from klas_model.collectors import wethr
 
 
 def _v(value, suffix=""):
