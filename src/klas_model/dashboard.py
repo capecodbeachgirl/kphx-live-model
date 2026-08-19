@@ -4,7 +4,7 @@ from datetime import datetime
 from html import escape
 from pathlib import Path
 
-from klas_model.collectors import wethr
+from KPHX_model.collectors import wethr
 
 
 def _v(value, suffix=""):
@@ -80,7 +80,7 @@ def _progression_html(state: dict) -> str:
             "</tr>"
         )
     return (
-        "<table><thead><tr><th>Time</th><th>KLAS</th><th>6h max</th><th>Model</th><th>NWS</th><th>Risk</th></tr></thead>"
+        "<table><thead><tr><th>Time</th><th>KPHX</th><th>6h max</th><th>Model</th><th>NWS</th><th>Risk</th></tr></thead>"
         f"<tbody>{''.join(body)}</tbody></table>"
     )
 
@@ -97,7 +97,7 @@ def _model_accuracy_html(state: dict) -> str:
     sections = []
 
     display_names = {
-        "KLAS_MODEL": "Our KLAS Model",
+        "KPHX_MODEL": "Our KPHX Model",
         "NWS_MORNING": "NWS Morning",
         "WETHR_CONSENSUS": "Wethr Consensus",
     }
@@ -171,7 +171,7 @@ def _model_accuracy_html(state: dict) -> str:
 <section>
 <h3>Historical Model Accuracy</h3>
 <div class="muted">
-No completed KLAS days have been scored yet.
+No completed KPHX days have been scored yet.
 </div>
 </section>
 """
@@ -232,7 +232,7 @@ def render_dashboard(state: dict) -> str:
 
     if state.get("model_predicted_high_f") is not None:
         model_comparison.append({
-            "name": "Our KLAS Model",
+            "name": "Our KPHX Model",
             "forecast_f": state.get("model_predicted_high_f"),
             "raw_f": state.get("model_predicted_high_f"),
             "status": "Validated model",
@@ -327,7 +327,7 @@ def render_dashboard(state: dict) -> str:
 </table>
 
 <div class="mini" style="margin-top:10px">
-These are today's live forecasts. Historical accuracy scoring will populate as completed KLAS days accumulate.
+These are today's live forecasts. Historical accuracy scoring will populate as completed KPHX days accumulate.
 </div>
 </section>
 """
@@ -340,14 +340,14 @@ These are today's live forecasts. Historical accuracy scoring will populate as c
     if nearest_echo is None:
         radar_distance_text = "Nearest meaningful echo: none detected within the 50-mile scan rings"
     else:
-        radar_distance_text = f"Nearest meaningful echo: about {float(nearest_echo):.0f} miles from KLAS"
+        radar_distance_text = f"Nearest meaningful echo: about {float(nearest_echo):.0f} miles from KPHX"
     if radar.get("approaching"):
         radar_distance_text += " · trend: moving closer"
     afd_snippet = escape(str(afd.get("snippet") or "AFD unavailable"))[:520]
     radar_url = escape(str(radar.get("image_url") or ""), quote=True)
     radar_panel = (
-        f'<div class="radar-box"><img src="{radar_url}" alt="NWS MRMS radar around KLAS">'
-        '<div class="crosshair">✚</div><div class="radar-label">KLAS</div></div>'
+        f'<div class="radar-box"><img src="{radar_url}" alt="NWS MRMS radar around KPHX">'
+        '<div class="crosshair">✚</div><div class="radar-label">KPHX</div></div>'
         if radar_url else '<div class="muted">Radar image unavailable.</div>'
     )
 
@@ -373,11 +373,11 @@ These are today's live forecasts. Historical accuracy scoring will populate as c
     if correction is None:
         why = "Model not available at this checkpoint yet."
     elif correction <= -0.5:
-        why = "KLAS is tracking cool enough versus its historical intraday pattern to pull the model below the NWS morning high."
+        why = "KPHX is tracking cool enough versus its historical intraday pattern to pull the model below the NWS morning high."
     elif correction >= 0.5:
-        why = "KLAS is tracking warm enough versus its historical intraday pattern to push the model above the NWS morning high."
+        why = "KPHX is tracking warm enough versus its historical intraday pattern to push the model above the NWS morning high."
     else:
-        why = "Current KLAS behavior does not justify moving far from the NWS morning forecast."
+        why = "Current KPHX behavior does not justify moving far from the NWS morning forecast."
     if state.get("weather_risk") in {"MEDIUM", "HIGH"}:
         why += " Forward-looking weather risk lowers confidence; it does not automatically change the validated temperature correction."
 
@@ -464,7 +464,7 @@ model is {abs(diff):.1f}°F {direction} than the analog median.
 
 </div>
 <div class="mini" style="margin-top:10px">
-Historical analogs currently use KLAS temperature and the NWS morning forecast for matching. They are a cross-check and do not yet alter the validated model prediction.
+Historical analogs currently use KPHX temperature and the NWS morning forecast for matching. They are a cross-check and do not yet alter the validated model prediction.
 </div>
 </section>
 '''
@@ -515,7 +515,7 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
 </div>
 
 <div class="mini" style="margin-top:10px">
-Wethr is currently a research-only cross-check. Incomplete model runs are excluded from the consensus, and Wethr does not yet alter our validated KLAS prediction.
+Wethr is currently a research-only cross-check. Incomplete model runs are excluded from the consensus, and Wethr does not yet alter our validated KPHX prediction.
 </div>
 </section>
 '''
@@ -523,7 +523,7 @@ Wethr is currently a research-only cross-check. Incomplete model runs are exclud
         wethr_html = ""
 
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KLAS Live Model</title>
+<title>KPHX Live Model</title>
 <meta http-equiv="refresh" content="300">
 <style>
 :root{{--bg:#f4f6f8;--card:#fff;--border:#dde2e7;--text:#18212b;--muted:#667085;--good:#16794c;--warn:#a15c00;--bad:#b42318;--accent:#1f4e79}}
@@ -538,10 +538,10 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 .freshness.high{{background:#fdecea}}
 .radar-box{{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px}} .radar-box img{{width:100%;height:100%;min-height:260px;object-fit:cover;display:block}} .crosshair{{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff}} .radar-label{{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}}
 @media(max-width:850px){{.two{{grid-template-columns:1fr}} .intel-grid{{grid-template-columns:repeat(2,1fr)}}}} @media(max-width:650px){{.wrap{{padding:12px}} h1{{font-size:28px}} th,td{{padding:7px 5px;font-size:12px}} .big{{font-size:26px}} .status{{align-items:flex-start;flex-direction:column}}}}
-</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated {_friendly_time(state.get('updated_at_local'))} · Latest METAR {_friendly_time(state.get('latest_metar_time'))} <span class="freshness {metar_status_class}">{metar_status} — {metar_age}</span></div>
+</style></head><body><div class="wrap"><h1>KPHX Live High Model</h1><div class="sub">Updated {_friendly_time(state.get('updated_at_local'))} · Latest METAR {_friendly_time(state.get('latest_metar_time'))} <span class="freshness {metar_status_class}">{metar_status} — {metar_age}</span></div>
 <div class="status"><strong>{status}</strong><span>Next scheduled refresh: ~{next_update} Las Vegas time</span></div>
 <div class="grid">
-<div class="card"><div class="label">Current KLAS</div><div class="big">{_v(current_display,'°F')}</div><div class="mini">Precise METAR T-group when available</div></div>
+<div class="card"><div class="label">Current KPHX</div><div class="big">{_v(current_display,'°F')}</div><div class="mini">Precise METAR T-group when available</div></div>
 <div class="card"><div class="label">NWS Morning High</div><div class="big">{_v(state.get('nws_am_forecast_high_f'),'°F')}</div></div>
 <div class="card"><div class="label">Our Model High</div><div class="big">{_v(model_high,'°F')}</div><div>{correction_text}</div></div>
 <div class="card"><div class="label">80% Model Range</div><div class="big">{likely}</div><div>{escape(str(state.get('confidence','—')))} confidence</div></div>
@@ -567,7 +567,7 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 </div>
 </div>
 <section><h3>Live weather intelligence</h3><div class="intel-grid">
-<div class="pill"><div class="k">Observed KLAS</div><div class="v {_risk_class(components.get('observed_risk'))}">{escape(str(components.get('observed_risk','—')))}</div></div>
+<div class="pill"><div class="k">Observed KPHX</div><div class="v {_risk_class(components.get('observed_risk'))}">{escape(str(components.get('observed_risk','—')))}</div></div>
 <div class="pill"><div class="k">NWS forecast</div><div class="v {_risk_class(components.get('forecast_risk'))}">{escape(str(components.get('forecast_risk','—')))}</div></div>
 <div class="pill"><div class="k">NWS discussion</div><div class="v {_risk_class(components.get('afd_risk'))}">{escape(str(components.get('afd_risk','—')))}</div></div>
 <div class="pill"><div class="k">Radar</div><div class="v {_risk_class(components.get('radar_risk'))}">{escape(str(components.get('radar_risk','—')))}</div></div>
@@ -578,11 +578,11 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 <p><strong>Thunder forecast:</strong> {thunder} &nbsp; · &nbsp; <strong>Max rain chance:</strong> {_fmt_pct(pop)} &nbsp; · &nbsp; <strong>Max sky cover:</strong> {_fmt_pct(sky)}</p>
 <div class="mini">{escape(str(nws_live.get('summary') or 'NWS hourly forecast unavailable'))}</div><h4>NWS Las Vegas discussion</h4><div class="mini">{afd_snippet}</div></section>
 <section>
-<h3>Radar around KLAS</h3>
+<h3>Radar around KPHX</h3>
 {radar_panel}
 <div class="mini" style="margin-top:7px">
 <strong>{escape(radar_distance_text)}</strong><br>
-{radar_summary}. Center marker = KLAS. Automated ring scan is intentionally coarse.
+{radar_summary}. Center marker = KPHX. Automated ring scan is intentionally coarse.
 </div>
 
 <h4>Satellite / cloud shading</h4>
@@ -596,7 +596,7 @@ Cloud shading risk:
 </div>
 
 <div class="mini" style="margin-top:6px">
-{satellite_summary}. GOES GeoColor is currently a visual cross-check; the shading risk is based on observed KLAS cloud cover.
+{satellite_summary}. GOES GeoColor is currently a visual cross-check; the shading risk is based on observed KPHX cloud cover.
 </div>
 </section>
 </div>
