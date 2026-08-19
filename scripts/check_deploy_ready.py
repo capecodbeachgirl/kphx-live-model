@@ -5,7 +5,7 @@ import sys
 
 
 def main() -> None:
-    model_dir = Path("data/model")
+    model_dir = Path("data/model_kphx")
     expected = [model_dir / f"h{hour:02d}.joblib" for hour in range(8, 19)]
     missing = [p.as_posix() for p in expected if not p.exists()]
     if missing:
