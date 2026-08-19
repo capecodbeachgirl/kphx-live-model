@@ -11,7 +11,7 @@ from klas_model.predictive import DEFAULT_MODEL_CHECKPOINTS
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Prepare compact live KLAS model bundles")
+    ap = argparse.ArgumentParser(description="Prepare compact live KPHX model bundles")
     ap.add_argument("--input", default="data/processed/kphx_daily_heating.csv")
     ap.add_argument("--output-dir", default="data/model_kphx")
     args = ap.parse_args()
