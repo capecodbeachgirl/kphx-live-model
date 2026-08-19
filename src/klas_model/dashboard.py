@@ -364,7 +364,7 @@ These are today's live forecasts. Historical accuracy scoring will populate as c
 
     satellite_panel = (
         f'<div class="radar-box"><img src="{satellite_url}" '
-        f'alt="GOES satellite cloud cover around Las Vegas" '
+        f'alt="GOES satellite cloud cover around Phoenix " '
         f'style="max-height:340px; object-fit:contain;"></div>'
         if satellite_url
         else '<div class="muted">Satellite image unavailable.</div>'
@@ -539,7 +539,7 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 .radar-box{{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px}} .radar-box img{{width:100%;height:100%;min-height:260px;object-fit:cover;display:block}} .crosshair{{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff}} .radar-label{{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}}
 @media(max-width:850px){{.two{{grid-template-columns:1fr}} .intel-grid{{grid-template-columns:repeat(2,1fr)}}}} @media(max-width:650px){{.wrap{{padding:12px}} h1{{font-size:28px}} th,td{{padding:7px 5px;font-size:12px}} .big{{font-size:26px}} .status{{align-items:flex-start;flex-direction:column}}}}
 </style></head><body><div class="wrap"><h1>KPHX Live High Model</h1><div class="sub">Updated {_friendly_time(state.get('updated_at_local'))} · Latest METAR {_friendly_time(state.get('latest_metar_time'))} <span class="freshness {metar_status_class}">{metar_status} — {metar_age}</span></div>
-<div class="status"><strong>{status}</strong><span>Next scheduled refresh: ~{next_update} Las Vegas time</span></div>
+<div class="status"><strong>{status}</strong><span>Next scheduled refresh: ~{next_update} Phoenix  time</span></div>
 <div class="grid">
 <div class="card"><div class="label">Current KPHX</div><div class="big">{_v(current_display,'°F')}</div><div class="mini">Precise METAR T-group when available</div></div>
 <div class="card"><div class="label">NWS Morning High</div><div class="big">{_v(state.get('nws_am_forecast_high_f'),'°F')}</div></div>
@@ -576,7 +576,7 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 <div class="why"><strong>Why model is here:</strong> {escape(why)}</div></section>
 <div class="two"><section><h3>Forecast rain / convection</h3>
 <p><strong>Thunder forecast:</strong> {thunder} &nbsp; · &nbsp; <strong>Max rain chance:</strong> {_fmt_pct(pop)} &nbsp; · &nbsp; <strong>Max sky cover:</strong> {_fmt_pct(sky)}</p>
-<div class="mini">{escape(str(nws_live.get('summary') or 'NWS hourly forecast unavailable'))}</div><h4>NWS Las Vegas discussion</h4><div class="mini">{afd_snippet}</div></section>
+<div class="mini">{escape(str(nws_live.get('summary') or 'NWS hourly forecast unavailable'))}</div><h4>NWS Phoenix  discussion</h4><div class="mini">{afd_snippet}</div></section>
 <section>
 <h3>Radar around KPHX</h3>
 {radar_panel}
