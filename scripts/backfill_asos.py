@@ -7,12 +7,12 @@ from klas_model.collectors.asos import fetch_asos, save_observations
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Backfill KLAS ASOS observations")
+    parser = argparse.ArgumentParser(description="Backfill KPHX ASOS observations")
     parser.add_argument("--start", required=True, help="YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="YYYY-MM-DD")
     parser.add_argument(
         "--output",
-        default="data/raw/asos/klas_asos.csv",
+        default="data/raw/asos/kphx_asos.csv",
         help="Output CSV path",
     )
     args = parser.parse_args()
