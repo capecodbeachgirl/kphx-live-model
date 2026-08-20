@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Show largest held-out KLAS model misses")
+    parser = argparse.ArgumentParser(description="Show largest held-out KPHX model misses")
     parser.add_argument("--input", default="data/processed/model_backtest_predictions.csv")
     parser.add_argument("--hour", type=int, default=10)
     parser.add_argument("--top", type=int, default=15)
@@ -20,3 +20,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
