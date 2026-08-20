@@ -7,11 +7,11 @@ from klas_model.collectors.cli import fetch_cli_history, save_cli_history
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Backfill official KLAS NWS CLILAS daily highs from the IEM text archive"
+        description="Backfill official KPHX NWS CLILAS daily highs from the IEM text archive"
     )
-    parser.add_argument("--start", required=True, help="First KLAS climate date, YYYY-MM-DD")
-    parser.add_argument("--end", required=True, help="Last KLAS climate date, YYYY-MM-DD")
-    parser.add_argument("--output", default="data/raw/cli/klas_cli_daily.csv")
+    parser.add_argument("--start", required=True, help="First KPHX climate date, YYYY-MM-DD")
+    parser.add_argument("--end", required=True, help="Last KPHX climate date, YYYY-MM-DD")
+    parser.add_argument("--output", default="data/raw/cli/kphx_cli_daily.csv")
     args = parser.parse_args()
 
     df = fetch_cli_history(args.start, args.end)
