@@ -9,10 +9,10 @@ from klas_model.disruption import add_postmortem_labels, build_disruption_featur
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Analyze KLAS weather disruption timing")
-    parser.add_argument("--asos", default="data/raw/asos/klas_asos.csv")
-    parser.add_argument("--daily", default="data/processed/klas_daily_heating.csv")
-    parser.add_argument("--output", default="data/processed/klas_daily_postmortem.csv")
+    parser = argparse.ArgumentParser(description="Analyze KPHX weather disruption timing")
+    parser.add_argument("--asos", default="data/raw/asos/kphx_asos.csv")
+    parser.add_argument("--daily", default="data/processed/kphx_daily_heating.csv")
+    parser.add_argument("--output", default="data/processed/kphx_daily_postmortem.csv")
     args = parser.parse_args()
 
     obs = pd.read_csv(args.asos)
@@ -40,3 +40,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
