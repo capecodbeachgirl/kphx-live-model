@@ -12,10 +12,10 @@ def _fmt_bool(v: object) -> str:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Inspect one KLAS ASOS/METAR day and its postmortem features")
+    parser = argparse.ArgumentParser(description="Inspect one KPHX ASOS/METAR day and its postmortem features")
     parser.add_argument("--date", required=True, help="YYYY-MM-DD")
-    parser.add_argument("--asos", default="data/raw/asos/klas_asos.csv")
-    parser.add_argument("--postmortem", default="data/processed/klas_daily_postmortem.csv")
+    parser.add_argument("--asos", default="data/raw/asos/kphx_asos.csv")
+    parser.add_argument("--postmortem", default="data/processed/kphx_daily_postmortem.csv")
     args = parser.parse_args()
 
     obs = pd.read_csv(args.asos)
@@ -24,7 +24,7 @@ def main() -> None:
     obs = obs[obs["timestamp"].dt.date == target].copy()
     obs = obs[(obs["timestamp"].dt.hour >= 7) & (obs["timestamp"].dt.hour < 20)]
 
-    print(f"\nKLAS timeline for {args.date}")
+    print(f"\nKPHX timeline for {args.date}")
     if obs.empty:
         print("No ASOS rows found for this date.")
     else:
@@ -76,3 +76,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
