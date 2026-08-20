@@ -10,7 +10,7 @@ from sklearn.linear_model import Ridge
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-DATA_PATH = Path("data/processed/klas_daily_heating.csv")
+DATA_PATH = Path("data/processed/kphx_daily_heating.csv")
 MODEL_DIR = Path("data/model")
 CHECKPOINTS = (16, 17, 18)
 
@@ -240,3 +240,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
