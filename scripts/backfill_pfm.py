@@ -7,7 +7,7 @@ from klas_model.collectors.pfm import fetch_pfm_morning_history, save_pfm_histor
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Backfill the KPHX-area NWS morning forecast high from archived PFMVEF products"
+        description="Backfill the KPHX-area NWS morning forecast high from archived PFMPSR products"
     )
     parser.add_argument("--start", required=True, help="First target date, YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="Last target date, YYYY-MM-DD")
