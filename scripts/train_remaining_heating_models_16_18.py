@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 DATA_PATH = Path("data/processed/kphx_daily_heating.csv")
-MODEL_DIR = Path("data/model")
+MODEL_DIR = Path("data/model_kphx")
 CHECKPOINTS = (16, 17, 18)
 
 
@@ -240,4 +240,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
