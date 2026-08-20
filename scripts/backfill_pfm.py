@@ -7,7 +7,7 @@ from klas_model.collectors.pfm import fetch_pfm_morning_history, save_pfm_histor
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Backfill the KLAS-area NWS morning forecast high from archived PFMVEF products"
+        description="Backfill the KPHX-area NWS morning forecast high from archived PFMVEF products"
     )
     parser.add_argument("--start", required=True, help="First target date, YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="Last target date, YYYY-MM-DD")
@@ -15,9 +15,9 @@ def main() -> None:
         "--cutoff-hour",
         type=int,
         default=6,
-        help="Use the latest PFM available by this Las Vegas local hour (default: 6)",
+        help="Use the latest PFM available by this Phoenix local hour (default: 6)",
     )
-    parser.add_argument("--output", default="data/raw/pfm/klas_nws_morning_forecast.csv")
+    parser.add_argument("--output", default="data/raw/pfm/kphx_nws_morning_forecast.csv")
     args = parser.parse_args()
 
     df = fetch_pfm_morning_history(args.start, args.end, cutoff_hour_local=args.cutoff_hour)
