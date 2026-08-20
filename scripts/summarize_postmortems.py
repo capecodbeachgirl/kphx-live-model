@@ -15,8 +15,8 @@ def _fmt(value: object, digits: int = 1) -> str:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Summarize KLAS weather-disruption postmortems")
-    parser.add_argument("--input", default="data/processed/klas_daily_postmortem.csv")
+    parser = argparse.ArgumentParser(description="Summarize KPHX weather-disruption postmortems")
+    parser.add_argument("--input", default="data/processed/kphx_daily_postmortem.csv")
     parser.add_argument("--top", type=int, default=20)
     args = parser.parse_args()
 
@@ -68,3 +68,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
