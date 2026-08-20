@@ -1,0 +1,159 @@
+{
+  "version": "0.12",
+  "checkpoints": {
+    "8": {
+      "path": "data\\model_kphx\\h08.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 1.1749232771024523,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": -0.045053147232322344,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.25,
+        "cap_f": 1.0
+      }
+    },
+    "9": {
+      "path": "data\\model_kphx\\h09.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 1.0918290099388068,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.038041119931323086,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 20.0,
+        "shrink": 0.75,
+        "gate_f": 0.25,
+        "cap_f": 3.0
+      }
+    },
+    "10": {
+      "path": "data\\model_kphx\\h10.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 1.0354731578980836,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.09439697197204633,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 8.0,
+        "shrink": 1.0,
+        "gate_f": 0.75,
+        "cap_f": 1.0
+      }
+    },
+    "11": {
+      "path": "data\\model_kphx\\h11.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.9472882473127653,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.18258188255736463,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 50.0,
+        "shrink": 0.75,
+        "gate_f": 0.25,
+        "cap_f": 2.0
+      }
+    },
+    "12": {
+      "path": "data\\model_kphx\\h12.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.9830123770840786,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.1468577527860513,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 50.0,
+        "shrink": 1.0,
+        "gate_f": 1.0,
+        "cap_f": 3.0
+      }
+    },
+    "13": {
+      "path": "data\\model_kphx\\h13.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.8944904025804554,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.2353797272896745,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 0.75,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "14": {
+      "path": "data\\model_kphx\\h14.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.8255376300395664,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.30433249983056354,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 50.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "15": {
+      "path": "data\\model_kphx\\h15.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.711088213527789,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.41878191634234097,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 8.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "16": {
+      "path": "data\\model_kphx\\h16.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.6801198987675822,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.44975023110254775,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 8.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "17": {
+      "path": "data\\model_kphx\\h17.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.6487875278703659,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.48108260199976405,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 20.0,
+        "shrink": 1.0,
+        "gate_f": 0.25,
+        "cap_f": 3.0
+      }
+    },
+    "18": {
+      "path": "data\\model_kphx\\h18.joblib",
+      "trained_through": "2026-08-18",
+      "mae_f": 0.7901065921024257,
+      "nws_mae_f": 1.12987012987013,
+      "improvement_f": 0.3397635377677042,
+      "n_calibration": 77,
+      "params": {
+        "alpha": 50.0,
+        "shrink": 1.0,
+        "gate_f": 0.75,
+        "cap_f": 3.0
+      }
+    }
+  }
+}
