@@ -1,2 +1,2 @@
 date,updated_at_local,latest_metar_time,checkpoint_hour,latest_temp_f,latest_precise_temp_f,six_hour_max_f,nws_am_forecast_high_f,model_predicted_high_f,confidence,weather_risk,forecast_max_pop_pct,forecast_thunder,radar_risk,research_status
-2026-08-20,2026-08-20T16:39:57.624491-07:00,2026-08-20T15:51:00-07:00,16,105.0,105.08000000000001,95,107.0,106.57976303217225,MEDIUM,MEDIUM,10.0,True,LOW,EDGE WATCH — WEATHER RISK MEDIUM
+2026-08-20,2026-08-20T16:42:47.595686-07:00,2026-08-20T15:51:00-07:00,16,105.0,105.08000000000001,95,107.0,106.57976303217225,MEDIUM,MEDIUM,10.0,True,LOW,EDGE WATCH — WEATHER RISK MEDIUM
