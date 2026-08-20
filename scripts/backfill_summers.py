@@ -13,7 +13,7 @@ from klas_model.multiyear import concat_dedupe, summer_windows
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Backfill multiple KLAS warm seasons into one ASOS/CLI/PFM dataset"
+        description="Backfill multiple KPHX warm seasons into one ASOS/CLI/PFM dataset"
     )
     parser.add_argument("--start-year", type=int, default=2022)
     parser.add_argument("--end-year", type=int, default=2026)
@@ -23,9 +23,9 @@ def main() -> None:
         help="Optional inclusive cap for the final season, e.g. 2026-08-14",
     )
     parser.add_argument("--cutoff-hour", type=int, default=6)
-    parser.add_argument("--asos-output", default="data/raw/asos/klas_asos.csv")
-    parser.add_argument("--cli-output", default="data/raw/cli/klas_cli_daily.csv")
-    parser.add_argument("--pfm-output", default="data/raw/pfm/klas_nws_morning_forecast.csv")
+    parser.add_argument("--asos-output", default="data/raw/asos/kphx_asos.csv")
+    parser.add_argument("--cli-output", default="data/raw/cli/kphx_cli_daily.csv")
+    parser.add_argument("--pfm-output", default="data/raw/pfm/kphx_nws_morning_forecast.csv")
     args = parser.parse_args()
 
     years = list(range(args.start_year, args.end_year + 1))
@@ -37,7 +37,7 @@ def main() -> None:
     cli_frames: list[pd.DataFrame] = []
     pfm_frames: list[pd.DataFrame] = []
 
-    print("KLAS multi-year summer backfill")
+    print("KPHX multi-year summer backfill")
     for window in windows:
         start = window.start.isoformat()
         end = window.end.isoformat()
