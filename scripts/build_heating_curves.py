@@ -16,8 +16,8 @@ from klas_model.heating_curve import (
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build KLAS daily heating curves")
-    parser.add_argument("--input", default="data/raw/asos/klas_asos.csv")
+    parser = argparse.ArgumentParser(description="Build KPHX daily heating curves")
+    parser.add_argument("--input", default="data/raw/asos/kphx_asos.csv")
     parser.add_argument(
         "--cli",
         default=None,
@@ -28,7 +28,7 @@ def main() -> None:
         default=None,
         help="Optional NWS morning PFM CSV from backfill_pfm.py.",
     )
-    parser.add_argument("--daily-output", default="data/processed/klas_daily_heating.csv")
+    parser.add_argument("--daily-output", default="data/processed/kphx_daily_heating.csv")
     parser.add_argument("--summary-output", default="data/processed/heating_by_hour.csv")
     args = parser.parse_args()
 
@@ -74,3 +74,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
