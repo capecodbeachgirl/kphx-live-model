@@ -7,7 +7,7 @@ from klas_model.collectors.cli import fetch_cli_history, save_cli_history
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Backfill official KPHX NWS CLILAS daily highs from the IEM text archive"
+        description="Backfill official KPHX NWS CLIPHX daily highs from the IEM text archive"
     )
     parser.add_argument("--start", required=True, help="First KPHX climate date, YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="Last KPHX climate date, YYYY-MM-DD")
