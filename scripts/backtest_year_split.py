@@ -17,7 +17,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Train 2022-24, tune 2025, and test conservative NWS corrections on 2026"
     )
-    parser.add_argument("--input", default="data/processed/klas_daily_heating.csv")
+    parser.add_argument("--input", default="data/processed/kphx_daily_heating.csv")
     parser.add_argument("--train-years", default="2022,2023,2024")
     parser.add_argument("--validation-year", type=int, default=2025)
     parser.add_argument("--test-year", type=int, default=2026)
@@ -61,3 +61,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
