@@ -14,8 +14,8 @@ def _pct(value: float | None) -> str:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Summarize KLAS NWS/model accuracy versus final CLI")
-    parser.add_argument("--input", default="data/processed/klas_daily_heating.csv")
+    parser = argparse.ArgumentParser(description="Summarize KPHX NWS/model accuracy versus final CLI")
+    parser.add_argument("--input", default="data/processed/kphx_daily_heating.csv")
     args = parser.parse_args()
 
     df = pd.read_csv(args.input)
@@ -26,7 +26,7 @@ def main() -> None:
         raise SystemExit("Input does not contain nws_am_forecast_high_f; merge PFM data first.")
 
     stats = accuracy_summary(df, "nws_am_forecast_high_f")
-    print("NWS morning forecast vs final KLAS CLI")
+    print("NWS morning forecast vs final KPHX CLI")
     print(f"days: {stats.get('n', 0)}")
     if stats.get("n", 0):
         print(f"MAE: {stats['mae_f']:.2f} F")
@@ -39,3 +39,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
