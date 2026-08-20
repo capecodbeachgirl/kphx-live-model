@@ -15,8 +15,8 @@ from klas_model.predictive import DEFAULT_MODEL_CHECKPOINTS, backtest_all_checkp
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Chronological out-of-sample KLAS predictor backtest")
-    parser.add_argument("--input", default="data/processed/klas_daily_heating.csv")
+    parser = argparse.ArgumentParser(description="Chronological out-of-sample KPHX predictor backtest")
+    parser.add_argument("--input", default="data/processed/kphx_daily_heating.csv")
     parser.add_argument("--predictions-output", default="data/processed/model_backtest_predictions.csv")
     parser.add_argument("--summary-output", default="data/processed/model_checkpoint_accuracy.csv")
     parser.add_argument("--min-train", type=int, default=45)
@@ -57,3 +57,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
