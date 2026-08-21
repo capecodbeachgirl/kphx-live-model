@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updated_at_local": "2026-08-20T17:02:14.499868-07:00",
+  "updated_at_local": "2026-08-20T17:03:54.255907-07:00",
   "latest_metar_time": "2026-08-20T16:51:00-07:00",
   "latest_temp_f": 105.0,
   "latest_precise_temp_f": 105.08000000000001,
@@ -89,15 +89,16 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-08-20T21:02:00+00:00",
-    "product_id": "dff56170-9be7-4d14-84eb-df1388fb86a2",
-    "text": "\n000\nFXUS65 KPSR 202102\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n202 PM MST Thu Aug 20 2026\n\n.KEY MESSAGES...\n\n- After a brief reprieve from the extreme heat today over south- \n  central and eastern Arizona, highs will return to around 110 \n  degrees by Friday, lasting into early next week. \n\n- Extreme Heat Warnings are in effect through Sunday evening due to \n  continued areas of high-end moderate to major HeatRisk.\n\n- Isolated thunderstorms are expected across the AZ high terrain\n  this afternoon and evening with less than 10% chances for the \n  lower deserts. Chances will likely remain confined to the high \n  terrain through at least Saturday.\n\n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/...\nAfter the biggest monsoon event of the season so far in the \nPhoenix Metro area, we are not anticipating much if any activity \nin the lower deserts today due to an overturned atmosphere. Latest\nvisible satellite and composite radar imagery reveals a remnant \nMCV left over from last night's storm complex which is now \nprogressing through the Yuma area. This MCV is expected to \ncontinue bringing an area of light to moderate showers with a few \nembedded lightning strikes to Yuma and Imperial Counties over the \nnext few hours before finally dissipating. Farther east, skies \nhave cleared out across southcentral AZ allowing temperatures to \nbegin rising, however highs in the Phoenix area will likely top \nout right around normal due to residual moisture from previous \nrainfall. Therefore, NBM high temperatures were adjusted down by \nseveral degrees this afternoon and overnight lows tonight as well.\nLatest RAP 13 mesoanalysis across southcentral AZ shows CAPE \nvalues are still around 1000-1200 J/kg, but there is a much \nstronger mid-lvl inversion today with ML CIN on the order -120 \nto -150 J/kg. Therefore storm coverage will be much more isolated\nthis afternoon, and without a strong outflow, little to no storms\nare expected across the lower deserts this afternoon and evening.\n\nDeterministic models and ensemble members suggest the subtropical\nhigh will shift over Colorado on Friday and then migrate into \neastern NM on Saturday. This shift in the upper-lvl pattern will \ncause winds to turn more out of the south, ushering drier air into\nour beginning on Friday. Both the GEFS and ECS show PWATs falling\nto 1.3\" or lower and mixing ratios as low as 7-8 g/kg. As such, \nNBM PoPs for both Friday and Saturday fall below 10% for the lower\ndeserts to 10-20% over portions of the high terrain. Despite \nstorm coverage decreasing substantially, there will still be a \nchance of a distant outflow from storms along the International \nBorder reaching Maricopa or Pinal Counties, but additional storm \ndevelopment is unlikely. Although the ridge axis will shift ewd \ninto this weekend, overall 500 mb hght fields will remain largely \nunchanged from previous days. Therefore, we should see a return of\nabove normal temperatures and extreme heat conditions by Friday \nand persisting into this weekend and the Extreme Heat Warning will\nremain in effect through Sunday.\n\n&&\n\n.LONG TERM /SUNDAY THROUGH WEDNESDAY/...\nModel uncertainty remains quite high for the first half of next\nweek as the position of the high is likely to set up somewhere\nover eastern New Mexico and western Texas by Monday with little to\nno movement into the middle of next week. This position can cause\nhigher uncertainty in moisture levels for our area with the \nlatest guidance trying to advect some moisture into our area by \nSunday or Monday, but NBM forecast PoPs are at most 10-15% for the\nlower deserts. At this point, we could continue to see mostly \nslight chances favoring the high terrain into early next week, but\nif moisture does eventually improve enough storm chances are \nlikely to be higher than what the NBM is depicting. Another \nwildcard will be the potential influence of an upper level trough \nthat may attempt to move into western portions of our region \nSunday into Monday. If this occurs, it may be enough to improve \nconvective potential across southeast California and western \nArizona for Sunday and/or Monday. \n\nTemperatures are expected to continue to be more influenced by the\nstrong subtropical high as H5 heights hover between 593-596dm\nacross the Desert Southwest through early next week. Daytime highs\nare not expected to change much day to day from Sunday through\nearly next, barring any significant change with the convective\nchances. The Extreme Heat Warning is currently in effect through\nSunday, but it seems quite likely it will need to be extended \nagain at some point.\n\n&&\n\n.AVIATION...Updated at 1818Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nA down day in terms of thunderstorm activity is expected for the\nPhoenix area, with primarily just outflow passage potential this\nevening. W'rly winds are expected through this evening, ahead of\nany outflow winds from the north and/or northeast. Timing of any\noutflows are most likely between 03-07Z. Outflow gusts to 20-25\nkts are possible, but the outflows may just serve as a wind shift,\nwith E'rly winds then prevailing the rest of the night. VCSH/VCTS\nis not expected at terminals this evening/tonight, but there will\nremain a 10-15% chance. FEW mid and high clouds are expected\nthrough the afternoon, followed by SCT to BKN this evening and\ntonight. \n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nA complex of rain showers with embedded lightning is currently\nslowly moving west into Imperial County. This complex is expected\nto continue westward through this afternoon, but the rain may\ngradually dissipate with time. VCSH was added to the KIPL TAF for\nthe afternoon and VCTS cannot be ruled out. Winds will eventual\nshift more SE'rly as the complex nears the terminal. A shift in \nthe wind to more of a W/SW direction is anticipated this evening \nas the complex shifts west and storms in the mountains to the west\nmay push outflows to KIPL. At KBLH a S/SW wind component is \nexpected through the TAF period. Both terminals will see wind \nspeeds mostly at or below 12 kts sustained, while KIPL may see \ngusts up to 20-25 kts this afternoon and evening. FEW-SCT cloud \ndecks will be present through much of the forecast window, with \nthe lowest bases around 12 kft.\n\n&&\n\n.FIRE WEATHER...\nElevated moisture levels will persist today with a temporary\nreprieve from the extreme heat across much of the area. Expect \nmainly isolated showers and thunderstorms this afternoon and \nearly evening over the AZ high terrain, with a less than 10%\nchance of storms in the lower deserts. Drier air will filter into\nthe region Friday and Saturday with even lower chances for rain \nwhile temperatures heat back up to extreme levels. MinRHs of \n20-30% today will lower to 15-25% beginning Friday. Winds should \noverall follow the typical diurnal tendencies with some modest \nafternoon upslope gustiness.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Extreme Heat Warning until 8 PM MST Sunday for AZZ530>544-546-\n     548>551-553>555-559-560.\n\nCA...Extreme Heat Warning until 8 PM PDT Sunday for CAZ562-565>567-\n     569-570.\n\n&&\n\n$$\n\nSHORT TERM...Salerno\nLONG TERM...Kuhlman \nAVIATION...Benedict \nFIRE WEATHER...Kuhlman/Salerno\n",
+    "issued_at": "2026-08-20T23:58:00+00:00",
+    "product_id": "b9e5e5de-89e5-4621-99eb-a32a1d72d1e1",
+    "text": "\n000\nFXUS65 KPSR 202358\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n458 PM MST Thu Aug 20 2026\n\n.UPDATE...Updated 00z Aviation Discussion...\n\n&&\n\n.KEY MESSAGES...\n\n- After a brief reprieve from the extreme heat today over south- \n  central and eastern Arizona, highs will return to around 110 \n  degrees by Friday, lasting into early next week. \n\n- Extreme Heat Warnings are in effect through Sunday evening due to \n  continued areas of high-end moderate to major HeatRisk.\n\n- Isolated thunderstorms are expected across the AZ high terrain\n  this afternoon and evening with less than 10% chances for the \n  lower deserts. Chances will likely remain confined to the high \n  terrain through at least Saturday.\n\n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/...\nAfter the biggest monsoon event of the season so far in the \nPhoenix Metro area, we are not anticipating much if any activity \nin the lower deserts today due to an overturned atmosphere. Latest\nvisible satellite and composite radar imagery reveals a remnant \nMCV left over from last night's storm complex which is now \nprogressing through the Yuma area. This MCV is expected to \ncontinue bringing an area of light to moderate showers with a few \nembedded lightning strikes to Yuma and Imperial Counties over the \nnext few hours before finally dissipating. Farther east, skies \nhave cleared out across southcentral AZ allowing temperatures to \nbegin rising, however highs in the Phoenix area will likely top \nout right around normal due to residual moisture from previous \nrainfall. Therefore, NBM high temperatures were adjusted down by \nseveral degrees this afternoon and overnight lows tonight as well.\nLatest RAP 13 mesoanalysis across southcentral AZ shows CAPE \nvalues are still around 1000-1200 J/kg, but there is a much \nstronger mid-lvl inversion today with ML CIN on the order -120 \nto -150 J/kg. Therefore storm coverage will be much more isolated\nthis afternoon, and without a strong outflow, little to no storms\nare expected across the lower deserts this afternoon and evening.\n\nDeterministic models and ensemble members suggest the subtropical\nhigh will shift over Colorado on Friday and then migrate into \neastern NM on Saturday. This shift in the upper-lvl pattern will \ncause winds to turn more out of the south, ushering drier air into\nour beginning on Friday. Both the GEFS and ECS show PWATs falling\nto 1.3\" or lower and mixing ratios as low as 7-8 g/kg. As such, \nNBM PoPs for both Friday and Saturday fall below 10% for the lower\ndeserts to 10-20% over portions of the high terrain. Despite \nstorm coverage decreasing substantially, there will still be a \nchance of a distant outflow from storms along the International \nBorder reaching Maricopa or Pinal Counties, but additional storm \ndevelopment is unlikely. Although the ridge axis will shift ewd \ninto this weekend, overall 500 mb hght fields will remain largely \nunchanged from previous days. Therefore, we should see a return of\nabove normal temperatures and extreme heat conditions by Friday \nand persisting into this weekend and the Extreme Heat Warning will\nremain in effect through Sunday.\n\n&&\n\n.LONG TERM /SUNDAY THROUGH WEDNESDAY/...\nModel uncertainty remains quite high for the first half of next\nweek as the position of the high is likely to set up somewhere\nover eastern New Mexico and western Texas by Monday with little to\nno movement into the middle of next week. This position can cause\nhigher uncertainty in moisture levels for our area with the \nlatest guidance trying to advect some moisture into our area by \nSunday or Monday, but NBM forecast PoPs are at most 10-15% for the\nlower deserts. At this point, we could continue to see mostly \nslight chances favoring the high terrain into early next week, but\nif moisture does eventually improve enough storm chances are \nlikely to be higher than what the NBM is depicting. Another \nwildcard will be the potential influence of an upper level trough \nthat may attempt to move into western portions of our region \nSunday into Monday. If this occurs, it may be enough to improve \nconvective potential across southeast California and western \nArizona for Sunday and/or Monday. \n\nTemperatures are expected to continue to be more influenced by the\nstrong subtropical high as H5 heights hover between 593-596dm\nacross the Desert Southwest through early next week. Daytime highs\nare not expected to change much day to day from Sunday through\nearly next, barring any significant change with the convective\nchances. The Extreme Heat Warning is currently in effect through\nSunday, but it seems quite likely it will need to be extended \nagain at some point.\n\n&&\n\n.AVIATION...Updated at 2355Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo major aviation weather concerns are expected through Friday\nafternoon under FEW-SCT mid/high cloud decks. The main uncertainty\nthis evening will be whether or not a northeasterly outflow from\nconvection over the high terrain will propagate into the\nterminals. At this time, a TEMPO group, mainly between the 03-07z\ntimeframe remains in place for the northeasterly shift with no\nsignificant gusts expected this time. However, there is potential\nthat the outflow dissipates before making into the terminals and\nthus westerly wind component continues a bit longer before the\neventual easterly shift overnight tonight. Otherwise, the overall\nwind speeds will remain aob 10 kts. \n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo major aviation weather concerns are expected through Friday\nafternoon under FEW-SCT mid/high cloud decks. A remnant convective\ncomplex is currently moving through Imperial County with just a\nfew high-based showers/sprinkles near the vicinity of KIPL. The \nactivity should be moving west of KIPL within the next couple of \nhours. Otherwise, the overall wind pattern should behave similarly\nto the last couple of days with winds fluctuating between the \nsouthwest to southeast with overall speeds aob 12 kts. Periods of \nlight variability are likely during the early morning hours. \n\n&&\n\n.FIRE WEATHER...\nElevated moisture levels will persist today with a temporary\nreprieve from the extreme heat across much of the area. Expect \nmainly isolated showers and thunderstorms this afternoon and \nearly evening over the AZ high terrain, with a less than 10%\nchance of storms in the lower deserts. Drier air will filter into\nthe region Friday and Saturday with even lower chances for rain \nwhile temperatures heat back up to extreme levels. MinRHs of \n20-30% today will lower to 15-25% beginning Friday. Winds should \noverall follow the typical diurnal tendencies with some modest \nafternoon upslope gustiness.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Extreme Heat Warning until 8 PM MST Sunday for AZZ530>544-546-\n     548>551-553>555-559-560.\n\nCA...Extreme Heat Warning until 8 PM PDT Sunday for CAZ562-565>567-\n     569-570.\n\n&&\n\n$$\n\nSHORT TERM...Salerno\nLONG TERM...Kuhlman \nAVIATION...Lojero\nFIRE WEATHER...Kuhlman/Salerno\n",
     "risk": "HIGH",
     "high_terms": [
       "outflow"
     ],
     "convective_terms": [
       "thunderstorm",
+      "convection",
       "convective",
       "monsoon",
       "lightning",
@@ -146,16 +147,16 @@
       "strike_type": "less",
       "floor_strike": null,
       "cap_strike": 107.0,
-      "yes_bid": 0.58,
-      "yes_ask": 0.84,
-      "last_price": 0.73,
-      "market_mid": 0.71,
+      "yes_bid": 0.75,
+      "yes_ask": 0.83,
+      "last_price": 0.85,
+      "market_mid": 0.79,
       "close_time": "2026-08-21T07:00:00Z",
       "occurrence_datetime": "2026-08-21T14:00:00Z",
       "updated_time": "2026-08-19T14:00:01.63276Z",
       "model_probability": 0.6351540616246498,
-      "edge_vs_ask": -0.20484593837535015,
-      "difference": -0.07484593837535014
+      "edge_vs_ask": -0.19484593837535014,
+      "difference": -0.1548459383753502
     },
     {
       "ticker": "KXHIGHTPHX-26AUG20-B107.5",
@@ -165,16 +166,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.14,
-      "yes_ask": 0.21,
-      "last_price": 0.21,
-      "market_mid": 0.175,
+      "yes_bid": 0.12,
+      "yes_ask": 0.18,
+      "last_price": 0.12,
+      "market_mid": 0.15,
       "close_time": "2026-08-21T07:00:00Z",
       "occurrence_datetime": "2026-08-21T14:00:00Z",
       "updated_time": "2026-08-19T14:00:01.63276Z",
       "model_probability": 0.3599439775910364,
-      "edge_vs_ask": 0.14994397759103642,
-      "difference": 0.18494397759103642
+      "edge_vs_ask": 0.17994397759103642,
+      "difference": 0.20994397759103642
     },
     {
       "ticker": "KXHIGHTPHX-26AUG20-B109.5",
@@ -279,16 +280,16 @@
     "strike_type": "between",
     "floor_strike": 107.0,
     "cap_strike": 108.0,
-    "yes_bid": 0.14,
-    "yes_ask": 0.21,
-    "last_price": 0.21,
-    "market_mid": 0.175,
+    "yes_bid": 0.12,
+    "yes_ask": 0.18,
+    "last_price": 0.12,
+    "market_mid": 0.15,
     "close_time": "2026-08-21T07:00:00Z",
     "occurrence_datetime": "2026-08-21T14:00:00Z",
     "updated_time": "2026-08-19T14:00:01.63276Z",
     "model_probability": 0.3599439775910364,
-    "edge_vs_ask": 0.14994397759103642,
-    "difference": 0.18494397759103642
+    "edge_vs_ask": 0.17994397759103642,
+    "difference": 0.20994397759103642
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -309,37 +310,37 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-08-20T17:02:07.904915-07:00",
+    "collected_at_local": "2026-08-20T17:03:43.554102-07:00",
     "models": {
       "HRRR": {
         "available": false,
         "model": "HRRR",
-        "error": "WETHR_API_KEY environment variable is not set"
+        "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
       },
       "HRRR-EXT": {
         "available": false,
         "model": "HRRR-EXT",
-        "error": "WETHR_API_KEY environment variable is not set"
+        "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
       },
       "NBM": {
         "available": false,
         "model": "NBM",
-        "error": "WETHR_API_KEY environment variable is not set"
+        "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
       },
       "RAP": {
         "available": false,
         "model": "RAP",
-        "error": "WETHR_API_KEY environment variable is not set"
+        "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
       },
       "GFS-MOS": {
         "available": false,
         "model": "GFS-MOS",
-        "error": "WETHR_API_KEY environment variable is not set"
+        "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
       },
       "LAV-MOS": {
         "available": false,
         "model": "LAV-MOS",
-        "error": "WETHR_API_KEY environment variable is not set"
+        "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
       }
     },
     "consensus": {
@@ -355,7 +356,7 @@
     "available": false,
     "wethr_high_f": null,
     "omo_informed": false,
-    "error": "WETHR_API_KEY environment variable is not set"
+    "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 27813419451a6aa7d6d95686cde6f4f3574e367fdf2a2b4620207f244bbca4a1\\n'"
   },
   "historical_analogs": {
     "available": false
