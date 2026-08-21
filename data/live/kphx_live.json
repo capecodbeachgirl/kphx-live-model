@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updated_at_local": "2026-08-21T16:31:56.165310-07:00",
+  "updated_at_local": "2026-08-21T16:52:54.993759-07:00",
   "latest_metar_time": "2026-08-21T15:51:00-07:00",
   "latest_temp_f": 111.0,
   "latest_precise_temp_f": 111.02,
@@ -100,9 +100,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-08-21T21:36:00+00:00",
-    "product_id": "a47d4aff-27b5-4642-894a-d0bb1858b051",
-    "text": "\n000\nFXUS65 KPSR 212136\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n236 PM MST Fri Aug 21 2026\n\n.KEY MESSAGES...\n\n- High temperatures reach or exceed 110 degrees nearly every day\n  through the next week and will be within a few degrees of daily\n  records, while morning lows remain unusually warm. \n\n- Extreme Heat Warning in effect through next Friday evening with\n  daily Major to Extreme HeatRisk.\n\n- Isolated thunderstorms will primarily favor higher terrain areas\n  through this weekend, with drier and less favorable conditions\n  next week.\n\n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/... \nExtreme heat will be the primary weather hazard through the \nshort, and long, term forecast. Latest objective analysis shows a \n599dam high centered near the Four Corners region, with 596-598dam\nheights over the local area. Heights of this magnitude are at or \nabove the 99th percentile of sounding climatology. So, it is no \nsurprise that forecast high temperatures this afternoon, and \nthrough this weekend, will be within a few degrees of daily \nrecords, topping out around 110-116 degrees. Morning low \ntemperatures will also remain very warm and near daily record warm\nlows, in the mid 80s to low 90s, offering little to no relief \nfrom the daytime heat. This combo will lead to widespread Major \nHeatRisk through the weekend and an Extreme Heat Warning remains \nin effect.\n\nThe thunderstorm chances for the lower deserts this afternoon are\nnot great, due to the warm air aloft and drier air that moved in\naloft as well. However, surface dew point temperatures remain\nseasonally elevated, ranging from the mid-50s to mid-60s. This is\ncontributing to high SBCAPE values early this afternoon, up to and\nin excess of 1500 J/kg. This setup was resulting in cu development\nover prominent terrain features as of 1 PM MST and strong storms \nwere already going over southeast AZ where mesoanalysis was \nshowing an uncapped environment. The cap over much of south-\ncentral AZ and points westward, although relatively weak (SBCIN \nbetween -20 to -40 J/kg) will likely keep convective development \nreserved to the prominent terrain features, like the Table Top \nMtns, Kofas, and perhaps Pinal Mtns. Instability is also expected \nto decline through the rest of the afternoon as the PBL continues \nto mix out. This will inhibit updraft strength with time. Any \nstorm that does go up this afternoon will be capable of producing \nstrong to severe wind gusts, due to high DCAPE values up to\n1800-2000 J/kg. An outflow may move up into south-central AZ \nlater this evening from southeast AZ storms, but it will likely\ntake a very strong outflow to trigger additional activity in\nnorthwest Pinal and Maricopa Counties.\n\nGuidance shows boundary layer moisture will drop into tomorrow,\nwith afternoon dew point temperatures across the lower deserts \nmostly in the mid-50s. This will result in lower SBCAPE values,\nbut surface temperatures will be slightly hotter and hi-res models\nshow weaker inhibition, if not uncapped, and slightly steeper\nmid-level lapse rates. This may support slightly better coverage\nof afternoon convection tomorrow versus today, but still focusing\nprimarily over the prominent terrain features. Strong to locally \nsevere wind gusts and blowing dust will be the primary hazard with\nany storm tomorrow afternoon, with high DACPE values again. It \nstill may take one good outflow or multiple outflows and outflow \ncollisions to trigger storms near/in the Phoenix area. \n\n&&\n\n.LONG TERM /MONDAY THROUGH NEXT FRIDAY/... \n\n\nModel uncertainty remains for the first half of next week,\nprimarily with respect to thunderstorm chances, as the position \nof the high is likely to set up somewhere over eastern New Mexico \nand western Texas by Monday. There is good global ensemble \nconsensus in a brief increase in moisture and instability Sunday \nevening into Monday, most notably across southwest AZ and \nsoutheast CA, but NBM forecast PoPs are mostly under 15% for the \nlower deserts both days. At this point, we could continue to see \nmostly slight chances favoring the high terrain into early next \nweek, but if moisture does eventually improve enough storm chances\nare likely to be higher than what the NBM is depicting. By \nTuesday, drier air will filter back into the region as the \nsubtropical high begins to retrograde back over our region. This \nwill limit low end rain chances almost exclusively to the higher \nterrain areas with the lower deserts remaining dry. By the latter \nhalf of next week, the NBM shows PoPs being confined to the \nMogollon Rim with no chances for our CWA. \n\nTemperatures are expected to continue to be more influenced by the \nstrong subtropical high as H5 heights hover between 593-596dm across \nthe Desert Southwest through early next week. Daytime highs are not \nexpected to change much from Sunday to Monday, barring any \nsignificant change with the convective chances. As mentioned above, \nby Tuesday the subtropical high will start to retrograde back to the \nwest and the center will eventually settle over AZ/NM during the \nlatter half of the workweek. The high is also expected to \nstrengthen to around 596-598dam during this time. The combination\nof the center settling over our region and strengthening will \nresult in temperatures heating up to around 10 degrees above \nnormal for this time of year. Afternoon highs (morning lows) ware\nforecast in the 110-116 (85-95) degree range across the lower \ndeserts and in the 100-110 (75-85) degree range across the higher \nterrain areas. The increase in temperatures will also result in an\nincrease in HeatRisk, with widespread Extreme HeatRisk forecast\nfor the majority of the CWA by Wednesday. There is high confidence\nalready in the heat forecast for next week. So, the Extreme Heat \nWarning was been extended through next Friday and will likely need\nto be expanded to more areas by the middle of the week.\n\n&&\n\n.AVIATION...Updated at 1750Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo major weather concerns will exist through the forecast period\nunder occasional mid/high cloud decks. Winds will fully shift out\nof the W-SW by 20Z-21Z this afternoon with speeds remaining aob 8\nkts. There is still a low chance (<20%) that a distant outflow\ncould reach the metro area late this evening, causing winds to\nbriefly shift out of the south. Otherwise, winds will follow\nnormal diurnal patterns.\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo major weather issues will exist at the SE California terminals\nthrough the TAF period. Winds will fluctuate between SE and W at\nKIPL and remain S to SW at KBLH with limited gustiness. There is a\nlow chance of a an outflow reaching KIPL late this afternoon \nwhich could cause an early westerly wind shift. \n\n&&\n\n.FIRE WEATHER...\nHot and seasonally dry conditions are expected nearly every day, \nthrough next week. Aside from a brief increase in moisture Sunday-\nMonday, minimum RH values each afternoon will be around 12-18% \n(15-25% Sun-Mon). Temperatures will range 5-10 degrees above \nnormal through the next week, with lower desert highs eclipsing \n110 degrees most afternoons. There will be slight chances for \nstorms each afternoon through this weekend, but mostly favoring \nhigher terrain areas. Drier conditions, with lower storm chances \nare expected by the middle of next week. Outside of thunderstorm \noutflow winds, winds will follow the typical diurnal tendencies \nwith some modest afternoon upslope gustiness.\n\n&&\n\n.CLIMATE...\nRecord highs:\n\nDate       Phoenix         Yuma         El Centro\n----       -------         ----         ---------\nAug 21   114 in 2019    115 in 1969    117 in 1969\nAug 22   113 in 2011    115 in 1969    117 in 1969\nAug 23   114 in 2011    115 in 2011    116 in 1969\nAug 24   115 in 2020    119 in 1985    117 in 1985\nAug 25   113 in 2011    116 in 1962    117 in 1962\nAug 26   117 in 2011    115 in 2020    115 in 1981\nAug 27   114 in 2023    120 in 1981    117 in 1981\nAug 28   117 in 2023    118 in 2023    117 in 2009\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Extreme Heat Warning until 8 PM MST Friday for AZZ530>544-546-\n     548>551-553>555-559-560.\n\nCA...Extreme Heat Warning until 8 PM PDT Friday for CAZ562-565>567-\n     569-570.\n\n&&\n\n$$\n\nSHORT TERM...Benedict\nLONG TERM...Berislavich/Benedict \nAVIATION...Salerno \nFIRE WEATHER...Benedict\nCLIMATE...18\n",
+    "issued_at": "2026-08-21T23:30:00+00:00",
+    "product_id": "9f6c8214-f412-4c16-af7f-0350f543a819",
+    "text": "\n000\nFXUS65 KPSR 212330\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n430 PM MST Fri Aug 21 2026\n\n.UPDATE...00Z Aviation Discussion\n\n&&\n\n.KEY MESSAGES...\n\n- High temperatures reach or exceed 110 degrees nearly every day\n  through the next week and will be within a few degrees of daily\n  records, while morning lows remain unusually warm. \n\n- Extreme Heat Warning in effect through next Friday evening with\n  daily Major to Extreme HeatRisk.\n\n- Isolated thunderstorms will primarily favor higher terrain areas\n  through this weekend, with drier and less favorable conditions\n  next week.\n\n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/... \nExtreme heat will be the primary weather hazard through the \nshort, and long, term forecast. Latest objective analysis shows a \n599dam high centered near the Four Corners region, with 596-598dam\nheights over the local area. Heights of this magnitude are at or \nabove the 99th percentile of sounding climatology. So, it is no \nsurprise that forecast high temperatures this afternoon, and \nthrough this weekend, will be within a few degrees of daily \nrecords, topping out around 110-116 degrees. Morning low \ntemperatures will also remain very warm and near daily record warm\nlows, in the mid 80s to low 90s, offering little to no relief \nfrom the daytime heat. This combo will lead to widespread Major \nHeatRisk through the weekend and an Extreme Heat Warning remains \nin effect.\n\nThe thunderstorm chances for the lower deserts this afternoon are\nnot great, due to the warm air aloft and drier air that moved in\naloft as well. However, surface dew point temperatures remain\nseasonally elevated, ranging from the mid-50s to mid-60s. This is\ncontributing to high SBCAPE values early this afternoon, up to and\nin excess of 1500 J/kg. This setup was resulting in cu development\nover prominent terrain features as of 1 PM MST and strong storms \nwere already going over southeast AZ where mesoanalysis was \nshowing an uncapped environment. The cap over much of south-\ncentral AZ and points westward, although relatively weak (SBCIN \nbetween -20 to -40 J/kg) will likely keep convective development \nreserved to the prominent terrain features, like the Table Top \nMtns, Kofas, and perhaps Pinal Mtns. Instability is also expected \nto decline through the rest of the afternoon as the PBL continues \nto mix out. This will inhibit updraft strength with time. Any \nstorm that does go up this afternoon will be capable of producing \nstrong to severe wind gusts, due to high DCAPE values up to\n1800-2000 J/kg. An outflow may move up into south-central AZ \nlater this evening from southeast AZ storms, but it will likely\ntake a very strong outflow to trigger additional activity in\nnorthwest Pinal and Maricopa Counties.\n\nGuidance shows boundary layer moisture will drop into tomorrow,\nwith afternoon dew point temperatures across the lower deserts \nmostly in the mid-50s. This will result in lower SBCAPE values,\nbut surface temperatures will be slightly hotter and hi-res models\nshow weaker inhibition, if not uncapped, and slightly steeper\nmid-level lapse rates. This may support slightly better coverage\nof afternoon convection tomorrow versus today, but still focusing\nprimarily over the prominent terrain features. Strong to locally \nsevere wind gusts and blowing dust will be the primary hazard with\nany storm tomorrow afternoon, with high DACPE values again. It \nstill may take one good outflow or multiple outflows and outflow \ncollisions to trigger storms near/in the Phoenix area. \n\n&&\n\n.LONG TERM /MONDAY THROUGH NEXT FRIDAY/... \n\nModel uncertainty remains for the first half of next week,\nprimarily with respect to thunderstorm chances, as the position \nof the high is likely to set up somewhere over eastern New Mexico \nand western Texas by Monday. There is good global ensemble \nconsensus in a brief increase in moisture and instability Sunday \nevening into Monday, most notably across southwest AZ and \nsoutheast CA, but NBM forecast PoPs are mostly under 15% for the \nlower deserts both days. At this point, we could continue to see \nmostly slight chances favoring the high terrain into early next \nweek, but if moisture does eventually improve enough storm chances\nare likely to be higher than what the NBM is depicting. By \nTuesday, drier air will filter back into the region as the \nsubtropical high begins to retrograde back over our region. This \nwill limit low end rain chances almost exclusively to the higher \nterrain areas with the lower deserts remaining dry. By the latter \nhalf of next week, the NBM shows PoPs being confined to the \nMogollon Rim with no chances for our CWA. \n\nTemperatures are expected to continue to be more influenced by the \nstrong subtropical high as H5 heights hover between 593-596dm across \nthe Desert Southwest through early next week. Daytime highs are not \nexpected to change much from Sunday to Monday, barring any \nsignificant change with the convective chances. As mentioned above, \nby Tuesday the subtropical high will start to retrograde back to the \nwest and the center will eventually settle over AZ/NM during the \nlatter half of the workweek. The high is also expected to \nstrengthen to around 596-598dam during this time. The combination\nof the center settling over our region and strengthening will \nresult in temperatures heating up to around 10 degrees above \nnormal for this time of year. Afternoon highs (morning lows) ware\nforecast in the 110-116 (85-95) degree range across the lower \ndeserts and in the 100-110 (75-85) degree range across the higher \nterrain areas. The increase in temperatures will also result in an\nincrease in HeatRisk, with widespread Extreme HeatRisk forecast\nfor the majority of the CWA by Wednesday. There is high confidence\nalready in the heat forecast for next week. So, the Extreme Heat \nWarning was been extended through next Friday and will likely need\nto be expanded to more areas by the middle of the week.\n\n&&\n\n.AVIATION...Updated at 2330Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo major aviation concerns are expected during the TAF period.\nWinds will follow light and diurnal trends with speeds generally\naob 10 kt. There remains a slight chance (~20%) of an outflow from\ndistant convection moving through this evening, but the potential\nremains too low to include mention of a boundary in the TAFs at\nthis time. SCT cloud decks will be present through much of the\nforecast window, with the lowest bases around 10-12 kft. \n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo major aviation concerns are expected through Saturday\nafternoon. Typical diurnal trends, along with overnight and early\nmorning VRB conditions, can be anticipated at the terminals, with\nwesterly flow switching to the southeast at KIPL, while KBLH\nfluctuates between southwest and south-southeast. A decaying\noutflow is possible at KIPL this evening, but the only impact\nlooks to be a reinforcement of westerly flow. Other than a FEW \nmid and high level cloud decks, skies will be mostly clear.\n\n\n&&\n\n.FIRE WEATHER...\nHot and seasonally dry conditions are expected nearly every day, \nthrough next week. Aside from a brief increase in moisture Sunday-\nMonday, minimum RH values each afternoon will be around 12-18% \n(15-25% Sun-Mon). Temperatures will range 5-10 degrees above \nnormal through the next week, with lower desert highs eclipsing \n110 degrees most afternoons. There will be slight chances for \nstorms each afternoon through this weekend, but mostly favoring \nhigher terrain areas. Drier conditions, with lower storm chances \nare expected by the middle of next week. Outside of thunderstorm \noutflow winds, winds will follow the typical diurnal tendencies \nwith some modest afternoon upslope gustiness.\n\n&&\n\n.CLIMATE...\nRecord highs:\n\nDate       Phoenix         Yuma         El Centro\n----       -------         ----         ---------\nAug 21   114 in 2019    115 in 1969    117 in 1969\nAug 22   113 in 2011    115 in 1969    117 in 1969\nAug 23   114 in 2011    115 in 2011    116 in 1969\nAug 24   115 in 2020    119 in 1985    117 in 1985\nAug 25   113 in 2011    116 in 1962    117 in 1962\nAug 26   117 in 2011    115 in 2020    115 in 1981\nAug 27   114 in 2023    120 in 1981    117 in 1981\nAug 28   117 in 2023    118 in 2023    117 in 2009\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Extreme Heat Warning until 8 PM MST Friday for AZZ530>555-559-\n     560.\n\nCA...Extreme Heat Warning until 8 PM PDT Friday for CAZ562-565>567-\n     569-570.\n\n&&\n\n$$\n\nSHORT TERM...Benedict\nLONG TERM...Berislavich/Benedict \nAVIATION...RW\nFIRE WEATHER...Benedict \nCLIMATE...18\n",
     "risk": "HIGH",
     "high_terms": [
       "outflow",
@@ -119,8 +119,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-21T23:24:56+00:00",
-    "prior_time_utc": "2026-08-21T22:54:56+00:00",
+    "latest_time_utc": "2026-08-21T23:44:57+00:00",
+    "prior_time_utc": "2026-08-21T23:14:57+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -150,16 +150,16 @@
       "strike_type": "between",
       "floor_strike": 112.0,
       "cap_strike": 113.0,
-      "yes_bid": 0.95,
+      "yes_bid": 0.97,
       "yes_ask": 0.98,
       "last_price": 0.98,
-      "market_mid": 0.965,
+      "market_mid": 0.975,
       "close_time": "2026-08-22T07:00:00Z",
       "occurrence_datetime": "2026-08-22T14:00:00Z",
       "updated_time": "2026-08-20T14:00:17.515539Z",
       "model_probability": 0.9074585635359116,
       "edge_vs_ask": -0.0725414364640884,
-      "difference": -0.05754143646408838
+      "difference": -0.06754143646408839
     },
     {
       "ticker": "KXHIGHTPHX-26AUG21-B114.5",
@@ -303,17 +303,17 @@
     "mean_cloud_fraction_2h": 0.3333333333333333,
     "cloud_fraction_trend_2h": 0.25,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262332300_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-21T23:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262332310_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-21T23:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262332320_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-21T23:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262332330_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-21T23:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-21T16:31:50.050493-07:00",
+    "collected_at_local": "2026-08-21T16:52:50.058024-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -326,8 +326,8 @@
         "contract_start_local": "2026-08-21T00:00:00-07:00",
         "contract_end_local": "2026-08-22T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 110.93,
-        "remaining_high_time_local": "2026-08-21T16:45:00-07:00",
+        "remaining_high_f": 110.8,
+        "remaining_high_time_local": "2026-08-21T17:00:00-07:00",
         "projected_high_f": 112.0
       },
       "HRRR-EXT": {
@@ -363,15 +363,15 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-21 21:00:00",
-        "rows_received": 49,
-        "max_forecast_hour": 48,
-        "coverage_start_local": "2026-08-21T14:00:00-07:00",
-        "coverage_end_local": "2026-08-23T14:00:00-07:00",
+        "run_time_utc": "2026-08-21 22:00:00",
+        "rows_received": 22,
+        "max_forecast_hour": 21,
+        "coverage_start_local": "2026-08-21T15:00:00-07:00",
+        "coverage_end_local": "2026-08-22T12:00:00-07:00",
         "contract_start_local": "2026-08-21T00:00:00-07:00",
         "contract_end_local": "2026-08-22T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 109.65,
+        "remaining_high_f": 109.47,
         "remaining_high_time_local": "2026-08-21T17:00:00-07:00",
         "projected_high_f": 112.0
       },
@@ -393,11 +393,11 @@
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-08-21 22:00:00",
+        "run_time_utc": "2026-08-21 23:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-08-21T16:00:00-07:00",
-        "coverage_end_local": "2026-08-23T05:00:00-07:00",
+        "coverage_start_local": "2026-08-21T17:00:00-07:00",
+        "coverage_end_local": "2026-08-23T06:00:00-07:00",
         "contract_start_local": "2026-08-21T00:00:00-07:00",
         "contract_end_local": "2026-08-22T00:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -432,11 +432,16 @@
     "wethr_high_f": 112.0,
     "time_of_high_utc": "2026-08-21 22:49:00",
     "sources": [
-      "dsm"
+      "dsm",
+      "six_hour_high"
     ],
     "source_detail": {
       "dsm": {
         "first_confirmed_utc": "2026-08-21 22:49:00",
+        "count": 1
+      },
+      "six_hour_high": {
+        "first_confirmed_utc": "2026-08-21 23:51:00",
         "count": 1
       }
     },
@@ -459,7 +464,7 @@
     "range_80_high_f": 114.0,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-08-21T16:35:00-07:00",
+  "next_update_local": "2026-08-21T17:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
