@@ -31,7 +31,7 @@ def _api_key() -> str:
         raise RuntimeError(
             "WETHR_API_KEY environment variable is not set"
         )
-    return key
+    return key.strip()
 
 def fetch_wethr_high(
     *,
