@@ -734,6 +734,11 @@ def main() -> None:
         nws_live_forecast=nws_live,
         afd=afd,
         radar=radar,
+        external_observed_high_f=(
+            wethr_high.get("wethr_high_f")
+            if wethr_high.get("available")
+            else None
+        ),
     )
     state["satellite"] = satellite
 
@@ -863,4 +868,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
