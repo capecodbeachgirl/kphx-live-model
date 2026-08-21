@@ -527,6 +527,8 @@ def historical_analogs(
     if current_temp is None:
         current_temp = state.get("latest_temp_f")
 
+    current_dewpoint = state.get("latest_dewpoint_f")
+
     if checkpoint is None or current_temp is None or not path.exists():
         return {"available": False}
 
@@ -535,6 +537,7 @@ def historical_analogs(
         return {"available": False}
 
     temp_col = f"h{hour:02d}_temp_f"
+    dewpoint_col = f"h{hour:02d}_dewpoint_f"
     remain_col = f"h{hour:02d}_heating_remaining_cli_f"
 
     hist = pd.read_csv(path)
@@ -547,6 +550,11 @@ def historical_analogs(
     hist["actual_cli_high_f"] = pd.to_numeric(
         hist["actual_cli_high_f"], errors="coerce"
     )
+
+    if dewpoint_col in hist.columns:
+        hist[dewpoint_col] = pd.to_numeric(
+            hist[dewpoint_col], errors="coerce"
+        )
 
     if remain_col in hist.columns:
         hist[remain_col] = pd.to_numeric(hist[remain_col], errors="coerce")
@@ -581,6 +589,13 @@ def historical_analogs(
     else:
         hist["_nws_diff"] = 0.0
 
+    if current_dewpoint is not None and dewpoint_col in hist.columns:
+        hist["_dewpoint_diff"] = (
+            hist[dewpoint_col] - float(current_dewpoint)
+        ).abs().fillna(12.0)
+    else:
+        hist["_dewpoint_diff"] = 0.0
+
     # Start fairly strict, then widen only if we do not have enough examples.
     analogs = hist[
         (hist["_temp_diff"] <= 2.0)
@@ -599,9 +614,11 @@ def historical_analogs(
     if analogs.empty:
         return {"available": False}
 
-    # Favor the closest temperature/NWS matches if the pool is large.
+    # Favor the closest temperature/NWS/moisture matches if the pool is large.
     analogs["_match_score"] = (
-        analogs["_temp_diff"] + 0.35 * analogs["_nws_diff"]
+        analogs["_temp_diff"]
+        + 0.35 * analogs["_nws_diff"]
+        + 0.10 * analogs["_dewpoint_diff"]
     )
     analogs = analogs.sort_values("_match_score").head(40)
 
@@ -868,5 +885,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
 
 
