@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -26,12 +27,21 @@ from klas_model.live import build_live_state, save_json
 TZ = ZoneInfo("America/Phoenix")
 
 
+def _safe_exception_text(exc: Exception) -> str:
+    text = str(exc)
+    key = os.environ.get("WETHR_API_KEY", "").strip()
+    if key:
+        text = text.replace(key, "[REDACTED]")
+    return text
+
+
 def _safe_fetch(label: str, func, fallback: dict) -> dict:
     try:
         return func()
     except Exception as exc:
-        print(f"{label} warning: {exc}")
-        return {**fallback, "error": str(exc)}
+        error = _safe_exception_text(exc)
+        print(f"{label} warning: {error}")
+        return {**fallback, "error": error}
 
 
 def append_history(state: dict, path: Path) -> pd.DataFrame:
@@ -853,3 +863,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
