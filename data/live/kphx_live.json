@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updated_at_local": "2026-08-22T14:54:37.124985-07:00",
+  "updated_at_local": "2026-08-22T14:55:45.516136-07:00",
   "latest_metar_time": "2026-08-22T14:51:00-07:00",
   "latest_temp_f": 111.91999999999999,
   "latest_precise_temp_f": 111.91999999999999,
@@ -202,7 +202,7 @@
       "cap_strike": 117.0,
       "yes_bid": 0.14,
       "yes_ask": 0.15,
-      "last_price": 0.15,
+      "last_price": 0.14,
       "market_mid": 0.14500000000000002,
       "close_time": "2026-08-23T07:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
@@ -332,17 +332,17 @@
     "mean_cloud_fraction_2h": 0.3333333333333333,
     "cloud_fraction_trend_2h": 0.25,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262342120_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-22T21:20:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262342130_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-22T21:30:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262342130_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-22T21:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262342140_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-22T21:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-22T14:54:32.110145-07:00",
+    "collected_at_local": "2026-08-22T14:55:38.599895-07:00",
     "models": {
       "HRRR": {
         "available": true,
