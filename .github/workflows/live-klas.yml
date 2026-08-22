@@ -2,8 +2,12 @@ name: KPHX hourly live update + Pages
 
 on:
   schedule:
-    # Every 10 minutes from 8:07 AM through 7:57 PM Phoenix time
+    # Primary daytime refresh schedule
     - cron: "7,17,27,37,47,57 8-19 * * *"
+      timezone: "America/Phoenix"
+
+    # Staggered backup daytime refresh schedule
+    - cron: "2,12,22,32,42,52 8-19 * * *"
       timezone: "America/Phoenix"
 
     # Hourly overnight
