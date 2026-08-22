@@ -1,0 +1,54 @@
+{
+  "station": "KPHX",
+  "candidate": "h12+40",
+  "checkpoint_hour": 12,
+  "elapsed_min": 40,
+  "original_parameter_training": "2022-2024",
+  "original_selection_dataset": "2025 validation",
+  "original_2025_test_n": 92,
+  "validation_2025_base_mae_f": 0.9099815303390844,
+  "validation_2025_trajectory_mae_f": 0.8379193648995648,
+  "validation_2025_gain_vs_base_f": 0.0720621654395196,
+  "aug15_21_base_mae_f": 0.745,
+  "aug15_21_trajectory_mae_f": 0.559,
+  "aug15_21_gain_f": 0.186,
+  "aug15_21_n": 5,
+  "aug15_21_improved_days": 4,
+  "aug15_21_worsened_days": 1,
+  "shadow_selection_date": "2026-08-22",
+  "prospective_shadow_start": "2026-08-23",
+  "selection_status": "prospective_shadow_only",
+  "production_enabled": false,
+  "trajectory_coef": 0.1373692584358598,
+  "trajectory_intercept_f": 0.05282620798233505,
+  "expected_model": {
+    "type": "ridge",
+    "alpha": 2.0,
+    "features": [
+      "checkpoint_temp_f",
+      "model_predicted_high_f",
+      "season_sin",
+      "season_cos"
+    ],
+    "scaler_mean": [
+      101.14545454545454,
+      108.68587841721859,
+      -0.31175456609663377,
+      -0.8479740441315521
+    ],
+    "scaler_scale": [
+      5.630011082883269,
+      5.893421689976508,
+      0.4037475948182782,
+      0.14400343980452524
+    ],
+    "ridge_coef": [
+      3.442977593244391,
+      2.2195222573198077,
+      0.3051507908303934,
+      0.31876514351521973
+    ],
+    "ridge_intercept": 103.10818181818183,
+    "training_n": 220
+  }
+}

@@ -50,12 +50,21 @@ jobs:
           WETHR_API_KEY: ${{ secrets.WETHR_API_KEY }}
         run: python scripts/live_update.py
 
+      - name: Generate KPHX h12+40 shadow forecast
+        run: python scripts/generate_h12_40_shadow.py
+
+      - name: Score KPHX h12+40 shadow forecast
+        run: python scripts/score_h12_40_shadow.py
+
       - name: Persist live history and latest dashboard
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/index.html data/live/
+          if [ -f data/processed/kphx_h12_40_shadow_log.csv ]; then
+            git add data/processed/kphx_h12_40_shadow_log.csv
+          fi
           if git diff --cached --quiet; then
             echo "No persisted live-state changes to commit."
           else
