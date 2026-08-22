@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updated_at_local": "2026-08-22T08:17:30.234572-07:00",
+  "updated_at_local": "2026-08-22T08:33:19.990579-07:00",
   "latest_metar_time": "2026-08-22T07:51:00-07:00",
   "latest_temp_f": 94.0,
   "latest_precise_temp_f": 93.91999999999999,
@@ -216,8 +216,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-22T15:06:14+00:00",
-    "prior_time_utc": "2026-08-22T14:36:14+00:00",
+    "latest_time_utc": "2026-08-22T15:28:04+00:00",
+    "prior_time_utc": "2026-08-22T14:58:04+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -253,15 +253,15 @@
       "floor_strike": 112.0,
       "cap_strike": 113.0,
       "yes_bid": 0.42,
-      "yes_ask": 0.43,
-      "last_price": 0.41,
-      "market_mid": 0.425,
+      "yes_ask": 0.45,
+      "last_price": 0.43,
+      "market_mid": 0.435,
       "close_time": "2026-08-23T07:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
       "model_probability": 0.5180794309425014,
-      "edge_vs_ask": 0.08807943094250142,
-      "difference": 0.09307943094250143
+      "edge_vs_ask": 0.0680794309425014,
+      "difference": 0.08307943094250142
     },
     {
       "ticker": "KXHIGHTPHX-26AUG22-B114.5",
@@ -420,31 +420,32 @@
     "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262341450_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-22T14:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262341440_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-22T14:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262341510_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-22T15:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262341510_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-22T15:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-22T08:17:23.579094-07:00",
+    "collected_at_local": "2026-08-22T08:33:14.325162-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-08-22 14:00:00",
-        "rows_received": 53,
-        "max_forecast_hour": 13,
+        "rows_received": 73,
+        "max_forecast_hour": 18,
         "coverage_start_local": "2026-08-22T07:00:00-07:00",
-        "coverage_end_local": "2026-08-22T20:00:00-07:00",
+        "coverage_end_local": "2026-08-23T01:00:00-07:00",
         "contract_start_local": "2026-08-22T00:00:00-07:00",
         "contract_end_local": "2026-08-23T00:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 115.12,
-        "remaining_high_time_local": "2026-08-22T14:45:00-07:00"
+        "remaining_high_time_local": "2026-08-22T14:45:00-07:00",
+        "projected_high_f": 115.12
       },
       "HRRR-EXT": {
         "available": true,
@@ -524,19 +525,20 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
       ],
-      "median_high_f": 113.0,
-      "mean_high_f": 112.83,
+      "median_high_f": 113.12,
+      "mean_high_f": 113.21,
       "min_high_f": 111.11,
-      "max_high_f": 114.78,
-      "spread_f": 3.67
+      "max_high_f": 115.12,
+      "spread_f": 4.01
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
@@ -574,7 +576,7 @@
     "range_80_high_f": 113.0,
     "median_heating_remaining_f": 18.0
   },
-  "next_update_local": "2026-08-22T08:20:00-07:00",
+  "next_update_local": "2026-08-22T08:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
