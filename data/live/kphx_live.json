@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T16:26:03.557622-07:00",
+  "updated_at_local": "2026-08-24T16:29:26.529778-07:00",
   "latest_metar_time": "2026-08-24T15:51:00-07:00",
   "latest_temp_f": 107.0,
   "latest_precise_temp_f": 107.06,
@@ -122,7 +122,12 @@
     "latest_time_utc": "2026-08-24T23:12:58+00:00",
     "prior_time_utc": "2026-08-24T22:42:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -150,16 +155,16 @@
       "strike_type": "between",
       "floor_strike": 108.0,
       "cap_strike": 109.0,
-      "yes_bid": 0.91,
-      "yes_ask": 0.92,
-      "last_price": 0.9,
-      "market_mid": 0.915,
+      "yes_bid": 0.95,
+      "yes_ask": 0.96,
+      "last_price": 0.97,
+      "market_mid": 0.955,
       "close_time": "2026-08-25T07:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.7807073954983923,
-      "edge_vs_ask": -0.13929260450160774,
-      "difference": -0.13429260450160774
+      "edge_vs_ask": -0.17929260450160767,
+      "difference": -0.17429260450160766
     },
     {
       "ticker": "KXHIGHTPHX-26AUG24-B106.5",
@@ -188,16 +193,16 @@
       "strike_type": "between",
       "floor_strike": 110.0,
       "cap_strike": 111.0,
-      "yes_bid": 0.06,
-      "yes_ask": 0.08,
-      "last_price": 0.08,
-      "market_mid": 0.07,
+      "yes_bid": 0.04,
+      "yes_ask": 0.06,
+      "last_price": 0.04,
+      "market_mid": 0.05,
       "close_time": "2026-08-25T07:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.047588424437299034,
-      "edge_vs_ask": -0.03241157556270097,
-      "difference": -0.022411575562700972
+      "edge_vs_ask": -0.012411575562700963,
+      "difference": -0.0024115755627009683
     },
     {
       "ticker": "KXHIGHTPHX-26AUG24-B112.5",
@@ -314,7 +319,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T16:25:55.981909-07:00",
+    "collected_at_local": "2026-08-24T16:29:20.973941-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -431,7 +436,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 107.0,
-    "time_of_high_utc": "2026-08-24 23:23:00",
+    "time_of_high_utc": "2026-08-24 23:27:00",
     "sources": [
       "hf_metar",
       "omo",
@@ -441,11 +446,11 @@
     "source_detail": {
       "hf_metar": {
         "first_confirmed_utc": "2026-08-24 22:00:00",
-        "count": 6
+        "count": 7
       },
       "omo": {
         "first_confirmed_utc": "2026-08-24 22:00:00",
-        "count": 27
+        "count": 31
       },
       "metar": {
         "first_confirmed_utc": "2026-08-24 22:51:00",
