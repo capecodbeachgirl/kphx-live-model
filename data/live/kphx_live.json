@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at_local": "2026-08-25T16:32:24.193510-07:00",
+  "updated_at_local": "2026-08-25T16:35:09.898898-07:00",
   "latest_metar_time": "2026-08-25T15:51:00-07:00",
   "latest_temp_f": 113.0,
   "latest_precise_temp_f": 113.0,
@@ -123,7 +123,12 @@
     "latest_time_utc": "2026-08-25T23:20:58+00:00",
     "prior_time_utc": "2026-08-25T22:50:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -151,16 +156,16 @@
       "strike_type": "between",
       "floor_strike": 115.0,
       "cap_strike": 116.0,
-      "yes_bid": 0.96,
+      "yes_bid": 0.97,
       "yes_ask": 0.98,
       "last_price": 0.95,
-      "market_mid": 0.97,
+      "market_mid": 0.975,
       "close_time": "2026-08-26T07:00:00Z",
       "occurrence_datetime": "2026-08-26T14:00:00Z",
       "updated_time": "2026-08-24T14:00:01.671201Z",
       "model_probability": 0.934173669467787,
       "edge_vs_ask": -0.04582633053221297,
-      "difference": -0.03582633053221296
+      "difference": -0.04082633053221296
     },
     {
       "ticker": "KXHIGHTPHX-26AUG25-B117.5",
@@ -170,16 +175,16 @@
       "strike_type": "between",
       "floor_strike": 117.0,
       "cap_strike": 118.0,
-      "yes_bid": 0.02,
-      "yes_ask": 0.03,
-      "last_price": 0.01,
-      "market_mid": 0.025,
+      "yes_bid": 0.01,
+      "yes_ask": 0.02,
+      "last_price": 0.02,
+      "market_mid": 0.015,
       "close_time": "2026-08-26T07:00:00Z",
       "occurrence_datetime": "2026-08-26T14:00:00Z",
       "updated_time": "2026-08-24T14:00:01.671201Z",
       "model_probability": 0.06582633053221287,
-      "edge_vs_ask": 0.035826330532212874,
-      "difference": 0.04082633053221287
+      "edge_vs_ask": 0.04582633053221287,
+      "difference": 0.050826330532212874
     },
     {
       "ticker": "KXHIGHTPHX-26AUG25-B111.5",
@@ -284,16 +289,16 @@
     "strike_type": "between",
     "floor_strike": 117.0,
     "cap_strike": 118.0,
-    "yes_bid": 0.02,
-    "yes_ask": 0.03,
-    "last_price": 0.01,
-    "market_mid": 0.025,
+    "yes_bid": 0.01,
+    "yes_ask": 0.02,
+    "last_price": 0.02,
+    "market_mid": 0.015,
     "close_time": "2026-08-26T07:00:00Z",
     "occurrence_datetime": "2026-08-26T14:00:00Z",
     "updated_time": "2026-08-24T14:00:01.671201Z",
     "model_probability": 0.06582633053221287,
-    "edge_vs_ask": 0.035826330532212874,
-    "difference": 0.04082633053221287
+    "edge_vs_ask": 0.04582633053221287,
+    "difference": 0.050826330532212874
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -314,7 +319,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-25T16:32:16.905859-07:00",
+    "collected_at_local": "2026-08-25T16:35:02.152322-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -460,7 +465,7 @@
     "range_80_high_f": 116.0,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-08-25T16:35:00-07:00",
+  "next_update_local": "2026-08-25T16:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
