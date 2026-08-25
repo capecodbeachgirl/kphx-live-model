@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at_local": "2026-08-25T14:11:38.831251-07:00",
+  "updated_at_local": "2026-08-25T14:14:11.252342-07:00",
   "latest_metar_time": "2026-08-25T13:51:00-07:00",
   "latest_temp_f": 112.0,
   "latest_precise_temp_f": 111.91999999999999,
@@ -194,16 +194,16 @@
       "strike_type": "between",
       "floor_strike": 115.0,
       "cap_strike": 116.0,
-      "yes_bid": 0.48,
-      "yes_ask": 0.49,
-      "last_price": 0.49,
-      "market_mid": 0.485,
+      "yes_bid": 0.47,
+      "yes_ask": 0.51,
+      "last_price": 0.47,
+      "market_mid": 0.49,
       "close_time": "2026-08-26T07:00:00Z",
       "occurrence_datetime": "2026-08-26T14:00:00Z",
       "updated_time": "2026-08-24T14:00:01.671201Z",
       "model_probability": 0.4301242236024845,
-      "edge_vs_ask": -0.05987577639751551,
-      "difference": -0.05487577639751551
+      "edge_vs_ask": -0.07987577639751553,
+      "difference": -0.05987577639751551
     },
     {
       "ticker": "KXHIGHTPHX-26AUG25-B117.5",
@@ -214,15 +214,15 @@
       "floor_strike": 117.0,
       "cap_strike": 118.0,
       "yes_bid": 0.0,
-      "yes_ask": 0.03,
-      "last_price": 0.01,
-      "market_mid": 0.015,
+      "yes_ask": 0.02,
+      "last_price": 0.06,
+      "market_mid": 0.01,
       "close_time": "2026-08-26T07:00:00Z",
       "occurrence_datetime": "2026-08-26T14:00:00Z",
       "updated_time": "2026-08-24T14:00:01.671201Z",
       "model_probability": 0.036490683229813664,
-      "edge_vs_ask": 0.006490683229813665,
-      "difference": 0.021490683229813665
+      "edge_vs_ask": 0.016490683229813664,
+      "difference": 0.026490683229813662
     },
     {
       "ticker": "KXHIGHTPHX-26AUG25-B111.5",
@@ -336,7 +336,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-25T14:11:31.404208-07:00",
+    "collected_at_local": "2026-08-25T14:14:06.169421-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -371,10 +371,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-08-25 19:00:00",
-        "rows_received": 30,
-        "max_forecast_hour": 30,
+        "rows_received": 36,
+        "max_forecast_hour": 36,
         "coverage_start_local": "2026-08-25T13:00:00-07:00",
-        "coverage_end_local": "2026-08-26T18:00:00-07:00",
+        "coverage_end_local": "2026-08-27T00:00:00-07:00",
         "contract_start_local": "2026-08-25T00:00:00-07:00",
         "contract_end_local": "2026-08-26T00:00:00-07:00",
         "covers_rest_of_contract": true,
