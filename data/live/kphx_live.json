@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updated_at_local": "2026-08-27T17:13:45.099925-07:00",
+  "updated_at_local": "2026-08-27T17:23:26.133727-07:00",
   "latest_metar_time": "2026-08-27T16:51:00-07:00",
   "latest_temp_f": 111.0,
   "latest_precise_temp_f": 111.02,
@@ -107,15 +107,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-27T23:58:58+00:00",
-    "prior_time_utc": "2026-08-27T23:28:58+00:00",
+    "latest_time_utc": "2026-08-28T00:12:58+00:00",
+    "prior_time_utc": "2026-08-27T23:42:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -298,29 +293,30 @@
     "latest_cloud_fraction_below_20000": 0.25,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262392350_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
     "geocolor_time_utc": "2026-08-27T23:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262392340_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-27T23:40:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262400000_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-28T00:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-27T17:13:40.345067-07:00",
+    "collected_at_local": "2026-08-27T17:23:13.937024-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-08-27 23:00:00",
-        "rows_received": 29,
-        "max_forecast_hour": 7,
+        "rows_received": 65,
+        "max_forecast_hour": 16,
         "coverage_start_local": "2026-08-27T16:00:00-07:00",
-        "coverage_end_local": "2026-08-27T23:00:00-07:00",
+        "coverage_end_local": "2026-08-28T08:00:00-07:00",
         "contract_start_local": "2026-08-27T00:00:00-07:00",
         "contract_end_local": "2026-08-28T00:00:00-07:00",
-        "covers_rest_of_contract": false,
-        "remaining_high_f": 109.84,
-        "remaining_high_time_local": "2026-08-27T17:15:00-07:00"
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 109.69,
+        "remaining_high_time_local": "2026-08-27T17:30:00-07:00",
+        "projected_high_f": 113.0
       },
       "HRRR-EXT": {
         "available": true,
@@ -341,10 +337,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-08-27 22:00:00",
-        "rows_received": 35,
-        "max_forecast_hour": 35,
+        "rows_received": 36,
+        "max_forecast_hour": 36,
         "coverage_start_local": "2026-08-27T16:00:00-07:00",
-        "coverage_end_local": "2026-08-29T02:00:00-07:00",
+        "coverage_end_local": "2026-08-29T03:00:00-07:00",
         "contract_start_local": "2026-08-27T00:00:00-07:00",
         "contract_end_local": "2026-08-28T00:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -400,8 +396,9 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
@@ -460,7 +457,7 @@
     "range_80_high_f": 114.0,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-08-27T17:20:00-07:00",
+  "next_update_local": "2026-08-27T17:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
