@@ -1,10 +1,10 @@
 {
   "date": "2026-08-30",
-  "updated_at_local": "2026-08-30T18:35:20.330491-07:00",
-  "latest_metar_time": "2026-08-30T17:51:00-07:00",
-  "latest_temp_f": 104.0,
-  "latest_precise_temp_f": 104.0,
-  "latest_dewpoint_f": 62.0,
+  "updated_at_local": "2026-08-30T20:58:01.366295-07:00",
+  "latest_metar_time": "2026-08-30T20:51:00-07:00",
+  "latest_temp_f": 95.0,
+  "latest_precise_temp_f": 95.0,
+  "latest_dewpoint_f": 64.04,
   "raw_metar_peak_f": 106.0,
   "precise_metar_peak_f": 105.98,
   "six_hour_max_f": 106,
@@ -14,35 +14,20 @@
   "checkpoint_hour": 18,
   "weather_risk": "HIGH",
   "weather_reasons": [
-    "NWS hourly forecast includes thunderstorm potential",
+    "Strong gusts up to 40 kt",
+    "NWS rain chance reaches 46% through this evening",
     "NWS sky cover forecast reaches 75%",
     "Phoenix NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "LOW",
-    "forecast_risk": "HIGH",
+    "observed_risk": "HIGH",
+    "forecast_risk": "MEDIUM",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-08-30T18:00:00-07:00",
-        "temp_f": 99.0,
-        "pop_pct": 41.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
-        "wind_speed": "15 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-08-30T19:00:00-07:00",
-        "temp_f": 95.0,
-        "pop_pct": 42.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
-        "wind_speed": "15 mph",
-        "wind_direction": "SSE"
-      },
       {
         "time": "2026-08-30T20:00:00-07:00",
         "temp_f": 93.0,
@@ -53,19 +38,11 @@
       }
     ],
     "max_pop_pct": 46.0,
-    "thunder_possible": true,
-    "rain_possible": true,
-    "summary": "NWS hourly forecast includes thunderstorms",
+    "thunder_possible": false,
+    "rain_possible": false,
+    "summary": "NWS precipitation chance reaches 46%",
     "max_sky_cover_pct": 75.0,
     "sky_hours": [
-      {
-        "time": "2026-08-30T18:00:00-07:00",
-        "sky_cover_pct": 61.0
-      },
-      {
-        "time": "2026-08-30T19:00:00-07:00",
-        "sky_cover_pct": 75.0
-      },
       {
         "time": "2026-08-30T20:00:00-07:00",
         "sky_cover_pct": 75.0
@@ -100,8 +77,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-31T01:08:58+00:00",
-    "prior_time_utc": "2026-08-31T00:38:58+00:00",
+    "latest_time_utc": "2026-08-31T03:28:59+00:00",
+    "prior_time_utc": "2026-08-31T02:58:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -284,82 +261,82 @@
   "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
     "available": true,
-    "risk": "MEDIUM",
-    "summary": "Meaningful cloud shading is present or increasing at KPHX",
-    "latest_cloud_fraction": 0.5,
-    "mean_cloud_fraction_2h": 0.4166666666666667,
-    "cloud_fraction_trend_2h": 0.25,
-    "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262430110_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-31T01:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262430110_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-31T01:10:00+00:00",
+    "risk": "HIGH",
+    "summary": "Heavy observed cloud cover may be suppressing solar heating at KPHX",
+    "latest_cloud_fraction": 0.875,
+    "mean_cloud_fraction_2h": 0.75,
+    "cloud_fraction_trend_2h": 0.375,
+    "latest_cloud_fraction_below_20000": 0.875,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262430330_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-31T03:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262430330_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-31T03:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-30T18:35:14.820328-07:00",
+    "collected_at_local": "2026-08-30T20:57:57.054268-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-08-31 00:00:00",
+        "run_time_utc": "2026-08-31 02:00:00",
         "rows_received": 73,
         "max_forecast_hour": 18,
-        "coverage_start_local": "2026-08-30T17:00:00-07:00",
-        "coverage_end_local": "2026-08-31T11:00:00-07:00",
+        "coverage_start_local": "2026-08-30T19:00:00-07:00",
+        "coverage_end_local": "2026-08-31T13:00:00-07:00",
         "contract_start_local": "2026-08-30T00:00:00-07:00",
         "contract_end_local": "2026-08-31T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 101.47,
-        "remaining_high_time_local": "2026-08-30T18:45:00-07:00",
+        "remaining_high_f": 92.37,
+        "remaining_high_time_local": "2026-08-30T21:45:00-07:00",
         "projected_high_f": 106.0
       },
       "HRRR-EXT": {
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-08-31 00:00:00",
-        "rows_received": 33,
-        "max_forecast_hour": 32,
+        "rows_received": 49,
+        "max_forecast_hour": 48,
         "coverage_start_local": "2026-08-30T17:00:00-07:00",
-        "coverage_end_local": "2026-09-01T01:00:00-07:00",
+        "coverage_end_local": "2026-09-01T17:00:00-07:00",
         "contract_start_local": "2026-08-30T00:00:00-07:00",
         "contract_end_local": "2026-08-31T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 91.94,
-        "remaining_high_time_local": "2026-08-30T20:00:00-07:00",
+        "remaining_high_f": 90.33,
+        "remaining_high_time_local": "2026-08-30T21:00:00-07:00",
         "projected_high_f": 106.0
       },
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-08-30 23:00:00",
+        "run_time_utc": "2026-08-31 01:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 70,
-        "coverage_start_local": "2026-08-30T17:00:00-07:00",
-        "coverage_end_local": "2026-09-02T14:00:00-07:00",
+        "max_forecast_hour": 71,
+        "coverage_start_local": "2026-08-30T19:00:00-07:00",
+        "coverage_end_local": "2026-09-02T17:00:00-07:00",
         "contract_start_local": "2026-08-30T00:00:00-07:00",
         "contract_end_local": "2026-08-31T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 94.91,
-        "remaining_high_time_local": "2026-08-30T19:00:00-07:00",
+        "remaining_high_f": 94.37,
+        "remaining_high_time_local": "2026-08-30T21:00:00-07:00",
         "projected_high_f": 106.0
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-30 23:00:00",
+        "run_time_utc": "2026-08-31 02:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-08-30T16:00:00-07:00",
-        "coverage_end_local": "2026-08-31T13:00:00-07:00",
+        "coverage_start_local": "2026-08-30T19:00:00-07:00",
+        "coverage_end_local": "2026-08-31T16:00:00-07:00",
         "contract_start_local": "2026-08-30T00:00:00-07:00",
         "contract_end_local": "2026-08-31T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 99.21,
-        "remaining_high_time_local": "2026-08-30T19:00:00-07:00",
+        "remaining_high_f": 81.03,
+        "remaining_high_time_local": "2026-08-30T21:00:00-07:00",
         "projected_high_f": 106.0
       },
       "GFS-MOS": {
@@ -373,23 +350,23 @@
         "contract_start_local": "2026-08-30T00:00:00-07:00",
         "contract_end_local": "2026-08-31T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 97.0,
-        "remaining_high_time_local": "2026-08-30T20:00:00-07:00",
+        "remaining_high_f": 91.0,
+        "remaining_high_time_local": "2026-08-30T23:00:00-07:00",
         "projected_high_f": 106.0
       },
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-08-31 00:00:00",
+        "run_time_utc": "2026-08-31 03:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-08-30T18:00:00-07:00",
-        "coverage_end_local": "2026-09-01T07:00:00-07:00",
+        "coverage_start_local": "2026-08-30T21:00:00-07:00",
+        "coverage_end_local": "2026-09-01T10:00:00-07:00",
         "contract_start_local": "2026-08-30T00:00:00-07:00",
         "contract_end_local": "2026-08-31T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 101.0,
-        "remaining_high_time_local": "2026-08-30T19:00:00-07:00",
+        "remaining_high_f": 96.0,
+        "remaining_high_time_local": "2026-08-30T21:00:00-07:00",
         "projected_high_f": 106.0
       }
     },
@@ -453,15 +430,15 @@
   },
   "historical_analogs": {
     "available": true,
-    "count": 40,
+    "count": 29,
     "checkpoint_hour": 18,
-    "current_temp_f": 104.0,
-    "median_final_high_f": 107.0,
-    "range_80_low_f": 105.0,
-    "range_80_high_f": 108.0,
-    "median_heating_remaining_f": 3.0
+    "current_temp_f": 95.0,
+    "median_final_high_f": 101.0,
+    "range_80_low_f": 98.8,
+    "range_80_high_f": 105.0,
+    "median_heating_remaining_f": 5.0
   },
-  "next_update_local": "2026-08-30T18:50:00-07:00",
+  "next_update_local": "2026-08-30T21:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -806,8 +783,8 @@
     },
     {
       "checkpoint_hour": 18.0,
-      "latest_precise_temp_f": 104.0,
-      "latest_temp_f": 104.0,
+      "latest_precise_temp_f": 95.0,
+      "latest_temp_f": 95.0,
       "six_hour_max_f": 106.0,
       "model_predicted_high_f": 106.93117198773449,
       "nws_am_forecast_high_f": 105.0,
