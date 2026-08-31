@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updated_at_local": "2026-08-31T13:38:47.734057-07:00",
+  "updated_at_local": "2026-08-31T13:48:43.010607-07:00",
   "latest_metar_time": "2026-08-31T12:51:00-07:00",
   "latest_temp_f": 83.0,
   "latest_precise_temp_f": 82.94,
@@ -156,8 +156,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-31T20:10:57+00:00",
-    "prior_time_utc": "2026-08-31T19:40:57+00:00",
+    "latest_time_utc": "2026-08-31T20:30:59+00:00",
+    "prior_time_utc": "2026-08-31T20:00:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -213,7 +213,7 @@
       "cap_strike": 96.0,
       "yes_bid": 0.03,
       "yes_ask": 0.04,
-      "last_price": 0.04,
+      "last_price": 0.03,
       "market_mid": 0.035,
       "close_time": "2026-09-01T07:00:00Z",
       "occurrence_datetime": "2026-09-01T14:00:00Z",
@@ -333,7 +333,7 @@
     "cap_strike": 96.0,
     "yes_bid": 0.03,
     "yes_ask": 0.04,
-    "last_price": 0.04,
+    "last_price": 0.03,
     "market_mid": 0.035,
     "close_time": "2026-09-01T07:00:00Z",
     "occurrence_datetime": "2026-09-01T14:00:00Z",
@@ -351,17 +351,17 @@
     "mean_cloud_fraction_2h": 0.6666666666666666,
     "cloud_fraction_trend_2h": -0.5,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262432010_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-31T20:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262432010_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-31T20:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262432020_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-31T20:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262432030_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-31T20:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-31T13:38:40.771012-07:00",
+    "collected_at_local": "2026-08-31T13:48:35.618048-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -411,17 +411,17 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-31 18:00:00",
+        "run_time_utc": "2026-08-31 19:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-08-31T11:00:00-07:00",
-        "coverage_end_local": "2026-09-01T08:00:00-07:00",
+        "coverage_start_local": "2026-08-31T12:00:00-07:00",
+        "coverage_end_local": "2026-09-01T09:00:00-07:00",
         "contract_start_local": "2026-08-31T00:00:00-07:00",
         "contract_end_local": "2026-09-01T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 86.61,
+        "remaining_high_f": 88.23,
         "remaining_high_time_local": "2026-08-31T17:00:00-07:00",
-        "projected_high_f": 86.61
+        "projected_high_f": 88.23
       },
       "GFS-MOS": {
         "available": true,
@@ -466,10 +466,10 @@
         "LAV-MOS"
       ],
       "median_high_f": 90.16,
-      "mean_high_f": 90.1,
-      "min_high_f": 86.61,
+      "mean_high_f": 90.37,
+      "min_high_f": 88.0,
       "max_high_f": 93.65,
-      "spread_f": 7.04
+      "spread_f": 5.65
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
@@ -478,7 +478,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 86.0,
-    "time_of_high_utc": "2026-08-31 20:36:00",
+    "time_of_high_utc": "2026-08-31 20:41:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -486,11 +486,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-31 20:08:00",
-        "count": 16
+        "count": 21
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-31 20:10:00",
-        "count": 4
+        "count": 5
       }
     },
     "omo_informed": true,
