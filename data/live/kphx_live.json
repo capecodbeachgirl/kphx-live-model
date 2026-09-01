@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updated_at_local": "2026-08-31T17:04:08.678984-07:00",
+  "updated_at_local": "2026-08-31T17:24:28.912031-07:00",
   "latest_metar_time": "2026-08-31T16:51:00-07:00",
   "latest_temp_f": 90.0,
   "latest_precise_temp_f": 89.96000000000001,
@@ -111,24 +111,14 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-31T23:54:18+00:00",
-    "prior_time_utc": "2026-08-31T23:24:18+00:00",
+    "latest_time_utc": "2026-08-31T20:44:08+00:00",
+    "prior_time_utc": "2026-08-31T20:14:08+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "risk": "LOW",
@@ -301,31 +291,32 @@
     "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262432330_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-31T23:30:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262432340_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-31T23:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262440000_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-01T00:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262440000_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-01T00:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-31T17:04:03.715041-07:00",
+    "collected_at_local": "2026-08-31T17:24:24.235473-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-08-31 23:00:00",
-        "rows_received": 21,
-        "max_forecast_hour": 5,
+        "rows_received": 61,
+        "max_forecast_hour": 15,
         "coverage_start_local": "2026-08-31T16:00:00-07:00",
-        "coverage_end_local": "2026-08-31T21:00:00-07:00",
+        "coverage_end_local": "2026-09-01T07:00:00-07:00",
         "contract_start_local": "2026-08-31T00:00:00-07:00",
         "contract_end_local": "2026-09-01T00:00:00-07:00",
-        "covers_rest_of_contract": false,
-        "remaining_high_f": 88.46,
-        "remaining_high_time_local": "2026-08-31T17:15:00-07:00"
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 88.45,
+        "remaining_high_time_local": "2026-08-31T17:30:00-07:00",
+        "projected_high_f": 91.0
       },
       "HRRR-EXT": {
         "available": true,
@@ -345,10 +336,10 @@
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-08-31 21:00:00",
+        "run_time_utc": "2026-08-31 22:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 72,
-        "coverage_start_local": "2026-08-31T15:00:00-07:00",
+        "max_forecast_hour": 71,
+        "coverage_start_local": "2026-08-31T16:00:00-07:00",
         "coverage_end_local": "2026-09-03T14:00:00-07:00",
         "contract_start_local": "2026-08-31T00:00:00-07:00",
         "contract_end_local": "2026-09-01T00:00:00-07:00",
@@ -405,8 +396,9 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
@@ -430,6 +422,8 @@
     "sources": [
       "hf_metar",
       "omo",
+      "dsm",
+      "cli",
       "six_hour_high"
     ],
     "source_detail": {
@@ -438,6 +432,14 @@
         "count": 1
       },
       "omo": {
+        "first_confirmed_utc": "2026-08-31 23:40:00",
+        "count": 1
+      },
+      "dsm": {
+        "first_confirmed_utc": "2026-08-31 23:40:00",
+        "count": 1
+      },
+      "cli": {
         "first_confirmed_utc": "2026-08-31 23:40:00",
         "count": 1
       },
@@ -465,7 +467,7 @@
     "range_80_high_f": 97.0,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-08-31T17:05:00-07:00",
+  "next_update_local": "2026-08-31T17:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
