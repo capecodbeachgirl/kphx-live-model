@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at_local": "2026-09-04T15:28:41.174024-07:00",
+  "updated_at_local": "2026-09-04T15:34:18.291852-07:00",
   "latest_metar_time": "2026-09-04T14:51:00-07:00",
   "latest_temp_f": 100.0,
   "latest_precise_temp_f": 100.03999999999999,
@@ -129,15 +129,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-04T22:08:55+00:00",
-    "prior_time_utc": "2026-09-04T21:38:55+00:00",
+    "latest_time_utc": "2026-09-04T22:22:56+00:00",
+    "prior_time_utc": "2026-09-04T21:52:56+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -165,16 +160,16 @@
       "strike_type": "between",
       "floor_strike": 102.0,
       "cap_strike": 103.0,
-      "yes_bid": 0.91,
-      "yes_ask": 0.95,
-      "last_price": 0.95,
-      "market_mid": 0.9299999999999999,
+      "yes_bid": 0.92,
+      "yes_ask": 0.96,
+      "last_price": 0.96,
+      "market_mid": 0.94,
       "close_time": "2026-09-05T07:00:00Z",
       "occurrence_datetime": "2026-09-05T14:00:00Z",
       "updated_time": "2026-09-03T14:00:01.360783Z",
       "model_probability": 0.870919881305638,
-      "edge_vs_ask": -0.07908011869436193,
-      "difference": -0.059080118694361916
+      "edge_vs_ask": -0.08908011869436194,
+      "difference": -0.06908011869436192
     },
     {
       "ticker": "KXHIGHTPHX-26SEP04-B104.5",
@@ -184,16 +179,16 @@
       "strike_type": "between",
       "floor_strike": 104.0,
       "cap_strike": 105.0,
-      "yes_bid": 0.05,
+      "yes_bid": 0.03,
       "yes_ask": 0.08,
-      "last_price": 0.09,
-      "market_mid": 0.065,
+      "last_price": 0.03,
+      "market_mid": 0.055,
       "close_time": "2026-09-05T07:00:00Z",
       "occurrence_datetime": "2026-09-05T14:00:00Z",
       "updated_time": "2026-09-03T14:00:01.360783Z",
       "model_probability": 0.129080118694362,
       "edge_vs_ask": 0.049080118694362004,
-      "difference": 0.064080118694362
+      "difference": 0.07408011869436201
     },
     {
       "ticker": "KXHIGHTPHX-26SEP04-B100.5",
@@ -296,16 +291,16 @@
     "strike_type": "between",
     "floor_strike": 104.0,
     "cap_strike": 105.0,
-    "yes_bid": 0.05,
+    "yes_bid": 0.03,
     "yes_ask": 0.08,
-    "last_price": 0.09,
-    "market_mid": 0.065,
+    "last_price": 0.03,
+    "market_mid": 0.055,
     "close_time": "2026-09-05T07:00:00Z",
     "occurrence_datetime": "2026-09-05T14:00:00Z",
     "updated_time": "2026-09-03T14:00:01.360783Z",
     "model_probability": 0.129080118694362,
     "edge_vs_ask": 0.049080118694362004,
-    "difference": 0.064080118694362
+    "difference": 0.07408011869436201
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -316,17 +311,17 @@
     "mean_cloud_fraction_2h": 0.46875,
     "cloud_fraction_trend_2h": 0.625,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262472200_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-04T22:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262472200_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-04T22:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262472210_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-04T22:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262472210_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-04T22:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-04T15:28:26.440937-07:00",
+    "collected_at_local": "2026-09-04T15:34:08.922079-07:00",
     "models": {
       "HRRR": {
         "available": true,
