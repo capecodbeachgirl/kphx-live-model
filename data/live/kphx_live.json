@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updated_at_local": "2026-09-06T12:25:48.540900-07:00",
+  "updated_at_local": "2026-09-06T12:30:52.739530-07:00",
   "latest_metar_time": "2026-09-06T11:51:00-07:00",
   "latest_temp_f": 102.0,
   "latest_precise_temp_f": 102.02,
@@ -103,19 +103,19 @@
     "thunder_possible": false,
     "rain_possible": false,
     "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
-    "max_sky_cover_pct": 46.0,
+    "max_sky_cover_pct": 45.0,
     "sky_hours": [
       {
         "time": "2026-09-06T12:00:00-07:00",
-        "sky_cover_pct": 30.0
+        "sky_cover_pct": 23.0
       },
       {
         "time": "2026-09-06T13:00:00-07:00",
-        "sky_cover_pct": 46.0
+        "sky_cover_pct": 28.0
       },
       {
         "time": "2026-09-06T14:00:00-07:00",
-        "sky_cover_pct": 44.0
+        "sky_cover_pct": 45.0
       },
       {
         "time": "2026-09-06T15:00:00-07:00",
@@ -123,23 +123,23 @@
       },
       {
         "time": "2026-09-06T16:00:00-07:00",
-        "sky_cover_pct": 20.0
+        "sky_cover_pct": 23.0
       },
       {
         "time": "2026-09-06T17:00:00-07:00",
-        "sky_cover_pct": 25.0
+        "sky_cover_pct": 21.0
       },
       {
         "time": "2026-09-06T18:00:00-07:00",
-        "sky_cover_pct": 37.0
+        "sky_cover_pct": 19.0
       },
       {
         "time": "2026-09-06T19:00:00-07:00",
-        "sky_cover_pct": 44.0
+        "sky_cover_pct": 23.0
       },
       {
         "time": "2026-09-06T20:00:00-07:00",
-        "sky_cover_pct": 46.0
+        "sky_cover_pct": 33.0
       }
     ],
     "office": "PSR",
@@ -203,16 +203,16 @@
       "strike_type": "between",
       "floor_strike": 106.0,
       "cap_strike": 107.0,
-      "yes_bid": 0.61,
-      "yes_ask": 0.66,
-      "last_price": 0.65,
-      "market_mid": 0.635,
+      "yes_bid": 0.66,
+      "yes_ask": 0.7,
+      "last_price": 0.7,
+      "market_mid": 0.6799999999999999,
       "close_time": "2026-09-07T07:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.844773Z",
       "model_probability": 0.5591810620601407,
-      "edge_vs_ask": -0.1008189379398593,
-      "difference": -0.07581893793985928
+      "edge_vs_ask": -0.14081893793985922,
+      "difference": -0.1208189379398592
     },
     {
       "ticker": "KXHIGHTPHX-26SEP06-B104.5",
@@ -222,16 +222,16 @@
       "strike_type": "between",
       "floor_strike": 104.0,
       "cap_strike": 105.0,
-      "yes_bid": 0.15,
+      "yes_bid": 0.14,
       "yes_ask": 0.2,
-      "last_price": 0.15,
-      "market_mid": 0.175,
+      "last_price": 0.17,
+      "market_mid": 0.17,
       "close_time": "2026-09-07T07:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.844773Z",
       "model_probability": 0.2648752399232246,
       "edge_vs_ask": 0.06487523992322458,
-      "difference": 0.0898752399232246
+      "difference": 0.09487523992322458
     },
     {
       "ticker": "KXHIGHTPHX-26SEP06-B108.5",
@@ -241,16 +241,16 @@
       "strike_type": "between",
       "floor_strike": 108.0,
       "cap_strike": 109.0,
-      "yes_bid": 0.2,
-      "yes_ask": 0.26,
-      "last_price": 0.22,
-      "market_mid": 0.23,
+      "yes_bid": 0.18,
+      "yes_ask": 0.23,
+      "last_price": 0.19,
+      "market_mid": 0.20500000000000002,
       "close_time": "2026-09-07T07:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.844773Z",
       "model_probability": 0.14971209213051823,
-      "edge_vs_ask": -0.11028790786948178,
-      "difference": -0.08028790786948178
+      "edge_vs_ask": -0.08028790786948178,
+      "difference": -0.05528790786948179
     },
     {
       "ticker": "KXHIGHTPHX-26SEP06-T109",
@@ -279,16 +279,16 @@
       "strike_type": "between",
       "floor_strike": 102.0,
       "cap_strike": 103.0,
-      "yes_bid": 0.03,
-      "yes_ask": 0.04,
-      "last_price": 0.01,
-      "market_mid": 0.035,
+      "yes_bid": 0.01,
+      "yes_ask": 0.03,
+      "last_price": 0.02,
+      "market_mid": 0.02,
       "close_time": "2026-09-07T07:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.844773Z",
       "model_probability": 0.008957133717210491,
-      "edge_vs_ask": -0.03104286628278951,
-      "difference": -0.026042866282789512
+      "edge_vs_ask": -0.021042866282789507,
+      "difference": -0.011042866282789509
     },
     {
       "ticker": "KXHIGHTPHX-26SEP06-T102",
@@ -339,16 +339,16 @@
     "strike_type": "between",
     "floor_strike": 104.0,
     "cap_strike": 105.0,
-    "yes_bid": 0.15,
+    "yes_bid": 0.14,
     "yes_ask": 0.2,
-    "last_price": 0.15,
-    "market_mid": 0.175,
+    "last_price": 0.17,
+    "market_mid": 0.17,
     "close_time": "2026-09-07T07:00:00Z",
     "occurrence_datetime": "2026-09-07T14:00:00Z",
     "updated_time": "2026-09-05T14:00:01.844773Z",
     "model_probability": 0.2648752399232246,
     "edge_vs_ask": 0.06487523992322458,
-    "difference": 0.0898752399232246
+    "difference": 0.09487523992322458
   },
   "research_status": "WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -369,7 +369,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-06T12:25:41.420971-07:00",
+    "collected_at_local": "2026-09-06T12:30:47.722474-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -390,10 +390,10 @@
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-09-06 18:00:00",
-        "rows_received": 24,
-        "max_forecast_hour": 23,
+        "rows_received": 33,
+        "max_forecast_hour": 32,
         "coverage_start_local": "2026-09-06T11:00:00-07:00",
-        "coverage_end_local": "2026-09-07T10:00:00-07:00",
+        "coverage_end_local": "2026-09-07T19:00:00-07:00",
         "contract_start_local": "2026-09-06T00:00:00-07:00",
         "contract_end_local": "2026-09-07T00:00:00-07:00",
         "covers_rest_of_contract": true,
