@@ -1,17 +1,17 @@
 {
   "date": "2026-09-07",
-  "updated_at_local": "2026-09-07T15:05:14.466598-07:00",
-  "latest_metar_time": "2026-09-07T14:51:00-07:00",
+  "updated_at_local": "2026-09-07T16:58:17.401786-07:00",
+  "latest_metar_time": "2026-09-07T16:51:00-07:00",
   "latest_temp_f": 104.0,
   "latest_precise_temp_f": 104.0,
-  "latest_dewpoint_f": 51.0,
-  "raw_metar_peak_f": 104.0,
-  "precise_metar_peak_f": 104.0,
-  "six_hour_max_f": 94,
-  "six_hour_max_report_time": "2026-09-07T10:51:00-07:00",
+  "latest_dewpoint_f": 51.98,
+  "raw_metar_peak_f": 106.0,
+  "precise_metar_peak_f": 105.98,
+  "six_hour_max_f": 106,
+  "six_hour_max_report_time": "2026-09-07T16:51:00-07:00",
   "nws_am_forecast_high_f": 107.0,
   "nws_am_issued_at": "2026-09-07T04:01:00-07:00",
-  "checkpoint_hour": 15,
+  "checkpoint_hour": 17,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
     "Heavy recent cloud cover",
@@ -26,14 +26,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-09-07T15:00:00-07:00",
-        "temp_f": 105.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "10 mph",
-        "wind_direction": "WNW"
-      },
       {
         "time": "2026-09-07T16:00:00-07:00",
         "temp_f": 105.0,
@@ -82,10 +74,6 @@
     "max_sky_cover_pct": 39.0,
     "sky_hours": [
       {
-        "time": "2026-09-07T15:00:00-07:00",
-        "sky_cover_pct": 16.0
-      },
-      {
         "time": "2026-09-07T16:00:00-07:00",
         "sky_cover_pct": 15.0
       },
@@ -113,9 +101,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-09-07T20:20:00+00:00",
-    "product_id": "e68750f6-ea21-46da-b2b5-7a9c9988cd36",
-    "text": "\n000\nFXUS65 KPSR 072020\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n120 PM MST Mon Sep 7 2026\n\n.KEY MESSAGES...\n\n- Above normal temperatures will prevail starting Tuesday, \n  resulting in widespread Moderate Heat Risk and areas of Major \n  Heat Risk.\n\n- Extreme Heat Warnings will begin Tuesday for portions of the \n  lower deserts.\n\n- Mostly quiet weather conditions are expected for the first half\n  of the week, then chances for thunderstorms increase across \n  Central and Eastern Arizona during the latter half of the week.\n\n&&\n\n.SHORT TERM /TODAY THROUGH WEDNESDAY/...\nThe RAP40 500MB analysis and GOES WV imagery continue to show the \nsubtropical ridge positioned over northwestern TX, a large trough \nover NW CONUS. The Desert SW sits between these two features with a \nfeint stream of upper level moisture being advected into the western \nlower deserts resulting in a few light showers/virga early this \nmorning and lingering upper level clouds.\n   \nEnsembles remain in good agreement that the subtropical high will \nbegin to shift westwards, peaking over the Desert SW by mid week \nwith H5 heights between 594-597 dam. 500 MB heights at this level \nare near climatological maximum values for the time of year. This \nwill lead to afternoon temperatures 4-5 degrees above normal, \nresulting in temperatures between 105F-111F. Overnight lows will \nalso provide very little relief as the lingering cloud coverage \nmentioned earlier will hinder radiative cooling, and dew points \nare expected to be well into the 60s across much of the forecast \narea and locally into the lower to middle 70s for areas such as \nthe Lower CO River Valley and Imperial Valley. With all of these \nfactors taken into consideration Major HeatRisk will make a \nreturn to most of the region tomorrow and even more widespread by \nWednesday, with the overnight lows being the main driver as they \nare flirting with the record warm lows through the end of the work\nweek. As a result, Extreme Heat Warnings have been issued for \nportions of the lower deserts staring on Tuesday (starting \nWednesday for Lower CO River Valley, Desert Center, and La Paz \nCounty). \n\nLittle to no chance for showers/thunderstorms are expected \nthrough mid week under strong subsidence thanks to the subtropical\nhigh, with the exception being the far eastern high terrain. \nHowever, by Wednesday night, low level moisture ticks up with \n1000-700 MB mixing ratios increasing to 10-12 g/kg. Enough \ninstability, and this moisture in place, SC AZ lower elevations \ncould develop isolated storms as early as Wednesday night. \n\n&&\n\n.LONG TERM /THURSDAY THROUGH SUNDAY/...    \nLatest NBM/WPC guidance depicts the greatest coverage of Major \nHeatRisk across the forecast area on Thursday, with morning lows in \nthe middle to upper 80s across the lower deserts and forecast highs \n106F-110F. These temperatures during the hottest time of the year \nmay not prompt extreme heat headlines, but as we head into \nmeteorological fall, daily normals drop off noticeably, resulting in \nmore sensitive Major HeatRisk thresholds than what folks may have \ngotten accustomed to over the last few months. It also makes sense \nthat Thursday would be the warmest of the next several days, as \nthermal profiles would have had more time to respond to the near \nclimatological maximum strength ridge overhead. Heat indices will \nlikely also be at their highest values, peaking between 108F-117F \nacross the lower deserts. Temperatures then begin a gradual \ndowntrend heading into the weekend as the subtropical high weakens \nand is displaced from overhead. \n\nAs anticyclonic subsidence weakens, especially by late Thursday and \ninto Friday, chances for lower desert thunderstorms become \nintroduced across South-Central AZ (20-30%). A familiar monsoon \nthunderstorm evolution may begin to take place beginning Thursday \nand could last into the weekend, with afternoon thunderstorms \nfocused over the eastern AZ high terrain, which will push outflows \ntowards South-Central AZ in the evening that may be capable of \nsparking additional thunderstorms. Current thermodynamic profiles \nsuggest all the typical monsoon thunderstorm hazards may come into \nplay, including strong, gusty winds, blowing dust, localized heavy \nrain resulting in flash flooding, and frequent lightning. However, \nas we head into the weekend, the forecast confidence decreases \nsubstantially. WPC cluster analysis reveals large discrepancies, \nwith close to 40% of ensemble members comprising a solution which \nshows negative midlevel height anomalies diving into the \nnorthwestern and north-central CONUS, possibly impacting the flow \naloft as far south as the Desert Southwest and turning winds out of \nthe west, beginning a drying trend. Other solutions comprise \nclusters which show subtropical ridging remaining in place somewhere \nnear/over the Southwest US and keeping the influence of northern \nstream energy far enough north so as not to influence flow aloft \nsignificantly. Either way, drying will likely not be pronounced \nenough to preclude rain/thunderstorm chances once a sufficient \nforcing mechanism becomes introduced. Ensemble mean PWATs even \nremain near or above seasonal levels this weekend. Current NBM/WPC \nPoPs and QPF suggest higher/more widespread chances heading into \nSunday, perhaps picking up on the influence of a distant/elongated \nshortwave trough axis rotating through from the Northwest US \ntroughing that a good chunk of solutions show. \n\n&&\n\n.AVIATION...Updated at 1715Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo major weather issues under occasionally mid/high cloud decks\ncan be expected throughout the TAF period. The overall wind\npattern will follow the typical diurnal tendencies with some\noccasional gusts near 20 kts this afternoon/early evening. \n\nSoutheast California/Southwest Arizona including KIPL and KBLH: \nNo major weather issues under occasionally mid/high cloud decks\ncan be expected throughout the TAF period. Winds will generally\nfavor a west to north-northwest direction throughout the period \nwith speeds generally under 10 kts along with periods of light and\nvariable conditions.\n\n&&\n\n.FIRE WEATHER...\nTemperatures will warm to above normal levels through the middle \nof the week. Afternoon minimum humidities will generally range\nbetween 20-30% areawide through much of the week, with Tuesday\nexpecting a larger area across the lower deserts between 15-20% \nbefore rebounding back near 20% Wednesday. Fair to good overnight \nrecoveries are expected throughout the week. Fairly typical \ndiurnal winds with occasional afternoon upslope breeziness can be \nexpected through much of the week. Rain and thunderstorm chances \nwill remain low and mostly limited to the eastern Arizona high \nterrain through midweek before slight chances become introduced to\nthe lower deserts of at least the eastern districts during the \nlatter half of the week.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...     Extreme Heat Warning from 10 AM Tuesday to 8 PM MST Thursday for \n     AZZ531-532-535>544-546-548>551-559.\n\n     Extreme Heat Warning from 10 AM Wednesday to 8 PM MST Friday for \n     AZZ530-533.\n\nCA...Extreme Heat Warning from 10 AM Tuesday to 8 PM PDT Friday for \n     CAZ562-566-567.\n\n     Extreme Heat Warning from 10 AM Wednesday to 8 PM PDT Friday for \n     CAZ569-570.\n\n&&\n\n$$\n\nSHORT TERM...Ryan\nLONG TERM...Whittock \nAVIATION...Lojero \nFIRE WEATHER...Whittock/Ryan\n",
+    "issued_at": "2026-09-07T23:00:00+00:00",
+    "product_id": "77dd46ad-59aa-4a44-9299-11e48b24de1b",
+    "text": "\n000\nFXUS65 KPSR 072300\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n400 PM MST Mon Sep 7 2026\n\n.UPDATE...\nUpdated Aviation\n\n&&\n\n.KEY MESSAGES...\n\n- Above normal temperatures will prevail starting Tuesday resulting \nin widespread moderate Heat Risk and areas of major Heat Risk.\n\n- Extreme Heat Warnings will begin Tuesday for portions of the lower \ndeserts.\n\n- Mostly quiet weather conditions are expected for the first half of \nthe week, then chances for thunderstorms increase across central and \neastern Arizona during the latter half of the week.\n\n&&\n\n.SHORT TERM /TODAY THROUGH WEDNESDAY/...\nThe RAP40 500MB analysis and GOES WV imagery continue to show the \nsubtropical ridge positioned over northwestern TX, a large trough \nover NW CONUS. The Desert SW sits between these two features with a \nfeint stream of upper level moisture being advected into the western \nlower deserts resulting in a few light showers/virga early this \nmorning and lingering upper level clouds.\n   \nEnsembles remain in good agreement that the subtropical high will \nbegin to shift westwards, peaking over the Desert SW by mid week \nwith H5 heights between 594-597 dam. 500 MB heights at this level \nare near climatological maximum values for the time of year. This \nwill lead to afternoon temperatures 4-5 degrees above normal, \nresulting in temperatures between 105F-111F. Overnight lows will \nalso provide very little relief as the lingering cloud coverage \nmentioned earlier will hinder radiative cooling, and dew points are \nexpected to be well into the 60s across much of the forecast area \nand locally into the lower to middle 70s for areas such as the Lower \nCO River Valley and Imperial Valley. With all of these factors taken \ninto consideration Major HeatRisk will make a return to most of the \nregion tomorrow and even more widespread by Wednesday, with the \novernight lows being the main driver as they are flirting with the \nrecord warm lows through the end of the work week. As a result, \nExtreme Heat Warnings have been issued for portions of the lower \ndeserts staring on Tuesday (starting Wednesday for Lower CO River \nValley, Desert Center, and La Paz County). \n\nLittle to no chance for showers/thunderstorms are expected through \nmid week under strong subsidence thanks to the subtropical high, \nwith the exception being the far eastern high terrain. However, by \nWednesday night, low level moisture ticks up with 1000-700 MB mixing \nratios increasing to 10-12 g/kg. Enough instability, and this \nmoisture in place, SC AZ lower elevations could develop isolated \nstorms as early as Wednesday night. \n\n&&\n\n.LONG TERM /THURSDAY THROUGH SUNDAY/...    \nLatest NBM/WPC guidance depicts the greatest coverage of Major \nHeatRisk across the forecast area on Thursday, with morning lows in \nthe middle to upper 80s across the lower deserts and forecast highs \n106F-110F. These temperatures during the hottest time of the year \nmay not prompt extreme heat headlines, but as we head into \nmeteorological fall, daily normals drop off noticeably, resulting in \nmore sensitive Major HeatRisk thresholds than what folks may have \ngotten accustomed to over the last few months. It also makes sense \nthat Thursday would be the warmest of the next several days, as \nthermal profiles would have had more time to respond to the near \nclimatological maximum strength ridge overhead. Heat indices will \nlikely also be at their highest values, peaking between 108F-117F \nacross the lower deserts. Temperatures then begin a gradual \ndowntrend heading into the weekend as the subtropical high weakens \nand is displaced from overhead. \n\nAs anticyclonic subsidence weakens, especially by late Thursday and \ninto Friday, chances for lower desert thunderstorms become \nintroduced across South-Central AZ (20-30%). A familiar monsoon \nthunderstorm evolution may begin to take place beginning Thursday \nand could last into the weekend, with afternoon thunderstorms \nfocused over the eastern AZ high terrain, which will push outflows \ntowards South-Central AZ in the evening that may be capable of \nsparking additional thunderstorms. Current thermodynamic profiles \nsuggest all the typical monsoon thunderstorm hazards may come into \nplay, including strong, gusty winds, blowing dust, localized heavy \nrain resulting in flash flooding, and frequent lightning. However, \nas we head into the weekend, the forecast confidence decreases \nsubstantially. WPC cluster analysis reveals large discrepancies, \nwith close to 40% of ensemble members comprising a solution which \nshows negative midlevel height anomalies diving into the \nnorthwestern and north-central CONUS, possibly impacting the flow \naloft as far south as the Desert Southwest and turning winds out of \nthe west, beginning a drying trend. Other solutions comprise \nclusters which show subtropical ridging remaining in place somewhere \nnear/over the Southwest US and keeping the influence of northern \nstream energy far enough north so as not to influence flow aloft \nsignificantly. Either way, drying will likely not be pronounced \nenough to preclude rain/thunderstorm chances once a sufficient \nforcing mechanism becomes introduced. Ensemble mean PWATs even \nremain near or above seasonal levels this weekend. Current NBM/WPC \nPoPs and QPF suggest higher/more widespread chances heading into \nSunday, perhaps picking up on the influence of a distant/elongated \nshortwave trough axis rotating through from the Northwest US \ntroughing that a good chunk of solutions show. \n\n&&\n\n.AVIATION...Updated at 2300Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo major weather concerns will exist through Tuesday evening under \noccasional mid/high cigs. Winds will behave similarly to the past 24 \nhours including a later than usual overnight switch to easterly, as \nwell as limited afternoon gusts. \n\n\nSoutheast California/Southwest Arizona including KIPL and KBLH: \nNo major weather concerns will exist through Monday evening under \nperiodically thick mid/high cigs. Winds will generally favor a west \nto northwest direction with very little gustiness and periods of \nlight and variable conditions.\n\n&&\n\n.FIRE WEATHER...\nTemperatures will warm to above normal levels through the middle of \nthe week. Afternoon minimum humidities will generally range between \n20-30% areawide through much of the week, with Tuesday expecting a \nlarger area across the lower deserts between 15-20% before \nrebounding back near 20% Wednesday. Fair to good overnight \nrecoveries are expected throughout the week. Fairly typical diurnal \nwinds with occasional afternoon upslope breeziness can be expected \nthrough much of the week. Rain and thunderstorm chances will remain \nlow and mostly limited to the eastern Arizona high terrain through \nmidweek before slight chances become introduced to the lower deserts \nof at least the eastern districts during the latter half of the week.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Extreme Heat Warning from 10 AM Tuesday to 8 PM MST Thursday \n     for AZZ531-532-535>544-546-548>551-559.\n\n     Extreme Heat Warning from 10 AM Wednesday to 8 PM MST Friday for \n     AZZ530-533.\n\nCA...Extreme Heat Warning from 10 AM Tuesday to 8 PM PDT Friday for \n     CAZ562-566-567.\n\n     Extreme Heat Warning from 10 AM Wednesday to 8 PM PDT Friday for \n     CAZ569-570.\n\n&&\n\n$$\n\nSHORT TERM...Ryan\nLONG TERM...Whittock \nAVIATION...18\nFIRE WEATHER...Whittock/Ryan\n",
     "risk": "HIGH",
     "high_terms": [
       "outflow"
@@ -129,13 +117,13 @@
       "shower"
     ],
     "negative_signals": 0,
-    "snippet": "- Mostly quiet weather conditions are expected for the first half of the week, then chances for thunderstorms increase across Central and Eastern Arizona during the latter half of the week. The Desert SW sits between these two features with a feint stream of upper level moisture being advected into the western lower deserts resulting in a few light showers/virga early this morning and lingering upper level clouds.",
+    "snippet": "- Mostly quiet weather conditions are expected for the first half of the week, then chances for thunderstorms increase across central and eastern Arizona during the latter half of the week. The Desert SW sits between these two features with a feint stream of upper level moisture being advected into the western lower deserts resulting in a few light showers/virga early this morning and lingering upper level clouds.",
     "source": "NWS Phoenix Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-07T21:48:57+00:00",
-    "prior_time_utc": "2026-09-07T21:18:57+00:00",
+    "latest_time_utc": "2026-09-07T23:46:57+00:00",
+    "prior_time_utc": "2026-09-07T23:16:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -170,35 +158,16 @@
       "strike_type": "between",
       "floor_strike": 106.0,
       "cap_strike": 107.0,
-      "yes_bid": 0.75,
-      "yes_ask": 0.76,
-      "last_price": 0.76,
-      "market_mid": 0.755,
+      "yes_bid": 0.99,
+      "yes_ask": 1.0,
+      "last_price": 0.99,
+      "market_mid": 0.995,
       "close_time": "2026-09-08T07:00:00Z",
       "occurrence_datetime": "2026-09-08T14:00:00Z",
       "updated_time": "2026-09-06T14:00:01.395553Z",
-      "model_probability": 0.7257328990228014,
-      "edge_vs_ask": -0.03426710097719865,
-      "difference": -0.029267100977198646
-    },
-    {
-      "ticker": "KXHIGHTPHX-26SEP07-B104.5",
-      "event_ticker": "KXHIGHTPHX-26SEP07",
-      "title": "Will the maximum temperature be 104-105\u00b0 on Sep 7, 2026?",
-      "subtitle": "104\u00b0 to 105\u00b0",
-      "strike_type": "between",
-      "floor_strike": 104.0,
-      "cap_strike": 105.0,
-      "yes_bid": 0.03,
-      "yes_ask": 0.05,
-      "last_price": 0.03,
-      "market_mid": 0.04,
-      "close_time": "2026-09-08T07:00:00Z",
-      "occurrence_datetime": "2026-09-08T14:00:00Z",
-      "updated_time": "2026-09-06T14:00:01.395553Z",
-      "model_probability": 0.21302931596091207,
-      "edge_vs_ask": 0.16302931596091208,
-      "difference": 0.17302931596091206
+      "model_probability": 0.9472312703583061,
+      "edge_vs_ask": -0.05276872964169388,
+      "difference": -0.047768729641693874
     },
     {
       "ticker": "KXHIGHTPHX-26SEP07-B108.5",
@@ -208,16 +177,16 @@
       "strike_type": "between",
       "floor_strike": 108.0,
       "cap_strike": 109.0,
-      "yes_bid": 0.19,
-      "yes_ask": 0.23,
-      "last_price": 0.19,
-      "market_mid": 0.21000000000000002,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
       "close_time": "2026-09-08T07:00:00Z",
       "occurrence_datetime": "2026-09-08T14:00:00Z",
       "updated_time": "2026-09-06T14:00:01.395553Z",
-      "model_probability": 0.06123778501628665,
-      "edge_vs_ask": -0.16876221498371335,
-      "difference": -0.14876221498371336
+      "model_probability": 0.0482084690553746,
+      "edge_vs_ask": 0.038208469055374596,
+      "difference": 0.0432084690553746
     },
     {
       "ticker": "KXHIGHTPHX-26SEP07-B110.5",
@@ -227,6 +196,25 @@
       "strike_type": "between",
       "floor_strike": 110.0,
       "cap_strike": 111.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.04,
+      "market_mid": 0.005,
+      "close_time": "2026-09-08T07:00:00Z",
+      "occurrence_datetime": "2026-09-08T14:00:00Z",
+      "updated_time": "2026-09-06T14:00:01.395553Z",
+      "model_probability": 0.004560260586319218,
+      "edge_vs_ask": -0.005439739413680782,
+      "difference": -0.0004397394136807821
+    },
+    {
+      "ticker": "KXHIGHTPHX-26SEP07-B104.5",
+      "event_ticker": "KXHIGHTPHX-26SEP07",
+      "title": "Will the maximum temperature be 104-105\u00b0 on Sep 7, 2026?",
+      "subtitle": "104\u00b0 to 105\u00b0",
+      "strike_type": "between",
+      "floor_strike": 104.0,
+      "cap_strike": 105.0,
       "yes_bid": 0.0,
       "yes_ask": 0.01,
       "last_price": 0.01,
@@ -277,43 +265,45 @@
       "difference": -0.005
     }
   ],
-  "model_method": "nws_anchored",
-  "model_bundle": "h15.joblib",
-  "observed_floor_f": 105.0,
-  "model_predicted_high_f": 105.9983502252621,
-  "model_correction_f": -1.0016497747378992,
-  "likely_low_f": 105,
+  "model_method": "remaining_heating",
+  "model_bundle": "h17_remaining.joblib",
+  "observed_floor_f": 106.0,
+  "predicted_remaining_heating_f": 0.6616987861317147,
+  "pre_checkpoint_peak_f": 106.0,
+  "model_predicted_high_f": 106.66169878613171,
+  "model_correction_f": -0.3383012138682915,
+  "likely_low_f": 106,
   "likely_high_f": 107,
   "confidence": "MEDIUM",
-  "model_mae_f": 0.711088213527789,
+  "model_mae_f": 0.46918459593675116,
   "distribution": {
-    "105": 0.21302931596091207,
-    "106": 0.4214983713355049,
-    "107": 0.3042345276872964,
-    "108": 0.04364820846905538,
-    "109": 0.01758957654723127
+    "106": 0.43452768729641694,
+    "107": 0.5127035830618892,
+    "108": 0.030618892508143324,
+    "109": 0.01758957654723127,
+    "110": 0.004560260586319218
   },
-  "bucket_probability_total": 1.0,
+  "bucket_probability_total": 0.9999999999999999,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTPHX-26SEP07-B104.5",
+    "ticker": "KXHIGHTPHX-26SEP07-B108.5",
     "event_ticker": "KXHIGHTPHX-26SEP07",
-    "title": "Will the maximum temperature be 104-105\u00b0 on Sep 7, 2026?",
-    "subtitle": "104\u00b0 to 105\u00b0",
+    "title": "Will the maximum temperature be 108-109\u00b0 on Sep 7, 2026?",
+    "subtitle": "108\u00b0 to 109\u00b0",
     "strike_type": "between",
-    "floor_strike": 104.0,
-    "cap_strike": 105.0,
-    "yes_bid": 0.03,
-    "yes_ask": 0.05,
-    "last_price": 0.03,
-    "market_mid": 0.04,
+    "floor_strike": 108.0,
+    "cap_strike": 109.0,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
+    "last_price": 0.01,
+    "market_mid": 0.005,
     "close_time": "2026-09-08T07:00:00Z",
     "occurrence_datetime": "2026-09-08T14:00:00Z",
     "updated_time": "2026-09-06T14:00:01.395553Z",
-    "model_probability": 0.21302931596091207,
-    "edge_vs_ask": 0.16302931596091208,
-    "difference": 0.17302931596091206
+    "model_probability": 0.0482084690553746,
+    "edge_vs_ask": 0.038208469055374596,
+    "difference": 0.0432084690553746
   },
-  "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
+  "research_status": "WEATHER WATCH",
   "satellite": {
     "available": true,
     "risk": "HIGH",
@@ -322,31 +312,32 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262502140_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-07T21:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262502140_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-07T21:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262502330_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-07T23:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262502340_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-07T23:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-07T15:05:01.112339-07:00",
+    "collected_at_local": "2026-09-07T16:58:10.221415-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-09-07 21:00:00",
-        "rows_received": 25,
-        "max_forecast_hour": 6,
-        "coverage_start_local": "2026-09-07T14:00:00-07:00",
-        "coverage_end_local": "2026-09-07T20:00:00-07:00",
+        "run_time_utc": "2026-09-07 22:00:00",
+        "rows_received": 73,
+        "max_forecast_hour": 18,
+        "coverage_start_local": "2026-09-07T15:00:00-07:00",
+        "coverage_end_local": "2026-09-08T09:00:00-07:00",
         "contract_start_local": "2026-09-07T00:00:00-07:00",
         "contract_end_local": "2026-09-08T00:00:00-07:00",
-        "covers_rest_of_contract": false,
-        "remaining_high_f": 105.53,
-        "remaining_high_time_local": "2026-09-07T16:45:00-07:00"
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 104.86,
+        "remaining_high_time_local": "2026-09-07T17:00:00-07:00",
+        "projected_high_f": 106.0
       },
       "HRRR-EXT": {
         "available": true,
@@ -359,110 +350,116 @@
         "contract_start_local": "2026-09-07T00:00:00-07:00",
         "contract_end_local": "2026-09-08T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 106.12,
-        "remaining_high_time_local": "2026-09-07T16:00:00-07:00",
-        "projected_high_f": 106.12
+        "remaining_high_f": 104.97,
+        "remaining_high_time_local": "2026-09-07T17:00:00-07:00",
+        "projected_high_f": 106.0
       },
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-09-07 19:00:00",
+        "run_time_utc": "2026-09-07 21:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 71,
-        "coverage_start_local": "2026-09-07T13:00:00-07:00",
-        "coverage_end_local": "2026-09-10T11:00:00-07:00",
+        "max_forecast_hour": 72,
+        "coverage_start_local": "2026-09-07T15:00:00-07:00",
+        "coverage_end_local": "2026-09-10T14:00:00-07:00",
         "contract_start_local": "2026-09-07T00:00:00-07:00",
         "contract_end_local": "2026-09-08T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 105.35,
-        "remaining_high_time_local": "2026-09-07T16:00:00-07:00",
-        "projected_high_f": 105.35
+        "remaining_high_f": 104.99,
+        "remaining_high_time_local": "2026-09-07T17:00:00-07:00",
+        "projected_high_f": 106.0
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-09-07 20:00:00",
+        "run_time_utc": "2026-09-07 22:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-09-07T13:00:00-07:00",
-        "coverage_end_local": "2026-09-08T10:00:00-07:00",
+        "coverage_start_local": "2026-09-07T15:00:00-07:00",
+        "coverage_end_local": "2026-09-08T12:00:00-07:00",
         "contract_start_local": "2026-09-07T00:00:00-07:00",
         "contract_end_local": "2026-09-08T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 104.61,
-        "remaining_high_time_local": "2026-09-07T16:00:00-07:00",
-        "projected_high_f": 105.0
+        "remaining_high_f": 103.53,
+        "remaining_high_time_local": "2026-09-07T17:00:00-07:00",
+        "projected_high_f": 106.0
       },
       "GFS-MOS": {
         "available": true,
         "model": "GFS-MOS",
-        "run_time_utc": "2026-09-07 12:00:00",
+        "run_time_utc": "2026-09-07 18:00:00",
         "rows_received": 21,
         "max_forecast_hour": 72,
-        "coverage_start_local": "2026-09-07T11:00:00-07:00",
-        "coverage_end_local": "2026-09-10T05:00:00-07:00",
+        "coverage_start_local": "2026-09-07T17:00:00-07:00",
+        "coverage_end_local": "2026-09-10T11:00:00-07:00",
         "contract_start_local": "2026-09-07T00:00:00-07:00",
         "contract_end_local": "2026-09-08T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 105.0,
+        "remaining_high_f": 102.0,
         "remaining_high_time_local": "2026-09-07T17:00:00-07:00",
-        "projected_high_f": 105.0
+        "projected_high_f": 106.0
       },
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-09-07 21:00:00",
+        "run_time_utc": "2026-09-07 23:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-09-07T15:00:00-07:00",
-        "coverage_end_local": "2026-09-09T04:00:00-07:00",
+        "coverage_start_local": "2026-09-07T17:00:00-07:00",
+        "coverage_end_local": "2026-09-09T06:00:00-07:00",
         "contract_start_local": "2026-09-07T00:00:00-07:00",
         "contract_end_local": "2026-09-08T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 105.0,
-        "remaining_high_time_local": "2026-09-07T16:00:00-07:00",
-        "projected_high_f": 105.0
+        "remaining_high_f": 106.0,
+        "remaining_high_time_local": "2026-09-07T17:00:00-07:00",
+        "projected_high_f": 106.0
       }
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
       ],
-      "median_high_f": 105.0,
-      "mean_high_f": 105.29,
-      "min_high_f": 105.0,
-      "max_high_f": 106.12,
-      "spread_f": 1.12
+      "median_high_f": 106.0,
+      "mean_high_f": 106.0,
+      "min_high_f": 106.0,
+      "max_high_f": 106.0,
+      "spread_f": 0.0
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 105.0
+    "observed_floor_f": 106.0
   },
   "wethr_observed_high": {
     "available": true,
-    "wethr_high_f": 105.0,
-    "time_of_high_utc": "2026-09-07 22:01:00",
+    "wethr_high_f": 106.0,
+    "time_of_high_utc": "2026-09-07 22:54:00",
     "sources": [
-      "omo",
-      "hf_metar"
+      "metar",
+      "dsm",
+      "six_hour_high"
     ],
     "source_detail": {
-      "omo": {
-        "first_confirmed_utc": "2026-09-07 21:23:00",
-        "count": 7
+      "metar": {
+        "first_confirmed_utc": "2026-09-07 22:51:00",
+        "count": 1
       },
-      "hf_metar": {
-        "first_confirmed_utc": "2026-09-07 21:25:00",
-        "count": 2
+      "dsm": {
+        "first_confirmed_utc": "2026-09-07 22:54:00",
+        "count": 1
+      },
+      "six_hour_high": {
+        "first_confirmed_utc": "2026-09-07 23:51:00",
+        "count": 1
       }
     },
-    "omo_informed": true,
+    "omo_informed": false,
     "data_quality": {
       "nws": {
         "ok": true,
@@ -474,14 +471,14 @@
   "historical_analogs": {
     "available": true,
     "count": 40,
-    "checkpoint_hour": 15,
+    "checkpoint_hour": 17,
     "current_temp_f": 104.0,
     "median_final_high_f": 107.0,
     "range_80_low_f": 105.0,
     "range_80_high_f": 109.0,
-    "median_heating_remaining_f": 3.0
+    "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-09-07T15:20:00-07:00",
+  "next_update_local": "2026-09-07T17:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -821,6 +818,15 @@
       "latest_temp_f": 104.0,
       "six_hour_max_f": 94.0,
       "model_predicted_high_f": 105.9983502252621,
+      "nws_am_forecast_high_f": 107.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": 17.0,
+      "latest_precise_temp_f": 104.0,
+      "latest_temp_f": 104.0,
+      "six_hour_max_f": 106.0,
+      "model_predicted_high_f": 106.66169878613171,
       "nws_am_forecast_high_f": 107.0,
       "weather_risk": "MEDIUM"
     }
