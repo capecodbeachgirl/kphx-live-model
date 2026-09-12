@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updated_at_local": "2026-09-12T12:38:31.764892-07:00",
+  "updated_at_local": "2026-09-12T12:40:35.954297-07:00",
   "latest_metar_time": "2026-09-12T11:51:00-07:00",
   "latest_temp_f": 97.0,
   "latest_precise_temp_f": 96.98,
@@ -201,15 +201,15 @@
       "floor_strike": 103.0,
       "cap_strike": 104.0,
       "yes_bid": 0.61,
-      "yes_ask": 0.67,
+      "yes_ask": 0.65,
       "last_price": 0.59,
-      "market_mid": 0.64,
+      "market_mid": 0.63,
       "close_time": "2026-09-13T07:00:00Z",
       "occurrence_datetime": "2026-09-13T14:00:00Z",
       "updated_time": "2026-09-11T14:00:01.460244Z",
       "model_probability": 0.5616966580976864,
-      "edge_vs_ask": -0.10830334190231361,
-      "difference": -0.07830334190231358
+      "edge_vs_ask": -0.08830334190231359,
+      "difference": -0.06830334190231357
     },
     {
       "ticker": "KXHIGHTPHX-26SEP12-B101.5",
@@ -365,7 +365,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-12T12:38:23.868528-07:00",
+    "collected_at_local": "2026-09-12T12:40:30.066795-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -386,10 +386,10 @@
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-09-12 18:00:00",
-        "rows_received": 34,
-        "max_forecast_hour": 33,
+        "rows_received": 42,
+        "max_forecast_hour": 41,
         "coverage_start_local": "2026-09-12T11:00:00-07:00",
-        "coverage_end_local": "2026-09-13T20:00:00-07:00",
+        "coverage_end_local": "2026-09-14T04:00:00-07:00",
         "contract_start_local": "2026-09-12T00:00:00-07:00",
         "contract_end_local": "2026-09-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -415,17 +415,17 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-09-12 17:00:00",
+        "run_time_utc": "2026-09-12 18:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-09-12T10:00:00-07:00",
-        "coverage_end_local": "2026-09-13T07:00:00-07:00",
+        "coverage_start_local": "2026-09-12T11:00:00-07:00",
+        "coverage_end_local": "2026-09-13T08:00:00-07:00",
         "contract_start_local": "2026-09-12T00:00:00-07:00",
         "contract_end_local": "2026-09-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 101.01,
+        "remaining_high_f": 100.47,
         "remaining_high_time_local": "2026-09-12T14:00:00-07:00",
-        "projected_high_f": 101.01
+        "projected_high_f": 100.47
       },
       "GFS-MOS": {
         "available": true,
@@ -470,7 +470,7 @@
         "LAV-MOS"
       ],
       "median_high_f": 101.5,
-      "mean_high_f": 101.66,
+      "mean_high_f": 101.57,
       "min_high_f": 100.0,
       "max_high_f": 103.04,
       "spread_f": 3.04
