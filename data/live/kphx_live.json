@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updated_at_local": "2026-09-12T10:41:31.424523-07:00",
+  "updated_at_local": "2026-09-12T10:44:44.493802-07:00",
   "latest_metar_time": "2026-09-12T09:51:00-07:00",
   "latest_temp_f": 94.0,
   "latest_precise_temp_f": 93.91999999999999,
@@ -27,23 +27,23 @@
     "hours": [
       {
         "time": "2026-09-12T10:00:00-07:00",
-        "temp_f": 92.0,
+        "temp_f": 90.0,
         "pop_pct": 2.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-09-12T11:00:00-07:00",
+        "temp_f": 92.0,
+        "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
         "wind_direction": "SE"
       },
       {
-        "time": "2026-09-12T11:00:00-07:00",
-        "temp_f": 95.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "SSE"
-      },
-      {
         "time": "2026-09-12T12:00:00-07:00",
-        "temp_f": 97.0,
+        "temp_f": 95.0,
         "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
@@ -51,27 +51,27 @@
       },
       {
         "time": "2026-09-12T13:00:00-07:00",
-        "temp_f": 98.0,
+        "temp_f": 97.0,
         "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "SW"
+      },
+      {
+        "time": "2026-09-12T14:00:00-07:00",
+        "temp_f": 99.0,
+        "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
         "wind_direction": "WSW"
       },
       {
-        "time": "2026-09-12T14:00:00-07:00",
-        "temp_f": 101.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "W"
-      },
-      {
         "time": "2026-09-12T15:00:00-07:00",
-        "temp_f": 100.0,
+        "temp_f": 99.0,
         "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
-        "wind_direction": "W"
+        "wind_direction": "WSW"
       },
       {
         "time": "2026-09-12T16:00:00-07:00",
@@ -91,7 +91,7 @@
       },
       {
         "time": "2026-09-12T18:00:00-07:00",
-        "temp_f": 101.0,
+        "temp_f": 99.0,
         "pop_pct": 1.0,
         "short_forecast": "Mostly Clear",
         "wind_speed": "5 mph",
@@ -99,7 +99,7 @@
       },
       {
         "time": "2026-09-12T19:00:00-07:00",
-        "temp_f": 99.0,
+        "temp_f": 97.0,
         "pop_pct": 2.0,
         "short_forecast": "Mostly Clear",
         "wind_speed": "5 mph",
@@ -107,11 +107,11 @@
       },
       {
         "time": "2026-09-12T20:00:00-07:00",
-        "temp_f": 97.0,
+        "temp_f": 95.0,
         "pop_pct": 2.0,
         "short_forecast": "Mostly Clear",
         "wind_speed": "5 mph",
-        "wind_direction": "W"
+        "wind_direction": "SW"
       }
     ],
     "max_pop_pct": 2.0,
@@ -188,8 +188,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-12T17:16:59+00:00",
-    "prior_time_utc": "2026-09-12T16:46:59+00:00",
+    "latest_time_utc": "2026-09-12T17:36:57+00:00",
+    "prior_time_utc": "2026-09-12T17:06:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -224,16 +224,16 @@
       "strike_type": "between",
       "floor_strike": 103.0,
       "cap_strike": 104.0,
-      "yes_bid": 0.53,
-      "yes_ask": 0.58,
-      "last_price": 0.59,
-      "market_mid": 0.5549999999999999,
+      "yes_bid": 0.54,
+      "yes_ask": 0.6,
+      "last_price": 0.57,
+      "market_mid": 0.5700000000000001,
       "close_time": "2026-09-13T07:00:00Z",
       "occurrence_datetime": "2026-09-13T14:00:00Z",
       "updated_time": "2026-09-11T14:00:01.460244Z",
       "model_probability": 0.5603923973022686,
-      "edge_vs_ask": -0.01960760269773132,
-      "difference": 0.005392397302268703
+      "edge_vs_ask": -0.03960760269773134,
+      "difference": -0.009607602697731421
     },
     {
       "ticker": "KXHIGHTPHX-26SEP12-B105.5",
@@ -243,16 +243,16 @@
       "strike_type": "between",
       "floor_strike": 105.0,
       "cap_strike": 106.0,
-      "yes_bid": 0.41,
-      "yes_ask": 0.43,
-      "last_price": 0.41,
-      "market_mid": 0.42,
+      "yes_bid": 0.4,
+      "yes_ask": 0.42,
+      "last_price": 0.4,
+      "market_mid": 0.41000000000000003,
       "close_time": "2026-09-13T07:00:00Z",
       "occurrence_datetime": "2026-09-13T14:00:00Z",
       "updated_time": "2026-09-11T14:00:01.460244Z",
       "model_probability": 0.24156958920907418,
-      "edge_vs_ask": -0.18843041079092582,
-      "difference": -0.1784304107909258
+      "edge_vs_ask": -0.1784304107909258,
+      "difference": -0.16843041079092586
     },
     {
       "ticker": "KXHIGHTPHX-26SEP12-B101.5",
@@ -262,16 +262,16 @@
       "strike_type": "between",
       "floor_strike": 101.0,
       "cap_strike": 102.0,
-      "yes_bid": 0.03,
+      "yes_bid": 0.02,
       "yes_ask": 0.04,
       "last_price": 0.03,
-      "market_mid": 0.035,
+      "market_mid": 0.03,
       "close_time": "2026-09-13T07:00:00Z",
       "occurrence_datetime": "2026-09-13T14:00:00Z",
       "updated_time": "2026-09-11T14:00:01.351984Z",
       "model_probability": 0.11894543225015329,
       "edge_vs_ask": 0.0789454322501533,
-      "difference": 0.08394543225015329
+      "difference": 0.08894543225015329
     },
     {
       "ticker": "KXHIGHTPHX-26SEP12-T101",
@@ -364,16 +364,16 @@
     "strike_type": "between",
     "floor_strike": 101.0,
     "cap_strike": 102.0,
-    "yes_bid": 0.03,
+    "yes_bid": 0.02,
     "yes_ask": 0.04,
     "last_price": 0.03,
-    "market_mid": 0.035,
+    "market_mid": 0.03,
     "close_time": "2026-09-13T07:00:00Z",
     "occurrence_datetime": "2026-09-13T14:00:00Z",
     "updated_time": "2026-09-11T14:00:01.351984Z",
     "model_probability": 0.11894543225015329,
     "edge_vs_ask": 0.0789454322501533,
-    "difference": 0.08394543225015329
+    "difference": 0.08894543225015329
   },
   "research_status": "WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -394,7 +394,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-12T10:41:04.952609-07:00",
+    "collected_at_local": "2026-09-12T10:44:37.031537-07:00",
     "models": {
       "HRRR": {
         "available": true,
