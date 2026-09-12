@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updated_at_local": "2026-09-12T14:37:25.395523-07:00",
+  "updated_at_local": "2026-09-12T14:42:52.992424-07:00",
   "latest_metar_time": "2026-09-12T13:51:00-07:00",
   "latest_temp_f": 103.0,
   "latest_precise_temp_f": 102.91999999999999,
@@ -143,8 +143,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-12T21:26:59+00:00",
-    "prior_time_utc": "2026-09-12T20:56:59+00:00",
+    "latest_time_utc": "2026-09-12T21:36:13+00:00",
+    "prior_time_utc": "2026-09-12T21:06:13+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -179,16 +179,16 @@
       "strike_type": "between",
       "floor_strike": 105.0,
       "cap_strike": 106.0,
-      "yes_bid": 0.39,
-      "yes_ask": 0.49,
-      "last_price": 0.38,
-      "market_mid": 0.44,
+      "yes_bid": 0.38,
+      "yes_ask": 0.46,
+      "last_price": 0.37,
+      "market_mid": 0.42000000000000004,
       "close_time": "2026-09-13T07:00:00Z",
       "occurrence_datetime": "2026-09-13T14:00:00Z",
       "updated_time": "2026-09-11T14:00:01.460244Z",
       "model_probability": 0.5108910891089109,
-      "edge_vs_ask": 0.02089108910891091,
-      "difference": 0.0708910891089109
+      "edge_vs_ask": 0.05089108910891088,
+      "difference": 0.09089108910891086
     },
     {
       "ticker": "KXHIGHTPHX-26SEP12-B103.5",
@@ -198,16 +198,16 @@
       "strike_type": "between",
       "floor_strike": 103.0,
       "cap_strike": 104.0,
-      "yes_bid": 0.53,
-      "yes_ask": 0.6,
-      "last_price": 0.6,
-      "market_mid": 0.565,
+      "yes_bid": 0.54,
+      "yes_ask": 0.61,
+      "last_price": 0.55,
+      "market_mid": 0.575,
       "close_time": "2026-09-13T07:00:00Z",
       "occurrence_datetime": "2026-09-13T14:00:00Z",
       "updated_time": "2026-09-11T14:00:01.460244Z",
       "model_probability": 0.37425742574257426,
-      "edge_vs_ask": -0.22574257425742572,
-      "difference": -0.1907425742574257
+      "edge_vs_ask": -0.23574257425742573,
+      "difference": -0.2007425742574257
     },
     {
       "ticker": "KXHIGHTPHX-26SEP12-B107.5",
@@ -331,17 +331,17 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262552110_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-12T21:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262552110_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-12T21:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262552120_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-12T21:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262552120_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-12T21:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-12T14:37:20.144215-07:00",
+    "collected_at_local": "2026-09-12T14:42:47.105960-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -391,16 +391,16 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-09-12 19:00:00",
+        "run_time_utc": "2026-09-12 20:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-09-12T12:00:00-07:00",
-        "coverage_end_local": "2026-09-13T09:00:00-07:00",
+        "coverage_start_local": "2026-09-12T13:00:00-07:00",
+        "coverage_end_local": "2026-09-13T10:00:00-07:00",
         "contract_start_local": "2026-09-12T00:00:00-07:00",
         "contract_end_local": "2026-09-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 98.13,
-        "remaining_high_time_local": "2026-09-12T16:00:00-07:00",
+        "remaining_high_f": 101.37,
+        "remaining_high_time_local": "2026-09-12T15:00:00-07:00",
         "projected_high_f": 104.0
       },
       "GFS-MOS": {
