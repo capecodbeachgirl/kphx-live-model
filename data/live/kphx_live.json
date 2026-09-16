@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updated_at_local": "2026-09-16T11:39:07.902743-07:00",
+  "updated_at_local": "2026-09-16T11:52:41.965884-07:00",
   "latest_metar_time": "2026-09-16T10:51:00-07:00",
   "latest_temp_f": 93.0,
   "latest_precise_temp_f": 93.02,
@@ -30,86 +30,86 @@
     "hours": [
       {
         "time": "2026-09-16T11:00:00-07:00",
-        "temp_f": 83.0,
-        "pop_pct": 83.0,
-        "short_forecast": "Showers And Thunderstorms",
+        "temp_f": 88.0,
+        "pop_pct": 54.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
         "wind_speed": "10 mph",
-        "wind_direction": "E"
+        "wind_direction": "ESE"
       },
       {
         "time": "2026-09-16T12:00:00-07:00",
-        "temp_f": 84.0,
-        "pop_pct": 81.0,
-        "short_forecast": "Showers And Thunderstorms",
+        "temp_f": 88.0,
+        "pop_pct": 70.0,
+        "short_forecast": "Showers And Thunderstorms Likely",
         "wind_speed": "10 mph",
-        "wind_direction": "ENE"
+        "wind_direction": "ESE"
       },
       {
         "time": "2026-09-16T13:00:00-07:00",
-        "temp_f": 86.0,
-        "pop_pct": 49.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "temp_f": 89.0,
+        "pop_pct": 80.0,
+        "short_forecast": "Showers And Thunderstorms",
         "wind_speed": "10 mph",
-        "wind_direction": "ENE"
+        "wind_direction": "ESE"
       },
       {
         "time": "2026-09-16T14:00:00-07:00",
-        "temp_f": 87.0,
-        "pop_pct": 46.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "temp_f": 89.0,
+        "pop_pct": 75.0,
+        "short_forecast": "Showers And Thunderstorms",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-09-16T15:00:00-07:00",
+        "temp_f": 88.0,
+        "pop_pct": 72.0,
+        "short_forecast": "Showers And Thunderstorms Likely",
         "wind_speed": "10 mph",
         "wind_direction": "NE"
       },
       {
-        "time": "2026-09-16T15:00:00-07:00",
-        "temp_f": 86.0,
-        "pop_pct": 50.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
-        "wind_speed": "5 mph",
-        "wind_direction": "N"
-      },
-      {
         "time": "2026-09-16T16:00:00-07:00",
         "temp_f": 88.0,
-        "pop_pct": 48.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "pop_pct": 87.0,
+        "short_forecast": "Showers And Thunderstorms",
         "wind_speed": "10 mph",
-        "wind_direction": "E"
+        "wind_direction": "NNW"
       },
       {
         "time": "2026-09-16T17:00:00-07:00",
-        "temp_f": 85.0,
-        "pop_pct": 44.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "temp_f": 87.0,
+        "pop_pct": 71.0,
+        "short_forecast": "Showers And Thunderstorms Likely",
         "wind_speed": "10 mph",
         "wind_direction": "SE"
       },
       {
         "time": "2026-09-16T18:00:00-07:00",
-        "temp_f": 84.0,
-        "pop_pct": 37.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "temp_f": 85.0,
+        "pop_pct": 62.0,
+        "short_forecast": "Showers And Thunderstorms Likely",
         "wind_speed": "10 mph",
-        "wind_direction": "ESE"
+        "wind_direction": "SE"
       },
       {
         "time": "2026-09-16T19:00:00-07:00",
         "temp_f": 83.0,
-        "pop_pct": 29.0,
+        "pop_pct": 52.0,
         "short_forecast": "Chance Showers And Thunderstorms",
         "wind_speed": "10 mph",
-        "wind_direction": "E"
+        "wind_direction": "ENE"
       },
       {
         "time": "2026-09-16T20:00:00-07:00",
-        "temp_f": 81.0,
+        "temp_f": 82.0,
         "pop_pct": 21.0,
         "short_forecast": "Slight Chance Showers And Thunderstorms",
         "wind_speed": "10 mph",
-        "wind_direction": "ESE"
+        "wind_direction": "ENE"
       }
     ],
-    "max_pop_pct": 83.0,
+    "max_pop_pct": 87.0,
     "thunder_possible": true,
     "rain_possible": true,
     "summary": "NWS hourly forecast includes thunderstorms",
@@ -183,15 +183,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-16T18:24:59+00:00",
-    "prior_time_utc": "2026-09-16T17:54:59+00:00",
+    "latest_time_utc": "2026-09-16T18:44:58+00:00",
+    "prior_time_utc": "2026-09-16T18:14:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -219,16 +214,16 @@
       "strike_type": "between",
       "floor_strike": 95.0,
       "cap_strike": 96.0,
-      "yes_bid": 0.73,
-      "yes_ask": 0.75,
-      "last_price": 0.75,
-      "market_mid": 0.74,
+      "yes_bid": 0.97,
+      "yes_ask": 0.98,
+      "last_price": 0.97,
+      "market_mid": 0.975,
       "close_time": "2026-09-17T07:00:00Z",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "updated_time": "2026-09-15T14:00:01.16203Z",
       "model_probability": 0.8164383561643835,
-      "edge_vs_ask": 0.06643835616438354,
-      "difference": 0.07643835616438355
+      "edge_vs_ask": -0.16356164383561644,
+      "difference": -0.15856164383561644
     },
     {
       "ticker": "KXHIGHTPHX-26SEP16-B97.5",
@@ -238,16 +233,16 @@
       "strike_type": "between",
       "floor_strike": 97.0,
       "cap_strike": 98.0,
-      "yes_bid": 0.21,
-      "yes_ask": 0.23,
-      "last_price": 0.36,
-      "market_mid": 0.22,
+      "yes_bid": 0.01,
+      "yes_ask": 0.05,
+      "last_price": 0.02,
+      "market_mid": 0.030000000000000002,
       "close_time": "2026-09-17T07:00:00Z",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "updated_time": "2026-09-15T14:00:01.16203Z",
       "model_probability": 0.1589041095890411,
-      "edge_vs_ask": -0.0710958904109589,
-      "difference": -0.06109589041095889
+      "edge_vs_ask": 0.1089041095890411,
+      "difference": 0.1289041095890411
     },
     {
       "ticker": "KXHIGHTPHX-26SEP16-T98",
@@ -258,15 +253,15 @@
       "floor_strike": 98.0,
       "cap_strike": null,
       "yes_bid": 0.0,
-      "yes_ask": 0.02,
-      "last_price": 0.02,
-      "market_mid": 0.01,
+      "yes_ask": 0.03,
+      "last_price": 0.03,
+      "market_mid": 0.015,
       "close_time": "2026-09-17T07:00:00Z",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "updated_time": "2026-09-15T14:00:01.16203Z",
       "model_probability": 0.024657534246575345,
-      "edge_vs_ask": 0.004657534246575345,
-      "difference": 0.014657534246575345
+      "edge_vs_ask": -0.005342465753424654,
+      "difference": 0.009657534246575346
     },
     {
       "ticker": "KXHIGHTPHX-26SEP16-B91.5",
@@ -344,23 +339,23 @@
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTPHX-26SEP16-B95.5",
+    "ticker": "KXHIGHTPHX-26SEP16-B97.5",
     "event_ticker": "KXHIGHTPHX-26SEP16",
-    "title": "Will the maximum temperature be 95-96\u00b0 on Sep 16, 2026?",
-    "subtitle": "95\u00b0 to 96\u00b0",
+    "title": "Will the maximum temperature be 97-98\u00b0 on Sep 16, 2026?",
+    "subtitle": "97\u00b0 to 98\u00b0",
     "strike_type": "between",
-    "floor_strike": 95.0,
-    "cap_strike": 96.0,
-    "yes_bid": 0.73,
-    "yes_ask": 0.75,
-    "last_price": 0.75,
-    "market_mid": 0.74,
+    "floor_strike": 97.0,
+    "cap_strike": 98.0,
+    "yes_bid": 0.01,
+    "yes_ask": 0.05,
+    "last_price": 0.02,
+    "market_mid": 0.030000000000000002,
     "close_time": "2026-09-17T07:00:00Z",
     "occurrence_datetime": "2026-09-17T14:00:00Z",
     "updated_time": "2026-09-15T14:00:01.16203Z",
-    "model_probability": 0.8164383561643835,
-    "edge_vs_ask": 0.06643835616438354,
-    "difference": 0.07643835616438355
+    "model_probability": 0.1589041095890411,
+    "edge_vs_ask": 0.1089041095890411,
+    "difference": 0.1289041095890411
   },
   "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
@@ -371,17 +366,19 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262591810_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-16T18:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262591810_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-16T18:10:00+00:00",
-    "errors": [],
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262591830_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-16T18:30:00+00:00",
+    "infrared_image_url": null,
+    "infrared_time_utc": null,
+    "errors": [
+      "Band 13: HTTPSConnectionPool(host='www.star.nesdis.noaa.gov', port=443): Read timed out. (read timeout=30)"
+    ],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-16T11:38:22.598331-07:00",
+    "collected_at_local": "2026-09-16T11:51:57.122368-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -394,8 +391,8 @@
         "contract_start_local": "2026-09-16T00:00:00-07:00",
         "contract_end_local": "2026-09-17T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 94.86,
-        "remaining_high_time_local": "2026-09-16T11:45:00-07:00",
+        "remaining_high_f": 94.18,
+        "remaining_high_time_local": "2026-09-16T12:00:00-07:00",
         "projected_high_f": 95.0
       },
       "HRRR-EXT": {
@@ -532,7 +529,7 @@
     "range_80_high_f": 104.1,
     "median_heating_remaining_f": 9.0
   },
-  "next_update_local": "2026-09-16T11:50:00-07:00",
+  "next_update_local": "2026-09-16T12:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
