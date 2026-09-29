@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updated_at_local": "2026-09-28T23:34:08.439259-07:00",
+  "updated_at_local": "2026-09-28T23:51:35.929384-07:00",
   "latest_metar_time": "2026-09-28T22:51:00-07:00",
   "latest_temp_f": 72.0,
   "latest_precise_temp_f": 71.96,
@@ -60,8 +60,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-29T06:24:58+00:00",
-    "prior_time_utc": "2026-09-29T05:54:58+00:00",
+    "latest_time_utc": "2026-09-29T06:46:59+00:00",
+    "prior_time_utc": "2026-09-29T06:16:59+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -244,17 +244,17 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262720610_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-29T06:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262720610_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-29T06:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262720630_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-29T06:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262720630_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-29T06:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-28T23:34:00.504086-07:00",
+    "collected_at_local": "2026-09-28T23:51:28.860164-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -267,9 +267,8 @@
         "contract_start_local": "2026-09-28T00:00:00-07:00",
         "contract_end_local": "2026-09-29T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 70.68,
-        "remaining_high_time_local": "2026-09-28T23:45:00-07:00",
-        "projected_high_f": 83.3
+        "remaining_high_f": null,
+        "remaining_high_time_local": null
       },
       "HRRR-EXT": {
         "available": true,
@@ -330,11 +329,11 @@
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-09-29 05:00:00",
+        "run_time_utc": "2026-09-29 06:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-09-28T23:00:00-07:00",
-        "coverage_end_local": "2026-09-30T12:00:00-07:00",
+        "coverage_start_local": "2026-09-29T00:00:00-07:00",
+        "coverage_end_local": "2026-09-30T13:00:00-07:00",
         "contract_start_local": "2026-09-28T00:00:00-07:00",
         "contract_end_local": "2026-09-29T00:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -343,16 +342,9 @@
       }
     },
     "consensus": {
-      "available": true,
-      "model_count": 1,
-      "models_used": [
-        "HRRR"
-      ],
-      "median_high_f": 83.3,
-      "mean_high_f": 83.3,
-      "min_high_f": 83.3,
-      "max_high_f": 83.3,
-      "spread_f": 0.0
+      "available": false,
+      "model_count": 0,
+      "models_used": []
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
