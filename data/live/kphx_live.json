@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updated_at_local": "2026-09-29T19:10:58.983791-07:00",
+  "updated_at_local": "2026-09-29T19:27:39.844401-07:00",
   "latest_metar_time": "2026-09-29T18:51:00-07:00",
   "latest_temp_f": 78.0,
   "latest_precise_temp_f": 78.08,
@@ -82,8 +82,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-30T01:52:59+00:00",
-    "prior_time_utc": "2026-09-30T01:22:59+00:00",
+    "latest_time_utc": "2026-09-30T02:06:57+00:00",
+    "prior_time_utc": "2026-09-30T01:36:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -271,31 +271,31 @@
     "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262730150_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-30T01:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262730140_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-30T01:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262730200_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-30T02:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262730210_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-30T02:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-29T19:10:49.774804-07:00",
+    "collected_at_local": "2026-09-29T19:27:34.339267-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-09-30 01:00:00",
-        "rows_received": 37,
-        "max_forecast_hour": 9,
+        "rows_received": 73,
+        "max_forecast_hour": 18,
         "coverage_start_local": "2026-09-29T18:00:00-07:00",
-        "coverage_end_local": "2026-09-30T03:00:00-07:00",
+        "coverage_end_local": "2026-09-30T12:00:00-07:00",
         "contract_start_local": "2026-09-29T00:00:00-07:00",
         "contract_end_local": "2026-09-30T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 73.96,
-        "remaining_high_time_local": "2026-09-29T19:15:00-07:00",
+        "remaining_high_f": 73.59,
+        "remaining_high_time_local": "2026-09-29T19:30:00-07:00",
         "projected_high_f": 83.0
       },
       "HRRR-EXT": {
@@ -317,10 +317,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-30 00:00:00",
-        "rows_received": 17,
-        "max_forecast_hour": 17,
+        "rows_received": 56,
+        "max_forecast_hour": 72,
         "coverage_start_local": "2026-09-29T18:00:00-07:00",
-        "coverage_end_local": "2026-09-30T10:00:00-07:00",
+        "coverage_end_local": "2026-10-02T17:00:00-07:00",
         "contract_start_local": "2026-09-29T00:00:00-07:00",
         "contract_end_local": "2026-09-30T00:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -426,14 +426,14 @@
           {
             "code": "temperature_data_missing",
             "severity": "critical",
-            "message": "The most recent temperature reading is missing (-999) \u2014 the station appears to still be down and a gap falls within ~60 min of the day's high, so wethr_high/wethr_low may be unreliable.",
+            "message": "7 temperature readings missing (-999) in this window \u2014 a gap falls within ~60 min of the day's high, so wethr_high/wethr_low may be unreliable.",
             "missing_count": 7,
             "longest_run": 1,
             "longest_run_minutes": 0,
             "first_missing_utc": "2026-09-29 16:50:00",
             "last_missing_utc": "2026-09-30 02:05:00",
-            "active": true,
-            "active_run": 1,
+            "active": false,
+            "active_run": 0,
             "near_extreme": true,
             "near_high": true,
             "near_low": false
@@ -453,7 +453,7 @@
     "range_80_high_f": 106.6,
     "median_heating_remaining_f": 25.0
   },
-  "next_update_local": "2026-09-29T19:20:00-07:00",
+  "next_update_local": "2026-09-29T19:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
