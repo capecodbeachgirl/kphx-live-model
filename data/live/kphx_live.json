@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updated_at_local": "2026-10-03T17:03:26.217295-07:00",
+  "updated_at_local": "2026-10-03T17:22:41.384445-07:00",
   "latest_metar_time": "2026-10-03T16:51:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -100,10 +100,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-03T23:52:56+00:00",
-    "prior_time_utc": "2026-10-03T23:22:56+00:00",
+    "latest_time_utc": "2026-10-04T00:00:58+00:00",
+    "prior_time_utc": "2026-10-03T23:30:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -284,33 +289,32 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": null,
-    "geocolor_time_utc": null,
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262762340_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-03T23:40:00+00:00",
-    "errors": [
-      "GeoColor: 500 Server Error: Internal Server Error for url: https://www.star.nesdis.noaa.gov/goes/wfo.php?wfo=psr"
-    ],
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262762350_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-03T23:50:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262770000_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-04T00:00:00+00:00",
+    "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-03T17:03:06.432344-07:00",
+    "collected_at_local": "2026-10-03T17:22:36.133334-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-10-03 23:00:00",
-        "rows_received": 21,
-        "max_forecast_hour": 5,
+        "rows_received": 65,
+        "max_forecast_hour": 16,
         "coverage_start_local": "2026-10-03T16:00:00-07:00",
-        "coverage_end_local": "2026-10-03T21:00:00-07:00",
+        "coverage_end_local": "2026-10-04T08:00:00-07:00",
         "contract_start_local": "2026-10-03T00:00:00-07:00",
         "contract_end_local": "2026-10-04T00:00:00-07:00",
-        "covers_rest_of_contract": false,
-        "remaining_high_f": 93.13,
-        "remaining_high_time_local": "2026-10-03T17:15:00-07:00"
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 92.58,
+        "remaining_high_time_local": "2026-10-03T17:30:00-07:00",
+        "projected_high_f": 97.0
       },
       "HRRR-EXT": {
         "available": true,
@@ -330,10 +334,10 @@
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-10-03 22:00:00",
+        "run_time_utc": "2026-10-03 23:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 71,
-        "coverage_start_local": "2026-10-03T16:00:00-07:00",
+        "max_forecast_hour": 70,
+        "coverage_start_local": "2026-10-03T17:00:00-07:00",
         "coverage_end_local": "2026-10-06T14:00:00-07:00",
         "contract_start_local": "2026-10-03T00:00:00-07:00",
         "contract_end_local": "2026-10-04T00:00:00-07:00",
@@ -390,8 +394,9 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
@@ -445,7 +450,7 @@
     "range_80_high_f": 101.0,
     "median_heating_remaining_f": 2.5
   },
-  "next_update_local": "2026-10-03T17:05:00-07:00",
+  "next_update_local": "2026-10-03T17:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
