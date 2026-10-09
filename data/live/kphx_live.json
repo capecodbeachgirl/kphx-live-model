@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updated_at_local": "2026-10-08T17:34:18.241757-07:00",
+  "updated_at_local": "2026-10-08T17:42:08.599387-07:00",
   "latest_metar_time": "2026-10-08T16:51:00-07:00",
   "latest_temp_f": 102.0,
   "latest_precise_temp_f": 102.02,
@@ -104,8 +104,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-09T00:18:09+00:00",
-    "prior_time_utc": "2026-10-08T23:48:09+00:00",
+    "latest_time_utc": "2026-10-09T00:26:59+00:00",
+    "prior_time_utc": "2026-10-08T23:56:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -293,17 +293,17 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262820000_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-09T00:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262820010_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-09T00:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262820010_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-09T00:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262820020_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-09T00:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-08T17:34:13.336053-07:00",
+    "collected_at_local": "2026-10-08T17:42:02.777041-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -464,7 +464,7 @@
     "range_80_high_f": 105.0,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-10-08T17:35:00-07:00",
+  "next_update_local": "2026-10-08T17:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
