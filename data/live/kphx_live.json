@@ -1,26 +1,25 @@
 {
-  "date": "2026-10-11",
-  "updated_at_local": "2026-10-11T19:29:03.052270-07:00",
-  "latest_metar_time": "2026-10-11T18:51:00-07:00",
-  "latest_temp_f": 75.0,
-  "latest_precise_temp_f": 75.02,
-  "latest_dewpoint_f": 61.0,
-  "raw_metar_peak_f": 88.0,
-  "precise_metar_peak_f": 87.98,
-  "six_hour_max_f": 89,
-  "six_hour_max_report_time": "2026-10-11T16:51:00-07:00",
-  "nws_am_forecast_high_f": 86.0,
-  "nws_am_issued_at": "2026-10-11T04:01:00-07:00",
-  "checkpoint_hour": 18,
-  "weather_risk": "MEDIUM",
+  "date": "2026-10-12",
+  "updated_at_local": "2026-10-12T02:06:11.979933-07:00",
+  "latest_metar_time": "2026-10-12T01:51:00-07:00",
+  "latest_temp_f": 73.0,
+  "latest_precise_temp_f": 73.04,
+  "latest_dewpoint_f": 62.0,
+  "raw_metar_peak_f": 73.0,
+  "precise_metar_peak_f": 73.04,
+  "six_hour_max_f": null,
+  "six_hour_max_report_time": null,
+  "nws_am_forecast_high_f": 81.0,
+  "nws_am_issued_at": "2026-10-11T23:32:00-07:00",
+  "checkpoint_hour": null,
+  "weather_risk": "HIGH",
   "weather_reasons": [
-    "Some weather disruption risk",
     "NWS hourly forecast includes thunderstorm potential",
     "Phoenix NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "MEDIUM",
-    "forecast_risk": "MEDIUM",
+    "observed_risk": "LOW",
+    "forecast_risk": "HIGH",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
@@ -28,35 +27,239 @@
     "available": true,
     "hours": [
       {
-        "time": "2026-10-11T19:00:00-07:00",
-        "temp_f": 77.0,
-        "pop_pct": 16.0,
+        "time": "2026-10-12T02:00:00-07:00",
+        "temp_f": 73.0,
+        "pop_pct": 17.0,
         "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "10 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-12T03:00:00-07:00",
+        "temp_f": 72.0,
+        "pop_pct": 17.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-12T04:00:00-07:00",
+        "temp_f": 72.0,
+        "pop_pct": 17.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-12T05:00:00-07:00",
+        "temp_f": 71.0,
+        "pop_pct": 28.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-12T06:00:00-07:00",
+        "temp_f": 70.0,
+        "pop_pct": 28.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-12T07:00:00-07:00",
+        "temp_f": 70.0,
+        "pop_pct": 28.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-12T08:00:00-07:00",
+        "temp_f": 72.0,
+        "pop_pct": 28.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SSE"
+      },
+      {
+        "time": "2026-10-12T09:00:00-07:00",
+        "temp_f": 74.0,
+        "pop_pct": 28.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "S"
+      },
+      {
+        "time": "2026-10-12T10:00:00-07:00",
+        "temp_f": 76.0,
+        "pop_pct": 28.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "S"
+      },
+      {
+        "time": "2026-10-12T11:00:00-07:00",
+        "temp_f": 78.0,
+        "pop_pct": 39.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "S"
+      },
+      {
+        "time": "2026-10-12T12:00:00-07:00",
+        "temp_f": 78.0,
+        "pop_pct": 49.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "S"
+      },
+      {
+        "time": "2026-10-12T13:00:00-07:00",
+        "temp_f": 79.0,
+        "pop_pct": 45.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SSW"
+      },
+      {
+        "time": "2026-10-12T14:00:00-07:00",
+        "temp_f": 79.0,
+        "pop_pct": 36.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
+        "wind_direction": "SSW"
+      },
+      {
+        "time": "2026-10-12T15:00:00-07:00",
+        "temp_f": 79.0,
+        "pop_pct": 34.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
         "wind_speed": "15 mph",
         "wind_direction": "SW"
       },
       {
-        "time": "2026-10-11T20:00:00-07:00",
-        "temp_f": 76.0,
-        "pop_pct": 13.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "10 mph",
+        "time": "2026-10-12T16:00:00-07:00",
+        "temp_f": 80.0,
+        "pop_pct": 27.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "15 mph",
         "wind_direction": "SSW"
+      },
+      {
+        "time": "2026-10-12T17:00:00-07:00",
+        "temp_f": 78.0,
+        "pop_pct": 15.0,
+        "short_forecast": "Slight Chance Rain Showers",
+        "wind_speed": "15 mph",
+        "wind_direction": "SW"
+      },
+      {
+        "time": "2026-10-12T18:00:00-07:00",
+        "temp_f": 77.0,
+        "pop_pct": 19.0,
+        "short_forecast": "Slight Chance Rain Showers",
+        "wind_speed": "10 mph",
+        "wind_direction": "SW"
+      },
+      {
+        "time": "2026-10-12T19:00:00-07:00",
+        "temp_f": 75.0,
+        "pop_pct": 16.0,
+        "short_forecast": "Slight Chance Rain Showers",
+        "wind_speed": "10 mph",
+        "wind_direction": "SW"
+      },
+      {
+        "time": "2026-10-12T20:00:00-07:00",
+        "temp_f": 73.0,
+        "pop_pct": 15.0,
+        "short_forecast": "Slight Chance Rain Showers",
+        "wind_speed": "10 mph",
+        "wind_direction": "SW"
       }
     ],
-    "max_pop_pct": 16.0,
+    "max_pop_pct": 49.0,
     "thunder_possible": true,
     "rain_possible": true,
     "summary": "NWS hourly forecast includes thunderstorms",
-    "max_sky_cover_pct": 38.0,
+    "max_sky_cover_pct": 68.0,
     "sky_hours": [
       {
-        "time": "2026-10-11T19:00:00-07:00",
-        "sky_cover_pct": 38.0
+        "time": "2026-10-12T02:00:00-07:00",
+        "sky_cover_pct": 43.0
       },
       {
-        "time": "2026-10-11T20:00:00-07:00",
-        "sky_cover_pct": 38.0
+        "time": "2026-10-12T03:00:00-07:00",
+        "sky_cover_pct": 40.0
+      },
+      {
+        "time": "2026-10-12T04:00:00-07:00",
+        "sky_cover_pct": 48.0
+      },
+      {
+        "time": "2026-10-12T05:00:00-07:00",
+        "sky_cover_pct": 55.0
+      },
+      {
+        "time": "2026-10-12T06:00:00-07:00",
+        "sky_cover_pct": 58.0
+      },
+      {
+        "time": "2026-10-12T07:00:00-07:00",
+        "sky_cover_pct": 60.0
+      },
+      {
+        "time": "2026-10-12T08:00:00-07:00",
+        "sky_cover_pct": 60.0
+      },
+      {
+        "time": "2026-10-12T09:00:00-07:00",
+        "sky_cover_pct": 58.0
+      },
+      {
+        "time": "2026-10-12T10:00:00-07:00",
+        "sky_cover_pct": 57.0
+      },
+      {
+        "time": "2026-10-12T11:00:00-07:00",
+        "sky_cover_pct": 59.0
+      },
+      {
+        "time": "2026-10-12T12:00:00-07:00",
+        "sky_cover_pct": 66.0
+      },
+      {
+        "time": "2026-10-12T13:00:00-07:00",
+        "sky_cover_pct": 63.0
+      },
+      {
+        "time": "2026-10-12T14:00:00-07:00",
+        "sky_cover_pct": 57.0
+      },
+      {
+        "time": "2026-10-12T15:00:00-07:00",
+        "sky_cover_pct": 56.0
+      },
+      {
+        "time": "2026-10-12T16:00:00-07:00",
+        "sky_cover_pct": 56.0
+      },
+      {
+        "time": "2026-10-12T17:00:00-07:00",
+        "sky_cover_pct": 68.0
+      },
+      {
+        "time": "2026-10-12T18:00:00-07:00",
+        "sky_cover_pct": 50.0
+      },
+      {
+        "time": "2026-10-12T19:00:00-07:00",
+        "sky_cover_pct": 63.0
+      },
+      {
+        "time": "2026-10-12T20:00:00-07:00",
+        "sky_cover_pct": 34.0
       }
     ],
     "office": "PSR",
@@ -66,9 +269,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-12T02:02:00+00:00",
-    "product_id": "b46ccd82-5a61-435d-ac9d-7527a76353d1",
-    "text": "\n000\nFXUS65 KPSR 120202\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n702 PM MST Sun Oct 11 2026\n\n.UPDATE...Updated 00Z Aviation Discussion.\n\n&&\n\n.KEY MESSAGES...\n\n- Lingering showers and an occasional storm this afternoon through\n  tomorrow and tomorrow night with breezy south to southwest\n  winds, strongest during the daylight hours.\n  \n- Temperatures cool through the start of the workweek with below\n  normal reading anticipated through the middle of the week.\n\n- Drier and quieter weather conditions develop by Wednesday and\n  then breezy conditions may develop again by the end of the week.\n\n&&\n\n.SHORT TERM /TODAY THROUGH MONDAY/...\nThe remnant circulation of TC Rachel is no longer discernible on \nsatellite, having sheared apart and fused with the large-scale \ntrough across the West. However, showers and a few storms continue\nto develop across AZ, feeding off elevated surface moisture (dew \npoints in the upper 50s to lower 60s) and modest upslope ascent. A\nlot of dry air has moved in aloft, especially above 700mb, which \nis choking the updrafts and, overall, showers are notably less \nintense than they were last night and early this morning. There \nhas not been much in the way lightning either. Through the rest of\nthis afternoon and evening fast-moving showers and the occasional\nthunderstorm are expected to continue to favor terrain areas of \nAZ, mainly north and east of Phoenix, and along a SSW-NNE oriented\nband mostly between Phoenix and Quartzsite. The threat for \nlocalized flash flooding is all but over. With the fast-moving \nshowers and lower intensity, it will be tough to accumulate enough\nrainfall to lead to flash flooding. However, training of cells \nover the same areas may still lead to localized impacts. Latest \nREFS & HREF show the best potential for flooding impacts through \nthis evening being in Yavapai County, associated with the band of \ncontinuous rain showers. Areas like Wickenburg have around a \n10-20% chance to pick up over 1\" of rain this afternoon and \nevening.\n\nIn addition to the lingering rain showers this afternoon, winds \nhave picked up across the region, associated with a strong \npressure gradient. Surface wind gusts this afternoon have mostly \nbeen hitting 35-45 mph. Any shower, even weak ones, will be \ncapable of mixing down stronger wind gusts to the surface. The \ngusty winds have also been strong enough to generate blowing dust \nand hazy skies in some areas. A Wind Advisory remains in effect \nthrough 5 PM this afternoon The gustiness should relax this \nevening with the loss of heating. It will be gusty again Monday, \nacross mainly AZ, but the magnitude of gusts will be around 10-15 \nkts lower than today.\n\nSpotty showers and an occasional rumble of thunder are likely to \ncontinue into Monday, with a persistent southwest flow, especially\nin the afternoon with surface heating. But again, the better rain\nchances and coverage look to favor higher terrain areas of AZ and\nin particular across Yavapai County. Steering winds will still be\nvery fast Monday, with 700-500mb winds around 30-60kts, which \nwill limit rainfall totals. The REFS probability for rainfall \nMonday >0.25\" is <20% south of I-10 to around 30-50% along the \nsouthern Yavapai County border. Rain chances are likely to improve\nagain going into Monday night - Tuesday morning as guidance shows\na shortwave trough, within the larger Western CONUS trough, \nclipping through the area. A weak cold front is also shown to move\nwest to east across the area, which may help focus showers and \nisolated storms into a scattered line/band. Once again, fast \nsteering flow and overall low intensity showers should limit \nrainfall amounts with this activity Monday night to mostly under \n0.25\" across the lower deserts. \n\nTemperatures will continue a downward trend through the start of \nthe week, which is welcome news to just about everyone that \ngrinded it out through another hot Summer+. Highs across southeast\nCA today will mostly stay below 80 degrees while AZ locations \nhave already warmed into the middle 80s. Temperatures are then \nforecast to cool several degrees into Monday, dropping ~5-8 \ndegrees with the lows and ~2-5 degrees with the highs. This \ncooling into Monday will be ahead of the weak cold front Monday \nnight. So, further cooling is expected into Tuesday.\n\n&&\n\n.LONG TERM /TUESDAY THROUGH SATURDAY/... \nEnsembles are in good agreement the Pacific low will slowly drift\neast northeastward across far northern Arizona and southern Utah \non Tuesday before most of the energy exits to the northeast on \nWednesday. Additional dry air will spread across the region from \nthe northwest during this time with PWATs dropping to 75% of \nnormal and skies clearing out later on Tuesday. Behind the cold \nfront on Tuesday, temperatures will dip further with NBM forecast \nhighs only in the mid 70s Tuesday, or 10-15 degrees below normal. \nOvernight lows Tuesday night/Wednesday morning are also expected \nto fall well into the 50s for the bulk of the area to as cool as \nthe mid to upper 40s for rural lower desert and higher terrain \nlocations. \n\nModel guidance is still somewhat uncertain with the eventual \nplacement of the incoming upper level ridge and a likely lingering\ntrough axis and/or cut-off low that should form late week. No \nmatter the eventual evolution, our weather will basically stay the\nsame with dry conditions prevailing late week into next weekend. \nTemperatures will moderate some late week with highs returning \ninto the 80s, but likely staying below normal. We may end up \nhaving another back-door cool front moving into the area from the \neast by Friday or Saturday and this should either maintain or cool\noff temperatures going into next weekend. As with any backdoor \nfront, gusty easterly winds are likely to follow as well and with \nthe potential cutoff low in the area, easterly winds in this case\nmay become quite strong. Global models are already showing \npotential for some very strong, advisory level or higher, winds \nacross southeast AZ.\n\n&&\n\n.AVIATION...Updated at 0200Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT:\n\nGusty cross runway winds and VCSH will be the primary aviation \nconcerns through the TAF period. Wind gusts are tapering off this\nevening and should stop by 02-03Z. However, winds will remain\nelevated overnight (8-13 kt). Current westerly/southwesterly winds\nwill slowly go southeasterly overnight, and may have more of a\nsoutherly component than usual. By mid-morning tomorrow winds\nwill develop more of a southerly component and start gusting up\naround 20 kt. By the early afternoon (20-21Z) winds will go more\nsouthwesterly with gusts of 20-25 kt expected through sunset. Most\nof the shower activity has shut off within the PHX Metro this\nevening, but some lingering showers remain near/just north of\nKDVT. Those should be moving further north within the next hour\n(03Z). Dry conditions are expected overnight through tomorrow\nmorning before more VCSH develops around 20-21Z. Periodic showers,\nwith a few embedded thunderstorms possible, will then continue\nthrough the evening and overnight hours. CIGs will remain aoa 7\nkft through the majority of the TAF period, with FEW-SCT decks as\nlow as 4-5 kft. CIGs are not expected overnight tonight, but FEW-\nSCT clouds will remain around 4-7 kft. \n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\n\nGusty winds will be the main aviation concern through this TAF\npackage. Winds will predominately be out of the west at KIPL and \nout of the SW at KBLH through the TAF period. Gusts will end by \n02-03Z with winds remaining elevated (8-13 kt) overnight. Winds \nwill then start gusting again by late tomorrow morning/early \ntomorrow afternoon (18-19Z). Wind gusts will be less tomorrow but \ngusts of 20-25 kt are still expected. FEW-SCT midlevel decks will \nbe common through the period. \n\n&&\n\n.FIRE WEATHER...\nIsolated to scattered showers and a few storms will remain\npossible across mainly AZ this afternoon through Monday night\nbefore a weak cold front moves through and drier air filters in.\nWinds will be strongest now/this afternoon, with gusts up to 35-45\nmph from the S-SW. Gustiness will subside this evening and then\npick back up during the day Monday, but with magnitudes around\n10-15 mph lower. Winds will then be lightest Tuesday and\nWednesday. Although a north to south gradient wind will develop\nalong the Lower Colorado River Wednesday, leading to some gusty\nnortherly winds. Winds then look to become stronger area-wide\nThursday and especially Friday into this weekend with a strong E-W\ngradient potentially setting up. Drier conditions develop through\nthe day Tuesday and likely stay dry through the end of the week  \nwith MinRH values mostly between 40-60% the next couple days to\nthen 25-40% by Thursday. Below normal temperatures are expected\nthrough at least the middle of the week.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Benedict\nLONG TERM...Kuhlman/Benedict\nAVIATION...Berislavich\nFIRE WEATHER...Benedict\n",
+    "issued_at": "2026-10-12T05:27:00+00:00",
+    "product_id": "116c8f90-0b8f-4463-b0af-b8eeb73d874b",
+    "text": "\n000\nFXUS65 KPSR 120527\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n1027 PM MST Sun Oct 11 2026\n\n.UPDATE...Updated 06Z Aviation Discussion.\n\n&&\n\n.KEY MESSAGES...\n\n- Lingering showers and an occasional storm this afternoon through\n  tomorrow and tomorrow night with breezy south to southwest\n  winds, strongest during the daylight hours.\n  \n- Temperatures cool through the start of the workweek with below\n  normal reading anticipated through the middle of the week.\n\n- Drier and quieter weather conditions develop by Wednesday and\n  then breezy conditions may develop again by the end of the week.\n\n&&\n\n.SHORT TERM /TODAY THROUGH MONDAY/...\nThe remnant circulation of TC Rachel is no longer discernible on \nsatellite, having sheared apart and fused with the large-scale \ntrough across the West. However, showers and a few storms continue\nto develop across AZ, feeding off elevated surface moisture (dew \npoints in the upper 50s to lower 60s) and modest upslope ascent. A\nlot of dry air has moved in aloft, especially above 700mb, which \nis choking the updrafts and, overall, showers are notably less \nintense than they were last night and early this morning. There \nhas not been much in the way lightning either. Through the rest of\nthis afternoon and evening fast-moving showers and the occasional\nthunderstorm are expected to continue to favor terrain areas of \nAZ, mainly north and east of Phoenix, and along a SSW-NNE oriented\nband mostly between Phoenix and Quartzsite. The threat for \nlocalized flash flooding is all but over. With the fast-moving \nshowers and lower intensity, it will be tough to accumulate enough\nrainfall to lead to flash flooding. However, training of cells \nover the same areas may still lead to localized impacts. Latest \nREFS & HREF show the best potential for flooding impacts through \nthis evening being in Yavapai County, associated with the band of \ncontinuous rain showers. Areas like Wickenburg have around a \n10-20% chance to pick up over 1\" of rain this afternoon and \nevening.\n\nIn addition to the lingering rain showers this afternoon, winds \nhave picked up across the region, associated with a strong \npressure gradient. Surface wind gusts this afternoon have mostly \nbeen hitting 35-45 mph. Any shower, even weak ones, will be \ncapable of mixing down stronger wind gusts to the surface. The \ngusty winds have also been strong enough to generate blowing dust \nand hazy skies in some areas. A Wind Advisory remains in effect \nthrough 5 PM this afternoon The gustiness should relax this \nevening with the loss of heating. It will be gusty again Monday, \nacross mainly AZ, but the magnitude of gusts will be around 10-15 \nkts lower than today.\n\nSpotty showers and an occasional rumble of thunder are likely to \ncontinue into Monday, with a persistent southwest flow, especially\nin the afternoon with surface heating. But again, the better rain\nchances and coverage look to favor higher terrain areas of AZ and\nin particular across Yavapai County. Steering winds will still be\nvery fast Monday, with 700-500mb winds around 30-60kts, which \nwill limit rainfall totals. The REFS probability for rainfall \nMonday >0.25\" is <20% south of I-10 to around 30-50% along the \nsouthern Yavapai County border. Rain chances are likely to improve\nagain going into Monday night - Tuesday morning as guidance shows\na shortwave trough, within the larger Western CONUS trough, \nclipping through the area. A weak cold front is also shown to move\nwest to east across the area, which may help focus showers and \nisolated storms into a scattered line/band. Once again, fast \nsteering flow and overall low intensity showers should limit \nrainfall amounts with this activity Monday night to mostly under \n0.25\" across the lower deserts. \n\nTemperatures will continue a downward trend through the start of \nthe week, which is welcome news to just about everyone that \ngrinded it out through another hot Summer+. Highs across southeast\nCA today will mostly stay below 80 degrees while AZ locations \nhave already warmed into the middle 80s. Temperatures are then \nforecast to cool several degrees into Monday, dropping ~5-8 \ndegrees with the lows and ~2-5 degrees with the highs. This \ncooling into Monday will be ahead of the weak cold front Monday \nnight. So, further cooling is expected into Tuesday.\n\n&&\n\n.LONG TERM /TUESDAY THROUGH SATURDAY/... \nEnsembles are in good agreement the Pacific low will slowly drift\neast northeastward across far northern Arizona and southern Utah \non Tuesday before most of the energy exits to the northeast on \nWednesday. Additional dry air will spread across the region from \nthe northwest during this time with PWATs dropping to 75% of \nnormal and skies clearing out later on Tuesday. Behind the cold \nfront on Tuesday, temperatures will dip further with NBM forecast \nhighs only in the mid 70s Tuesday, or 10-15 degrees below normal. \nOvernight lows Tuesday night/Wednesday morning are also expected \nto fall well into the 50s for the bulk of the area to as cool as \nthe mid to upper 40s for rural lower desert and higher terrain \nlocations. \n\nModel guidance is still somewhat uncertain with the eventual \nplacement of the incoming upper level ridge and a likely lingering\ntrough axis and/or cut-off low that should form late week. No \nmatter the eventual evolution, our weather will basically stay the\nsame with dry conditions prevailing late week into next weekend. \nTemperatures will moderate some late week with highs returning \ninto the 80s, but likely staying below normal. We may end up \nhaving another back-door cool front moving into the area from the \neast by Friday or Saturday and this should either maintain or cool\noff temperatures going into next weekend. As with any backdoor \nfront, gusty easterly winds are likely to follow as well and with \nthe potential cutoff low in the area, easterly winds in this case\nmay become quite strong. Global models are already showing \npotential for some very strong, advisory level or higher, winds \nacross southeast AZ.\n\n&&\n\n.AVIATION...Updated at 0525Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT:\n\nGusty cross runway winds will be the primary aviation concern \nthrough the TAF period. E/SE winds will continue through the\novernight hours with a slow turn to W/SW tomorrow afternoon. By \nmid-morning tomorrow winds will develop more of a southerly \ncomponent and start gusting up around 20 kt. By the early \nafternoon (20-21Z) winds will go more southwesterly with gusts of \n20-25 kt expected through sunset. Winds will then go back SE'rly\novernight. Most of the shower activity has shut off within the \nPHX Metro this evening, but some lingering showers remain \nnear/just north of KDVT. Dry conditions are expected overnight \nthrough the majority of tomorrow. VCSH could develop as early as\n20-22Z, but confidence is low and has been removed from the TAFs.\nBetter chances for VCSH/SHRA develops late tomorrow night for the\novernight hours. Periodic showers, with a few embedded \nthunderstorms will be possible through the overnight hours. CIGs \nwill remain aoa 6-7 kft through the majority of the TAF period, \nwith FEW-SCT decks as low as 3-4 kft. Clouds should thin out a\nlittle overnight becoming more SCT, but will redevelop at BKN by\nlate tomorrow morning/tomorrow afternoon.\n\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\n\nGusty winds will be the main aviation concern through this TAF\npackage. Winds will predominately be out of the west at KIPL and \nout of the SW at KBLH through the TAF period. Winds will remain \nelevated (8-13 kt) overnight. Winds will then start gusting again \nby late tomorrow morning/early tomorrow afternoon (17-19Z). Wind \ngusts will be lower tomorrow but gusts around 20-25 kt are still \nexpected. FEW-SCT midlevel decks will be common through the \nperiod and may become BKN at times.\n\n&&\n\n.FIRE WEATHER...\nIsolated to scattered showers and a few storms will remain\npossible across mainly AZ this afternoon through Monday night\nbefore a weak cold front moves through and drier air filters in.\nWinds will be strongest now/this afternoon, with gusts up to 35-45\nmph from the S-SW. Gustiness will subside this evening and then\npick back up during the day Monday, but with magnitudes around\n10-15 mph lower. Winds will then be lightest Tuesday and\nWednesday. Although a north to south gradient wind will develop\nalong the Lower Colorado River Wednesday, leading to some gusty\nnortherly winds. Winds then look to become stronger area-wide\nThursday and especially Friday into this weekend with a strong E-W\ngradient potentially setting up. Drier conditions develop through\nthe day Tuesday and likely stay dry through the end of the week  \nwith MinRH values mostly between 40-60% the next couple days to\nthen 25-40% by Thursday. Below normal temperatures are expected\nthrough at least the middle of the week.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Benedict\nLONG TERM...Kuhlman/Benedict\nAVIATION...Berislavich\nFIRE WEATHER...Benedict\n",
     "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
@@ -83,15 +286,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-12T02:16:56+00:00",
-    "prior_time_utc": "2026-10-12T01:46:56+00:00",
+    "latest_time_utc": "2026-10-12T09:00:55+00:00",
+    "prior_time_utc": "2026-10-12T08:30:55+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -109,712 +307,487 @@
     "image_url": "https://mapservices.weather.noaa.gov/eventdriven/rest/services/radar/radar_base_reflectivity_time/ImageServer/exportImage?bbox=-112.7035%2C32.7278%2C-111.3035%2C34.1278&bboxSR=4326&imageSR=4326&size=720%2C520&format=png32&transparent=true&f=image",
     "source": "NWS MRMS base reflectivity image service"
   },
-  "model_available": true,
-  "markets": [
-    {
-      "ticker": "KXHIGHTPHX-26OCT11-B89.5",
-      "event_ticker": "KXHIGHTPHX-26OCT11",
-      "title": "Will the maximum temperature be 89-90\u00b0 on Oct 11, 2026?",
-      "subtitle": "89\u00b0 to 90\u00b0",
-      "strike_type": "between",
-      "floor_strike": 89.0,
-      "cap_strike": 90.0,
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "last_price": 0.99,
-      "market_mid": 0.995,
-      "close_time": "2026-10-12T07:00:00Z",
-      "occurrence_datetime": "2026-10-12T14:00:00Z",
-      "updated_time": "2026-10-10T14:00:02.002109Z",
-      "model_probability": 0.9703832752613241,
-      "edge_vs_ask": -0.029616724738675937,
-      "difference": -0.024616724738675932
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT11-T90",
-      "event_ticker": "KXHIGHTPHX-26OCT11",
-      "title": "Will the maximum temperature be >90\u00b0 on Oct 11, 2026?",
-      "subtitle": "91\u00b0 or above",
-      "strike_type": "greater",
-      "floor_strike": 90.0,
-      "cap_strike": null,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-12T07:00:00Z",
-      "occurrence_datetime": "2026-10-12T14:00:00Z",
-      "updated_time": "2026-10-10T14:00:02.002109Z",
-      "model_probability": 0.029616724738675958,
-      "edge_vs_ask": 0.019616724738675956,
-      "difference": 0.024616724738675957
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT11-B83.5",
-      "event_ticker": "KXHIGHTPHX-26OCT11",
-      "title": "Will the maximum temperature be 83-84\u00b0 on Oct 11, 2026?",
-      "subtitle": "83\u00b0 to 84\u00b0",
-      "strike_type": "between",
-      "floor_strike": 83.0,
-      "cap_strike": 84.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-12T07:00:00Z",
-      "occurrence_datetime": "2026-10-12T14:00:00Z",
-      "updated_time": "2026-10-10T14:00:02.002109Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT11-B85.5",
-      "event_ticker": "KXHIGHTPHX-26OCT11",
-      "title": "Will the maximum temperature be 85-86\u00b0 on Oct 11, 2026?",
-      "subtitle": "85\u00b0 to 86\u00b0",
-      "strike_type": "between",
-      "floor_strike": 85.0,
-      "cap_strike": 86.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-12T07:00:00Z",
-      "occurrence_datetime": "2026-10-12T14:00:00Z",
-      "updated_time": "2026-10-10T14:00:02.002109Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT11-B87.5",
-      "event_ticker": "KXHIGHTPHX-26OCT11",
-      "title": "Will the maximum temperature be 87-88\u00b0 on Oct 11, 2026?",
-      "subtitle": "87\u00b0 to 88\u00b0",
-      "strike_type": "between",
-      "floor_strike": 87.0,
-      "cap_strike": 88.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-12T07:00:00Z",
-      "occurrence_datetime": "2026-10-12T14:00:00Z",
-      "updated_time": "2026-10-10T14:00:02.002109Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT11-T83",
-      "event_ticker": "KXHIGHTPHX-26OCT11",
-      "title": "Will the maximum temperature be <83\u00b0 on Oct 11, 2026?",
-      "subtitle": "82\u00b0 or below",
-      "strike_type": "less",
-      "floor_strike": null,
-      "cap_strike": 83.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-12T07:00:00Z",
-      "occurrence_datetime": "2026-10-12T14:00:00Z",
-      "updated_time": "2026-10-10T14:00:02.002109Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    }
-  ],
-  "model_method": "remaining_heating",
-  "model_bundle": "h18_remaining.joblib",
-  "observed_floor_f": 89.0,
-  "predicted_remaining_heating_f": 0.6819014804639807,
-  "pre_checkpoint_peak_f": 88.0,
-  "model_predicted_high_f": 89.0,
-  "model_correction_f": 3.0,
-  "likely_low_f": 89,
-  "likely_high_f": 90,
-  "confidence": "MEDIUM",
-  "model_mae_f": 0.5216579135150571,
-  "distribution": {
-    "89": 0.8423344947735192,
-    "90": 0.12804878048780488,
-    "91": 0.023519163763066203,
-    "92": 0.0060975609756097554
-  },
-  "bucket_probability_total": 1.0,
-  "largest_model_ask_gap": {
-    "ticker": "KXHIGHTPHX-26OCT11-T90",
-    "event_ticker": "KXHIGHTPHX-26OCT11",
-    "title": "Will the maximum temperature be >90\u00b0 on Oct 11, 2026?",
-    "subtitle": "91\u00b0 or above",
-    "strike_type": "greater",
-    "floor_strike": 90.0,
-    "cap_strike": null,
-    "yes_bid": 0.0,
-    "yes_ask": 0.01,
-    "last_price": 0.01,
-    "market_mid": 0.005,
-    "close_time": "2026-10-12T07:00:00Z",
-    "occurrence_datetime": "2026-10-12T14:00:00Z",
-    "updated_time": "2026-10-10T14:00:02.002109Z",
-    "model_probability": 0.029616724738675958,
-    "edge_vs_ask": 0.019616724738675956,
-    "difference": 0.024616724738675957
-  },
-  "research_status": "WEATHER WATCH",
+  "model_available": false,
+  "markets": [],
   "satellite": {
     "available": true,
-    "risk": "HIGH",
-    "summary": "Heavy observed cloud cover may be suppressing solar heating at KPHX",
-    "latest_cloud_fraction": 0.875,
-    "mean_cloud_fraction_2h": 0.75,
+    "risk": "MEDIUM",
+    "summary": "Meaningful cloud shading is present or increasing at KPHX",
+    "latest_cloud_fraction": 0.5,
+    "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
-    "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262850200_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-12T02:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262850210_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-12T02:10:00+00:00",
+    "latest_cloud_fraction_below_20000": 0.5,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262850840_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-12T08:40:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262850840_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-12T08:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-11T19:28:55.205419-07:00",
+    "collected_at_local": "2026-10-12T02:06:01.308479-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-10-12 01:00:00",
-        "rows_received": 73,
-        "max_forecast_hour": 18,
-        "coverage_start_local": "2026-10-11T18:00:00-07:00",
-        "coverage_end_local": "2026-10-12T12:00:00-07:00",
-        "contract_start_local": "2026-10-11T00:00:00-07:00",
-        "contract_end_local": "2026-10-12T00:00:00-07:00",
-        "covers_rest_of_contract": true,
-        "remaining_high_f": 72.75,
-        "remaining_high_time_local": "2026-10-11T19:30:00-07:00",
-        "projected_high_f": 89.0
+        "run_time_utc": "2026-10-12 08:00:00",
+        "rows_received": 29,
+        "max_forecast_hour": 7,
+        "coverage_start_local": "2026-10-12T01:00:00-07:00",
+        "coverage_end_local": "2026-10-12T08:00:00-07:00",
+        "contract_start_local": "2026-10-12T00:00:00-07:00",
+        "contract_end_local": "2026-10-13T00:00:00-07:00",
+        "covers_rest_of_contract": false,
+        "remaining_high_f": 71.58,
+        "remaining_high_time_local": "2026-10-12T08:00:00-07:00"
       },
       "HRRR-EXT": {
         "available": true,
         "model": "HRRR-EXT",
-        "run_time_utc": "2026-10-12 00:00:00",
+        "run_time_utc": "2026-10-12 06:00:00",
         "rows_received": 49,
         "max_forecast_hour": 48,
-        "coverage_start_local": "2026-10-11T17:00:00-07:00",
-        "coverage_end_local": "2026-10-13T17:00:00-07:00",
-        "contract_start_local": "2026-10-11T00:00:00-07:00",
-        "contract_end_local": "2026-10-12T00:00:00-07:00",
+        "coverage_start_local": "2026-10-11T23:00:00-07:00",
+        "coverage_end_local": "2026-10-13T23:00:00-07:00",
+        "contract_start_local": "2026-10-12T00:00:00-07:00",
+        "contract_end_local": "2026-10-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 71.24,
-        "remaining_high_time_local": "2026-10-11T20:00:00-07:00",
-        "projected_high_f": 89.0
+        "remaining_high_f": 83.84,
+        "remaining_high_time_local": "2026-10-12T15:00:00-07:00",
+        "projected_high_f": 83.84
       },
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-10-12 00:00:00",
+        "run_time_utc": "2026-10-12 07:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 72,
-        "coverage_start_local": "2026-10-11T18:00:00-07:00",
-        "coverage_end_local": "2026-10-14T17:00:00-07:00",
-        "contract_start_local": "2026-10-11T00:00:00-07:00",
-        "contract_end_local": "2026-10-12T00:00:00-07:00",
+        "max_forecast_hour": 71,
+        "coverage_start_local": "2026-10-12T01:00:00-07:00",
+        "coverage_end_local": "2026-10-14T23:00:00-07:00",
+        "contract_start_local": "2026-10-12T00:00:00-07:00",
+        "contract_end_local": "2026-10-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 76.01,
-        "remaining_high_time_local": "2026-10-11T20:00:00-07:00",
-        "projected_high_f": 89.0
+        "remaining_high_f": 80.15,
+        "remaining_high_time_local": "2026-10-12T15:00:00-07:00",
+        "projected_high_f": 80.15
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-10-12 01:00:00",
+        "run_time_utc": "2026-10-12 08:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-10-11T18:00:00-07:00",
-        "coverage_end_local": "2026-10-12T15:00:00-07:00",
-        "contract_start_local": "2026-10-11T00:00:00-07:00",
-        "contract_end_local": "2026-10-12T00:00:00-07:00",
-        "covers_rest_of_contract": true,
-        "remaining_high_f": 70.15,
-        "remaining_high_time_local": "2026-10-11T20:00:00-07:00",
-        "projected_high_f": 89.0
+        "coverage_start_local": "2026-10-12T01:00:00-07:00",
+        "coverage_end_local": "2026-10-12T22:00:00-07:00",
+        "contract_start_local": "2026-10-12T00:00:00-07:00",
+        "contract_end_local": "2026-10-13T00:00:00-07:00",
+        "covers_rest_of_contract": false,
+        "remaining_high_f": 78.86,
+        "remaining_high_time_local": "2026-10-12T13:00:00-07:00"
       },
       "GFS-MOS": {
         "available": true,
         "model": "GFS-MOS",
-        "run_time_utc": "2026-10-11 18:00:00",
+        "run_time_utc": "2026-10-12 00:00:00",
         "rows_received": 21,
         "max_forecast_hour": 72,
-        "coverage_start_local": "2026-10-11T17:00:00-07:00",
-        "coverage_end_local": "2026-10-14T11:00:00-07:00",
-        "contract_start_local": "2026-10-11T00:00:00-07:00",
-        "contract_end_local": "2026-10-12T00:00:00-07:00",
+        "coverage_start_local": "2026-10-11T23:00:00-07:00",
+        "coverage_end_local": "2026-10-14T17:00:00-07:00",
+        "contract_start_local": "2026-10-12T00:00:00-07:00",
+        "contract_end_local": "2026-10-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 79.0,
-        "remaining_high_time_local": "2026-10-11T20:00:00-07:00",
-        "projected_high_f": 89.0
+        "remaining_high_f": 80.0,
+        "remaining_high_time_local": "2026-10-12T14:00:00-07:00",
+        "projected_high_f": 80.0
       },
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-10-12 01:00:00",
+        "run_time_utc": "2026-10-12 08:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-10-11T19:00:00-07:00",
-        "coverage_end_local": "2026-10-13T08:00:00-07:00",
-        "contract_start_local": "2026-10-11T00:00:00-07:00",
-        "contract_end_local": "2026-10-12T00:00:00-07:00",
+        "coverage_start_local": "2026-10-12T02:00:00-07:00",
+        "coverage_end_local": "2026-10-13T15:00:00-07:00",
+        "contract_start_local": "2026-10-12T00:00:00-07:00",
+        "contract_end_local": "2026-10-13T00:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 75.0,
-        "remaining_high_time_local": "2026-10-11T20:00:00-07:00",
-        "projected_high_f": 89.0
+        "remaining_high_f": 83.0,
+        "remaining_high_time_local": "2026-10-12T14:00:00-07:00",
+        "projected_high_f": 83.0
       }
     },
     "consensus": {
       "available": true,
-      "model_count": 6,
+      "model_count": 4,
       "models_used": [
-        "HRRR",
         "HRRR-EXT",
         "NBM",
-        "RAP",
         "GFS-MOS",
         "LAV-MOS"
       ],
-      "median_high_f": 89.0,
-      "mean_high_f": 89.0,
-      "min_high_f": 89.0,
-      "max_high_f": 89.0,
-      "spread_f": 0.0
+      "median_high_f": 81.58,
+      "mean_high_f": 81.75,
+      "min_high_f": 80.0,
+      "max_high_f": 83.84,
+      "spread_f": 3.84
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 89.0
+    "observed_floor_f": 73.04
   },
   "wethr_observed_high": {
     "available": true,
-    "wethr_high_f": 89.0,
-    "time_of_high_utc": "2026-10-11 19:56:00",
+    "wethr_high_f": 73.0,
+    "time_of_high_utc": "2026-10-12 09:03:00",
     "sources": [
-      "omo",
       "hf_metar",
-      "dsm",
-      "cli",
-      "six_hour_high"
+      "omo",
+      "metar"
     ],
     "source_detail": {
-      "omo": {
-        "first_confirmed_utc": "2026-10-11 19:53:00",
-        "count": 4
-      },
       "hf_metar": {
-        "first_confirmed_utc": "2026-10-11 19:55:00",
-        "count": 1
+        "first_confirmed_utc": "2026-10-12 07:00:00",
+        "count": 24
       },
-      "dsm": {
-        "first_confirmed_utc": "2026-10-11 19:56:00",
-        "count": 1
+      "omo": {
+        "first_confirmed_utc": "2026-10-12 07:00:00",
+        "count": 118
       },
-      "cli": {
-        "first_confirmed_utc": "2026-10-11 19:56:00",
-        "count": 1
-      },
-      "six_hour_high": {
-        "first_confirmed_utc": "2026-10-11 23:51:00",
-        "count": 1
+      "metar": {
+        "first_confirmed_utc": "2026-10-12 07:51:00",
+        "count": 2
       }
     },
     "omo_informed": true,
     "data_quality": {
       "nws": {
-        "ok": false,
-        "warnings": [
-          {
-            "code": "temperature_data_missing",
-            "severity": "warning",
-            "message": "4 temperature readings missing (-999) in this window; wethr_high/wethr_low may be affected.",
-            "missing_count": 4,
-            "longest_run": 1,
-            "longest_run_minutes": 0,
-            "first_missing_utc": "2026-10-11 16:05:00",
-            "last_missing_utc": "2026-10-11 18:10:00",
-            "active": false,
-            "active_run": 0,
-            "near_extreme": false,
-            "near_high": false,
-            "near_low": false
-          }
-        ]
+        "ok": true,
+        "warnings": []
       }
     },
     "source": "Wethr.net Observations API v2"
   },
+  "research_status": "WAITING FOR 8:00 AM MODEL",
   "historical_analogs": {
-    "available": true,
-    "count": 4,
-    "checkpoint_hour": 18,
-    "current_temp_f": 75.0,
-    "median_final_high_f": 90.0,
-    "range_80_low_f": 87.6,
-    "range_80_high_f": 99.4,
-    "median_heating_remaining_f": 17.0
+    "available": false
   },
-  "next_update_local": "2026-10-11T19:35:00-07:00",
+  "next_update_local": "2026-10-12T03:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
-        "model_name": "HRRR-EXT",
-        "forecasts": 27,
-        "mae_f": 0.45111111111111135,
-        "bias_f": -0.07999999999999988,
-        "exact_pct": 70.37037037037037,
-        "within_1f_pct": 85.18518518518519,
-        "within_2f_pct": 96.29629629629629,
+        "model_name": "HRRR",
+        "forecasts": 25,
+        "mae_f": 0.5368,
+        "bias_f": -0.0704000000000002,
+        "exact_pct": 68.0,
+        "within_1f_pct": 76.0,
+        "within_2f_pct": 92.0,
         "closest_wins": 17,
-        "closest_win_pct": 62.96296296296296
+        "closest_win_pct": 68.0
       },
       {
-        "model_name": "HRRR",
+        "model_name": "HRRR-EXT",
+        "forecasts": 24,
+        "mae_f": 0.5375000000000002,
+        "bias_f": -0.11999999999999982,
+        "exact_pct": 62.5,
+        "within_1f_pct": 79.16666666666666,
+        "within_2f_pct": 95.83333333333334,
+        "closest_wins": 17,
+        "closest_win_pct": 70.83333333333334
+      },
+      {
+        "model_name": "KPHX_MODEL",
+        "forecasts": 30,
+        "mae_f": 0.7981711594833063,
+        "bias_f": 0.19980407049898902,
+        "exact_pct": 53.333333333333336,
+        "within_1f_pct": 63.33333333333333,
+        "within_2f_pct": 93.33333333333333,
+        "closest_wins": 13,
+        "closest_win_pct": 43.333333333333336
+      },
+      {
+        "model_name": "WETHR_CONSENSUS",
+        "forecasts": 30,
+        "mae_f": 0.8029999999999996,
+        "bias_f": -0.7503333333333325,
+        "exact_pct": 70.0,
+        "within_1f_pct": 70.0,
+        "within_2f_pct": 83.33333333333334,
+        "closest_wins": 20,
+        "closest_win_pct": 66.66666666666666
+      },
+      {
+        "model_name": "LAV-MOS",
         "forecasts": 28,
-        "mae_f": 0.5207142857142857,
-        "bias_f": -0.08857142857142872,
-        "exact_pct": 67.85714285714286,
-        "within_1f_pct": 78.57142857142857,
-        "within_2f_pct": 92.85714285714286,
+        "mae_f": 0.8071428571428575,
+        "bias_f": -0.6928571428571425,
+        "exact_pct": 64.28571428571429,
+        "within_1f_pct": 71.42857142857143,
+        "within_2f_pct": 89.28571428571429,
         "closest_wins": 18,
         "closest_win_pct": 64.28571428571429
       },
       {
-        "model_name": "LAV-MOS",
-        "forecasts": 30,
-        "mae_f": 0.586666666666667,
-        "bias_f": -0.41333333333333305,
-        "exact_pct": 70.0,
-        "within_1f_pct": 80.0,
-        "within_2f_pct": 93.33333333333333,
-        "closest_wins": 21,
-        "closest_win_pct": 70.0
-      },
-      {
-        "model_name": "WETHR_CONSENSUS",
-        "forecasts": 32,
-        "mae_f": 0.6265624999999995,
-        "bias_f": -0.5771874999999991,
-        "exact_pct": 71.875,
-        "within_1f_pct": 78.125,
-        "within_2f_pct": 87.5,
-        "closest_wins": 21,
-        "closest_win_pct": 65.625
-      },
-      {
         "model_name": "RAP",
-        "forecasts": 30,
-        "mae_f": 0.6830000000000008,
-        "bias_f": -0.6183333333333333,
-        "exact_pct": 66.66666666666666,
-        "within_1f_pct": 76.66666666666667,
-        "within_2f_pct": 86.66666666666667,
+        "forecasts": 28,
+        "mae_f": 0.8242857142857147,
+        "bias_f": -0.7549999999999996,
+        "exact_pct": 64.28571428571429,
+        "within_1f_pct": 67.85714285714286,
+        "within_2f_pct": 82.14285714285714,
         "closest_wins": 18,
-        "closest_win_pct": 60.0
-      },
-      {
-        "model_name": "KPHX_MODEL",
-        "forecasts": 32,
-        "mae_f": 0.6978918121724882,
-        "bias_f": 0.4076328305780996,
-        "exact_pct": 53.125,
-        "within_1f_pct": 65.625,
-        "within_2f_pct": 96.875,
-        "closest_wins": 14,
-        "closest_win_pct": 43.75
+        "closest_win_pct": 64.28571428571429
       },
       {
         "model_name": "NBM",
-        "forecasts": 30,
-        "mae_f": 0.8116666666666664,
-        "bias_f": -0.771666666666666,
-        "exact_pct": 66.66666666666666,
-        "within_1f_pct": 70.0,
-        "within_2f_pct": 86.66666666666667,
-        "closest_wins": 19,
-        "closest_win_pct": 63.33333333333333
+        "forecasts": 28,
+        "mae_f": 1.0246428571428576,
+        "bias_f": -0.9817857142857142,
+        "exact_pct": 67.85714285714286,
+        "within_1f_pct": 67.85714285714286,
+        "within_2f_pct": 82.14285714285714,
+        "closest_wins": 18,
+        "closest_win_pct": 64.28571428571429
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 32,
-        "mae_f": 1.0,
-        "bias_f": -0.1875,
-        "exact_pct": 31.25,
-        "within_1f_pct": 68.75,
-        "within_2f_pct": 100.0,
-        "closest_wins": 12,
-        "closest_win_pct": 37.5
+        "forecasts": 30,
+        "mae_f": 1.4666666666666666,
+        "bias_f": -0.6,
+        "exact_pct": 13.333333333333334,
+        "within_1f_pct": 53.333333333333336,
+        "within_2f_pct": 86.66666666666667,
+        "closest_wins": 6,
+        "closest_win_pct": 20.0
       },
       {
         "model_name": "GFS-MOS",
-        "forecasts": 30,
-        "mae_f": 1.1833333333333333,
-        "bias_f": -1.1433333333333329,
-        "exact_pct": 60.0,
-        "within_1f_pct": 66.66666666666666,
-        "within_2f_pct": 83.33333333333334,
-        "closest_wins": 18,
-        "closest_win_pct": 60.0
+        "forecasts": 28,
+        "mae_f": 1.4842857142857144,
+        "bias_f": -1.4414285714285708,
+        "exact_pct": 60.71428571428571,
+        "within_1f_pct": 60.71428571428571,
+        "within_2f_pct": 78.57142857142857,
+        "closest_wins": 17,
+        "closest_win_pct": 60.71428571428571
       }
     ],
     "30_day": [
       {
         "model_name": "HRRR",
-        "forecasts": 135,
-        "mae_f": 0.5699259259259256,
-        "bias_f": -0.24977777777777765,
-        "exact_pct": 65.92592592592592,
-        "within_1f_pct": 78.51851851851852,
-        "within_2f_pct": 92.5925925925926,
-        "closest_wins": 91,
-        "closest_win_pct": 67.4074074074074
+        "forecasts": 132,
+        "mae_f": 0.5774242424242421,
+        "bias_f": -0.2499999999999999,
+        "exact_pct": 65.9090909090909,
+        "within_1f_pct": 78.03030303030303,
+        "within_2f_pct": 92.42424242424242,
+        "closest_wins": 89,
+        "closest_win_pct": 67.42424242424242
       },
       {
         "model_name": "HRRR-EXT",
-        "forecasts": 152,
-        "mae_f": 0.6728947368421053,
-        "bias_f": -0.13671052631578975,
-        "exact_pct": 63.1578947368421,
-        "within_1f_pct": 76.97368421052632,
-        "within_2f_pct": 90.13157894736842,
-        "closest_wins": 92,
-        "closest_win_pct": 60.526315789473685
+        "forecasts": 149,
+        "mae_f": 0.6914765100671141,
+        "bias_f": -0.1444966442953022,
+        "exact_pct": 61.74496644295302,
+        "within_1f_pct": 75.83892617449665,
+        "within_2f_pct": 89.93288590604027,
+        "closest_wins": 91,
+        "closest_win_pct": 61.07382550335571
       },
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 162,
-        "mae_f": 0.8347957311212372,
-        "bias_f": 0.29767363513575057,
-        "exact_pct": 51.23456790123457,
-        "within_1f_pct": 72.8395061728395,
-        "within_2f_pct": 92.5925925925926,
-        "closest_wins": 87,
-        "closest_win_pct": 53.70370370370371
-      },
-      {
-        "model_name": "LAV-MOS",
-        "forecasts": 159,
-        "mae_f": 0.9340880503144653,
-        "bias_f": -0.7602515723270439,
-        "exact_pct": 58.490566037735846,
-        "within_1f_pct": 67.29559748427673,
-        "within_2f_pct": 87.42138364779875,
-        "closest_wins": 99,
-        "closest_win_pct": 62.264150943396224
-      },
-      {
-        "model_name": "WETHR_CONSENSUS",
-        "forecasts": 162,
-        "mae_f": 0.9712345679012341,
-        "bias_f": -0.7434567901234564,
-        "exact_pct": 53.70370370370371,
-        "within_1f_pct": 62.34567901234568,
-        "within_2f_pct": 80.8641975308642,
-        "closest_wins": 90,
-        "closest_win_pct": 55.55555555555556
-      },
-      {
-        "model_name": "RAP",
         "forecasts": 160,
-        "mae_f": 0.9745000000000001,
-        "bias_f": -0.8721250000000002,
-        "exact_pct": 57.49999999999999,
-        "within_1f_pct": 66.25,
-        "within_2f_pct": 81.875,
-        "closest_wins": 94,
-        "closest_win_pct": 58.75
-      },
-      {
-        "model_name": "GFS-MOS",
-        "forecasts": 160,
-        "mae_f": 1.283375,
-        "bias_f": -1.0231249999999998,
-        "exact_pct": 51.24999999999999,
-        "within_1f_pct": 59.375,
-        "within_2f_pct": 76.25,
+        "mae_f": 0.8462924080524392,
+        "bias_f": 0.2483142530014522,
+        "exact_pct": 51.87500000000001,
+        "within_1f_pct": 72.5,
+        "within_2f_pct": 91.875,
         "closest_wins": 87,
         "closest_win_pct": 54.37499999999999
       },
       {
-        "model_name": "NBM",
+        "model_name": "RAP",
+        "forecasts": 158,
+        "mae_f": 0.9522151898734177,
+        "bias_f": -0.8485443037974683,
+        "exact_pct": 56.9620253164557,
+        "within_1f_pct": 65.82278481012658,
+        "within_2f_pct": 82.27848101265823,
+        "closest_wins": 93,
+        "closest_win_pct": 58.86075949367089
+      },
+      {
+        "model_name": "LAV-MOS",
         "forecasts": 157,
-        "mae_f": 1.404522292993631,
-        "bias_f": -0.8868152866242043,
-        "exact_pct": 52.86624203821656,
-        "within_1f_pct": 57.961783439490446,
-        "within_2f_pct": 68.78980891719745,
-        "closest_wins": 87,
-        "closest_win_pct": 55.4140127388535
+        "mae_f": 0.9587261146496814,
+        "bias_f": -0.7826751592356687,
+        "exact_pct": 57.961783439490446,
+        "within_1f_pct": 66.87898089171973,
+        "within_2f_pct": 86.62420382165605,
+        "closest_wins": 97,
+        "closest_win_pct": 61.78343949044586
+      },
+      {
+        "model_name": "WETHR_CONSENSUS",
+        "forecasts": 160,
+        "mae_f": 0.9933749999999997,
+        "bias_f": -0.7627499999999997,
+        "exact_pct": 53.125,
+        "within_1f_pct": 61.875,
+        "within_2f_pct": 81.25,
+        "closest_wins": 88,
+        "closest_win_pct": 55.00000000000001
+      },
+      {
+        "model_name": "GFS-MOS",
+        "forecasts": 158,
+        "mae_f": 1.3249367088607593,
+        "bias_f": -1.061392405063291,
+        "exact_pct": 50.63291139240506,
+        "within_1f_pct": 58.86075949367089,
+        "within_2f_pct": 76.58227848101265,
+        "closest_wins": 85,
+        "closest_win_pct": 53.79746835443038
+      },
+      {
+        "model_name": "NBM",
+        "forecasts": 155,
+        "mae_f": 1.4470967741935485,
+        "bias_f": -0.9227096774193553,
+        "exact_pct": 52.25806451612903,
+        "within_1f_pct": 57.41935483870968,
+        "within_2f_pct": 69.03225806451613,
+        "closest_wins": 85,
+        "closest_win_pct": 54.83870967741935
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 162,
-        "mae_f": 1.8888888888888888,
-        "bias_f": -0.24691358024691357,
-        "exact_pct": 24.691358024691358,
-        "within_1f_pct": 50.0,
-        "within_2f_pct": 82.09876543209876,
-        "closest_wins": 49,
-        "closest_win_pct": 30.246913580246915
+        "forecasts": 160,
+        "mae_f": 1.9875,
+        "bias_f": -0.325,
+        "exact_pct": 21.25,
+        "within_1f_pct": 46.875,
+        "within_2f_pct": 79.375,
+        "closest_wins": 43,
+        "closest_win_pct": 26.875
       }
     ],
     "all_time": [
       {
         "model_name": "HRRR",
-        "forecasts": 256,
-        "mae_f": 0.6092968750000001,
-        "bias_f": -0.3020312499999998,
-        "exact_pct": 60.546875,
-        "within_1f_pct": 75.78125,
-        "within_2f_pct": 94.53125,
-        "closest_wins": 151,
-        "closest_win_pct": 58.984375
+        "forecasts": 258,
+        "mae_f": 0.6045736434108527,
+        "bias_f": -0.29968992248062,
+        "exact_pct": 60.85271317829457,
+        "within_1f_pct": 75.96899224806202,
+        "within_2f_pct": 94.57364341085271,
+        "closest_wins": 153,
+        "closest_win_pct": 59.30232558139535
       },
       {
         "model_name": "HRRR-EXT",
-        "forecasts": 293,
-        "mae_f": 0.6708532423208193,
-        "bias_f": -0.18000000000000038,
-        "exact_pct": 61.092150170648466,
-        "within_1f_pct": 74.06143344709898,
-        "within_2f_pct": 90.44368600682594,
-        "closest_wins": 160,
-        "closest_win_pct": 54.60750853242321
+        "forecasts": 296,
+        "mae_f": 0.6692905405405408,
+        "bias_f": -0.18341216216216252,
+        "exact_pct": 61.14864864864865,
+        "within_1f_pct": 73.98648648648648,
+        "within_2f_pct": 90.54054054054053,
+        "closest_wins": 163,
+        "closest_win_pct": 55.067567567567565
       },
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 305,
-        "mae_f": 0.718283151449205,
-        "bias_f": 0.06555737684022002,
-        "exact_pct": 54.42622950819672,
-        "within_1f_pct": 77.70491803278688,
-        "within_2f_pct": 95.08196721311475,
-        "closest_wins": 150,
-        "closest_win_pct": 49.18032786885246
+        "forecasts": 309,
+        "mae_f": 0.7230023424636312,
+        "bias_f": 0.05069138287059082,
+        "exact_pct": 54.36893203883495,
+        "within_1f_pct": 77.34627831715211,
+        "within_2f_pct": 94.8220064724919,
+        "closest_wins": 152,
+        "closest_win_pct": 49.19093851132686
       },
       {
         "model_name": "WETHR_CONSENSUS",
-        "forecasts": 304,
-        "mae_f": 0.9396381578947368,
-        "bias_f": -0.8010197368421051,
+        "forecasts": 308,
+        "mae_f": 0.9469155844155843,
+        "bias_f": -0.8100974025974025,
         "exact_pct": 50.0,
-        "within_1f_pct": 64.80263157894737,
-        "within_2f_pct": 84.21052631578947,
-        "closest_wins": 152,
+        "within_1f_pct": 64.6103896103896,
+        "within_2f_pct": 84.0909090909091,
+        "closest_wins": 154,
         "closest_win_pct": 50.0
       },
       {
         "model_name": "LAV-MOS",
-        "forecasts": 301,
-        "mae_f": 0.9842524916943521,
-        "bias_f": -0.8791362126245847,
-        "exact_pct": 51.162790697674424,
-        "within_1f_pct": 67.44186046511628,
-        "within_2f_pct": 88.37209302325581,
-        "closest_wins": 162,
-        "closest_win_pct": 53.820598006644516
+        "forecasts": 305,
+        "mae_f": 0.9910163934426229,
+        "bias_f": -0.8872786885245901,
+        "exact_pct": 51.147540983606554,
+        "within_1f_pct": 67.21311475409836,
+        "within_2f_pct": 88.19672131147541,
+        "closest_wins": 164,
+        "closest_win_pct": 53.77049180327869
       },
       {
         "model_name": "RAP",
-        "forecasts": 302,
-        "mae_f": 1.0038741721854303,
-        "bias_f": -0.9400331125827814,
-        "exact_pct": 51.98675496688742,
-        "within_1f_pct": 62.913907284768214,
-        "within_2f_pct": 81.78807947019867,
-        "closest_wins": 158,
-        "closest_win_pct": 52.317880794701985
+        "forecasts": 306,
+        "mae_f": 1.0054901960784313,
+        "bias_f": -0.9424836601307188,
+        "exact_pct": 51.9607843137255,
+        "within_1f_pct": 62.745098039215684,
+        "within_2f_pct": 81.69934640522875,
+        "closest_wins": 161,
+        "closest_win_pct": 52.614379084967325
       },
       {
         "model_name": "GFS-MOS",
-        "forecasts": 302,
-        "mae_f": 1.2287417218543046,
-        "bias_f": -1.0378807947019868,
-        "exact_pct": 46.026490066225165,
-        "within_1f_pct": 62.58278145695364,
-        "within_2f_pct": 79.80132450331125,
-        "closest_wins": 145,
-        "closest_win_pct": 48.01324503311258
+        "forecasts": 306,
+        "mae_f": 1.245359477124183,
+        "bias_f": -1.0569934640522876,
+        "exact_pct": 46.07843137254902,
+        "within_1f_pct": 62.41830065359477,
+        "within_2f_pct": 79.73856209150327,
+        "closest_wins": 147,
+        "closest_win_pct": 48.03921568627451
       },
       {
         "model_name": "NBM",
-        "forecasts": 296,
-        "mae_f": 1.3795270270270272,
-        "bias_f": -1.0451351351351355,
-        "exact_pct": 46.62162162162162,
-        "within_1f_pct": 56.08108108108109,
-        "within_2f_pct": 68.24324324324324,
-        "closest_wins": 143,
-        "closest_win_pct": 48.310810810810814
+        "forecasts": 300,
+        "mae_f": 1.3889000000000002,
+        "bias_f": -1.0589666666666668,
+        "exact_pct": 46.666666666666664,
+        "within_1f_pct": 56.00000000000001,
+        "within_2f_pct": 68.33333333333333,
+        "closest_wins": 145,
+        "closest_win_pct": 48.333333333333336
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 305,
-        "mae_f": 1.5868852459016394,
-        "bias_f": -0.419672131147541,
-        "exact_pct": 25.245901639344265,
-        "within_1f_pct": 57.70491803278689,
-        "within_2f_pct": 86.55737704918033,
+        "forecasts": 309,
+        "mae_f": 1.6051779935275081,
+        "bias_f": -0.45307443365695793,
+        "exact_pct": 24.919093851132686,
+        "within_1f_pct": 56.957928802588995,
+        "within_2f_pct": 85.43689320388349,
         "closest_wins": 89,
-        "closest_win_pct": 29.18032786885246
+        "closest_win_pct": 28.802588996763756
       }
     ]
   },
   "progression": [
     {
       "checkpoint_hour": null,
-      "latest_precise_temp_f": 77.0,
-      "latest_temp_f": 77.0,
+      "latest_precise_temp_f": 73.04,
+      "latest_temp_f": 73.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
-      "nws_am_forecast_high_f": 86.0,
+      "nws_am_forecast_high_f": 81.0,
       "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 9.0,
-      "latest_precise_temp_f": 78.98,
-      "latest_temp_f": 79.0,
-      "six_hour_max_f": null,
-      "model_predicted_high_f": 86.29464146419602,
-      "nws_am_forecast_high_f": 86.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 12.0,
-      "latest_precise_temp_f": 86.0,
-      "latest_temp_f": 86.0,
-      "six_hour_max_f": 84.0,
-      "model_predicted_high_f": 87.37399590654944,
-      "nws_am_forecast_high_f": 86.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 16.0,
-      "latest_precise_temp_f": 80.06,
-      "latest_temp_f": 80.0,
-      "six_hour_max_f": 84.0,
-      "model_predicted_high_f": 89.0,
-      "nws_am_forecast_high_f": 86.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 18.0,
-      "latest_precise_temp_f": 75.02,
-      "latest_temp_f": 75.0,
-      "six_hour_max_f": 89.0,
-      "model_predicted_high_f": 89.0,
-      "nws_am_forecast_high_f": 86.0,
-      "weather_risk": "MEDIUM"
     }
   ]
 }
