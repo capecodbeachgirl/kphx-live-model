@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated_at_local": "2026-10-16T14:40:30.604818-07:00",
+  "updated_at_local": "2026-10-16T14:47:38.000866-07:00",
   "latest_metar_time": "2026-10-16T13:51:00-07:00",
   "latest_temp_f": 86.0,
   "latest_precise_temp_f": 86.0,
@@ -141,8 +141,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-16T21:16:55+00:00",
-    "prior_time_utc": "2026-10-16T20:46:55+00:00",
+    "latest_time_utc": "2026-10-16T21:38:59+00:00",
+    "prior_time_utc": "2026-10-16T21:08:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -177,16 +177,16 @@
       "strike_type": "between",
       "floor_strike": 88.0,
       "cap_strike": 89.0,
-      "yes_bid": 0.47,
-      "yes_ask": 0.48,
-      "last_price": 0.46,
-      "market_mid": 0.475,
+      "yes_bid": 0.27,
+      "yes_ask": 0.49,
+      "last_price": 0.27,
+      "market_mid": 0.38,
       "close_time": "2026-10-17T07:00:00Z",
       "occurrence_datetime": "2026-10-17T14:00:00Z",
       "updated_time": "2026-10-15T14:00:02.644678Z",
       "model_probability": 0.6446173800259404,
-      "edge_vs_ask": 0.1646173800259404,
-      "difference": 0.1696173800259404
+      "edge_vs_ask": 0.1546173800259404,
+      "difference": 0.2646173800259404
     },
     {
       "ticker": "KXHIGHTPHX-26OCT16-B86.5",
@@ -196,16 +196,16 @@
       "strike_type": "between",
       "floor_strike": 86.0,
       "cap_strike": 87.0,
-      "yes_bid": 0.54,
-      "yes_ask": 0.55,
-      "last_price": 0.54,
-      "market_mid": 0.545,
+      "yes_bid": 0.55,
+      "yes_ask": 0.61,
+      "last_price": 0.55,
+      "market_mid": 0.5800000000000001,
       "close_time": "2026-10-17T07:00:00Z",
       "occurrence_datetime": "2026-10-17T14:00:00Z",
       "updated_time": "2026-10-15T14:00:02.644678Z",
       "model_probability": 0.17769130998702984,
-      "edge_vs_ask": -0.3723086900129702,
-      "difference": -0.3673086900129702
+      "edge_vs_ask": -0.4323086900129701,
+      "difference": -0.4023086900129702
     },
     {
       "ticker": "KXHIGHTPHX-26OCT16-B90.5",
@@ -216,15 +216,15 @@
       "floor_strike": 90.0,
       "cap_strike": 91.0,
       "yes_bid": 0.01,
-      "yes_ask": 0.02,
-      "last_price": 0.01,
-      "market_mid": 0.015,
+      "yes_ask": 0.04,
+      "last_price": 0.03,
+      "market_mid": 0.025,
       "close_time": "2026-10-17T07:00:00Z",
       "occurrence_datetime": "2026-10-17T14:00:00Z",
       "updated_time": "2026-10-15T14:00:02.644678Z",
       "model_probability": 0.17769130998702984,
-      "edge_vs_ask": 0.15769130998702985,
-      "difference": 0.16269130998702985
+      "edge_vs_ask": 0.13769130998702983,
+      "difference": 0.15269130998702984
     },
     {
       "ticker": "KXHIGHTPHX-26OCT16-B84.5",
@@ -310,16 +310,16 @@
     "strike_type": "between",
     "floor_strike": 88.0,
     "cap_strike": 89.0,
-    "yes_bid": 0.47,
-    "yes_ask": 0.48,
-    "last_price": 0.46,
-    "market_mid": 0.475,
+    "yes_bid": 0.27,
+    "yes_ask": 0.49,
+    "last_price": 0.27,
+    "market_mid": 0.38,
     "close_time": "2026-10-17T07:00:00Z",
     "occurrence_datetime": "2026-10-17T14:00:00Z",
     "updated_time": "2026-10-15T14:00:02.644678Z",
     "model_probability": 0.6446173800259404,
-    "edge_vs_ask": 0.1646173800259404,
-    "difference": 0.1696173800259404
+    "edge_vs_ask": 0.1546173800259404,
+    "difference": 0.2646173800259404
   },
   "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
@@ -332,15 +332,15 @@
     "latest_cloud_fraction_below_20000": 0.0,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262892120_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
     "geocolor_time_utc": "2026-10-16T21:20:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262892120_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-16T21:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262892130_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-16T21:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-16T14:40:22.807583-07:00",
+    "collected_at_local": "2026-10-16T14:47:33.600209-07:00",
     "models": {
       "HRRR": {
         "available": false,
