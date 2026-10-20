@@ -1,25 +1,26 @@
 {
   "date": "2026-10-20",
-  "updated_at_local": "2026-10-20T01:24:46.503293-07:00",
-  "latest_metar_time": "2026-10-20T00:51:00-07:00",
-  "latest_temp_f": 74.0,
-  "latest_precise_temp_f": 73.94,
-  "latest_dewpoint_f": 57.0,
+  "updated_at_local": "2026-10-20T07:15:25.593953-07:00",
+  "latest_metar_time": "2026-10-20T06:51:00-07:00",
+  "latest_temp_f": 72.0,
+  "latest_precise_temp_f": 71.96,
+  "latest_dewpoint_f": 55.0,
   "raw_metar_peak_f": 74.0,
   "precise_metar_peak_f": 73.94,
   "six_hour_max_f": null,
-  "six_hour_max_report_time": null,
+  "six_hour_max_report_time": "2026-10-20T04:51:00-07:00",
   "nws_am_forecast_high_f": 93.0,
-  "nws_am_issued_at": "2026-10-20T00:11:00-07:00",
+  "nws_am_issued_at": "2026-10-20T04:01:00-07:00",
   "checkpoint_hour": null,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
+    "Heavy recent cloud cover",
     "NWS hourly forecast includes thunderstorm potential",
     "NWS sky cover forecast reaches 77%",
     "Phoenix NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "LOW",
+    "observed_risk": "MEDIUM",
     "forecast_risk": "MEDIUM",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
@@ -27,54 +28,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-10-20T01:00:00-07:00",
-        "temp_f": 75.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "10 mph",
-        "wind_direction": "ENE"
-      },
-      {
-        "time": "2026-10-20T02:00:00-07:00",
-        "temp_f": 74.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "10 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-10-20T03:00:00-07:00",
-        "temp_f": 73.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "10 mph",
-        "wind_direction": "ENE"
-      },
-      {
-        "time": "2026-10-20T04:00:00-07:00",
-        "temp_f": 73.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "10 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-10-20T05:00:00-07:00",
-        "temp_f": 73.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "10 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-10-20T06:00:00-07:00",
-        "temp_f": 72.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "10 mph",
-        "wind_direction": "E"
-      },
       {
         "time": "2026-10-20T07:00:00-07:00",
         "temp_f": 72.0,
@@ -195,30 +148,6 @@
     "max_sky_cover_pct": 77.0,
     "sky_hours": [
       {
-        "time": "2026-10-20T01:00:00-07:00",
-        "sky_cover_pct": 35.0
-      },
-      {
-        "time": "2026-10-20T02:00:00-07:00",
-        "sky_cover_pct": 27.0
-      },
-      {
-        "time": "2026-10-20T03:00:00-07:00",
-        "sky_cover_pct": 28.0
-      },
-      {
-        "time": "2026-10-20T04:00:00-07:00",
-        "sky_cover_pct": 16.0
-      },
-      {
-        "time": "2026-10-20T05:00:00-07:00",
-        "sky_cover_pct": 20.0
-      },
-      {
-        "time": "2026-10-20T06:00:00-07:00",
-        "sky_cover_pct": 14.0
-      },
-      {
         "time": "2026-10-20T07:00:00-07:00",
         "sky_cover_pct": 24.0
       },
@@ -282,30 +211,34 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-20T05:47:00+00:00",
-    "product_id": "c51de7c1-5d4f-495e-8085-ce60634e6fc9",
-    "text": "\n000\nFXUS65 KPSR 200547\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n1047 PM MST Mon Oct 19 2026\n\n.UPDATE..06Z Aviation Discussion\n\n&&\n\n.KEY MESSAGES...\n\n- A weak disturbance will spark scattered showers and isolated \n  thunderstorms this afternoon, mainly across the Arizona higher \n  terrain east of Phoenix.\n\n- Temperatures Tuesday will warm near to slightly above normal \n  before abrupt cooling takes place by the latter half of the \n  week.\n\n- A Pacific low pressure system moving into the region during the\n  middle portion of the week will bring increasing rain chances, \n  mainly across south-central and eastern Arizona, with the \n  potential for multiple rounds of moderate to heavy rainfall as \n  well as some strong thunderstorms. \n\n&&\n\n.SHORT TERM /Today through Tuesday/... \nEarly afternoon satellite WV imagery shows a weak shortwave \ntrough progressing across Arizona, aiding in shower and isolated \nthunderstorm development across the higher terrain. Sufficient \nmoisture and instability combined with orographic and dynamic \nascent will allow for continued shower and thunderstorm \ndevelopment this afternoon. The greatest focus of this activity \nwill reside across southeastern portions of the state where \nmoisture and instability parameters are best. However, HREF \nguidance supports some of this convective activity making its way \ninto southern Gila County this afternoon with gusty outflow winds \nand locally heavy rainfall being the primary concerns. Across the \nsouth-central Arizona lower deserts, conditions won't be as \nfavorable, but a few isolated showers and storms may develop, \nparticularly around the Table Top area. Quieter weather is \nexpected Tuesday as the weak shortwave exits to the northeast and \nthe greatest rain chances stay confined to the White Mountains \nTuesday afternoon.\n\nHeights rebound across the region Tuesday in the wake of the \nexiting shortwave and ahead of a potent approaching weather system\ndigging southward along the West Coast. Forecast highs warm \nseveral degrees Tuesday afternoon compared to today as \ntemperatures climb into the upper 80s to lower 90s.\n\n&&\n\n.LONG TERM /Wednesday through Sunday/... \nA much more active weather pattern is shaping up to take place by\nthe middle portion of the week as a deep upper-level low \namplifies off the CA coast and then moves inland over the Desert \nSouthwest through the remainder of the work week. Latest ensemble \nand deterministic model suite have come into a better agreement in\nshowing a deep upper-level low with strong negative height \nanomalies becoming established off the southern CA coast on \nWednesday and potentially obtaining a slight negative tilt. This \nwill cause the flow aloft to become established more out of the \nsouth, advecting deeper moisture northward into the region \nstarting Tuesday night. In fact, both the EPS and GEFS show PWAT \nvalues peaking above 250% of normal with the North American \nEnsemble Forecasting System depicting moisture levels approaching \nnear record values for mid-October. In addition, the combination \nof the deeper moisture as well as steeper mid-level lapse rates \nwill likely lead to significant instability with both the ECMWF \nand GFS indicating MUCAPE values approaching 1000 J/KG. Therefore,\nthe combination of the strong synoptic ascent from the trough and\nfavorable thermodynamic parameters will likely lead to multiple \nrounds of showers and thunderstorms to break out across much of \nsouth-central AZ Wednesday through Thursday afternoon, period when\nrainfall chances will be highest, while much of the western \ndeserts should remain mostly dry given that the greatest moisture \nadvection will occur mostly over central and eastern AZ. \n\nWith the moderate levels of instability likely to be in place, any \nshower and thunderstorm activity will be capable of producing \nrainfall rates in excess of 1-2\"/hr with training of activity likely \nto be an issue. Thus, there will be a heightened potential for flash \nflooding, especially across the foothills and higher terrain areas \nto the north and east of Phoenix where upslope flow will likely \nenhance the activity. Given this heightened potential for flash \nflooding, the Weather Prediction Center has placed areas from \nPhoenix and points north and east in a slight risk for excessive \nrainfall leading to flash flooding for both Wednesday and Thursday. \nIn terms of rainfall amounts, the latest forecast from the Weather \nPrediction Center has much of the foothills and higher terrain areas \nnorth and east of Phoenix potentially receiving upwards of 1.00-\n2.50\" while across the lower deserts, including the Phoenix metro, \namounts are likely to be lower ranging between 0.25-1.00\", although \nlocally higher amounts will be likely in areas that see training of \nactivity. In addition to the heavy rainfall threat, given that the\n0-6 km shear will be in excess of 50 kts combined with the \nmoderate levels of instability, there will also be the threat of a\nfew strong to severe storms capable of producing strong wind \ngusts and hail. \n\nAs the upper-level low moves inland into the southern Great Basin \nlate Thursday, strong dry air advection will gradually push eastward \nending rain chances by Thursday afternoon across the south-central \nAZ lower deserts with rain chances lingering into early Friday over \nthe higher terrain. There are indications from guidance of a\nfollow-on shortwave moving through area late Friday through \nSaturday, however, it should be inconsequential given that there \nwill be an abundance of dry air in place limiting any potential \nfor additional rainfall.\n\nUnder the influence of the general troughing pattern as well as the \nheightened rain chances, temperatures by the latter half of the week \nwill rapidly cool off towards readings that will be several degrees \nbelow normal. The latest NBM shows much of the lower deserts \nstruggling to reach 80 degrees for afternoon highs both Thursday and \nFriday, with Friday likely to be coolest day. Temperatures will \ngradually warm up next weekend but still remain below normal. \n\n&&\n\n.AVIATION...Updated at 0547Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo major aviation concerns are expected during the TAF period.\nLight and variable conditions look likely for this evening ahead\nof the typical overnight/morning easterly flow. A southerly shift\nis expct to take place tomorrow afternoon expected to last through\nthe evening as a full westerly shift is yet again not expected\ntomorrow afternoon. Much like today, light and VRB winds will\npersist. VCSH has been introduced to KPHX starting tomorrow\nafternoon. While during that period direct impacts over the\nterminals are possible but uncertainty remains too high to opt for\nanything higher than VCSH at this time. FEW-SCT cloud decks will\nbe common through the beginning of the forecast window with the \nlowest bases around 6-8 kft with increasing coverage near the \nlatter half of the period.\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo aviation concerns are expected over the next 24 hours. Light\nand VRB conditions will be common through Tuesday morning before a\nS/SE'rly component takes hold at both terminals. Clear skies will\ngive way to increasing low and mid-level cloud decks with the\nlowest bases around 7-9 kft.\n\n&&\n\n.FIRE WEATHER...\nWind speeds through Tuesday will generally be light with limited\nafternoon gustiness before increasing towards the middle of the\nweek ahead of an approaching weather system. Scattered showers and\nisolated thunderstorms are expected across the higher terrain\nareas of the eastern districts this afternoon. Rainfall chances \ntemporarily decrease on Tuesday before increasing substantially \nacross much of south-central and eastern AZ by the middle of the \nweek with rainfall amounts likely to be greater than 0.50-1.00\", \nespecially east of Phoenix. Minimum humidity levels in a 30-50% \nrange will be common throughout the week with even higher readings\nlikely across eastern districts with good to excellent overnight \nrecoveries. Temperatures will be in a near normal range during the\nnext couple of days before falling into a below normal category \nby the latter half of the week. \n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Smith\nLONG TERM...Lojero \nAVIATION...RW/Ryan\nFIRE WEATHER...Lojero\n",
+    "issued_at": "2026-10-20T11:21:00+00:00",
+    "product_id": "ccf84439-5d9a-4f81-b939-0db6ba0da6f7",
+    "text": "\n000\nFXUS65 KPSR 201121\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n421 AM MST Tue Oct 20 2026\n\n.UPDATE...12Z Aviation Discussion\n\n&&\n\n.KEY MESSAGES...\n\n- A Pacific low pressure system will bring multiple rounds of \n  showers and thunderstorms, mainly across central and eastern \n  Arizona, Wednesday and Thursday.\n\n- A Flood Watch is in effect across much of south-central and eastern\n  Arizona from Wednesday afternoon through Thursday evening for \n  periods of moderate to heavy rainfall leading to flash flooding.\n\n- Quieter weather is expected beginning Friday and lasting through \n  the upcoming weekend.  \n\n- Temperatures through Wednesday will be near to slightly above\n  normal before cooling to below normal levels takes place by the\n  end of the week and lasts through the weekend. \n\n&&\n\n.SHORT TERM /Today through Thursday/... \nA very active period is shaping up during the middle portion of \nthe week as a strong Pacific low pressure system affects the \nDesert Southwest, bringing multiple rounds of showers and \nthunderstorms. Latest water vapor satellite imagery as well as \nobjective analysis show the aforementioned low pressure system \ncentered off the northern CA coast early this morning. The low \npressure system is expected to continue to dive southward and set \nup off the southern CA coast by this evening. In the meantime, an \nupper-level shortwave that was responsible in sparking scattered \nconvection yesterday across the southeastern half of AZ is \nalready lifting away from the region with weak subsidence \noverhead. Therefore, conditions for today should remain relatively\nquiet with dry conditions prevailing across the region with the \nonly exception being near the vicinity of the White Mountains \nwhere the combination of sufficient mid-level moisture and \norographic lift will likely spark a few afternoon showers and \nthunderstorms. With upper-level heights rising ahead of the \ndigging Pacific low, afternoon high temperatures today will be a \nfew degrees above normal as many of the lower desert communities \ntop out around 90 degrees.\n\nAs the Pacific low positions itself off the southern CA coast later \nthis evening, the flow aloft will become established more out of the \nsouth. This will result robust moisture advection with PWAT values \nby early Wednesday morning expected to approach 250-300% of normal \nand will be near record levels for mid-October. There will also be a \nshortwave out ahead of the main Pacific trough that will traverse \nthe region early Wednesday morning, which may spark areas of \nshowers, especially across the higher terrain areas. Otherwise, the \nmain period of impactful weather is likely to occur from Wednesday \nafternoon through Thursday. Latest guidance continues to show \nmoderate instability building across much of south-central and \neastern AZ Wednesday with MLCAPE values approaching 1000 J/KG. This \namount of instability combined with abundant moisture will yield a \nfavorable environment for thunderstorms to produce heavy rainfall \nrates in excess of 1-2\"/hr with training of activity likely to occur \nand thus heightening the potential for flash flooding. Latest hi-\nres guidance shows activity developing Wednesday afternoon across \nhigher terrain areas east of Phoenix before activity develops into\nthe south-central AZ lower deserts heading into Wednesday evening\nand continuing into the overnight and morning hours of Thursday \nas the main upper-level jet streak energy approaches, resulting in\nstrong divergence aloft. The period between Wednesday evening \nthrough Thursday afternoon will likely be the timeframe with the \ngreatest threat for widespread heavy rainfall and thus flash \nflooding. Latest WPC QPF depicts total rainfall amounts of \n1.50-2.50\" across the foothills and higher terrain areas north and\neast of Phoenix while across the lower deserts, average rainfall \namounts will remain under an inch. However, even across the lower \ndeserts, especially with any training of activity, there will be \nthe potential for areas to receive locally higher rainfall amounts\nin excess of 1\". In coordination with the neighboring offices, a \nFlood Watch has been issued across much of south-central and \neastern AZ. \n\nIn addition to the heavy rainfall and flash flood threat, another \nthreat to watch out for will be severe weather. Given the moderate \nlevels of instability in place combined with strong 0-6 km vertical \nshear in excess of 50 kts, the thunderstorms that do develop will \nlikely have some organization to them with the potential to acquire \nsupercellular characteristics. In fact, the Storm Prediction Center \nhas highlighted much of the higher terrain areas east of Phoenix in \na slight risk (Level 2 out 5) for severe weather for Wednesday, with \na marginal risk (Level 1 out 5) across the rest of south-central AZ, \nincluding the Phoenix metro area. The thunderstorms that do develop \nwill be capable of producing damaging wind gusts, large hail, and \neven an isolated tornado given that there will be about 10-20 kts of \nlow-level shear. The threat of severe weather will also exist into \nThursday as well, especially Thursday morning, as the instability \nand shear parameters will still be sufficient. \n\nAs the upper trough gradually pushes inland through the southern \nGreat Basin during the day on Thursday, strong dry air advection \nwill gradually spread from west to east with rain chances ending \nlate Thursday afternoon across the south-central AZ lower deserts \nand likely take until late Thursday night into early Friday \nmorning for rain chances to end across the higher terrain areas. \n\nWith the main trough axis still remaining far enough west on \nWednesday, afternoon high temperatures will still be near normal as \nreadings top out in the mid to upper 80s. As the main trough axis \npushes inland through the southern Great Basin on Thursday, \ntemperatures will be noticeably cooler with afternoon highs topping \nout in the low 80s across the south-central AZ lower deserts to low \nto mid 80s across the western deserts. Depending on the amount of \ncloud cover and rainfall activity, there is the potential that \ntemperatures in south-central AZ turn out to be cooler than what is \ncurrently forecasted.\n\n&&\n\n.LONG TERM /Friday through Monday/... \nMuch quieter weather is expected starting Friday with much drier \nair in place behind the departing trough. Another follow-on \nshortwave is likely to dive in from the northwest late Friday into\nSaturday with guidance indicating that this shortwave will become\na cutoff low over AZ as it detaches from the main jet stream \nenergy. At this time, this feature is likely to be inconsequential\ngiven that there will be an abundance of dry air in place \nlimiting any additional rainfall potential. Under the general \ntroughing influence, afternoon high temperatures through the \nupcoming weekend will remain below normal. Coolest day is expected\non Friday when much of the lower deserts struggle to reach 80 \ndegrees for afternoon highs. \n\n&&\n\n.AVIATION...Updated at 1121Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nThe main aviation concern will be SHRA/TSRA as early as late\ntonight and into Wednesday morning. Showers and thunderstorms will\ncontinue to pose a threat throughout the later portion of the\ncurrent TAF period and subsequent packages. Currently models are\npointing towards VCSH developing late tonight, with uncertainties\nof direct impacts, hence the introduction of a PROB30 for light\nthunderstorms. Winds will continue to be out of the east this\nmorning then a prolonged period of southerly flow this afternoon.\nPeriods of VRB can yet again be expected by the evening hours\nheading into the overnight period ahead and during any storm\nactivity. Wind speeds are expected to be aob 10kts through most of\nthe TAF period but with any thunderstorms gusts in the mid teens\nmay be possible. FEW-SCT cloud decks will be common through the\nbeginning of the forecast window with the lowest bases around 6-8\nkft with increasing coverage near the latter half of the period to\nBKN-OVC as storms develop.\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo aviation concerns are expected over the next 24 hours. Light\nwesterly to VRB winds at KIPL will persist through the morning\nexpected to turn out of the SE by 18Z today. At KBLH VRB winds\nwill continue through the morning before shifting out of the south\nteetering between SSW and SSE before establishing out of the SW\nnear 03Z this evening. Clear skies will give way to increasing low\nand mid-level cloud decks later this morning with the lowest \nbases around 7-9 kft .\n\n&&\n\n.FIRE WEATHER...\nWind speeds today will generally remain light with limited\nafternoon gustiness before increasing towards the middle of the\nweek ahead of an approaching weather system. Mainly dry conditions\nwill prevail today before rain chances increase substantially\nWednesday and Thursday with significant rainfall amounts, in\nexcess of 1.00\", likely across the higher terrain areas of the\neastern districts. MinRHs today will range between 30-50% before\nincreasing above 50-60% across the eastern districts Wednesday and\nThursday along with good to excellent overnight recoveries. \nTemperatures will be in a near normal range during the next couple\nof days before falling into a below normal category by the end of\nthe week and lasting through the weekend. \n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Flood Watch from Wednesday morning through Thursday evening for \n     AZZ545-547-552-556>558-560>563.\n\n     Flood Watch from Wednesday evening through Thursday afternoon \n     for AZZ534-537-538-540>544-546-548>551-553>555.\n\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Lojero\nLONG TERM...Lojero \nAVIATION...Ryan \nFIRE WEATHER...Lojero\n",
     "risk": "HIGH",
     "high_terms": [
-      "outflow",
-      "strong thunderstorm"
+      "damaging wind"
     ],
     "convective_terms": [
       "thunderstorm",
-      "convective",
+      "convection",
       "showers",
       "shower"
     ],
     "negative_signals": 0,
-    "snippet": "- A weak disturbance will spark scattered showers and isolated thunderstorms this afternoon, mainly across the Arizona higher terrain east of Phoenix. - A Pacific low pressure system moving into the region during the middle portion of the week will bring increasing rain chances, mainly across south-central and eastern Arizona, with the potential for multiple rounds of moderate to heavy rainfall as well as some strong thunderstorms.",
+    "snippet": "- A Pacific low pressure system will bring multiple rounds of showers and thunderstorms, mainly across central and eastern Arizona, Wednesday and Thursday. A very active period is shaping up during the middle portion of the week as a strong Pacific low pressure system affects the Desert Southwest, bringing multiple rounds of showers and thunderstorms.",
     "source": "NWS Phoenix Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-20T08:14:54+00:00",
-    "prior_time_utc": "2026-10-20T07:44:54+00:00",
+    "latest_time_utc": "2026-10-20T13:50:57+00:00",
+    "prior_time_utc": "2026-10-20T13:20:57+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -327,23 +260,23 @@
   "markets": [],
   "satellite": {
     "available": true,
-    "risk": "LOW",
-    "summary": "Observed KPHX sky cover suggests limited cloud shading",
-    "latest_cloud_fraction": 0.25,
-    "mean_cloud_fraction_2h": 0.25,
-    "cloud_fraction_trend_2h": null,
-    "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262930800_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-20T08:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262930800_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-20T08:00:00+00:00",
+    "risk": "HIGH",
+    "summary": "Heavy observed cloud cover may be suppressing solar heating at KPHX",
+    "latest_cloud_fraction": 0.875,
+    "mean_cloud_fraction_2h": 0.875,
+    "cloud_fraction_trend_2h": 0.0,
+    "latest_cloud_fraction_below_20000": 0.875,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262931350_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-20T13:50:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262931340_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-20T13:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-20T01:24:42.531631-07:00",
+    "collected_at_local": "2026-10-20T07:15:21.448809-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -395,7 +328,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-10-20T02:05:00-07:00",
+  "next_update_local": "2026-10-20T08:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -706,6 +639,15 @@
       "checkpoint_hour": null,
       "latest_precise_temp_f": 73.94,
       "latest_temp_f": 74.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 93.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 71.96,
+      "latest_temp_f": 72.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 93.0,
