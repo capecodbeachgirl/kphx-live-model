@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updated_at_local": "2026-10-24T17:04:58.768131-07:00",
+  "updated_at_local": "2026-10-24T17:36:02.575442-07:00",
   "latest_metar_time": "2026-10-24T16:51:00-07:00",
   "latest_temp_f": 76.0,
   "latest_precise_temp_f": 75.92,
@@ -104,8 +104,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-24T23:50:59+00:00",
-    "prior_time_utc": "2026-10-24T23:20:59+00:00",
+    "latest_time_utc": "2026-10-25T00:18:59+00:00",
+    "prior_time_utc": "2026-10-24T23:48:59+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -289,17 +289,17 @@
     "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262972340_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-24T23:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262972340_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-24T23:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262980000_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-25T00:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262980020_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-25T00:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-24T17:04:54.859003-07:00",
+    "collected_at_local": "2026-10-24T17:35:56.780653-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -357,7 +357,7 @@
     "range_80_high_f": 91.0,
     "median_heating_remaining_f": 17.0
   },
-  "next_update_local": "2026-10-24T17:05:00-07:00",
+  "next_update_local": "2026-10-24T17:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
