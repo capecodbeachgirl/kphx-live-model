@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updated_at_local": "2026-10-26T13:17:42.626268-07:00",
+  "updated_at_local": "2026-10-26T13:26:56.603881-07:00",
   "latest_metar_time": "2026-10-26T12:51:00-07:00",
   "latest_temp_f": 80.0,
   "latest_precise_temp_f": 80.06,
@@ -151,8 +151,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-26T20:02:58+00:00",
-    "prior_time_utc": "2026-10-26T19:32:58+00:00",
+    "latest_time_utc": "2026-10-26T20:10:57+00:00",
+    "prior_time_utc": "2026-10-26T19:40:57+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -182,16 +182,16 @@
       "strike_type": "between",
       "floor_strike": 85.0,
       "cap_strike": 86.0,
-      "yes_bid": 0.61,
-      "yes_ask": 0.63,
-      "last_price": 0.63,
-      "market_mid": 0.62,
+      "yes_bid": 0.64,
+      "yes_ask": 0.69,
+      "last_price": 0.68,
+      "market_mid": 0.665,
       "close_time": "2026-10-27T07:00:00Z",
       "occurrence_datetime": "2026-10-27T14:00:00Z",
       "updated_time": "2026-10-25T14:00:00.996283Z",
       "model_probability": 0.595134123518403,
-      "edge_vs_ask": -0.034865876481597,
-      "difference": -0.024865876481596993
+      "edge_vs_ask": -0.09486587648159694,
+      "difference": -0.06986587648159703
     },
     {
       "ticker": "KXHIGHTPHX-26OCT26-B83.5",
@@ -201,16 +201,16 @@
       "strike_type": "between",
       "floor_strike": 83.0,
       "cap_strike": 84.0,
-      "yes_bid": 0.32,
-      "yes_ask": 0.35,
-      "last_price": 0.32,
-      "market_mid": 0.33499999999999996,
+      "yes_bid": 0.31,
+      "yes_ask": 0.33,
+      "last_price": 0.33,
+      "market_mid": 0.32,
       "close_time": "2026-10-27T07:00:00Z",
       "occurrence_datetime": "2026-10-27T14:00:00Z",
       "updated_time": "2026-10-25T14:00:00.996283Z",
       "model_probability": 0.20835932626325637,
-      "edge_vs_ask": -0.1416406737367436,
-      "difference": -0.1266406737367436
+      "edge_vs_ask": -0.12164067373674364,
+      "difference": -0.11164067373674363
     },
     {
       "ticker": "KXHIGHTPHX-26OCT26-B87.5",
@@ -222,7 +222,7 @@
       "cap_strike": 88.0,
       "yes_bid": 0.01,
       "yes_ask": 0.03,
-      "last_price": 0.02,
+      "last_price": 0.03,
       "market_mid": 0.02,
       "close_time": "2026-10-27T07:00:00Z",
       "occurrence_datetime": "2026-10-27T14:00:00Z",
@@ -241,7 +241,7 @@
       "cap_strike": 83.0,
       "yes_bid": 0.0,
       "yes_ask": 0.01,
-      "last_price": 0.03,
+      "last_price": 0.01,
       "market_mid": 0.005,
       "close_time": "2026-10-27T07:00:00Z",
       "occurrence_datetime": "2026-10-27T14:00:00Z",
@@ -320,7 +320,7 @@
     "cap_strike": 88.0,
     "yes_bid": 0.01,
     "yes_ask": 0.03,
-    "last_price": 0.02,
+    "last_price": 0.03,
     "market_mid": 0.02,
     "close_time": "2026-10-27T07:00:00Z",
     "occurrence_datetime": "2026-10-27T14:00:00Z",
@@ -338,17 +338,17 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262991950_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-26T19:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262991940_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-26T19:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20262992000_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-26T20:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20262992010_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-26T20:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-26T13:17:37.877932-07:00",
+    "collected_at_local": "2026-10-26T13:26:51.997864-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -406,7 +406,7 @@
     "range_80_high_f": 94.8,
     "median_heating_remaining_f": 7.0
   },
-  "next_update_local": "2026-10-26T13:20:00-07:00",
+  "next_update_local": "2026-10-26T13:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
