@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updated_at_local": "2026-10-28T13:03:57.474257-07:00",
+  "updated_at_local": "2026-10-28T13:14:13.156384-07:00",
   "latest_metar_time": "2026-10-28T12:51:00-07:00",
   "latest_temp_f": 80.0,
   "latest_precise_temp_f": 80.06,
@@ -153,8 +153,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-28T19:50:59+00:00",
-    "prior_time_utc": "2026-10-28T19:20:59+00:00",
+    "latest_time_utc": "2026-10-28T20:00:21+00:00",
+    "prior_time_utc": "2026-10-28T19:30:21+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -189,16 +189,16 @@
       "strike_type": "between",
       "floor_strike": 84.0,
       "cap_strike": 85.0,
-      "yes_bid": 0.3,
-      "yes_ask": 0.38,
-      "last_price": 0.3,
-      "market_mid": 0.33999999999999997,
+      "yes_bid": 0.36,
+      "yes_ask": 0.39,
+      "last_price": 0.37,
+      "market_mid": 0.375,
       "close_time": "2026-10-29T07:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
       "updated_time": "2026-10-27T14:00:00.780618Z",
       "model_probability": 0.6076107298814722,
-      "edge_vs_ask": 0.22761072988147224,
-      "difference": 0.2676107298814723
+      "edge_vs_ask": 0.21761072988147223,
+      "difference": 0.23261072988147224
     },
     {
       "ticker": "KXHIGHTPHX-26OCT28-B86.5",
@@ -208,16 +208,16 @@
       "strike_type": "between",
       "floor_strike": 86.0,
       "cap_strike": 87.0,
-      "yes_bid": 0.51,
-      "yes_ask": 0.55,
-      "last_price": 0.53,
-      "market_mid": 0.53,
+      "yes_bid": 0.5,
+      "yes_ask": 0.54,
+      "last_price": 0.51,
+      "market_mid": 0.52,
       "close_time": "2026-10-29T07:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
       "updated_time": "2026-10-27T14:00:00.780618Z",
       "model_probability": 0.3081721771678103,
-      "edge_vs_ask": -0.24182782283218973,
-      "difference": -0.2218278228321897
+      "edge_vs_ask": -0.23182782283218972,
+      "difference": -0.2118278228321897
     },
     {
       "ticker": "KXHIGHTPHX-26OCT28-T84",
@@ -229,7 +229,7 @@
       "cap_strike": 84.0,
       "yes_bid": 0.03,
       "yes_ask": 0.04,
-      "last_price": 0.03,
+      "last_price": 0.04,
       "market_mid": 0.035,
       "close_time": "2026-10-29T07:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
@@ -246,16 +246,16 @@
       "strike_type": "between",
       "floor_strike": 88.0,
       "cap_strike": 89.0,
-      "yes_bid": 0.11,
-      "yes_ask": 0.13,
-      "last_price": 0.11,
-      "market_mid": 0.12,
+      "yes_bid": 0.08,
+      "yes_ask": 0.09,
+      "last_price": 0.08,
+      "market_mid": 0.08499999999999999,
       "close_time": "2026-10-29T07:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
       "updated_time": "2026-10-27T14:00:00.780618Z",
       "model_probability": 0.029320024953212724,
-      "edge_vs_ask": -0.10067997504678727,
-      "difference": -0.09067997504678726
+      "edge_vs_ask": -0.06067997504678727,
+      "difference": -0.05567997504678727
     },
     {
       "ticker": "KXHIGHTPHX-26OCT28-B90.5",
@@ -325,16 +325,16 @@
     "strike_type": "between",
     "floor_strike": 84.0,
     "cap_strike": 85.0,
-    "yes_bid": 0.3,
-    "yes_ask": 0.38,
-    "last_price": 0.3,
-    "market_mid": 0.33999999999999997,
+    "yes_bid": 0.36,
+    "yes_ask": 0.39,
+    "last_price": 0.37,
+    "market_mid": 0.375,
     "close_time": "2026-10-29T07:00:00Z",
     "occurrence_datetime": "2026-10-29T14:00:00Z",
     "updated_time": "2026-10-27T14:00:00.780618Z",
     "model_probability": 0.6076107298814722,
-    "edge_vs_ask": 0.22761072988147224,
-    "difference": 0.2676107298814723
+    "edge_vs_ask": 0.21761072988147223,
+    "difference": 0.23261072988147224
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -345,8 +345,8 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263011940_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-28T19:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263011950_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-28T19:50:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263011940_GOES18-ABI-psr-13-600x600.jpg",
     "infrared_time_utc": "2026-10-28T19:40:00+00:00",
     "errors": [],
@@ -355,7 +355,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-28T13:03:52.678162-07:00",
+    "collected_at_local": "2026-10-28T13:14:09.029556-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -413,7 +413,7 @@
     "range_80_high_f": 94.8,
     "median_heating_remaining_f": 7.0
   },
-  "next_update_local": "2026-10-28T13:05:00-07:00",
+  "next_update_local": "2026-10-28T13:20:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
