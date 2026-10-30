@@ -1,17 +1,17 @@
 {
   "date": "2026-10-30",
-  "updated_at_local": "2026-10-30T12:50:21.115786-07:00",
-  "latest_metar_time": "2026-10-30T11:51:00-07:00",
-  "latest_temp_f": 73.0,
+  "updated_at_local": "2026-10-30T12:55:13.647262-07:00",
+  "latest_metar_time": "2026-10-30T12:51:00-07:00",
+  "latest_temp_f": 73.04,
   "latest_precise_temp_f": 73.04,
-  "latest_dewpoint_f": 60.0,
-  "raw_metar_peak_f": 73.0,
+  "latest_dewpoint_f": 60.980000000000004,
+  "raw_metar_peak_f": 73.04,
   "precise_metar_peak_f": 73.04,
   "six_hour_max_f": 70,
   "six_hour_max_report_time": "2026-10-30T10:51:00-07:00",
   "nws_am_forecast_high_f": 76.0,
   "nws_am_issued_at": "2026-10-30T04:01:00-07:00",
-  "checkpoint_hour": 12,
+  "checkpoint_hour": 13,
   "weather_risk": "HIGH",
   "weather_reasons": [
     "Thunder/convective weather observed recently",
@@ -175,8 +175,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-30T19:32:55+00:00",
-    "prior_time_utc": "2026-10-30T19:02:55+00:00",
+    "latest_time_utc": "2026-10-30T19:38:58+00:00",
+    "prior_time_utc": "2026-10-30T19:08:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -211,16 +211,16 @@
       "strike_type": "between",
       "floor_strike": 76.0,
       "cap_strike": 77.0,
-      "yes_bid": 0.08,
-      "yes_ask": 0.14,
-      "last_price": 0.16,
-      "market_mid": 0.11000000000000001,
+      "yes_bid": 0.04,
+      "yes_ask": 0.1,
+      "last_price": 0.06,
+      "market_mid": 0.07,
       "close_time": "2026-10-31T07:00:00Z",
       "occurrence_datetime": "2026-10-31T14:00:00Z",
       "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.5616966580976864,
-      "edge_vs_ask": 0.4216966580976864,
-      "difference": 0.45169665809768644
+      "model_probability": 0.6158812136862493,
+      "edge_vs_ask": 0.5158812136862493,
+      "difference": 0.5458812136862492
     },
     {
       "ticker": "KXHIGHTPHX-26OCT30-B74.5",
@@ -230,16 +230,16 @@
       "strike_type": "between",
       "floor_strike": 74.0,
       "cap_strike": 75.0,
-      "yes_bid": 0.87,
-      "yes_ask": 0.88,
-      "last_price": 0.87,
-      "market_mid": 0.875,
+      "yes_bid": 0.9,
+      "yes_ask": 0.95,
+      "last_price": 0.95,
+      "market_mid": 0.925,
       "close_time": "2026-10-31T07:00:00Z",
       "occurrence_datetime": "2026-10-31T14:00:00Z",
       "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.2660668380462725,
-      "edge_vs_ask": -0.6139331619537275,
-      "difference": -0.6089331619537275
+      "model_probability": 0.2672692059393157,
+      "edge_vs_ask": -0.6827307940606843,
+      "difference": -0.6577307940606844
     },
     {
       "ticker": "KXHIGHTPHX-26OCT30-B78.5",
@@ -256,28 +256,9 @@
       "close_time": "2026-10-31T07:00:00Z",
       "occurrence_datetime": "2026-10-31T14:00:00Z",
       "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.15038560411311055,
-      "edge_vs_ask": 0.14038560411311055,
-      "difference": 0.14538560411311055
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-B80.5",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be 80-81\u00b0 on Oct 30, 2026?",
-      "subtitle": "80\u00b0 to 81\u00b0",
-      "strike_type": "between",
-      "floor_strike": 80.0,
-      "cap_strike": 81.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.017352185089974295,
-      "edge_vs_ask": 0.007352185089974294,
-      "difference": 0.012352185089974294
+      "model_probability": 0.11233053582956745,
+      "edge_vs_ask": 0.10233053582956746,
+      "difference": 0.10733053582956745
     },
     {
       "ticker": "KXHIGHTPHX-26OCT30-T74",
@@ -294,9 +275,28 @@
       "close_time": "2026-10-31T07:00:00Z",
       "occurrence_datetime": "2026-10-31T14:00:00Z",
       "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.004498714652956298,
-      "edge_vs_ask": -0.005501285347043702,
-      "difference": -0.0005012853470437017
+      "model_probability": 0.004519044544867656,
+      "edge_vs_ask": -0.005480955455132344,
+      "difference": -0.00048095545513234406
+    },
+    {
+      "ticker": "KXHIGHTPHX-26OCT30-B80.5",
+      "event_ticker": "KXHIGHTPHX-26OCT30",
+      "title": "Will the maximum temperature be 80-81\u00b0 on Oct 30, 2026?",
+      "subtitle": "80\u00b0 to 81\u00b0",
+      "strike_type": "between",
+      "floor_strike": 80.0,
+      "cap_strike": 81.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-10-31T07:00:00Z",
+      "occurrence_datetime": "2026-10-31T14:00:00Z",
+      "updated_time": "2026-10-29T14:00:01.265687Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTPHX-26OCT30-T81",
@@ -319,23 +319,22 @@
     }
   ],
   "model_method": "nws_anchored",
-  "model_bundle": "h12.joblib",
+  "model_bundle": "h13.joblib",
   "observed_floor_f": 73.04,
   "model_predicted_high_f": 76.0,
   "model_correction_f": 0.0,
   "likely_low_f": 75,
   "likely_high_f": 78,
   "confidence": "LOW",
-  "model_mae_f": 0.9830123770840786,
+  "model_mae_f": 0.8944904025804554,
   "distribution": {
-    "73": 0.004498714652956298,
-    "74": 0.055912596401028275,
-    "75": 0.21015424164524424,
-    "76": 0.40295629820051415,
-    "77": 0.15874035989717225,
-    "78": 0.13303341902313626,
-    "79": 0.017352185089974295,
-    "80": 0.017352185089974295
+    "73": 0.004519044544867656,
+    "74": 0.04325371207230471,
+    "75": 0.22401549386701097,
+    "76": 0.39186571981923823,
+    "77": 0.22401549386701097,
+    "78": 0.08198837959974176,
+    "79": 0.030342156229825695
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
@@ -346,16 +345,16 @@
     "strike_type": "between",
     "floor_strike": 76.0,
     "cap_strike": 77.0,
-    "yes_bid": 0.08,
-    "yes_ask": 0.14,
-    "last_price": 0.16,
-    "market_mid": 0.11000000000000001,
+    "yes_bid": 0.04,
+    "yes_ask": 0.1,
+    "last_price": 0.06,
+    "market_mid": 0.07,
     "close_time": "2026-10-31T07:00:00Z",
     "occurrence_datetime": "2026-10-31T14:00:00Z",
     "updated_time": "2026-10-29T14:00:01.265687Z",
-    "model_probability": 0.5616966580976864,
-    "edge_vs_ask": 0.4216966580976864,
-    "difference": 0.45169665809768644
+    "model_probability": 0.6158812136862493,
+    "edge_vs_ask": 0.5158812136862493,
+    "difference": 0.5458812136862492
   },
   "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
@@ -363,7 +362,7 @@
     "risk": "HIGH",
     "summary": "Heavy observed cloud cover may be suppressing solar heating at KPHX",
     "latest_cloud_fraction": 0.875,
-    "mean_cloud_fraction_2h": 0.96875,
+    "mean_cloud_fraction_2h": 0.9166666666666666,
     "cloud_fraction_trend_2h": -0.125,
     "latest_cloud_fraction_below_20000": 0.875,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263031930_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
@@ -376,7 +375,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-30T12:50:14.694370-07:00",
+    "collected_at_local": "2026-10-30T12:55:05.752905-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -425,7 +424,14 @@
     "error": "401 Client Error: Unauthorized for url: https://wethr.net/api/v2/observations.php?station_code=KPHX&mode=wethr_high&logic=nws"
   },
   "historical_analogs": {
-    "available": false
+    "available": true,
+    "count": 1,
+    "checkpoint_hour": 13,
+    "current_temp_f": 73.0,
+    "median_final_high_f": 89.0,
+    "range_80_low_f": 89.0,
+    "range_80_high_f": 89.0,
+    "median_heating_remaining_f": 14.0
   },
   "next_update_local": "2026-10-30T13:05:00-07:00",
   "model_accuracy": {
@@ -679,6 +685,15 @@
       "checkpoint_hour": 12.0,
       "latest_precise_temp_f": 73.04,
       "latest_temp_f": 73.0,
+      "six_hour_max_f": 70.0,
+      "model_predicted_high_f": 76.0,
+      "nws_am_forecast_high_f": 76.0,
+      "weather_risk": "HIGH"
+    },
+    {
+      "checkpoint_hour": 13.0,
+      "latest_precise_temp_f": 73.04,
+      "latest_temp_f": 73.04,
       "six_hour_max_f": 70.0,
       "model_predicted_high_f": 76.0,
       "nws_am_forecast_high_f": 76.0,
