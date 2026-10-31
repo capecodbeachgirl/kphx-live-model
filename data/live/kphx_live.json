@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updated_at_local": "2026-10-31T15:25:57.127111-07:00",
+  "updated_at_local": "2026-10-31T15:36:07.457038-07:00",
   "latest_metar_time": "2026-10-31T14:51:00-07:00",
   "latest_temp_f": 78.0,
   "latest_precise_temp_f": 78.08,
@@ -174,15 +174,15 @@
       "floor_strike": 78.0,
       "cap_strike": 79.0,
       "yes_bid": 0.94,
-      "yes_ask": 0.97,
+      "yes_ask": 0.98,
       "last_price": 0.98,
-      "market_mid": 0.955,
+      "market_mid": 0.96,
       "close_time": "2026-11-01T07:00:00Z",
       "occurrence_datetime": "2026-11-01T14:00:00Z",
       "updated_time": "2026-10-30T14:00:01.087919Z",
       "model_probability": 0.634527687296417,
-      "edge_vs_ask": -0.335472312703583,
-      "difference": -0.320472312703583
+      "edge_vs_ask": -0.34547231270358303,
+      "difference": -0.325472312703583
     },
     {
       "ticker": "KXHIGHTPHX-26OCT31-B80.5",
@@ -325,8 +325,8 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263042200_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-31T22:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263042210_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-31T22:10:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263042210_GOES18-ABI-psr-13-600x600.jpg",
     "infrared_time_utc": "2026-10-31T22:10:00+00:00",
     "errors": [],
@@ -335,7 +335,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-31T15:25:51.319559-07:00",
+    "collected_at_local": "2026-10-31T15:36:02.814011-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -393,7 +393,7 @@
     "range_80_high_f": 91.0,
     "median_heating_remaining_f": 13.0
   },
-  "next_update_local": "2026-10-31T15:35:00-07:00",
+  "next_update_local": "2026-10-31T15:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
