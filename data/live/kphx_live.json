@@ -1,27 +1,26 @@
 {
-  "date": "2026-10-30",
-  "updated_at_local": "2026-10-30T19:42:44.227427-07:00",
-  "latest_metar_time": "2026-10-30T19:23:00-07:00",
-  "latest_temp_f": 66.0,
-  "latest_precise_temp_f": 66.02,
-  "latest_dewpoint_f": 60.0,
-  "raw_metar_peak_f": 73.04,
-  "precise_metar_peak_f": 73.04,
-  "six_hour_max_f": 74,
-  "six_hour_max_report_time": "2026-10-30T16:51:00-07:00",
-  "nws_am_forecast_high_f": 76.0,
-  "nws_am_issued_at": "2026-10-30T04:01:00-07:00",
-  "checkpoint_hour": 18,
+  "date": "2026-10-31",
+  "updated_at_local": "2026-10-31T01:42:04.591747-07:00",
+  "latest_metar_time": "2026-10-31T00:51:00-07:00",
+  "latest_temp_f": 65.0,
+  "latest_precise_temp_f": 64.94,
+  "latest_dewpoint_f": 59.0,
+  "raw_metar_peak_f": 65.0,
+  "precise_metar_peak_f": 64.94,
+  "six_hour_max_f": null,
+  "six_hour_max_report_time": null,
+  "nws_am_forecast_high_f": 79.0,
+  "nws_am_issued_at": "2026-10-31T00:02:00-07:00",
+  "checkpoint_hour": null,
   "weather_risk": "HIGH",
   "weather_reasons": [
-    "Thunder/convective weather observed recently",
-    "Recent precipitation at KPHX",
     "Heavy recent cloud cover",
     "NWS hourly forecast includes thunderstorm potential",
-    "NWS sky cover forecast reaches 71%"
+    "NWS sky cover forecast reaches 92%",
+    "Phoenix NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "HIGH",
+    "observed_risk": "MEDIUM",
     "forecast_risk": "HIGH",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
@@ -30,35 +29,251 @@
     "available": true,
     "hours": [
       {
-        "time": "2026-10-30T19:00:00-07:00",
+        "time": "2026-10-31T01:00:00-07:00",
+        "temp_f": 68.0,
+        "pop_pct": 13.0,
+        "short_forecast": "Mostly Cloudy",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T02:00:00-07:00",
         "temp_f": 67.0,
-        "pop_pct": 40.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "pop_pct": 12.0,
+        "short_forecast": "Mostly Cloudy",
         "wind_speed": "10 mph",
         "wind_direction": "E"
       },
       {
-        "time": "2026-10-30T20:00:00-07:00",
-        "temp_f": 68.0,
-        "pop_pct": 33.0,
-        "short_forecast": "Chance Showers And Thunderstorms",
+        "time": "2026-10-31T03:00:00-07:00",
+        "temp_f": 66.0,
+        "pop_pct": 6.0,
+        "short_forecast": "Mostly Cloudy",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T04:00:00-07:00",
+        "temp_f": 66.0,
+        "pop_pct": 4.0,
+        "short_forecast": "Partly Cloudy",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T05:00:00-07:00",
+        "temp_f": 66.0,
+        "pop_pct": 1.0,
+        "short_forecast": "Mostly Cloudy",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T06:00:00-07:00",
+        "temp_f": 65.0,
+        "pop_pct": 1.0,
+        "short_forecast": "Partly Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T07:00:00-07:00",
+        "temp_f": 64.0,
+        "pop_pct": 1.0,
+        "short_forecast": "Mostly Cloudy",
         "wind_speed": "10 mph",
         "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T08:00:00-07:00",
+        "temp_f": 67.0,
+        "pop_pct": 4.0,
+        "short_forecast": "Mostly Cloudy",
+        "wind_speed": "10 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T09:00:00-07:00",
+        "temp_f": 70.0,
+        "pop_pct": 9.0,
+        "short_forecast": "Mostly Cloudy",
+        "wind_speed": "10 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T10:00:00-07:00",
+        "temp_f": 72.0,
+        "pop_pct": 6.0,
+        "short_forecast": "Mostly Cloudy",
+        "wind_speed": "10 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T11:00:00-07:00",
+        "temp_f": 73.0,
+        "pop_pct": 7.0,
+        "short_forecast": "Partly Sunny",
+        "wind_speed": "10 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-10-31T12:00:00-07:00",
+        "temp_f": 75.0,
+        "pop_pct": 5.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-10-31T13:00:00-07:00",
+        "temp_f": 77.0,
+        "pop_pct": 4.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-10-31T14:00:00-07:00",
+        "temp_f": 77.0,
+        "pop_pct": 4.0,
+        "short_forecast": "Partly Sunny",
+        "wind_speed": "10 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-10-31T15:00:00-07:00",
+        "temp_f": 78.0,
+        "pop_pct": 3.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "SE"
+      },
+      {
+        "time": "2026-10-31T16:00:00-07:00",
+        "temp_f": 77.0,
+        "pop_pct": 4.0,
+        "short_forecast": "Partly Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-10-31T17:00:00-07:00",
+        "temp_f": 76.0,
+        "pop_pct": 12.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T18:00:00-07:00",
+        "temp_f": 75.0,
+        "pop_pct": 24.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T19:00:00-07:00",
+        "temp_f": 73.0,
+        "pop_pct": 34.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-10-31T20:00:00-07:00",
+        "temp_f": 73.0,
+        "pop_pct": 52.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "10 mph",
+        "wind_direction": "ENE"
       }
     ],
-    "max_pop_pct": 40.0,
+    "max_pop_pct": 52.0,
     "thunder_possible": true,
     "rain_possible": true,
     "summary": "NWS hourly forecast includes thunderstorms",
-    "max_sky_cover_pct": 71.0,
+    "max_sky_cover_pct": 92.0,
     "sky_hours": [
       {
-        "time": "2026-10-30T19:00:00-07:00",
-        "sky_cover_pct": 71.0
+        "time": "2026-10-31T01:00:00-07:00",
+        "sky_cover_pct": 54.0
       },
       {
-        "time": "2026-10-30T20:00:00-07:00",
-        "sky_cover_pct": 55.0
+        "time": "2026-10-31T02:00:00-07:00",
+        "sky_cover_pct": 56.0
+      },
+      {
+        "time": "2026-10-31T03:00:00-07:00",
+        "sky_cover_pct": 60.0
+      },
+      {
+        "time": "2026-10-31T04:00:00-07:00",
+        "sky_cover_pct": 41.0
+      },
+      {
+        "time": "2026-10-31T05:00:00-07:00",
+        "sky_cover_pct": 68.0
+      },
+      {
+        "time": "2026-10-31T06:00:00-07:00",
+        "sky_cover_pct": 67.0
+      },
+      {
+        "time": "2026-10-31T07:00:00-07:00",
+        "sky_cover_pct": 72.0
+      },
+      {
+        "time": "2026-10-31T08:00:00-07:00",
+        "sky_cover_pct": 73.0
+      },
+      {
+        "time": "2026-10-31T09:00:00-07:00",
+        "sky_cover_pct": 73.0
+      },
+      {
+        "time": "2026-10-31T10:00:00-07:00",
+        "sky_cover_pct": 75.0
+      },
+      {
+        "time": "2026-10-31T11:00:00-07:00",
+        "sky_cover_pct": 69.0
+      },
+      {
+        "time": "2026-10-31T12:00:00-07:00",
+        "sky_cover_pct": 47.0
+      },
+      {
+        "time": "2026-10-31T13:00:00-07:00",
+        "sky_cover_pct": 50.0
+      },
+      {
+        "time": "2026-10-31T14:00:00-07:00",
+        "sky_cover_pct": 61.0
+      },
+      {
+        "time": "2026-10-31T15:00:00-07:00",
+        "sky_cover_pct": 50.0
+      },
+      {
+        "time": "2026-10-31T16:00:00-07:00",
+        "sky_cover_pct": 62.0
+      },
+      {
+        "time": "2026-10-31T17:00:00-07:00",
+        "sky_cover_pct": 73.0
+      },
+      {
+        "time": "2026-10-31T18:00:00-07:00",
+        "sky_cover_pct": 76.0
+      },
+      {
+        "time": "2026-10-31T19:00:00-07:00",
+        "sky_cover_pct": 88.0
+      },
+      {
+        "time": "2026-10-31T20:00:00-07:00",
+        "sky_cover_pct": 92.0
       }
     ],
     "office": "PSR",
@@ -68,9 +283,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-31T00:36:00+00:00",
-    "product_id": "85349cec-87b7-43c5-8702-4419af2b70b2",
-    "text": "\n000\nFXUS65 KPSR 310036\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n536 PM MST Fri Oct 30 2026\n\n.UPDATE...Updated 00z Aviation Discussion...\n\n&&\n\n.KEY MESSAGES...\n\n- A Flood Watch remains in effect for portions of south-central \n  and eastern Arizona through this evening.\n\n- Shower and thunderstorm activity will persist for parts of the\n  region, mainly from the Phoenix metro and eastward, through\n  early tonight before eventually tapering off. \n\n- A few strong to marginally severe thunderstorms are possible, \n  with the main hazards being large hail and damaging winds.\n\n- A followup weather system Saturday night into Sunday night will\n  result in a period of prolonged light to moderate rainfall. \n  Additional flooding concerns will exits, therefore, a Flood \n  Watch will also be in effect during this timeframe for central \n  and eastern Arizona. \n  \n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/...\nAfter morning warm air advection help to set off scattered \nshowers and thunderstorms across portions of the region, another \nround of convective activity can be expected this afternoon and \nevening, mainly from the Phoenix metro and eastward. SPC \nmesoanalysis reveals a fairly tight corridor of MLCAPE 500-1500 \nJ/kg stretching from western Pima County up toward Las Vegas. This\naxis will be the focal point for the next instance of convective \ninitiation, and with a very supportive synoptic setup in place and\n0-6km bulk shear profiles hovering near 30-40 kt, anything that \ndoes form could be maintained for a decent period of time. With \nthis combination of instability and shear, some storms could \nbecome strong to severe, potentially producing large hail and \nstrong winds. \n \nAlthough PWATs are not as high as what we typically see during \nMonsoon season, hovering around 1.0-1.3\" according to \nmesoanalysis, they still sit close to 250% of normal for this time\nof year. Any stronger storms that can persist and continually tap\ninto this relatively moist environment will have the potential of\nproducing heavy rainfall that could lead to areas of flooding. \nThe flooding potential may be exacerbated by training convection \nover the same areas and the fact that soil moistures remain \nelevated from multiple rounds of rainfall over the past several \nweeks. Ergo, a Flood Watch will remain in effect for portions of \ncentral and eastern Arizona until this evening. When all is said \nan done today, it is not out of the question that some areas could\nsee upwards of an inch to an inch and half, with locally higher \namounts. \n\nThe shortwave that is aiding in all this rainfall development \nwill eventually push off to the east by this evening/tonight, \nresulting in a noticeable downtrend in activity for Saturday. Some\nlingering, scattered showers may persist over upslope/higher \nterrain areas of central AZ, as southwesterly flow remain elevated\non Saturday ahead of the broader troughing off the West Coast. \n\n&&\n\n.LONG TERM /SUNDAY THROUGH THURSDAY/...    \nBy late Saturday evening, conditions begin to align for a longer \nduration and more widespread rainfall event through Sunday. The \naforementioned subtropical jet streak is shown by global guidance \ncontracting and cyclonically curving around the base of the broader \ntroughing off the West Coast, as it begins to progress eastward. \nStrong dynamical ascent mechanisms and a prolonged period of \nsouthwesterly upslope flow over the Central AZ high terrain will \nalign with excellent, deep moisture through the atmospheric column. \nImpressively high PWATs are still forecast, in excess of 1.00-1.25\" \nand near the maximum of climatology for early November. NAEFS/ENS \nmean IVT values are consistent with an inland penetrating \natmospheric river and are also, unsurprisingly, near climatological \nmaximum values for the time of year (peaking around 300-600 \nkg/(ms)). However, midlevel lapse rates will be poor and thus \ninstability will be very limited, with MUCAPEs likely never \nexceeding 200-300 J/kg. We expect showers to blossom first over the \nhigh terrain northeast of Phoenix sometime in the evening Saturday \nbefore filling in across most of south-central Arizona around or \njust after midnight. Showers will stay somewhat scattered through \nthe overnight hours before becoming widespread over much of Arizona \nby mid morning Sunday. As the main shortwave begins to track through \nsouthern California later Sunday morning, a fairly solid shield of \nlight to moderate rain should move through southern California and \nthen through Arizona Sunday afternoon. Upslope showers should \npersist over portions of south-central Arizona into the high terrain \ninto Sunday evening, but the activity should be gradually winding \ndown.\n\nExpected rainfall rates on Sunday are not all that high, but rain \ntotals will add up over time as this event will last longer than our \ntypical weather events. Based on the record moisture levels, strong \nforcing, but little instability rainfall rates will generally be in \nthe 0.1-0.2\"/hr range in the Phoenix area to as high as 0.2-0.3\"/hr \nin the high terrain north and east of the Phoenix area. Fairly \nsteady light to moderate rainfall is expected from just before \nsunrise through the afternoon in the aforementioned areas with \nrainfall totals averaging 1-1.5\" in Phoenix to 2-3\" over the higher \nterrain. Believe it our not, the NBM is also suggesting the \npossibility (25%) of rainfall totals over 2\" in the Phoenix to as \nmuch as 3-4\" in the high terrain. Much lower rainfall totals of 0.25-\n0.5\" are expected over the lower deserts of southwest Arizona and \nsoutheast California due to some rain-shadowing effects and the lack \nof upslope forcing.\n\nEven if the average forecast rainfall totals come to fruition on \nSunday, the bulk of the rain will runoff as it will be falling on \nalready saturated soils. In turn, another Flood Watch has been \nissued for a large area of south-central AZ, and the eastern AZ high \nterrain starting overnight Saturday night and lasting into early \nMonday morning. During this time we anticipate the potential for \nmany of the washes filling or overflowing, and flooding in some of \nthe larger creeks and rivers as all of the expected rain works \nthrough the water basins.\n\nDry air will begin to filter into the region from the northwest \nlater on Sunday, overspreading the bulk of the area by Monday \nmorning. We may have some lingering showers across the eastern 1/3rd \nof Arizona Sunday night into Monday morning, but additional rainfall \namounts should be fairly light. The rest of Monday will bring \ndecreasing clouds as the drier air works into the region while \nanother follow-on shortwave trough moves southeastward into northern \nNew Mexico. Temperatures for both Sunday and Monday will be fairly \ncool with highs as low as the lower 70s for the Phoenix area to \nmaybe the mid to upper 70s across the western lower deserts. Upper \nlevel ridging is then forecast to mostly take over across the Desert \nSouthwest going into the middle part of next week, but temperatures \nwill be fairly slow to rise with readings staying below normal.\n\n&&\n\n.AVIATION...Updated at 0030Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT; \nSHRA activity with VCTS will continue during the next couple of\nhours before activity shifts east of the terminals by around 03z.\nAs this activity continues, SCT-BKN CIGs as low as 4-5 kft will\ncontinue to remain an issue. Thereafter, some clearing will occur\nwith FEW-SCT cloud decks as low as 4-5 kft continuing through Saturday\nafternoon. Winds throughout the TAF period will remain out of the\neast with light speeds aob 10 kts.\n\nOutlook for Saturday evening through Sunday: Major operational\nimpacts are expected with the approach of the next weather system.\nAn expansive area of light to at times moderate SHRA activity can\nbe expected to move in after 03z and last through much of Sunday.\nThis will cause a prolonged period of low MVFR to at times IFR \nCIGs/VIS.\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo significant aviation weather impacts are expected through\nSaturday afternoon. At KIPL, westerly winds will prevail\nthroughout the period while at KBLH, winds will generally\nfluctuate between the southeast to southwest. Overall speeds will\nremain aob 10 kts with the exception of KIPL early this evening as\ntemporary peak gusts upwards of 20-25 kts are likely. FEW-SCT mid\nto high level cloud decks will be common through Saturday morning\nbefore coverage increases to SCT-BKN during the afternoon hours.\n\n&&\n\n.FIRE WEATHER...\nShowers and thunderstorms will impact portions of the eastern \ndistricts today with heavy rainfall likely in some areas, followed\nby a lull in rain chances on Saturday. Minimum humidities will\nrange between 30-70% areawide today and Saturday and improve \nfurther on Sunday, following excellent overnight recoveries. After\nthe lull on saturday, chances for rain increase again Saturday\nnight followed by widespread light to moderate rainfall on \nSunday areawide. Outside of any thunderstorms, winds will remain\ngenerally between 10-20 mph and favor southeasterly to southerly\ndirections through the weekend. Conditions will gradually dry out\nnext week as the unsettled pattern departs and temperatures\nmoderate closer to seasonal normals, however, humidities will \nremain above 25% areawide, and temperatures will still remain in a\nslightly below normal category.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Flood Watch until 10 PM MST this evening for AZZ552-556>558-\n     560>563.\n\n     Flood Watch from Saturday evening through late Sunday night for \n     AZZ534-537>563.\n\n     Flood Watch until 6 PM MST this evening for AZZ534-537>551-\n     553>555-559.\n\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Whittock/RW\nLONG TERM...Whittock/Kuhlman\nAVIATION...Lojero/Salerno\nFIRE WEATHER...Whittock\n",
+    "issued_at": "2026-10-31T05:36:00+00:00",
+    "product_id": "345c5b80-ea3a-412a-9649-5ecb440be1a0",
+    "text": "\n000\nFXUS65 KPSR 310536\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n1036 PM MST Fri Oct 30 2026\n\n.UPDATE...Updated 06z Aviation Discussion...\n\n&&\n\n.KEY MESSAGES...\n\n- A Flood Watch remains in effect for portions of south-central \n  and eastern Arizona through this evening.\n\n- Shower and thunderstorm activity will persist for parts of the\n  region, mainly from the Phoenix metro and eastward, through\n  early tonight before eventually tapering off. \n\n- A few strong to marginally severe thunderstorms are possible, \n  with the main hazards being large hail and damaging winds.\n\n- A followup weather system Saturday night into Sunday night will\n  result in a period of prolonged light to moderate rainfall. \n  Additional flooding concerns will exits, therefore, a Flood \n  Watch will also be in effect during this timeframe for central \n  and eastern Arizona. \n  \n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/...\nAfter morning warm air advection help to set off scattered \nshowers and thunderstorms across portions of the region, another \nround of convective activity can be expected this afternoon and \nevening, mainly from the Phoenix metro and eastward. SPC \nmesoanalysis reveals a fairly tight corridor of MLCAPE 500-1500 \nJ/kg stretching from western Pima County up toward Las Vegas. This\naxis will be the focal point for the next instance of convective \ninitiation, and with a very supportive synoptic setup in place and\n0-6km bulk shear profiles hovering near 30-40 kt, anything that \ndoes form could be maintained for a decent period of time. With \nthis combination of instability and shear, some storms could \nbecome strong to severe, potentially producing large hail and \nstrong winds. \n \nAlthough PWATs are not as high as what we typically see during \nMonsoon season, hovering around 1.0-1.3\" according to \nmesoanalysis, they still sit close to 250% of normal for this time\nof year. Any stronger storms that can persist and continually tap\ninto this relatively moist environment will have the potential of\nproducing heavy rainfall that could lead to areas of flooding. \nThe flooding potential may be exacerbated by training convection \nover the same areas and the fact that soil moistures remain \nelevated from multiple rounds of rainfall over the past several \nweeks. Ergo, a Flood Watch will remain in effect for portions of \ncentral and eastern Arizona until this evening. When all is said \nan done today, it is not out of the question that some areas could\nsee upwards of an inch to an inch and half, with locally higher \namounts. \n\nThe shortwave that is aiding in all this rainfall development \nwill eventually push off to the east by this evening/tonight, \nresulting in a noticeable downtrend in activity for Saturday. Some\nlingering, scattered showers may persist over upslope/higher \nterrain areas of central AZ, as southwesterly flow remain elevated\non Saturday ahead of the broader troughing off the West Coast. \n\n&&\n\n.LONG TERM /SUNDAY THROUGH THURSDAY/...    \nBy late Saturday evening, conditions begin to align for a longer \nduration and more widespread rainfall event through Sunday. The \naforementioned subtropical jet streak is shown by global guidance \ncontracting and cyclonically curving around the base of the broader \ntroughing off the West Coast, as it begins to progress eastward. \nStrong dynamical ascent mechanisms and a prolonged period of \nsouthwesterly upslope flow over the Central AZ high terrain will \nalign with excellent, deep moisture through the atmospheric column. \nImpressively high PWATs are still forecast, in excess of 1.00-1.25\" \nand near the maximum of climatology for early November. NAEFS/ENS \nmean IVT values are consistent with an inland penetrating \natmospheric river and are also, unsurprisingly, near climatological \nmaximum values for the time of year (peaking around 300-600 \nkg/(ms)). However, midlevel lapse rates will be poor and thus \ninstability will be very limited, with MUCAPEs likely never \nexceeding 200-300 J/kg. We expect showers to blossom first over the \nhigh terrain northeast of Phoenix sometime in the evening Saturday \nbefore filling in across most of south-central Arizona around or \njust after midnight. Showers will stay somewhat scattered through \nthe overnight hours before becoming widespread over much of Arizona \nby mid morning Sunday. As the main shortwave begins to track through \nsouthern California later Sunday morning, a fairly solid shield of \nlight to moderate rain should move through southern California and \nthen through Arizona Sunday afternoon. Upslope showers should \npersist over portions of south-central Arizona into the high terrain \ninto Sunday evening, but the activity should be gradually winding \ndown.\n\nExpected rainfall rates on Sunday are not all that high, but rain \ntotals will add up over time as this event will last longer than our \ntypical weather events. Based on the record moisture levels, strong \nforcing, but little instability rainfall rates will generally be in \nthe 0.1-0.2\"/hr range in the Phoenix area to as high as 0.2-0.3\"/hr \nin the high terrain north and east of the Phoenix area. Fairly \nsteady light to moderate rainfall is expected from just before \nsunrise through the afternoon in the aforementioned areas with \nrainfall totals averaging 1-1.5\" in Phoenix to 2-3\" over the higher \nterrain. Believe it our not, the NBM is also suggesting the \npossibility (25%) of rainfall totals over 2\" in the Phoenix to as \nmuch as 3-4\" in the high terrain. Much lower rainfall totals of 0.25-\n0.5\" are expected over the lower deserts of southwest Arizona and \nsoutheast California due to some rain-shadowing effects and the lack \nof upslope forcing.\n\nEven if the average forecast rainfall totals come to fruition on \nSunday, the bulk of the rain will runoff as it will be falling on \nalready saturated soils. In turn, another Flood Watch has been \nissued for a large area of south-central AZ, and the eastern AZ high \nterrain starting overnight Saturday night and lasting into early \nMonday morning. During this time we anticipate the potential for \nmany of the washes filling or overflowing, and flooding in some of \nthe larger creeks and rivers as all of the expected rain works \nthrough the water basins.\n\nDry air will begin to filter into the region from the northwest \nlater on Sunday, overspreading the bulk of the area by Monday \nmorning. We may have some lingering showers across the eastern 1/3rd \nof Arizona Sunday night into Monday morning, but additional rainfall \namounts should be fairly light. The rest of Monday will bring \ndecreasing clouds as the drier air works into the region while \nanother follow-on shortwave trough moves southeastward into northern \nNew Mexico. Temperatures for both Sunday and Monday will be fairly \ncool with highs as low as the lower 70s for the Phoenix area to \nmaybe the mid to upper 70s across the western lower deserts. Upper \nlevel ridging is then forecast to mostly take over across the Desert \nSouthwest going into the middle part of next week, but temperatures \nwill be fairly slow to rise with readings staying below normal.\n\n&&\n\n.AVIATION...Updated at 0530Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT; \nSHRA activity and low MVFR to IFR CIGs/VIS starting Saturday\nevening will be the main aviation weather issues throughout the\nTAF period. In the meantime, the TSRA activity that has affected\nportions of the area through the early evening hours has now\ndissipated with mostly SCT cloud cover with bases as low as 4-5\nkft prevailing through Saturday afternoon. Some hi-res guidance\nbrings in additional SHRA activity at times through Saturday\nafternoon, however, confidence is low of this scenario\nmaterializing. Much better confidence of more widespread SHRA\nactivity moving in Saturday evening with CIGs/VIS rapidly \ndeteriorating to MVFR to at times IFR conditions. Winds will \ngenerally maintain an easterly component throughout the TAF period\nwith light speeds generally under 10 kts. \n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nSHRA activity and sub VFR CIGs/VIS starting Saturday evening will\nbe the main aviation weather issues throughout the TAF period. At\nKIPL, winds will generally maintain a westerly component through \nthe overnight period with mostly variable conditions expected \nearly Saturday morning. At KBLH, winds will generally fluctuate \nbetween the southeast to south with a period of light variability \nexpected during the morning and afternoon hours. SCT-BKN high- \nlevel cloud decks will persist through the overnight period before\nlow to mid-level cloud coverage increases during the day \nSaturday. More widespread light SHRA activity will move in by the \nlate afternoon/early evening hours with CIGs/VIS rapidly \ndeteriorating to sub VFR conditions.\n\n&&\n\n.FIRE WEATHER...\nShowers and thunderstorms will impact portions of the eastern \ndistricts today with heavy rainfall likely in some areas, followed\nby a lull in rain chances on Saturday. Minimum humidities will\nrange between 30-70% areawide today and Saturday and improve \nfurther on Sunday, following excellent overnight recoveries. After\nthe lull on saturday, chances for rain increase again Saturday\nnight followed by widespread light to moderate rainfall on \nSunday areawide. Outside of any thunderstorms, winds will remain\ngenerally between 10-20 mph and favor southeasterly to southerly\ndirections through the weekend. Conditions will gradually dry out\nnext week as the unsettled pattern departs and temperatures\nmoderate closer to seasonal normals, however, humidities will \nremain above 25% areawide, and temperatures will still remain in a\nslightly below normal category.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Flood Watch from Saturday evening through late Sunday night for \n     AZZ534-537>563.\n\n     Dense Fog Advisory until midnight MST tonight for AZZ562.\n\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Whittock/RW\nLONG TERM...Whittock/Kuhlman\nAVIATION...Lojero\nFIRE WEATHER...Whittock\n",
     "risk": "HIGH",
     "high_terms": [
       "severe thunderstorm",
@@ -90,15 +305,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-31T02:34:08+00:00",
-    "prior_time_utc": "2026-10-31T02:04:08+00:00",
+    "latest_time_utc": "2026-10-31T08:36:59+00:00",
+    "prior_time_utc": "2026-10-31T08:06:59+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -116,180 +326,27 @@
     "image_url": "https://mapservices.weather.noaa.gov/eventdriven/rest/services/radar/radar_base_reflectivity_time/ImageServer/exportImage?bbox=-112.7035%2C32.7278%2C-111.3035%2C34.1278&bboxSR=4326&imageSR=4326&size=720%2C520&format=png32&transparent=true&f=image",
     "source": "NWS MRMS base reflectivity image service"
   },
-  "model_available": true,
-  "markets": [
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-B74.5",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be 74-75\u00b0 on Oct 30, 2026?",
-      "subtitle": "74\u00b0 to 75\u00b0",
-      "strike_type": "between",
-      "floor_strike": 74.0,
-      "cap_strike": 75.0,
-      "yes_bid": 0.99,
-      "yes_ask": 1.0,
-      "last_price": 0.99,
-      "market_mid": 0.995,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.9747774480712166,
-      "edge_vs_ask": -0.02522255192878342,
-      "difference": -0.020222551928783417
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-B76.5",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be 76-77\u00b0 on Oct 30, 2026?",
-      "subtitle": "76\u00b0 to 77\u00b0",
-      "strike_type": "between",
-      "floor_strike": 76.0,
-      "cap_strike": 77.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0.025222551928783383,
-      "edge_vs_ask": 0.015222551928783383,
-      "difference": 0.020222551928783382
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-B78.5",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be 78-79\u00b0 on Oct 30, 2026?",
-      "subtitle": "78\u00b0 to 79\u00b0",
-      "strike_type": "between",
-      "floor_strike": 78.0,
-      "cap_strike": 79.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-B80.5",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be 80-81\u00b0 on Oct 30, 2026?",
-      "subtitle": "80\u00b0 to 81\u00b0",
-      "strike_type": "between",
-      "floor_strike": 80.0,
-      "cap_strike": 81.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-T81",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be >81\u00b0 on Oct 30, 2026?",
-      "subtitle": "82\u00b0 or above",
-      "strike_type": "greater",
-      "floor_strike": 81.0,
-      "cap_strike": null,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    },
-    {
-      "ticker": "KXHIGHTPHX-26OCT30-T74",
-      "event_ticker": "KXHIGHTPHX-26OCT30",
-      "title": "Will the maximum temperature be <74\u00b0 on Oct 30, 2026?",
-      "subtitle": "73\u00b0 or below",
-      "strike_type": "less",
-      "floor_strike": null,
-      "cap_strike": 74.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-10-31T07:00:00Z",
-      "occurrence_datetime": "2026-10-31T14:00:00Z",
-      "updated_time": "2026-10-29T14:00:01.265687Z",
-      "model_probability": 0,
-      "edge_vs_ask": -0.01,
-      "difference": -0.005
-    }
-  ],
-  "model_method": "remaining_heating",
-  "model_bundle": "h18_remaining.joblib",
-  "observed_floor_f": 74.0,
-  "predicted_remaining_heating_f": 1.2867110458985462,
-  "pre_checkpoint_peak_f": 73.04,
-  "model_predicted_high_f": 74.32671104589855,
-  "model_correction_f": -1.6732889541014515,
-  "likely_low_f": 74,
-  "likely_high_f": 75,
-  "confidence": "LOW",
-  "model_mae_f": 0.5216579135150571,
-  "distribution": {
-    "74": 0.6431750741839762,
-    "75": 0.33160237388724034,
-    "76": 0.020029673590504452,
-    "77": 0.005192878338278931
-  },
-  "bucket_probability_total": 1.0,
-  "largest_model_ask_gap": {
-    "ticker": "KXHIGHTPHX-26OCT30-B76.5",
-    "event_ticker": "KXHIGHTPHX-26OCT30",
-    "title": "Will the maximum temperature be 76-77\u00b0 on Oct 30, 2026?",
-    "subtitle": "76\u00b0 to 77\u00b0",
-    "strike_type": "between",
-    "floor_strike": 76.0,
-    "cap_strike": 77.0,
-    "yes_bid": 0.0,
-    "yes_ask": 0.01,
-    "last_price": 0.01,
-    "market_mid": 0.005,
-    "close_time": "2026-10-31T07:00:00Z",
-    "occurrence_datetime": "2026-10-31T14:00:00Z",
-    "updated_time": "2026-10-29T14:00:01.265687Z",
-    "model_probability": 0.025222551928783383,
-    "edge_vs_ask": 0.015222551928783383,
-    "difference": 0.020222551928783382
-  },
-  "research_status": "WEATHER RISK \u2014 WAIT",
+  "model_available": false,
+  "markets": [],
   "satellite": {
     "available": true,
     "risk": "HIGH",
     "summary": "Heavy observed cloud cover may be suppressing solar heating at KPHX",
     "latest_cloud_fraction": 0.875,
     "mean_cloud_fraction_2h": 0.875,
-    "cloud_fraction_trend_2h": 0.0,
+    "cloud_fraction_trend_2h": null,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263040210_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-31T02:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263040220_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-31T02:20:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263040820_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-31T08:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263040820_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-31T08:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-30T19:42:39.414612-07:00",
+    "collected_at_local": "2026-10-31T01:42:00.387671-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -329,7 +386,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 74.0
+    "observed_floor_f": 65.0
   },
   "wethr_observed_high": {
     "available": false,
@@ -337,134 +394,135 @@
     "omo_informed": false,
     "error": "401 Client Error: Unauthorized for url: https://wethr.net/api/v2/observations.php?station_code=KPHX&mode=wethr_high&logic=nws"
   },
+  "research_status": "WAITING FOR 8:00 AM MODEL",
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-10-30T19:50:00-07:00",
+  "next_update_local": "2026-10-31T02:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 39,
-        "mae_f": 0.9781466957864706,
-        "bias_f": 0.3930261815043464,
-        "exact_pct": 33.33333333333333,
-        "within_1f_pct": 53.84615384615385,
-        "within_2f_pct": 92.3076923076923,
-        "closest_wins": 26,
-        "closest_win_pct": 66.66666666666666
+        "forecasts": 38,
+        "mae_f": 0.9871903930731005,
+        "bias_f": 0.7677148166207202,
+        "exact_pct": 31.57894736842105,
+        "within_1f_pct": 55.26315789473685,
+        "within_2f_pct": 94.73684210526315,
+        "closest_wins": 25,
+        "closest_win_pct": 65.78947368421053
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 39,
-        "mae_f": 1.435897435897436,
-        "bias_f": 0.20512820512820512,
-        "exact_pct": 43.58974358974359,
-        "within_1f_pct": 43.58974358974359,
-        "within_2f_pct": 84.61538461538461,
-        "closest_wins": 22,
-        "closest_win_pct": 56.41025641025641
+        "forecasts": 38,
+        "mae_f": 1.105263157894737,
+        "bias_f": 1.105263157894737,
+        "exact_pct": 44.73684210526316,
+        "within_1f_pct": 44.73684210526316,
+        "within_2f_pct": 100.0,
+        "closest_wins": 24,
+        "closest_win_pct": 63.1578947368421
       }
     ],
     "30_day": [
       {
-        "model_name": "HRRR",
-        "forecasts": 58,
-        "mae_f": 0.41741379310344817,
-        "bias_f": -0.05258620689655168,
-        "exact_pct": 74.13793103448276,
-        "within_1f_pct": 86.20689655172413,
-        "within_2f_pct": 94.82758620689656,
-        "closest_wins": 41,
-        "closest_win_pct": 70.6896551724138
+        "model_name": "HRRR-EXT",
+        "forecasts": 57,
+        "mae_f": 0.42649122807017525,
+        "bias_f": 0.05456140350877192,
+        "exact_pct": 73.68421052631578,
+        "within_1f_pct": 84.21052631578947,
+        "within_2f_pct": 96.49122807017544,
+        "closest_wins": 38,
+        "closest_win_pct": 66.66666666666666
       },
       {
-        "model_name": "HRRR-EXT",
-        "forecasts": 62,
-        "mae_f": 0.4224193548387096,
-        "bias_f": 0.045645161290322325,
-        "exact_pct": 70.96774193548387,
-        "within_1f_pct": 85.48387096774194,
-        "within_2f_pct": 96.7741935483871,
-        "closest_wins": 40,
-        "closest_win_pct": 64.51612903225806
+        "model_name": "HRRR",
+        "forecasts": 53,
+        "mae_f": 0.43339622641509434,
+        "bias_f": -0.05000000000000011,
+        "exact_pct": 71.69811320754717,
+        "within_1f_pct": 84.90566037735849,
+        "within_2f_pct": 94.33962264150944,
+        "closest_wins": 36,
+        "closest_win_pct": 67.9245283018868
       },
       {
         "model_name": "LAV-MOS",
-        "forecasts": 71,
-        "mae_f": 0.5853521126760564,
-        "bias_f": -0.5121126760563378,
-        "exact_pct": 69.01408450704226,
-        "within_1f_pct": 78.87323943661971,
-        "within_2f_pct": 95.77464788732394,
-        "closest_wins": 49,
-        "closest_win_pct": 69.01408450704226
+        "forecasts": 66,
+        "mae_f": 0.5387878787878788,
+        "bias_f": -0.4599999999999998,
+        "exact_pct": 71.21212121212122,
+        "within_1f_pct": 81.81818181818183,
+        "within_2f_pct": 95.45454545454545,
+        "closest_wins": 47,
+        "closest_win_pct": 71.21212121212122
+      },
+      {
+        "model_name": "WETHR_CONSENSUS",
+        "forecasts": 68,
+        "mae_f": 0.715588235294117,
+        "bias_f": -0.6923529411764697,
+        "exact_pct": 60.29411764705882,
+        "within_1f_pct": 73.52941176470588,
+        "within_2f_pct": 91.17647058823529,
+        "closest_wins": 38,
+        "closest_win_pct": 55.88235294117647
       },
       {
         "model_name": "KPHX_MODEL",
         "forecasts": 153,
-        "mae_f": 0.7356898073715373,
-        "bias_f": 0.08954859313970846,
-        "exact_pct": 53.59477124183007,
+        "mae_f": 0.7398397089833147,
+        "bias_f": 0.17174284678298543,
+        "exact_pct": 52.94117647058824,
         "within_1f_pct": 69.28104575163398,
-        "within_2f_pct": 94.11764705882352,
-        "closest_wins": 85,
-        "closest_win_pct": 55.55555555555556
-      },
-      {
-        "model_name": "WETHR_CONSENSUS",
-        "forecasts": 73,
-        "mae_f": 0.7494520547945199,
-        "bias_f": -0.7278082191780814,
-        "exact_pct": 58.9041095890411,
-        "within_1f_pct": 71.23287671232876,
-        "within_2f_pct": 89.04109589041096,
-        "closest_wins": 40,
-        "closest_win_pct": 54.794520547945204
+        "within_2f_pct": 95.42483660130719,
+        "closest_wins": 88,
+        "closest_win_pct": 57.51633986928104
       },
       {
         "model_name": "RAP",
-        "forecasts": 71,
-        "mae_f": 0.8516901408450708,
-        "bias_f": -0.8243661971830986,
-        "exact_pct": 56.33802816901409,
-        "within_1f_pct": 70.4225352112676,
-        "within_2f_pct": 83.09859154929578,
-        "closest_wins": 38,
-        "closest_win_pct": 53.52112676056338
+        "forecasts": 66,
+        "mae_f": 0.8239393939393943,
+        "bias_f": -0.7945454545454546,
+        "exact_pct": 56.060606060606055,
+        "within_1f_pct": 71.21212121212122,
+        "within_2f_pct": 84.84848484848484,
+        "closest_wins": 36,
+        "closest_win_pct": 54.54545454545454
       },
       {
         "model_name": "NBM",
-        "forecasts": 71,
-        "mae_f": 1.1187323943661973,
-        "bias_f": -1.1018309859154929,
-        "exact_pct": 56.33802816901409,
-        "within_1f_pct": 64.7887323943662,
-        "within_2f_pct": 78.87323943661971,
-        "closest_wins": 40,
-        "closest_win_pct": 56.33802816901409
+        "forecasts": 66,
+        "mae_f": 1.0100000000000002,
+        "bias_f": -0.9918181818181817,
+        "exact_pct": 57.57575757575758,
+        "within_1f_pct": 66.66666666666666,
+        "within_2f_pct": 81.81818181818183,
+        "closest_wins": 38,
+        "closest_win_pct": 57.57575757575758
       },
       {
         "model_name": "GFS-MOS",
-        "forecasts": 71,
-        "mae_f": 1.2309859154929577,
-        "bias_f": -1.2140845070422532,
-        "exact_pct": 52.112676056338024,
-        "within_1f_pct": 61.97183098591549,
-        "within_2f_pct": 81.69014084507043,
-        "closest_wins": 37,
-        "closest_win_pct": 52.112676056338024
+        "forecasts": 66,
+        "mae_f": 1.203030303030303,
+        "bias_f": -1.1848484848484844,
+        "exact_pct": 53.03030303030303,
+        "within_1f_pct": 63.63636363636363,
+        "within_2f_pct": 83.33333333333334,
+        "closest_wins": 35,
+        "closest_win_pct": 53.03030303030303
       },
       {
         "model_name": "NWS_MORNING",
         "forecasts": 153,
-        "mae_f": 1.5947712418300655,
-        "bias_f": -0.41830065359477125,
+        "mae_f": 1.5620915032679739,
+        "bias_f": -0.2549019607843137,
         "exact_pct": 29.411764705882355,
         "within_1f_pct": 45.751633986928105,
-        "within_2f_pct": 84.9673202614379,
-        "closest_wins": 58,
-        "closest_win_pct": 37.908496732026144
+        "within_2f_pct": 88.23529411764706,
+        "closest_wins": 60,
+        "closest_win_pct": 39.21568627450981
       }
     ],
     "all_time": [
@@ -492,14 +550,14 @@
       },
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 407,
-        "mae_f": 0.726645914470633,
-        "bias_f": 0.07325834734482194,
-        "exact_pct": 54.54545454545454,
-        "within_1f_pct": 75.92137592137593,
-        "within_2f_pct": 94.84029484029483,
-        "closest_wins": 214,
-        "closest_win_pct": 52.579852579852584
+        "forecasts": 412,
+        "mae_f": 0.7338597453071827,
+        "bias_f": 0.08840163894746163,
+        "exact_pct": 54.12621359223301,
+        "within_1f_pct": 75.48543689320388,
+        "within_2f_pct": 94.90291262135922,
+        "closest_wins": 219,
+        "closest_win_pct": 53.15533980582524
       },
       {
         "model_name": "WETHR_CONSENSUS",
@@ -558,70 +616,25 @@
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 407,
-        "mae_f": 1.6142506142506143,
-        "bias_f": -0.3808353808353808,
-        "exact_pct": 27.51842751842752,
-        "within_1f_pct": 54.054054054054056,
-        "within_2f_pct": 85.5036855036855,
-        "closest_wins": 135,
-        "closest_win_pct": 33.169533169533175
+        "forecasts": 412,
+        "mae_f": 1.6189320388349515,
+        "bias_f": -0.35194174757281554,
+        "exact_pct": 27.184466019417474,
+        "within_1f_pct": 53.398058252427184,
+        "within_2f_pct": 85.67961165048543,
+        "closest_wins": 137,
+        "closest_win_pct": 33.25242718446602
       }
     ]
   },
   "progression": [
     {
       "checkpoint_hour": null,
-      "latest_precise_temp_f": 71.96,
-      "latest_temp_f": 72.0,
+      "latest_precise_temp_f": 64.94,
+      "latest_temp_f": 65.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
-      "nws_am_forecast_high_f": 76.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 9.0,
-      "latest_precise_temp_f": 66.92,
-      "latest_temp_f": 67.0,
-      "six_hour_max_f": null,
-      "model_predicted_high_f": 75.60208539764864,
-      "nws_am_forecast_high_f": 76.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 12.0,
-      "latest_precise_temp_f": 73.04,
-      "latest_temp_f": 73.0,
-      "six_hour_max_f": 70.0,
-      "model_predicted_high_f": 76.0,
-      "nws_am_forecast_high_f": 76.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 13.0,
-      "latest_precise_temp_f": 73.04,
-      "latest_temp_f": 73.04,
-      "six_hour_max_f": 70.0,
-      "model_predicted_high_f": 76.0,
-      "nws_am_forecast_high_f": 76.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 16.0,
-      "latest_precise_temp_f": 71.96,
-      "latest_temp_f": 72.0,
-      "six_hour_max_f": 70.0,
-      "model_predicted_high_f": 74.67653143346448,
-      "nws_am_forecast_high_f": 76.0,
-      "weather_risk": "HIGH"
-    },
-    {
-      "checkpoint_hour": 18.0,
-      "latest_precise_temp_f": 66.02,
-      "latest_temp_f": 66.0,
-      "six_hour_max_f": 74.0,
-      "model_predicted_high_f": 74.32671104589855,
-      "nws_am_forecast_high_f": 76.0,
+      "nws_am_forecast_high_f": 79.0,
       "weather_risk": "HIGH"
     }
   ]
