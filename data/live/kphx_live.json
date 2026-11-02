@@ -1,10 +1,10 @@
 {
   "date": "2026-11-02",
-  "updated_at_local": "2026-11-02T02:56:19.824550-07:00",
+  "updated_at_local": "2026-11-02T03:52:44.418332-07:00",
   "latest_metar_time": "2026-11-02T02:51:00-07:00",
-  "latest_temp_f": 62.959999999999994,
+  "latest_temp_f": 63.0,
   "latest_precise_temp_f": 62.959999999999994,
-  "latest_dewpoint_f": 53.06,
+  "latest_dewpoint_f": 53.0,
   "raw_metar_peak_f": 64.94,
   "precise_metar_peak_f": 64.94,
   "six_hour_max_f": null,
@@ -26,14 +26,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-11-02T02:00:00-07:00",
-        "temp_f": 63.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "10 mph",
-        "wind_direction": "WSW"
-      },
       {
         "time": "2026-11-02T03:00:00-07:00",
         "temp_f": 63.0,
@@ -186,10 +178,6 @@
     "max_sky_cover_pct": 29.0,
     "sky_hours": [
       {
-        "time": "2026-11-02T02:00:00-07:00",
-        "sky_cover_pct": 7.0
-      },
-      {
         "time": "2026-11-02T03:00:00-07:00",
         "sky_cover_pct": 17.0
       },
@@ -269,27 +257,23 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-02T05:53:00+00:00",
-    "product_id": "09e2bd4a-46de-49c2-af58-ef495b6ceaea",
-    "text": "\n000\nFXUS65 KPSR 020553\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n1053 PM MST Sun Nov 1 2026\n\n.UPDATE...Updated Aviation Discussion.\n\n&&\n\n.KEY MESSAGES...\n\n- Rain and thunderstorm activity will gradually come to an end\n  from west to east by this evening. A Flood Watch remains in \n  effect for much of central and eastern Arizona through early \n  Monday morning. \n\n- Isolated strong to severe thunderstorms will be possible this\n  afternoon and evening, mostly east of the Colorado River, with \n  the main threat being damaging winds. \n\n- Conditions will quickly improve by daybreak Monday and remain\n  dry through the week, along with daytime temperatures slowly\n  warming closer to, albeit still below, daily normals through\n  middle of the week.\n  \n&&\n\n.SHORT TERM /TODAY THROUGH MONDAY/... \nThe widespread, long duration rainfall event panned out pretty \nmuch as anticipated with around 0.50\"-1.50\" of rain accumulating \nacross the lower deserts and upwards of 1.00-3.00\"+ across the \nhigher terrain areas north and east of Phoenix. This has led to a \nsizable hydrological response as area rivers and washes are \nflowing with some area rivers now reaching flood stage. Several \nFlood Warnings are in effect and will likely be extended through \nMonday as runoff continues to impact low lying areas. Please \ncontinue to heed any road closures and avoid driving through low \nwater crossings.\n\nLatest visible satellite imagery and area radars show stratiform \nrainfall coming to an end across southcentral AZ with a clearing \nline of cirrus now progressing through the Phoenix Metro area. As \nskies continue to clear, latest mesoanalysis indicates SB CAPE \nvalues rising to around 500-1000 J/kg across southwest AZ and \nwestern Maricopa County. There is also a sfc frontal boundary \nwhich is beginning to enter SE California and will continue to \npush ewd through this evening resulting in a wind shift from \nsoutherly to westerly. Due to clearing over the region, winds are \nnow becoming gusty as strong winds aloft are mixing down to the \nsfc. Expect gusts around 20-30 mph to become common over the next \nseveral hours with a few gusts exceeding 35 mph possible. High-res\nmodel guidance continues to indicate a final line of showers and \neven a few thunderstorms developing across southcentral AZ around \n00Z. Any storm that does develop will pose more of a flash \nflooding risk with higher rain rates anticipated. There will be a \njet maximum passing over the area, leading to effective bulk shear\nup to 50 kts. There will be fairly strong 925-850mb winds in \nsouth-central AZ, up around 40-50 kts, and any shower or storm \nthat develops could mix down these stronger winds to the surface. \nThere is also a non-zero chance of a brief tornado in south-\ncentral AZ with sfc-1km SRH up to 100- 150 m2/s2. As the line of \nshowers and storms pushes east of the area later this evening, the\nthreat of severe weather and flooding will finally come to an \nend.\n\nBy sunrise Monday, the threat of rain will come to an end and winds \nwill die down as the trough axis pushes east of the state and much \ndrier air is ushered in. PWATs are forecast to quickly drop to \naround 0.4-0.6\" by sunrise Monday. Patchy fog cannot be ruled out \nMonday morning in sheltered valley locations, but dry air \nentrainment into the surface layer may preclude any formation. As \nmentioned already, runoff and elevated flow in many of the major \nwaterways across south-central AZ is likely to continue through \nMonday. Temperatures the next couple of days will remain cool, with \nhighs around 6-10 degrees below normal, mostly in the upper-60s to \nmiddle-70s.\n\n&&\n\n.LONG TERM /TUESDAY THROUGH SATURDAY/... \nThrough the middle of the upcoming work week, following the \ndeparture of this dynamic weekend system, we can expect dry \nconditions, and transient upper level ridging, resulting in \ntemperatures slowly warming closer to seasonal levels (despite \ndaytime highs likely remaining a few degrees below the daily \nnormals). By late week, ensembles diverge with respect to another\ndisturbance possibly moving through the area, but guidance seem\nto be trending toward a relatively weak transient upper \nlow/positively tilted shortwave that is then followed by more\nridging by the end of next weekend. Regardless of the outcome, \nfairly benign conditions seem to be the most likely outcome. The \ntrajectory of the late week system is not favorable for rain \nchances, with its residence time too short for better quality \nmoisture to be pulled into the area, and if it remains an open \nwave, its positive tilt does not bode well for providing upper \nlevel support for precipitation. NBM PoPs with the latest forecast\nhave fallen to 10% or less Friday into Saturday. \n\n&&\n\n.AVIATION...Updated at 0550Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT; \n\nVFR CIGs and -SHRA will shift east of the Phoenix airspace and\ndecline in coverage over the next few hours. FEW-SCT midlevel\ndecks may persist into Monday afternoon, but CIGs are not expected\nto return for the remainder of the TAF period. Winds will favor a\nwesterly component through at least Monday afternoon, however, \nseveral hours of light speeds (AOB 5 kts) and variability may \nprevail Monday morning into the early afternoon. A more typical \neasterly diurnal wind shift is then anticipated Monday evening \nunder mostly clear skies.\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\n\nNo major aviation concerns are expected over the next 24 hours\nunder mostly clear skies. Winds will favor W for at least the next\nfew hours, then shift NW/N Monday morning. Speeds are expected to\nremain AOB 10 kts for the most part, however, some gusts into the\nmid teens cannot be ruled out at KBLH Monday afternoon. Extended\nperiods of light (AOB 6 kts) and VRB winds are possible.\n\n&&\n\n.FIRE WEATHER...\nWidespread wetting rainfall is expected across the area today with\nthe highest rainfall totals expected in the high terrain north \nand east of Phoenix. Rainfall will become more isolated this\nafternoon and evening, with potential for isolated thunderstorms\nas well. Gusty SW winds are also expected this afternoon and\nevening, with peak gusts up to 30-40 mph possible in the lower\ndeserts of south-central AZ to 40-50 mph at the highest elevations\neast of Phoenix. Any thunderstorm may also produce locally strong\nto severe wind gusts. Minimum humidities will range between \n55-80% areawide today and overnight maximum humidities up to\n80-100%. Notably drier conditions are expected Monday through the\nrest of the week, but minimum humidities will still remain around\n30-45% each day as temperatures will be near to slightly below\nnormal. Winds for much of the rest of this week will return to a \nmore typical diurnal pattern with light speeds and modest \nafternoon upslope gustiness.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Flood Watch until 5 AM MST Monday for AZZ534-537>563.\n\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Benedict/Salerno\nLONG TERM...Benedict/Whittock \nAVIATION...Whittock\nFIRE WEATHER...Benedict\n",
-    "risk": "HIGH",
-    "high_terms": [
-      "severe thunderstorm",
-      "damaging wind"
-    ],
+    "issued_at": "2026-11-02T10:39:00+00:00",
+    "product_id": "c40668e8-0b44-4307-b052-2fcc74c8daf9",
+    "text": "\n000\nFXUS65 KPSR 021039\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n339 AM MST Mon Nov 2 2026\n\n.KEY MESSAGES...\n\n- Dry and mostly sunny skies today, but flooding of area creeks,\n  streams, and rivers will continue today, following the rain over\n  the past few days.\n\n- Flooding in some of the major waterways like the Salt River may\n  persist through the week.\n \n- Dry and seasonal weather conditions are expected through the\n  next seven days, with lower desert high temperatures in the\n  seventies to around eighty.\n\n&&\n\n.SHORT TERM /TODAY THROUGH WEDNESDAY/... \n\nWater vapor satellite and surface observations early this morning\nshowed dry air was quickly spreading across the region, as the\nupper level trough was ejecting eastward through the Four Corners.\nRain showers were also finally coming to an end across south-\ncentral AZ. A lot of water was transported in and squeezed out of\nthe atmosphere over the past 3 days. Latest 3-day measured\nrainfall and radar estimates show a large area east and northeast\nof Phoenix, in the higher terrain, received 5-7 inches and a few\nspots reached 8 inches. Even though the has ended there is still \na lot of runoff moving through the water systems across AZ. \nSeveral USGS and flood control streamflow gauges early this \nmorning were still above designated action/alarm stages and some \nwere in minor to moderate flood stage. Many areal and river flood \nwarnings were still in effect and will remain in effect through \nmost of this morning. Unlike Winter and Spring snowmelt runoff\nfollowing a rain event, runoff following this rain event should \nsubside more quickly. Still, runoff in some of the major waterways\nand watersheds, like the Salt and Verde systems, will take \nlonger to subside. Possibly even most of the week. Salt River \nProject this morning around 3 AM MST was still releasing a very \nhigh volume of water from Bartlett Dam into the Verde River, over \n60000 cfs, and from Granite Reef Dam into the Salt River, over \n34000 cfs. Impacts on the Salt River downstream of Tempe Town Lake\nwill likely develop today as runoff continues. Recreating in the \nVerde and Salt rivers will be very dangerous and is strongly \ndiscouraged. There have been multiple fatalities from recreation \nwith similar flows in the past. Continue to heed all road closures\nas will and do not attempt to cross flooded roads.\n\nBesides the lingering flooding, it will be a very pleasant Fall\nday, with high temperatures this afternoon forecast to reach the\nlow to middle 70s under mostly sunny skies. Winds will be light\nacross south-central AZ and there will be some northerly breezes\nup to 15-25 mph along the lower Colorado River Valley this \nafternoon. Dry conditions will continue Tuesday and Wednesday and\ntemperatures will gradually warm. A shortwave ridge will pass \nover the area tomorrow between the departing upper level trough\nand another Pacific low. Model guidance keeps this next Pacific\nlow on a west-east trajectory through UT and CO on Wednesday. Just\nabout all this transient low will do to the local area is suppress\nheights and keep temperatures from warming more quickly. High\ntemperatures Wednesday will be a bit closer to seasonal levels,\nbut still ~5 degrees below normal, with lower deserts reaching the\nmiddle 70s to near 80 degrees. Morning temperatures the next few\ndays will be seasonally cool, mostly in the 50s across the lower\ndeserts and 40s in higher elevation communities and some of the\ntypically cooler lower desert valley spots.\n\n&&\n\n.LONG TERM /THURSDAY THROUGH SUNDAY/... \n\nThe long term forecast remains dry and seasonal. There is now\nmuch better confidence in the late week and weekend forecast,\nwhich favors ridging building in across the West and a weak cutoff\nlow forming over the Pacific west of Baja California. Weak\ntroughing looks to drag across the local area Friday into Saturday\nahead of the building ridge. Previous forecasts supported slight \nrain chances with this trough, but this trough now looks\ncompletely dry and latest NBM PoPs are 5% or less across the\nregion. These are also the only PoPs in the 7-day forecast. Plenty\nof time to dry out fallowing all the rain. Temperatures during \nthe second half of the week will remain steady near to slightly \nbelow normal and then heading into the weekend temperatures are \nlikely to trend warmer as the ridging builds into the west. Most \nlower deserts may see high temperatures return to the low and \npossibly even mid 80s.\n\n&&\n\n.AVIATION...Updated at 1030Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT; \n\nCIGs and -SHRA have shifted east of the Phoenix airspace and will \ncontinue to diminish in coverage through the morning. FEW low to \nmidlevel decks may persist with some cumulus development over the \nmountains this afternoon. Winds will favor a westerly component \nthrough early this evening at KPHX, however, winds will become light \nand likely VRB for a period this morning before reverting to the \nwest in the afternoon. A more typical easterly diurnal wind shift is \nthen anticipated this evening under mostly clear skies. A TEMPO \nreduction in sfc VIS due to fog developing overnight into early \nTuesday morning cannot be ruled out at the southern terminals, with \nthe best probabilities of MVFR or lower VIS at KIWA (30%) followed \nby KPHX (20%). \n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\n\nNo major aviation concerns are expected over the next 24 hours under \nmostly clear skies. Winds will favor northwesterly directions for \nmuch of the day. Speeds are expected to remain AOB 10 kts for the \nmost part, however, some gusts into the mid to upper teens cannot be \nruled out at KBLH this afternoon. Extended periods of light (AOB 6 \nkts) and VRB winds are possible.\n\n&&\n\n.FIRE WEATHER...\nLingering floodwater runoff in area creeks, streams, and rivers is\nlikely to continue through at least today. Otherwise, rain has\nended and dry seasonal conditions can be expected through the \nnext 7 days. Saturated grounds will help keep surface humidity \nlevels somewhat elevated. Afternoon minimum RHs today will be \naround 50-60% across AZ and 25-35% across southeast CA. Despite \ngradual drying through the week, the minimum RHs will only fall to\naround 35-45% across AZ and 20-30% across southeast CA. Overnight\nrecoveries will remain good through the week, with around 60-80% \nmax RHs most nights. Winds through the next 7 days will mostly \nfallow typical diurnal trends with light speeds and modest \nafternoon upslope gusts. Some breezier north winds may develop \nalong the lower Colorado River Valley at times, but with only \nminor gusts up to 20-25 mph forecast at this time.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...Flood Watch until 5 AM MST early this morning for AZZ534-537>563.\n\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Benedict\nLONG TERM...Benedict\nAVIATION...Whittock \nFIRE WEATHER...Benedict\n",
+    "risk": "MEDIUM",
+    "high_terms": [],
     "convective_terms": [
-      "thunderstorm",
       "showers",
       "shower"
     ],
     "negative_signals": 0,
-    "snippet": "- Rain and thunderstorm activity will gradually come to an end from west to east by this evening. - Isolated strong to severe thunderstorms will be possible this afternoon and evening, mostly east of the Colorado River, with the main threat being damaging winds.",
+    "snippet": "Rain showers were also finally coming to an end across south- central AZ.",
     "source": "NWS Phoenix Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-02T09:48:57+00:00",
-    "prior_time_utc": "2026-11-02T09:18:57+00:00",
+    "latest_time_utc": "2026-11-02T10:44:56+00:00",
+    "prior_time_utc": "2026-11-02T10:14:56+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -319,17 +303,17 @@
     "mean_cloud_fraction_2h": 0.6666666666666666,
     "cloud_fraction_trend_2h": -0.625,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263060930_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-02T09:30:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263060940_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-02T09:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263061030_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-02T10:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263061030_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-02T10:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-02T02:56:13.550452-07:00",
+    "collected_at_local": "2026-11-02T03:52:35.999033-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -381,7 +365,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-02T03:05:00-07:00",
+  "next_update_local": "2026-11-02T04:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -623,7 +607,7 @@
     {
       "checkpoint_hour": null,
       "latest_precise_temp_f": 62.959999999999994,
-      "latest_temp_f": 62.959999999999994,
+      "latest_temp_f": 63.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 72.0,
