@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updated_at_local": "2026-11-14T12:41:46.182580-07:00",
+  "updated_at_local": "2026-11-14T12:53:33.723504-07:00",
   "latest_metar_time": "2026-11-14T11:51:00-07:00",
   "latest_temp_f": 69.0,
   "latest_precise_temp_f": 69.08,
@@ -165,8 +165,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-14T19:20:58+00:00",
-    "prior_time_utc": "2026-11-14T18:50:58+00:00",
+    "latest_time_utc": "2026-11-14T19:34:57+00:00",
+    "prior_time_utc": "2026-11-14T19:04:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -201,16 +201,16 @@
       "strike_type": "between",
       "floor_strike": 73.0,
       "cap_strike": 74.0,
-      "yes_bid": 0.26,
-      "yes_ask": 0.3,
-      "last_price": 0.29,
-      "market_mid": 0.28,
+      "yes_bid": 0.17,
+      "yes_ask": 0.21,
+      "last_price": 0.22,
+      "market_mid": 0.19,
       "close_time": "2026-11-15T07:00:00Z",
       "occurrence_datetime": "2026-11-15T15:00:00Z",
       "updated_time": "2026-11-13T15:00:01.269716Z",
       "model_probability": 0.5591810620601407,
-      "edge_vs_ask": 0.25918106206014074,
-      "difference": 0.2791810620601407
+      "edge_vs_ask": 0.34918106206014077,
+      "difference": 0.36918106206014073
     },
     {
       "ticker": "KXHIGHTPHX-26NOV14-B71.5",
@@ -220,16 +220,16 @@
       "strike_type": "between",
       "floor_strike": 71.0,
       "cap_strike": 72.0,
-      "yes_bid": 0.65,
-      "yes_ask": 0.67,
-      "last_price": 0.65,
-      "market_mid": 0.66,
+      "yes_bid": 0.73,
+      "yes_ask": 0.77,
+      "last_price": 0.72,
+      "market_mid": 0.75,
       "close_time": "2026-11-15T07:00:00Z",
       "occurrence_datetime": "2026-11-15T15:00:00Z",
       "updated_time": "2026-11-13T15:00:01.269716Z",
       "model_probability": 0.2648752399232246,
-      "edge_vs_ask": -0.40512476007677545,
-      "difference": -0.39512476007677544
+      "edge_vs_ask": -0.5051247600767754,
+      "difference": -0.4851247600767754
     },
     {
       "ticker": "KXHIGHTPHX-26NOV14-B75.5",
@@ -240,15 +240,15 @@
       "floor_strike": 75.0,
       "cap_strike": 76.0,
       "yes_bid": 0.01,
-      "yes_ask": 0.02,
-      "last_price": 0.01,
-      "market_mid": 0.015,
+      "yes_ask": 0.03,
+      "last_price": 0.03,
+      "market_mid": 0.02,
       "close_time": "2026-11-15T07:00:00Z",
       "occurrence_datetime": "2026-11-15T15:00:00Z",
       "updated_time": "2026-11-13T15:00:01.269716Z",
       "model_probability": 0.14971209213051823,
-      "edge_vs_ask": 0.12971209213051824,
-      "difference": 0.1347120921305182
+      "edge_vs_ask": 0.11971209213051823,
+      "difference": 0.12971209213051824
     },
     {
       "ticker": "KXHIGHTPHX-26NOV14-B77.5",
@@ -259,15 +259,15 @@
       "floor_strike": 77.0,
       "cap_strike": 78.0,
       "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
+      "yes_ask": 0.02,
+      "last_price": 0.02,
+      "market_mid": 0.01,
       "close_time": "2026-11-15T07:00:00Z",
       "occurrence_datetime": "2026-11-15T15:00:00Z",
       "updated_time": "2026-11-13T15:00:01.269716Z",
       "model_probability": 0.01727447216890595,
-      "edge_vs_ask": 0.007274472168905951,
-      "difference": 0.01227447216890595
+      "edge_vs_ask": -0.0027255278310940496,
+      "difference": 0.007274472168905951
     },
     {
       "ticker": "KXHIGHTPHX-26NOV14-T71",
@@ -337,16 +337,16 @@
     "strike_type": "between",
     "floor_strike": 73.0,
     "cap_strike": 74.0,
-    "yes_bid": 0.26,
-    "yes_ask": 0.3,
-    "last_price": 0.29,
-    "market_mid": 0.28,
+    "yes_bid": 0.17,
+    "yes_ask": 0.21,
+    "last_price": 0.22,
+    "market_mid": 0.19,
     "close_time": "2026-11-15T07:00:00Z",
     "occurrence_datetime": "2026-11-15T15:00:00Z",
     "updated_time": "2026-11-13T15:00:01.269716Z",
     "model_probability": 0.5591810620601407,
-    "edge_vs_ask": 0.25918106206014074,
-    "difference": 0.2791810620601407
+    "edge_vs_ask": 0.34918106206014077,
+    "difference": 0.36918106206014073
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -357,17 +357,17 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263181920_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-14T19:20:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263181920_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-14T19:20:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263181930_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-14T19:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263181930_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-14T19:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-14T12:41:38.768023-07:00",
+    "collected_at_local": "2026-11-14T12:53:30.109445-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -418,7 +418,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-14T12:50:00-07:00",
+  "next_update_local": "2026-11-14T13:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
