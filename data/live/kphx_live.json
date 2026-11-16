@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updated_at_local": "2026-11-16T16:38:20.985175-07:00",
+  "updated_at_local": "2026-11-16T16:44:08.027148-07:00",
   "latest_metar_time": "2026-11-16T15:51:00-07:00",
   "latest_temp_f": 80.0,
   "latest_precise_temp_f": 80.06,
@@ -52,7 +52,7 @@
       },
       {
         "time": "2026-11-16T19:00:00-07:00",
-        "temp_f": 73.0,
+        "temp_f": 74.0,
         "pop_pct": 1.0,
         "short_forecast": "Clear",
         "wind_speed": "5 mph",
@@ -307,8 +307,8 @@
     "mean_cloud_fraction_2h": 0.625,
     "cloud_fraction_trend_2h": -0.375,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263202310_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-16T23:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263202320_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-16T23:20:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263202320_GOES18-ABI-psr-13-600x600.jpg",
     "infrared_time_utc": "2026-11-16T23:20:00+00:00",
     "errors": [],
@@ -317,7 +317,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-16T16:38:14.449900-07:00",
+    "collected_at_local": "2026-11-16T16:44:03.482845-07:00",
     "models": {
       "HRRR": {
         "available": false,
