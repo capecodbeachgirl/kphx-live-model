@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updated_at_local": "2026-11-23T02:28:16.729940-07:00",
+  "updated_at_local": "2026-11-23T02:48:09.679362-07:00",
   "latest_metar_time": "2026-11-23T01:51:00-07:00",
   "latest_temp_f": 56.0,
   "latest_precise_temp_f": 55.94,
@@ -268,9 +268,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-23T05:11:00+00:00",
-    "product_id": "08ef4ff6-5b8d-4ef7-b823-c28ef697676e",
-    "text": "\n000\nFXUS65 KPSR 230511\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n1010 PM MST Sun Nov 22 2026\n\n.UPDATE...\nUpdated Aviation\n\n&&\n\n.KEY MESSAGES...\n\n- The overall pattern will favor dry and tranquil conditions across \nthe Desert Southwest through at least Thanksgiving weekend.\n\n- Temperatures will hover near to slightly below normal before a \nwarming trend pushes readings toward above seasonal levels by the \nlatter half of the week. \n\n&&\n\n.SHORT TERM /TODAY THROUGH TUESDAY/...\nBroad troughing continues today over Western CONUS with H5 heights \nbetween 568-571 dam over the Desert SW region. These heights are \nnear average for this time of year resulting in near normal \ntemperatures expected this afternoon with much of the lower deserts \nforecasted to be in the lower 70s. By Monday, a break-away piece of \nenergy from the main portion of the trough currently sitting in the \neastern Pacific will quickly pass over Arizona which will knock \ntemperatures down 1F-2F Monday. Additionally, over the next couple \nof days passing high-level clouds will continue to be common.\n\nA brief break in this troughing pattern will take place Tuesday as \nupper level ridging build over the Western CONUS. This will lead to \na general warming trend by mid-week, lasting into the weekend. This \nwill translate to afternoon temperatures on Wednesday between 73F-\n75F for the lower deserts and 50s and 60s remaining in place for the \nhigher terrain. Further warming will be likely as the week goes on.  \n\n&&\n\n.LONG TERM /WEDNESDAY THROUGH NEXT SUNDAY/...  \nThe building ridge Tuesday will set the stage for a gradual warming \ntrend through the remainder of the week and into the weekend as anti-\ncyclonic curvature dominates during much of this timeframe. Global \nensembles do show another weak shortwave moving off the eastern \nPacific by Wednesday, likely putting a short pause on the daily \npositive temperature trajectory, but that will quickly be replaced \nwith what is shown to be an unseasonably strong area of high \npressure setting up west of the Baja Peninsula. Afternoon highs by \nThanksgiving will rise far enough to be comfortably above normals \nvalues for the back-end of November, but that will only result in \nmiddle to upper 70s becoming more common across lower elevation \nareas so conditions should still feel quite pleasant. There might be \na few spots, mainly out in SW Arizona and SE California, that reach \ninto the lower 80s by the weekend due to their closer proximity to \nthe greatest height anomalies, but that appears to be the upper \nlimit of how far temperatures will rise. With the high centered to \nour southwest, cool northerly flow will likely be an inhibiting \nfactor as to why we will not see warmth that is completely out of \nthe ordinary for this time of year. \n\n&&\n\n.AVIATION...Updated at 0510Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT; and \nSoutheast California/Southwest Arizona including KIPL and KBLH:\n\nNo significant weather issues will exist through Monday night as \nperiods of high cirrus decks gradually clear. Confidence is very \ngood that light east winds across the Phoenix metro will complete a \nwesterly switch by early afternoon, or much earlier than the past \nseveral days. A more distinct northerly component should develop \nacross SE California by early afternoon. Extended periods with \nnearly calm conditions will be common. \n\n&&\n\n.FIRE WEATHER... \nDry and tranquil conditions will continue across the region with \nMinRH's ranging between 15-30% through most of the forecast period, \nand cool overnight lows resulting in decent to good overnight \nrecovery each night. Temperatures will be near to below normal for \nthe next couple of days before warming up to near to slightly above \nnormal by mid-week into the weekend. Outside of periods of \nmarginally breezy conditions over high terrain areas and the Lower \nColorado River Valley, light winds will be favored elsewhere. \n\n&&\n\n.HYDROLOGY...Updated 11/22 0910\nGila: A Flood Warning remains in effect from Painted Rock Dam \nthrough the Dateland area due to continued water releases upwards of \n3000 cfs. Water levels near Dateland continue to rise, with gauge \ndata now showing a depth of around 7 ft and flow approaching 900 \ncfs. CBRFC's latest forecast for this station has water rising above \naction stage (8 ft) by late this morning. A separate Flood Warning \nsegment remains in effect from Dateland to Yuma. These water levels \nwill have the potential to flood farm fields and low water crossings \nalong the river downstream from the dam.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n\n&&\n\n$$\n\nSHORT TERM...Ryan \nLONG TERM...RW \nAVIATION...18\nFIRE WEATHER...Ryan \nHYDROLOGY...Benedict/RW\n",
+    "issued_at": "2026-11-23T09:39:00+00:00",
+    "product_id": "903abbff-77d3-4f73-9c0d-353a23b97b51",
+    "text": "\n000\nFXUS65 KPSR 230939\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n239 AM MST Mon Nov 23 2026\n\n.KEY MESSAGES...\n\n- Dry and mostly tranquil weather is expected to persist through \n  at least the Thanksgiving Weekend.\n\n- Temperatures will embark on a gradual warming trend over the \n  next several days as high pressure encompasses much of the \n  western United Sates.\n\n- Periods of breezy conditions over high terrain areas and along\n  the lower Colorado River Valley will be the only notable\n  conditions to speak. \n\n  \n&&\n\n.SHORT TERM /TODAY THROUGH WEDNESDAY/... \nCurrent upper-air analysis reveals short-wave troughing advancing \nthrough the Intermountain West, detaching itself from a much broader \nwave that has sat over the eastern Pacific for the past few days. \nThe more compact of these features will quickly work its way \neastward through the remainder of today, likely reaching the \nSouthern Plains by early Tuesday morning. The short residence time, \nrelatively weak nature, and lack of moisture will provide no \nappreciable condition changes to the Desert Southwest for today. \nCombine this with a trailing ridge that will eventually amplify and \nmove over the the forecast area, and we get a continuation of dry \nand mostly tranquil conditions. Global guidance does indicate \nanother break-away piece of energy moving off the eastern Pacific on \nWednesday, but much like its predecessor, it will have very little \ninfluence on the region. Some marginal breeziness, a result of the \nfluctuating pressure gradient associated with the multiple \nprogressive waves, focused over high terrain areas north and east \nof the Phoenix metro, will be the only noteworthy deviation from \noverall quiet weather during this timeframe. Temperatures will \ncontinue to be quite pleasant through the middle of the week, with\nlower desert temperatures generally in the upper 60s lower 70s \nthis afternoon 70s, increasing to the lower and mid 70s for \nTuesday and Wednesday, and higher terrain readings in the 50s and \n60s.\n\n&&\n\n.LONG TERM /THURSDAY THROUGH NEXT MONDAY/...  \nThe initial ridge Tuesday will be the starting point for a \npersistent anti-cyclonic setup through Thanksgiving and the ensuing \nweekend. An unseasonably strong area of high pressure is shown \nbuilding to the west of the Baja Peninsula and expanding across \nmuch of the western CONUS during the back-half of the week. This \nwill keep mostly quiet conditions in the forecast during the \nextended period, resulting in what looks to be a wonderful holiday\ntimeframe weather-wise. Another round of breeziness Thursday, \nthis time focused over the lower Colorado River Valley, will once \nagain be the deviant factor to the overall benign setup as the \nstrong high pressure interacts with the previously mentioned \nshortwave that will be over Northern Mexico by this point in time.\n\nAfternoon highs by Thanksgiving will rise far enough to be \ncomfortably above normals values for the back-end of November, but \nthat will only result in middle to upper 70s becoming more common \nacross lower elevation areas. There might be a few spots, mainly \nout in SW Arizona and SE California, that reach into the lower 80s\nby the weekend due to their closer proximity to the greatest \nheight anomalies, but that appears to be the upper limit of how \nfar temperatures will rise. With the high centered to our \nsouthwest, cool northerly flow will likely be an inhibiting factor\nas to why we will not see warmth that is completely out of the \nordinary for this time of year. \n\n&&\n\n.AVIATION...Updated at 0510Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT; and \nSoutheast California/Southwest Arizona including KIPL and KBLH:\n\nNo significant weather issues will exist through Monday night as \nperiods of high cirrus decks gradually clear. Confidence is very \ngood that light east winds across the Phoenix metro will complete a \nwesterly switch by early afternoon, or much earlier than the past \nseveral days. A more distinct northerly component should develop \nacross SE California by early afternoon. Extended periods with \nnearly calm conditions will be common. \n\n&&\n\n.FIRE WEATHER... \nDry and mostly tranquil conditions will persist through the next\nseveral days. MinRHs will hover around 15-30% areawide, while \ncool overnight lows will allow for decent to good overnight \nrecovery. Daily high temperatures are expected to gradually rise \nthrough the holiday weekend, reaching above seasonal normals as\nearly as Tuesday or Wednesday, depending on location. Outside of \nsome marginally breezy conditions over high terrain areas and the \nlower Colorado River Valley throughout the week, light winds will \nbe favored elsewhere.\n\n\n\n&&\n\n.HYDROLOGY...Updated 11/23 0930\nGila: A Flood Warning remains in effect from Painted Rock Dam \nthrough the Dateland area due to continued water releases upwards \nof 3000 cfs. Water levels near Dateland continue to rise, with \ngauge data now showing a depth of just above 7 ft and flow \nexceeding 900 cfs. CBRFC's latest forecast for this station now \nhas water rising above action stage (8 ft) by early this \nafternoon. A separate Flood Warning segment remains in effect from\nDateland to Yuma. These water levels will have the potential to \nflood farm fields and low water crossings along the river \ndownstream from the dam.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Ryan \nLONG TERM...RW \nAVIATION...18\nFIRE WEATHER...RW\nHYDROLOGY...Benedict/RW\n",
     "risk": "LOW",
     "high_terms": [],
     "convective_terms": [],
@@ -280,24 +280,14 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-23T09:14:57+00:00",
-    "prior_time_utc": "2026-11-23T08:44:57+00:00",
+    "latest_time_utc": "2026-11-17T23:52:58+00:00",
+    "prior_time_utc": "2026-11-17T23:22:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "risk": "LOW",
@@ -316,17 +306,17 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263270900_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-23T09:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263270900_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-23T09:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263270920_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-23T09:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263270920_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-23T09:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-23T02:28:10.090502-07:00",
+    "collected_at_local": "2026-11-23T02:47:58.736138-07:00",
     "models": {
       "HRRR": {
         "available": false,
