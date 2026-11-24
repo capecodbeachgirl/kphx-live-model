@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updated_at_local": "2026-11-24T05:09:03.506988-07:00",
+  "updated_at_local": "2026-11-24T05:37:47.133880-07:00",
   "latest_metar_time": "2026-11-24T04:51:00-07:00",
   "latest_temp_f": 49.0,
   "latest_precise_temp_f": 48.92,
@@ -244,8 +244,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-24T11:42:57+00:00",
-    "prior_time_utc": "2026-11-24T11:12:57+00:00",
+    "latest_time_utc": "2026-11-24T12:24:01+00:00",
+    "prior_time_utc": "2026-11-24T11:54:01+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -273,7 +273,7 @@
   "model_available": false,
   "markets": [],
   "satellite": {
-    "available": true,
+    "available": false,
     "risk": "LOW",
     "summary": "Observed KPHX sky cover suggests limited cloud shading",
     "latest_cloud_fraction": 0.0,
@@ -282,17 +282,18 @@
     "latest_cloud_fraction_below_20000": 0.0,
     "geocolor_image_url": null,
     "geocolor_time_utc": null,
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263281140_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-24T11:40:00+00:00",
+    "infrared_image_url": null,
+    "infrared_time_utc": null,
     "errors": [
-      "GeoColor: HTTPSConnectionPool(host='www.star.nesdis.noaa.gov', port=443): Read timed out. (read timeout=30)"
+      "GeoColor: HTTPSConnectionPool(host='www.star.nesdis.noaa.gov', port=443): Max retries exceeded with url: /goes/wfo.php?wfo=psr (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1035)')))",
+      "Band 13: HTTPSConnectionPool(host='www.star.nesdis.noaa.gov', port=443): Max retries exceeded with url: /goes/wfo.php?wfo=psr (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1035)')))"
     ],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-24T05:08:20.540253-07:00",
+    "collected_at_local": "2026-11-24T05:37:31.320545-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -349,49 +350,49 @@
     "7_day": [
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 23,
-        "mae_f": 0.2608695652173913,
-        "bias_f": 0.2608695652173913,
-        "exact_pct": 73.91304347826086,
+        "forecasts": 22,
+        "mae_f": 0.2727272727272727,
+        "bias_f": 0.2727272727272727,
+        "exact_pct": 72.72727272727273,
         "within_1f_pct": 100.0,
         "within_2f_pct": 100.0,
-        "closest_wins": 18,
-        "closest_win_pct": 78.26086956521739
+        "closest_wins": 17,
+        "closest_win_pct": 77.27272727272727
       },
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 23,
-        "mae_f": 0.3432962289181557,
-        "bias_f": 0.003911555786322528,
-        "exact_pct": 69.56521739130434,
-        "within_1f_pct": 95.65217391304348,
+        "forecasts": 22,
+        "mae_f": 0.3314608234400092,
+        "bias_f": -0.018452466543063973,
+        "exact_pct": 72.72727272727273,
+        "within_1f_pct": 95.45454545454545,
         "within_2f_pct": 100.0,
-        "closest_wins": 14,
-        "closest_win_pct": 60.86956521739131
+        "closest_wins": 15,
+        "closest_win_pct": 68.18181818181817
       }
     ],
     "30_day": [
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 120,
-        "mae_f": 0.6893744572907167,
-        "bias_f": 0.4023706547035142,
-        "exact_pct": 51.66666666666667,
-        "within_1f_pct": 76.66666666666667,
-        "within_2f_pct": 96.66666666666667,
-        "closest_wins": 85,
-        "closest_win_pct": 70.83333333333334
+        "forecasts": 114,
+        "mae_f": 0.5861132281487993,
+        "bias_f": 0.28400396226753355,
+        "exact_pct": 56.14035087719298,
+        "within_1f_pct": 82.45614035087719,
+        "within_2f_pct": 98.24561403508771,
+        "closest_wins": 81,
+        "closest_win_pct": 71.05263157894737
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 120,
-        "mae_f": 0.8666666666666667,
-        "bias_f": 0.43333333333333335,
-        "exact_pct": 45.0,
-        "within_1f_pct": 74.16666666666667,
-        "within_2f_pct": 94.16666666666667,
-        "closest_wins": 74,
-        "closest_win_pct": 61.66666666666667
+        "forecasts": 114,
+        "mae_f": 0.7719298245614035,
+        "bias_f": 0.3157894736842105,
+        "exact_pct": 49.122807017543856,
+        "within_1f_pct": 79.82456140350878,
+        "within_2f_pct": 93.85964912280701,
+        "closest_wins": 71,
+        "closest_win_pct": 62.28070175438597
       }
     ],
     "all_time": [
@@ -419,14 +420,14 @@
       },
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 494,
-        "mae_f": 0.7035666295641042,
-        "bias_f": 0.11241455623317516,
-        "exact_pct": 55.26315789473685,
-        "within_1f_pct": 77.32793522267207,
-        "within_2f_pct": 95.34412955465586,
-        "closest_wins": 279,
-        "closest_win_pct": 56.477732793522264
+        "forecasts": 496,
+        "mae_f": 0.7007296673481199,
+        "bias_f": 0.11196127173223494,
+        "exact_pct": 55.443548387096776,
+        "within_1f_pct": 77.41935483870968,
+        "within_2f_pct": 95.36290322580645,
+        "closest_wins": 281,
+        "closest_win_pct": 56.653225806451616
       },
       {
         "model_name": "WETHR_CONSENSUS",
@@ -485,14 +486,14 @@
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 494,
-        "mae_f": 1.4757085020242915,
-        "bias_f": -0.2732793522267207,
-        "exact_pct": 30.16194331983806,
-        "within_1f_pct": 59.10931174089069,
-        "within_2f_pct": 86.63967611336032,
-        "closest_wins": 187,
-        "closest_win_pct": 37.85425101214575
+        "forecasts": 496,
+        "mae_f": 1.469758064516129,
+        "bias_f": -0.2721774193548387,
+        "exact_pct": 30.443548387096776,
+        "within_1f_pct": 59.2741935483871,
+        "within_2f_pct": 86.69354838709677,
+        "closest_wins": 189,
+        "closest_win_pct": 38.104838709677416
       }
     ]
   },
