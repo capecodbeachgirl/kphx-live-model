@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updated_at_local": "2026-11-25T22:17:51.117187-07:00",
+  "updated_at_local": "2026-11-25T22:28:31.154732-07:00",
   "latest_metar_time": "2026-11-25T21:51:00-07:00",
   "latest_temp_f": 61.0,
   "latest_precise_temp_f": 60.980000000000004,
@@ -50,8 +50,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-26T05:07:58+00:00",
-    "prior_time_utc": "2026-11-26T04:37:58+00:00",
+    "latest_time_utc": "2026-11-26T05:14:59+00:00",
+    "prior_time_utc": "2026-11-26T04:44:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -240,17 +240,17 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263300450_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-26T04:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263300440_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-26T04:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263300500_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-26T05:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263300500_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-26T05:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-25T22:17:42.880867-07:00",
+    "collected_at_local": "2026-11-25T22:28:28.165372-07:00",
     "models": {
       "HRRR": {
         "available": false,
