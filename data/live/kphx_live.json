@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-26",
-  "updated_at_local": "2026-11-26T23:57:36.710551-07:00",
-  "latest_metar_time": "2026-11-26T23:51:00-07:00",
-  "latest_temp_f": 60.980000000000004,
-  "latest_precise_temp_f": 60.980000000000004,
-  "latest_dewpoint_f": 39.02,
-  "raw_metar_peak_f": 78.08,
-  "precise_metar_peak_f": 78.08,
+  "date": "2026-11-27",
+  "updated_at_local": "2026-11-27T04:59:37.171264-07:00",
+  "latest_metar_time": "2026-11-27T04:51:00-07:00",
+  "latest_temp_f": 55.04,
+  "latest_precise_temp_f": 55.04,
+  "latest_dewpoint_f": 37.94,
+  "raw_metar_peak_f": 57.92,
+  "precise_metar_peak_f": 57.92,
   "six_hour_max_f": null,
-  "six_hour_max_report_time": "2026-11-26T22:51:00-07:00",
-  "nws_am_forecast_high_f": 79.0,
-  "nws_am_issued_at": "2026-11-26T04:01:00-07:00",
+  "six_hour_max_report_time": "2026-11-27T04:51:00-07:00",
+  "nws_am_forecast_high_f": 77.0,
+  "nws_am_issued_at": "2026-11-27T04:01:00-07:00",
   "checkpoint_hour": null,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
@@ -23,14 +23,220 @@
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
-    "available": false,
-    "hours": [],
-    "max_pop_pct": null,
+    "available": true,
+    "hours": [
+      {
+        "time": "2026-11-27T04:00:00-07:00",
+        "temp_f": 52.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Clear",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T05:00:00-07:00",
+        "temp_f": 52.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Clear",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T06:00:00-07:00",
+        "temp_f": 51.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T07:00:00-07:00",
+        "temp_f": 50.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T08:00:00-07:00",
+        "temp_f": 52.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T09:00:00-07:00",
+        "temp_f": 57.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T10:00:00-07:00",
+        "temp_f": 63.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "ESE"
+      },
+      {
+        "time": "2026-11-27T11:00:00-07:00",
+        "temp_f": 67.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "5 mph",
+        "wind_direction": "E"
+      },
+      {
+        "time": "2026-11-27T12:00:00-07:00",
+        "temp_f": 71.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      },
+      {
+        "time": "2026-11-27T13:00:00-07:00",
+        "temp_f": 74.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      },
+      {
+        "time": "2026-11-27T14:00:00-07:00",
+        "temp_f": 76.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Partly Sunny",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      },
+      {
+        "time": "2026-11-27T15:00:00-07:00",
+        "temp_f": 76.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      },
+      {
+        "time": "2026-11-27T16:00:00-07:00",
+        "temp_f": 77.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      },
+      {
+        "time": "2026-11-27T17:00:00-07:00",
+        "temp_f": 74.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Sunny",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      },
+      {
+        "time": "2026-11-27T18:00:00-07:00",
+        "temp_f": 70.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Clear",
+        "wind_speed": "5 mph",
+        "wind_direction": "W"
+      },
+      {
+        "time": "2026-11-27T19:00:00-07:00",
+        "temp_f": 67.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Clear",
+        "wind_speed": "5 mph",
+        "wind_direction": "W"
+      },
+      {
+        "time": "2026-11-27T20:00:00-07:00",
+        "temp_f": 63.0,
+        "pop_pct": 0.0,
+        "short_forecast": "Mostly Clear",
+        "wind_speed": "0 mph",
+        "wind_direction": ""
+      }
+    ],
+    "max_pop_pct": 0.0,
     "thunder_possible": false,
     "rain_possible": false,
-    "summary": "NWS hourly forecast unavailable",
-    "max_sky_cover_pct": null,
-    "sky_hours": [],
+    "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
+    "max_sky_cover_pct": 54.0,
+    "sky_hours": [
+      {
+        "time": "2026-11-27T04:00:00-07:00",
+        "sky_cover_pct": 1.0
+      },
+      {
+        "time": "2026-11-27T05:00:00-07:00",
+        "sky_cover_pct": 12.0
+      },
+      {
+        "time": "2026-11-27T06:00:00-07:00",
+        "sky_cover_pct": 4.0
+      },
+      {
+        "time": "2026-11-27T07:00:00-07:00",
+        "sky_cover_pct": 5.0
+      },
+      {
+        "time": "2026-11-27T08:00:00-07:00",
+        "sky_cover_pct": 9.0
+      },
+      {
+        "time": "2026-11-27T09:00:00-07:00",
+        "sky_cover_pct": 18.0
+      },
+      {
+        "time": "2026-11-27T10:00:00-07:00",
+        "sky_cover_pct": 20.0
+      },
+      {
+        "time": "2026-11-27T11:00:00-07:00",
+        "sky_cover_pct": 37.0
+      },
+      {
+        "time": "2026-11-27T12:00:00-07:00",
+        "sky_cover_pct": 39.0
+      },
+      {
+        "time": "2026-11-27T13:00:00-07:00",
+        "sky_cover_pct": 49.0
+      },
+      {
+        "time": "2026-11-27T14:00:00-07:00",
+        "sky_cover_pct": 54.0
+      },
+      {
+        "time": "2026-11-27T15:00:00-07:00",
+        "sky_cover_pct": 36.0
+      },
+      {
+        "time": "2026-11-27T16:00:00-07:00",
+        "sky_cover_pct": 3.0
+      },
+      {
+        "time": "2026-11-27T17:00:00-07:00",
+        "sky_cover_pct": 26.0
+      },
+      {
+        "time": "2026-11-27T18:00:00-07:00",
+        "sky_cover_pct": 15.0
+      },
+      {
+        "time": "2026-11-27T19:00:00-07:00",
+        "sky_cover_pct": 10.0
+      },
+      {
+        "time": "2026-11-27T20:00:00-07:00",
+        "sky_cover_pct": 20.0
+      }
+    ],
     "office": "PSR",
     "grid_x": 161,
     "grid_y": 57,
@@ -38,24 +244,22 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-27T05:38:00+00:00",
-    "product_id": "5afa0424-6693-4d5b-be92-7a2432b9cc04",
-    "text": "\n000\nFXUS65 KPSR 270538\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n1038 PM MST Thu Nov 26 2026\n\n.UPDATE...Updated 06Z Aviation Discussion.\n\n&&\n\n.KEY MESSAGES...\n\n- Dry and tranquil weather will persist through at least the \n  weekend as temperatures gradually warm into a slightly above \n  normal range. \n\n- A Pacific low is likely to track through the Southwest United \n  States during the middle of next week, leading to a period with \n  gusty winds, rain chances, and cooler temperatures. \n\n&&\n\n.SHORT TERM /TODAY THROUGH SATURDAY/...\nRAP 40 500mb analysis along with GOES mid-level WV imagery show a\nlarge but benign upper level low just of the southern coast of the\nBaja Peninsula. Meanwhile positive height anomalies and\nanticyclonic flow are over the Desert SW leading to above normal\ntemperature for this holiday, and lasting through the weekend.\nTemperatures will be in the mid to upper 70s across the lower \ndeserts, while comfortable these temperature are between 5F-7F \nabove normal, with with 850 mb temperatures peaking around the \n97th-99th percentile of climatology (19C-20C) across the western \ndeserts and closer to the 92nd-95th percentile over Phoenix \n(17C-18C) on Friday. As mentioned H5 heights are expected to peak\nFriday where the Western lower deserts may tip over into the 80s.\n\nOne complicating factor will be the influence of cloud cover, as \nGFS bufr soundings do indicate the introduction of thick high \nclouds, moving in from the northwest this weekend. These clouds \nwill help moderate surface temperatures during the day, preventing\nhighs from warming further.\n\n&&\n\n.LONG TERM /SUNDAY THROUGH WEDNESDAY/...    \nBy Sunday, anticyclonic flow aloft will transition to quasi-zonal as \nthe upper low originally off the British Columbia Coast digs \nsoutheastward into the Central CONUS and remnant energy from the \ntrough originally near Hawaii quickly ejects eastward through the \nSouthwest US. Despite decreasing midlevel heights, lower level \nthermal profiles are not expected to respond strongly, and so lower \ndeserts highs should continue to maintain at least the middle 70s \nthrough early next week. \n\nEnsembles are starting to come into better agreement with respect to \na more significant Pacific low developing offshore the CA Coast\nearly next week and then tracking a cold front through the region\nduring the Tuesday-Wednesday timeframe. There are still \nconsiderable discrepancies in timing and the exact trajectory of \nthis low, however, a few things are becoming more certain. H5 \nheights aloft at the center of this Pacific low will deepen \noffshore early next week, with NAEFS mean values drop below the \n1st percentile of climatology. The Pacific low will displace \ndownstream shortwave ridging further east as it nears the region, \nresulting in considerable height packing overhead. This setup will\nsupport a strong, cyclonically curved jet streak which will \nattend the low as it progresses through the region. Strong \nregional pressure and temperature gradients ahead of the low \n(especially ahead of the cold front) will lead to a period of \nwidespread gusty winds with speeds likely peaking in the afternoon\nTuesday as mixing taps the higher momentum air aloft. Moisture \nwill also increase, although the extent of moisture return will \ndepend on how far south the Pacific low digs. Strong southwesterly\nflow aloft will likely result in IVT values surging in excess of \nthe 90th percentile of climatology, around 250-350 kg/(ms). \nHowever, this will be relatively short lived due to the fast- \nmoving, progressive nature of this system, and the best moisture \nwill be confined ahead of the front. A brief period with moist \nisentropic ascent, modest WAA, and frontogenetic forcing could \nresult in at least one band of showers with possibly some embedded\nT-storms. Model uncertainty at this lead time is still too great \nto pin down any of these details. It is still conceivable this \nsystem passes mostly north of the forecast area, and the southern \nextent of a mostly dry cold front brushes the lower deserts during\nthe middle of next week. Regardless, as is typical with systems\nlike this, the Central AZ high terrain to the north and east of\nPhoenix is favored to receive the better rainfall totals. Rain\nshadowing effects over Southeast CA and far Southwest AZ will also\nlikely play a significant role in limiting rainfall totals. \n\n&&\n\n.AVIATION...Updated at 0538Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT: \nNo aviation weather concerns are anticipated through the forecast\nperiod under mostly clear skies with FEW, to at times SCT, cirrus\nclouds arriving late tomorrow morning. Winds will follow a light\ndiurnal pattern with speeds generally aob 8 kt. Extended periods\nof light and variable to calm conditions are also expected,\nespecially during the diurnal transitions.\n\nSoutheast California/Southwest Arizona including KIPL and KBLH:\nNo aviation weather issues will exist through tonight under clear\nskies. FEW, to at times SCT, cirrus clouds will arrive around mid\nmorning tomorrow. Confidence is very good that winds will behave\nsimilarly to the past 24 hours, generally remaining westerly at\nKIPL and N/W at KBLH. Extended periods of variability to nearly \ncalm conditions will be common at both sites. \n\n&&\n\n.FIRE WEATHER... \nDry and generally tranquil conditions will prevail through the\nbeginning of next week. Temperatures will be fairly stable through\nthe weekend in a 3F-9F above normal range. Afternoon minimum\nhumidities will vary between 15-25% areawide following fair to\ngood overnight recoveries between 30-60% through the weekend.\nHumidity will then improve through the middle of next week. A\nweather system will result in increasing southerly to \nsouthwesterly winds, especially by Tuesday, and increased chances\nfor wetting rain and possibly some isolated/embedded \nthunderstorms. Until then, anticipate winds to be light, mostly\nbelow 15 mph, and only marginal breeziness over Arizona high\nterrain and in the vicinity of the Lower Colorado River Valley\ntoday.\n\n&&\n\n.HYDROLOGY...Updated 11/25 2040Z. \nGila River: A Flood Warning remains in effect from Painted Rock Dam \nthrough the Dateland area due to continued water releases upwards of \n2500 cfs. Water levels near Dateland continue to rise, with gauge \ndata now showing a depth of just above 7.5 ft and flow around 1250 \ncfs. At the current rate of rise, the water level at the Dateland \ngauge is expected to reach action stage (8 ft) by Friday. A separate \nFlood Warning segment remains in effect from Dateland to Yuma. These \nwater levels will have the potential to flood farm fields and low \nwater crossings along the river downstream from the dam.\n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Ryan/Whittock\nLONG TERM...Whittock\nAVIATION...Berislavich\nFIRE WEATHER...Whittock/Berislavich \nHYDROLOGY...Berislavich/Benedict/RW\n",
+    "issued_at": "2026-11-27T11:52:00+00:00",
+    "product_id": "6b647581-aa3c-401e-996d-d10191bf6446",
+    "text": "\n000\nFXUS65 KPSR 271152\nAFDPSR\n\nArea Forecast Discussion\nNational Weather Service Phoenix AZ\n452 AM MST Fri Nov 27 2026\n\n.UPDATE...Updated 12Z Aviation Discussion.\n\n&&\n\n.KEY MESSAGES...\n\n- Dry and tranquil weather will prevail through early next week \n  with temperatures hovering slightly above normal for late \n  November.\n\n- A Pacific low is expected to track through the Desert Southwest\n  during the middle of next week, leading to a period with gusty \n  winds, rain chances, and cooler temperatures.\n\n&&\n\n.SHORT TERM /TODAY THROUGH SUNDAY/...\nA well-defined, compact cyclonic circulation is apparent in \nmidlevel water vapor imagery at this hour, departing the vicinity \nof Hawaii to the northeast. A prominent ridge sits downstream of \nthis feature, encompassing the forecast area under its eastern \nperiphery and bringing northwesterly, anticyclonic flow aloft. As \nthe ridge nudges slightly further east today, heights/temperatures\naloft will likely peak at their highest values for the \nforeseeable future. NAEFS/ENS mean H5 heights are forecast to peak\naround 586 dam (eastern CWA) to 590 dam (western CWA), between \nthe 95th-99th percentiles of climatology for late November, while \n850 mb temperatures warm to 17C- 20C this afternoon, also around \nthe 95th-99th percentiles. Despite the unusually warm temperatures\naloft, better anticyclonic subsidence will be confined offshore \nthe SoCal Coast, and periods of thicker high clouds will help to \nmoderate surface temperatures. As a result, anticipate afternoon \nhighs only 5F-8F above daily normals today, between the middle 70s\nto around 80F across the lower deserts. \n\nThis weekend, ensembles remain in excellent agreement that \nprominent ridging/anticyclonic flow aloft will transition to \nquasi-zonal flow, leading to gradually decreasing heights aloft. \nHowever, the relatively warm air mass in place over the forecast \narea will not be entirely eroded/displaced, and so temperatures \nwill continue to fluctuate day to day in a slightly above normal \nrange. Thick high clouds on Saturday, indicated by REFS guidance \nand GFS bufr soundings, may prevent temperatures from exceeding \nthe middle 70s across the lower deserts. This is reflected in the \nlatest NBM highs, which have come down a few degrees for Saturday.\nLower desert highs should then return to near 80F for the \ntypically warmer spots on Sunday as the thicker cirrus decks \ndepart. \n\n&&\n\n.LONG TERM /MONDAY THROUGH THURSDAY/...    \nRelatively quiet weather should continue into the beginning of \nnext week as quasi-zonal flow aloft continues. However, a building\nSLP gradient across the the Baja Spine/San Diego Mountains could \nbegin to induce strong westerly gap winds in the typically prone \nI-8 corridor near Mountain Springs as early as Sunday night/early \nMonday morning. Otherwise, generally light winds and afternoon \nhighs in the middle 70s across the lower deserts should prevail \nMonday.\n\nThere is building model consensus in a potent Pacific trough \ndeveloping off the West Coast early next week, which will then \nprogress through the Southwest US during the middle of the week. A\nlarge majority of ensemble members now show the trough digging \nfar enough south to pull decent moisture into the region - \noverall, a favorable trajectory to support rain if ascent \nmechanisms align. The evolution of this system is just now \nstarting to come into better focus. The latest global guidance is \nin decent agreement that rain chances will likely come in 2 \nseparate periods, one associated with an initial Pacific cold \nfront with WAA/saturated isentropic ascent in a narrow band out \nahead of it and a more concentrated area of frontogenetical \nforcing trailing behind, followed by a second period likely \nsometime on Wednesday associated with the passage of the center of\nthe upper low. These details are certainly subject to change.\n\nRainfall potential is still highly uncertain this far out, but \nWPC QPF has trended up once again in the latest update, now \nshowing average rain totals on the order of 0.75-1.00\" across the \nSouth- Central AZ lower deserts through the entire event. As is \ntypical, there is a strong gradient towards the higher terrain to \nthe north and east of Phoenix, a consequence of orographic \nenhancement. Experience suggests that rain shadowing effects are \nunderplayed in the WPC QPF for far Southwest AZ and Southeast CA, \nand so the totals out there may underperform compared to the \ncurrent forecast (average totals between 0.20-0.50\"). Some \nisolated/embedded thunderstorm activity cannot be ruled out during\nthis event, with the most likely timing coinciding with the first\nperiod, along/ahead of the front. Model soundings currently \nindicate weak instability (100-250 J/kg MUCAPE) at this time, but \nif cooler air aloft moves in quickly enough, lapse rates may \nbecome more favorable. The coldest air aloft will come with the \npassage of the upper low on Wednesday, but moisture profiles do \nnot look as robust, and the exact track of the low will determine \nwhere this \"second period\" of precipitation sets up. Aside from \nrain chances, widespread gusty winds will be a concern with this \nupcoming system. Height packing ahead of the trough and a \ncyclonically curved attendant jet streak will support deep, strong\nsouthwesterly flow. Mixing during the afternoon on Tuesday should\ntap this higher momentum air, resulting in gusts between 25-40 \nmph across the lower deserts, locally higher over ridgetops. Model\nconsensus currently shows the front passing through Tuesday \nnight, such that by Wednesday, gradients will begin to relax, and \nonly lingering breeziness should remain for some areas. \n\nBy Thursday, the Pacific low will have weakened substantially and \nprogressed east of the region, allowing an opportunity for quick \nclearing and a period with weak temperature/pressure gradients \nacross the region. Light winds and widespread wetting rainfall could \nset the stage for fog to develop across portions of the lower \ndeserts, but this will be highly dependent on cloud cover. \nRegardless, cooler temperatures behind the front will prevail \nstarting Wednesday, with latest NBM showing temperatures dropping \nclose to daily normals. A period of quieter weather should follow \nthe passage of this Pacific trough, though the active pattern may \nsoon return thereafter (potentially by the weekend).\n\n&&\n\n.AVIATION...Updated at 1150Z.\n\nSouth Central Arizona including KPHX, KIWA, KSDL, and KDVT;\nSoutheast California/Southwest Arizona including KIPL and KBLH:\n \nLight winds will prevail through Saturday morning, with \ndirections following typical diurnal trends. Extended periods of \nlight variability to calm conditions are also expected. High \ncirrus will pass over the area through the TAF period.\n\n&&\n\n.FIRE WEATHER... \nDry and generally tranquil conditions will prevail through the\nbeginning of next week. Temperatures will be fairly stable during\nthis time in a 3F-9F above normal range. Afternoon minimum \nhumidities will vary between 15-25% areawide following fair to \ngood overnight recoveries between 30-60% through the weekend. \nHumidity will then improve through the middle of next week. A \nweather system will result in increasing southerly to \nsouthwesterly winds, especially by Tuesday, and increased chances \nfor wetting rain and possibly some isolated/embedded \nthunderstorms. Until then, anticipate winds to be light, mostly \nbelow 15 mph.\n\n&&\n\n.HYDROLOGY...Updated 11/27 1020Z.\nGila River: A Flood Warning remains in effect from Painted Rock \nDam through the Dateland area due to continued flow in the Gila \nRiver, however, upstream releases have ceased. Water levels near \nDateland have begun to decrease, with gauge data now showing a \nstage of 6.7 ft and flow around 620 cfs. A separate Flood Warning \nsegment remains in effect from Dateland to Yuma. These water \nlevels will have the potential to flood farm fields and low water \ncrossings along the river downstream from the dam. The downstream \ngauge near Dome has yet to respond. \n\n&&\n\n.PSR WATCHES/WARNINGS/ADVISORIES...\nAZ...None.\nCA...None.\n&&\n\n$$\n\nSHORT TERM...Whittock\nLONG TERM...Whittock\nAVIATION...Benedict\nFIRE WEATHER...Whittock\nHYDROLOGY...Whittock\n",
     "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
-      "thunderstorm",
-      "showers",
-      "shower"
+      "thunderstorm"
     ],
     "negative_signals": 0,
-    "snippet": "A brief period with moist isentropic ascent, modest WAA, and frontogenetic forcing could result in at least one band of showers with possibly some embedded T-storms. A weather system will result in increasing southerly to southwesterly winds, especially by Tuesday, and increased chances for wetting rain and possibly some isolated/embedded thunderstorms.",
+    "snippet": "Some isolated/embedded thunderstorm activity cannot be ruled out during this event, with the most likely timing coinciding with the first period, along/ahead of the front. A weather system will result in increasing southerly to southwesterly winds, especially by Tuesday, and increased chances for wetting rain and possibly some isolated/embedded thunderstorms.",
     "source": "NWS Phoenix Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-27T06:47:56+00:00",
-    "prior_time_utc": "2026-11-27T06:17:56+00:00",
+    "latest_time_utc": "2026-11-27T11:42:58+00:00",
+    "prior_time_utc": "2026-11-27T11:12:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -90,17 +294,17 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263310640_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-27T06:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263310640_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-27T06:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263311130_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-27T11:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263311130_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-27T11:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-26T23:57:31.889773-07:00",
+    "collected_at_local": "2026-11-27T04:59:31.704794-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -140,7 +344,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 78.08
+    "observed_floor_f": 57.92
   },
   "wethr_observed_high": {
     "available": false,
@@ -148,58 +352,58 @@
     "omo_informed": false,
     "error": "401 Client Error: Unauthorized for url: https://wethr.net/api/v2/observations.php?station_code=KPHX&mode=wethr_high&logic=nws"
   },
-  "research_status": "MODEL UNAVAILABLE",
+  "research_status": "WAITING FOR 8:00 AM MODEL",
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-27T00:05:00-07:00",
+  "next_update_local": "2026-11-27T05:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
         "model_name": "KPHX_MODEL",
         "forecasts": 21,
-        "mae_f": 0.36930196579728436,
-        "bias_f": 0.09777862992670196,
-        "exact_pct": 66.66666666666666,
-        "within_1f_pct": 95.23809523809523,
+        "mae_f": 0.41857803990153153,
+        "bias_f": 0.0056433806061367674,
+        "exact_pct": 61.904761904761905,
+        "within_1f_pct": 90.47619047619048,
         "within_2f_pct": 100.0,
-        "closest_wins": 14,
-        "closest_win_pct": 66.66666666666666
+        "closest_wins": 15,
+        "closest_win_pct": 71.42857142857143
       },
       {
         "model_name": "NWS_MORNING",
         "forecasts": 21,
-        "mae_f": 0.38095238095238093,
-        "bias_f": 0.38095238095238093,
-        "exact_pct": 61.904761904761905,
+        "mae_f": 0.5238095238095238,
+        "bias_f": 0.23809523809523808,
+        "exact_pct": 47.61904761904761,
         "within_1f_pct": 100.0,
         "within_2f_pct": 100.0,
-        "closest_wins": 14,
-        "closest_win_pct": 66.66666666666666
+        "closest_wins": 13,
+        "closest_win_pct": 61.904761904761905
       }
     ],
     "30_day": [
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 107,
-        "mae_f": 0.6020985967007934,
-        "bias_f": 0.3462500027169843,
-        "exact_pct": 56.074766355140184,
-        "within_1f_pct": 81.30841121495327,
-        "within_2f_pct": 98.13084112149532,
+        "forecasts": 105,
+        "mae_f": 0.6090221339612968,
+        "bias_f": 0.32014837398693724,
+        "exact_pct": 56.19047619047619,
+        "within_1f_pct": 80.95238095238095,
+        "within_2f_pct": 98.09523809523809,
         "closest_wins": 82,
-        "closest_win_pct": 76.63551401869158
+        "closest_win_pct": 78.0952380952381
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 107,
-        "mae_f": 0.8691588785046729,
-        "bias_f": 0.38317757009345793,
-        "exact_pct": 41.1214953271028,
-        "within_1f_pct": 78.50467289719626,
-        "within_2f_pct": 93.45794392523365,
-        "closest_wins": 59,
-        "closest_win_pct": 55.140186915887845
+        "forecasts": 105,
+        "mae_f": 0.9142857142857143,
+        "bias_f": 0.3619047619047619,
+        "exact_pct": 37.142857142857146,
+        "within_1f_pct": 78.0952380952381,
+        "within_2f_pct": 93.33333333333333,
+        "closest_wins": 56,
+        "closest_win_pct": 53.333333333333336
       }
     ],
     "all_time": [
@@ -227,14 +431,14 @@
       },
       {
         "model_name": "KPHX_MODEL",
-        "forecasts": 501,
-        "mae_f": 0.6974804149397135,
-        "bias_f": 0.11458795141580347,
-        "exact_pct": 55.489021956087825,
-        "within_1f_pct": 77.64471057884231,
-        "within_2f_pct": 95.40918163672654,
-        "closest_wins": 286,
-        "closest_win_pct": 57.08582834331337
+        "forecasts": 504,
+        "mae_f": 0.6975265239698679,
+        "bias_f": 0.10970810210972338,
+        "exact_pct": 55.35714285714286,
+        "within_1f_pct": 77.57936507936508,
+        "within_2f_pct": 95.43650793650794,
+        "closest_wins": 288,
+        "closest_win_pct": 57.14285714285714
       },
       {
         "model_name": "WETHR_CONSENSUS",
@@ -293,61 +497,25 @@
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 501,
-        "mae_f": 1.4650698602794412,
-        "bias_f": -0.25948103792415167,
-        "exact_pct": 30.13972055888224,
-        "within_1f_pct": 59.68063872255489,
-        "within_2f_pct": 86.82634730538922,
-        "closest_wins": 189,
-        "closest_win_pct": 37.72455089820359
+        "forecasts": 504,
+        "mae_f": 1.4623015873015872,
+        "bias_f": -0.2638888888888889,
+        "exact_pct": 29.96031746031746,
+        "within_1f_pct": 59.92063492063492,
+        "within_2f_pct": 86.90476190476191,
+        "closest_wins": 191,
+        "closest_win_pct": 37.89682539682539
       }
     ]
   },
   "progression": [
     {
       "checkpoint_hour": null,
-      "latest_precise_temp_f": 53.96,
-      "latest_temp_f": 54.0,
+      "latest_precise_temp_f": 55.04,
+      "latest_temp_f": 55.04,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
-      "nws_am_forecast_high_f": 79.0,
-      "weather_risk": "MEDIUM"
-    },
-    {
-      "checkpoint_hour": 15.0,
-      "latest_precise_temp_f": 78.08,
-      "latest_temp_f": 78.0,
-      "six_hour_max_f": 73.0,
-      "model_predicted_high_f": 79.0,
-      "nws_am_forecast_high_f": 79.0,
-      "weather_risk": "MEDIUM"
-    },
-    {
-      "checkpoint_hour": 16.0,
-      "latest_precise_temp_f": 78.08,
-      "latest_temp_f": 78.0,
-      "six_hour_max_f": 73.0,
-      "model_predicted_high_f": 78.88431980398305,
-      "nws_am_forecast_high_f": 79.0,
-      "weather_risk": "MEDIUM"
-    },
-    {
-      "checkpoint_hour": 18.0,
-      "latest_precise_temp_f": 62.059999999999995,
-      "latest_temp_f": 62.0,
-      "six_hour_max_f": 80.0,
-      "model_predicted_high_f": 80.0,
-      "nws_am_forecast_high_f": 79.0,
-      "weather_risk": "MEDIUM"
-    },
-    {
-      "checkpoint_hour": null,
-      "latest_precise_temp_f": 60.980000000000004,
-      "latest_temp_f": 60.980000000000004,
-      "six_hour_max_f": null,
-      "model_predicted_high_f": null,
-      "nws_am_forecast_high_f": 79.0,
+      "nws_am_forecast_high_f": 77.0,
       "weather_risk": "MEDIUM"
     }
   ]
