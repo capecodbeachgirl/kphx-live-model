@@ -1,99 +1,36 @@
 {
   "date": "2026-11-26",
-  "updated_at_local": "2026-11-26T16:47:46.183863-07:00",
-  "latest_metar_time": "2026-11-26T15:51:00-07:00",
-  "latest_temp_f": 78.0,
-  "latest_precise_temp_f": 78.08,
-  "latest_dewpoint_f": 30.0,
+  "updated_at_local": "2026-11-26T22:15:06.213631-07:00",
+  "latest_metar_time": "2026-11-26T21:51:00-07:00",
+  "latest_temp_f": 62.0,
+  "latest_precise_temp_f": 62.059999999999995,
+  "latest_dewpoint_f": 38.0,
   "raw_metar_peak_f": 78.0,
   "precise_metar_peak_f": 78.08,
-  "six_hour_max_f": 73,
-  "six_hour_max_report_time": "2026-11-26T10:51:00-07:00",
+  "six_hour_max_f": 80,
+  "six_hour_max_report_time": "2026-11-26T16:51:00-07:00",
   "nws_am_forecast_high_f": 79.0,
   "nws_am_issued_at": "2026-11-26T04:01:00-07:00",
-  "checkpoint_hour": 16,
+  "checkpoint_hour": 18,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
-    "Some weather disruption risk",
     "Phoenix NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "MEDIUM",
+    "observed_risk": "LOW",
     "forecast_risk": "LOW",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
-    "available": true,
-    "hours": [
-      {
-        "time": "2026-11-26T16:00:00-07:00",
-        "temp_f": 77.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "NNE"
-      },
-      {
-        "time": "2026-11-26T17:00:00-07:00",
-        "temp_f": 75.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "N"
-      },
-      {
-        "time": "2026-11-26T18:00:00-07:00",
-        "temp_f": 72.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "5 mph",
-        "wind_direction": "NNW"
-      },
-      {
-        "time": "2026-11-26T19:00:00-07:00",
-        "temp_f": 67.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "5 mph",
-        "wind_direction": "NNW"
-      },
-      {
-        "time": "2026-11-26T20:00:00-07:00",
-        "temp_f": 64.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "5 mph",
-        "wind_direction": "N"
-      }
-    ],
-    "max_pop_pct": 0.0,
+    "available": false,
+    "hours": [],
+    "max_pop_pct": null,
     "thunder_possible": false,
     "rain_possible": false,
-    "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
-    "max_sky_cover_pct": 4.0,
-    "sky_hours": [
-      {
-        "time": "2026-11-26T16:00:00-07:00",
-        "sky_cover_pct": 1.0
-      },
-      {
-        "time": "2026-11-26T17:00:00-07:00",
-        "sky_cover_pct": 4.0
-      },
-      {
-        "time": "2026-11-26T18:00:00-07:00",
-        "sky_cover_pct": 2.0
-      },
-      {
-        "time": "2026-11-26T19:00:00-07:00",
-        "sky_cover_pct": 3.0
-      },
-      {
-        "time": "2026-11-26T20:00:00-07:00",
-        "sky_cover_pct": 4.0
-      }
-    ],
+    "summary": "NWS hourly forecast unavailable",
+    "max_sky_cover_pct": null,
+    "sky_hours": [],
     "office": "PSR",
     "grid_x": 161,
     "grid_y": 57,
@@ -117,8 +54,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-26T23:26:57+00:00",
-    "prior_time_utc": "2026-11-26T22:56:57+00:00",
+    "latest_time_utc": "2026-11-27T05:02:57+00:00",
+    "prior_time_utc": "2026-11-27T04:32:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -146,25 +83,6 @@
   "model_available": true,
   "markets": [
     {
-      "ticker": "KXHIGHTPHX-26NOV26-B78.5",
-      "event_ticker": "KXHIGHTPHX-26NOV26",
-      "title": "Will the maximum temperature be 78-79\u00b0 on Nov 26, 2026?",
-      "subtitle": "78\u00b0 to 79\u00b0",
-      "strike_type": "between",
-      "floor_strike": 78.0,
-      "cap_strike": 79.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-11-27T07:00:00Z",
-      "occurrence_datetime": "2026-11-27T15:00:00Z",
-      "updated_time": "2026-11-25T15:00:02.362139Z",
-      "model_probability": 0.7935691318327974,
-      "edge_vs_ask": 0.7835691318327974,
-      "difference": 0.7885691318327974
-    },
-    {
       "ticker": "KXHIGHTPHX-26NOV26-B80.5",
       "event_ticker": "KXHIGHTPHX-26NOV26",
       "title": "Will the maximum temperature be 80-81\u00b0 on Nov 26, 2026?",
@@ -179,9 +97,9 @@
       "close_time": "2026-11-27T07:00:00Z",
       "occurrence_datetime": "2026-11-27T15:00:00Z",
       "updated_time": "2026-11-25T15:00:02.362139Z",
-      "model_probability": 0.20192926045016074,
-      "edge_vs_ask": -0.7980707395498392,
-      "difference": -0.7930707395498393
+      "model_probability": 0.9703832752613241,
+      "edge_vs_ask": -0.029616724738675937,
+      "difference": -0.024616724738675932
     },
     {
       "ticker": "KXHIGHTPHX-26NOV26-B82.5",
@@ -198,9 +116,9 @@
       "close_time": "2026-11-27T07:00:00Z",
       "occurrence_datetime": "2026-11-27T15:00:00Z",
       "updated_time": "2026-11-25T15:00:02.362139Z",
-      "model_probability": 0.0045016077170418,
-      "edge_vs_ask": -0.0054983922829582,
-      "difference": -0.0004983922829581997
+      "model_probability": 0.029616724738675958,
+      "edge_vs_ask": 0.019616724738675956,
+      "difference": 0.024616724738675957
     },
     {
       "ticker": "KXHIGHTPHX-26NOV26-B76.5",
@@ -210,6 +128,25 @@
       "strike_type": "between",
       "floor_strike": 76.0,
       "cap_strike": 77.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-11-27T07:00:00Z",
+      "occurrence_datetime": "2026-11-27T15:00:00Z",
+      "updated_time": "2026-11-25T15:00:02.362139Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
+    },
+    {
+      "ticker": "KXHIGHTPHX-26NOV26-B78.5",
+      "event_ticker": "KXHIGHTPHX-26NOV26",
+      "title": "Will the maximum temperature be 78-79\u00b0 on Nov 26, 2026?",
+      "subtitle": "78\u00b0 to 79\u00b0",
+      "strike_type": "between",
+      "floor_strike": 78.0,
+      "cap_strike": 79.0,
       "yes_bid": 0.0,
       "yes_ask": 0.01,
       "last_price": 0.01,
@@ -261,32 +198,31 @@
     }
   ],
   "model_method": "remaining_heating",
-  "model_bundle": "h16_remaining.joblib",
-  "observed_floor_f": 78.08,
-  "predicted_remaining_heating_f": 0.8843198039830479,
+  "model_bundle": "h18_remaining.joblib",
+  "observed_floor_f": 80.0,
+  "predicted_remaining_heating_f": 1.5272144314019298,
   "pre_checkpoint_peak_f": 78.0,
-  "model_predicted_high_f": 78.88431980398305,
-  "model_correction_f": -0.11568019601695312,
-  "likely_low_f": 78,
-  "likely_high_f": 80,
+  "model_predicted_high_f": 80.0,
+  "model_correction_f": 1.0,
+  "likely_low_f": 80,
+  "likely_high_f": 81,
   "confidence": "MEDIUM",
-  "model_mae_f": 0.5813623956023528,
+  "model_mae_f": 0.5216579135150571,
   "distribution": {
-    "78": 0.3131832797427653,
-    "79": 0.48038585209003215,
-    "80": 0.1845659163987138,
-    "81": 0.017363344051446947,
-    "82": 0.0045016077170418
+    "80": 0.8423344947735192,
+    "81": 0.12804878048780488,
+    "82": 0.023519163763066203,
+    "83": 0.0060975609756097554
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTPHX-26NOV26-B78.5",
+    "ticker": "KXHIGHTPHX-26NOV26-B82.5",
     "event_ticker": "KXHIGHTPHX-26NOV26",
-    "title": "Will the maximum temperature be 78-79\u00b0 on Nov 26, 2026?",
-    "subtitle": "78\u00b0 to 79\u00b0",
+    "title": "Will the maximum temperature be 82-83\u00b0 on Nov 26, 2026?",
+    "subtitle": "82\u00b0 to 83\u00b0",
     "strike_type": "between",
-    "floor_strike": 78.0,
-    "cap_strike": 79.0,
+    "floor_strike": 82.0,
+    "cap_strike": 83.0,
     "yes_bid": 0.0,
     "yes_ask": 0.01,
     "last_price": 0.01,
@@ -294,11 +230,11 @@
     "close_time": "2026-11-27T07:00:00Z",
     "occurrence_datetime": "2026-11-27T15:00:00Z",
     "updated_time": "2026-11-25T15:00:02.362139Z",
-    "model_probability": 0.7935691318327974,
-    "edge_vs_ask": 0.7835691318327974,
-    "difference": 0.7885691318327974
+    "model_probability": 0.029616724738675958,
+    "edge_vs_ask": 0.019616724738675956,
+    "difference": 0.024616724738675957
   },
-  "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
+  "research_status": "WEATHER WATCH",
   "satellite": {
     "available": true,
     "risk": "LOW",
@@ -307,17 +243,17 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263302320_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-26T23:20:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263302330_GOES18-ABI-psr-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-26T23:30:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/GEOCOLOR/20263310450_GOES18-ABI-psr-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-27T04:50:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/psr/13/20263310440_GOES18-ABI-psr-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-27T04:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KPHX-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KPHX METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-26T16:47:42.326647-07:00",
+    "collected_at_local": "2026-11-26T22:14:59.489204-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -357,7 +293,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 78.08
+    "observed_floor_f": 80.0
   },
   "wethr_observed_high": {
     "available": false,
@@ -366,16 +302,9 @@
     "error": "401 Client Error: Unauthorized for url: https://wethr.net/api/v2/observations.php?station_code=KPHX&mode=wethr_high&logic=nws"
   },
   "historical_analogs": {
-    "available": true,
-    "count": 3,
-    "checkpoint_hour": 16,
-    "current_temp_f": 78.1,
-    "median_final_high_f": 91.0,
-    "range_80_low_f": 88.6,
-    "range_80_high_f": 91.8,
-    "median_heating_remaining_f": 13.0
+    "available": false
   },
-  "next_update_local": "2026-11-26T16:50:00-07:00",
+  "next_update_local": "2026-11-26T23:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -552,6 +481,15 @@
       "latest_temp_f": 78.0,
       "six_hour_max_f": 73.0,
       "model_predicted_high_f": 78.88431980398305,
+      "nws_am_forecast_high_f": 79.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": 18.0,
+      "latest_precise_temp_f": 62.059999999999995,
+      "latest_temp_f": 62.0,
+      "six_hour_max_f": 80.0,
+      "model_predicted_high_f": 80.0,
       "nws_am_forecast_high_f": 79.0,
       "weather_risk": "MEDIUM"
     }
